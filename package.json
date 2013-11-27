@@ -1,0 +1,11 @@
+{
+  "name": "random-agent-spoofer",
+  "title": "Random Agent Spoofer",
+  "id": "jid1-AVgCeF1zoVzMjA",
+  "description": "Allows the use of various user agents, which it can automatically switch to at random after a chosen period of time has expired",
+  "author": "dbyrne",
+  "license": "GNU GPL v3",
+  "icon":"data/images/icon.png",
+  "icon64":"data/images/icon64.png",
+  "version": "0.1"
+}

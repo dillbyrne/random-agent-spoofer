@@ -1,0 +1,27 @@
+body {
+  font-size: 12px;
+}   
+
+hr{ 
+  border-bottom:0px;
+  border-left:0px;
+  border-right:0px;
+}   
+
+ul{ 
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}   
+
+.parentli:hover {
+  font-size:13px;
+}   
+
+ul .innerlist{
+  padding:5px;
+  display: none;
+  background-color:rgba(0,0,0,0.050);
+  border: 1px solid;
+  border-radius: 8px 8px 8px 8px;
+}   
