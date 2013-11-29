@@ -1,7 +1,7 @@
 # Random Agent Spoofer #
 
 
-RASA is a firefox addon which allows the use of various user agents, which it can
+RAS is a firefox addon which allows the use of various user agents, which it can
 automatically switch to at random after a chosen period of time has expired.
 
 
@@ -20,8 +20,7 @@ automatically switch to at random after a chosen period of time has expired.
 - Provides option to toggle notifications of user agent changes. 
 
 - Sets other privacy attributes such as buildid, oscpu and platform where the
-  values are known. I hope people will submit information on their browsers so I
-  can keep the list up to date and correct.
+  values are known.
 
 - It has a left click menu of expandable lists to allow users to quickly choose
   specific user agents
@@ -31,9 +30,10 @@ automatically switch to at random after a chosen period of time has expired.
 
 # What's Next #
 
-I will continue to update the list of useragents and their related properties. I
-do not intend to support every single useragent or device. The intention of the
-app is to help hinder browser fingerprinting.
+I will continue to update the list of useragents and their related properties. 
+I hope people will submit information on their browsers so I can keep the list 
+up to date and correct. I do not intend to support every single useragent or 
+device. The intention of the addon is to help hinder browser fingerprinting.
 
 
 # Note #
