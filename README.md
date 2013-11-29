@@ -1,36 +1,39 @@
-# random-agent-spoofer #
+# Random Agent Spoofer #
 
 
-Firefox addon - Allows the use of various user agents, which it can
+RASA is a firefox addon which allows the use of various user agents, which it can
 automatically switch to at random after a chosen period of time has expired.
 
 
 # Features #
 
-Allows the user to choose a random user agent
+- Allows the user to choose a random user agent (From all user agents or desktop only)  
 
-Allows the user to specify the interval at which the random agent changes.
-Interval can also be random
+- Allows the user to specify the interval at which the random agent changes.
+  Interval can also be random
 
-Persistently remembers the users choice of user agent and time interval if set.
+- Persistently remembers the users choice of user agent and time interval if set.
 
-Provides a quick toggle to enable/disable the addon via right clicking the icon
+- Provides a quick toggle to enable/disable the addon via right clicking the
+  icon.
 
-Sets other privacy attributes such as buildid, oscpu and platform where the
-values are known. I hope people will submit information on their browsers so I
-can keep the list up to date and correct.
+- Provides option to toggle notifications of user agent changes. 
 
-It has a left click menu of expandable lists to allow users to quickly choose
-specific user agents
+- Sets other privacy attributes such as buildid, oscpu and platform where the
+  values are known. I hope people will submit information on their browsers so I
+  can keep the list up to date and correct.
 
-Has supports for a lot of user agents
+- It has a left click menu of expandable lists to allow users to quickly choose
+  specific user agents
+
+- It has a large list of user agents.
 
 
 # What's Next #
 
 I will continue to update the list of useragents and their related properties. I
 do not intend to support every single useragent or device. The intention of the
-app is to help hinder browser fingerprinting
+app is to help hinder browser fingerprinting.
 
 
 # Note #
