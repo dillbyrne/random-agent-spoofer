@@ -3,7 +3,8 @@ self.port.on("hide", function(arg){
   //get relevant elements
   var timerdd = document.getElementById('timerdd');
   var uaList = document.getElementsByName('ua');
-
+  var notifycb = document.getElementById('notify').checked;
+  
   //get the chosen options
   var optionsArray = new Array();
    
@@ -21,7 +22,7 @@ self.port.on("hide", function(arg){
   }
 
   optionsArray.push(ua_choice);
-
+  optionsArray.push(notifycb);
   //return options to main.js for processing 
   self.port.emit("chosen-options", optionsArray );
 
@@ -44,7 +45,8 @@ self.port.on("restore-options",function(options){
   }
 
   document.getElementById(options[1]).checked = true;
- 
+  document.getElementById('notify').checked = options[2];
+
 });
 
 
