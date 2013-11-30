@@ -54,7 +54,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -65,7 +65,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -76,7 +76,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -87,7 +87,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -98,7 +98,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -109,7 +109,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -120,7 +120,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -131,7 +131,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -142,7 +142,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -153,7 +153,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -164,7 +164,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -175,7 +175,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -186,7 +186,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Win64",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -194,7 +194,7 @@
 	{
 	    "description": "Firefox 12.0 (Win 7 32)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20120403211507 Firefox/12.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -205,7 +205,7 @@
 	{
 	    "description": "Firefox 14.0.1 (Win Vista)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -216,7 +216,7 @@
 	{
 	    "description": "Firefox 15.0a1 (Win 7 WOW64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120427 Firefox/15.0a1",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -227,7 +227,7 @@
 	{
 	    "description": "Firefox 16.0 (Win 8 64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) Gecko/16.0 Firefox/16.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win64",
 	    "vendor":"",
@@ -238,7 +238,7 @@
 	{
 	    "description": "Firefox 19.0 (Win 8 32)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.2; rv:19.0) Gecko/20121129 Firefox/19.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -249,7 +249,7 @@
 	{
 	    "description": "Firefox 20.0 (Win 8 32)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.2; rv:20.0) Gecko/20121202 Firefox/20.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -260,7 +260,7 @@
 	{
 	    "description": "Firefox 21.0 (Win 7 32)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130401 Firefox/21.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -271,7 +271,7 @@
 	{
 	    "description": "Firefox 21.0 (Win 8 64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:21.0.0) Gecko/20121011 Firefox/21.0.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win64",
 	    "vendor":"",
@@ -282,7 +282,7 @@
 	{
 	    "description": "Firefox 22.0 (Win 7 32)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; rv:22.0) Gecko/20130405 Firefox/22.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -293,7 +293,7 @@
 	{
 	    "description": "Firefox 22.0 (Win 7 64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win64",
 	    "vendor":"",
@@ -304,7 +304,7 @@
 	{
 	    "description": "Firefox 23.0 (Win 7 64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win64",
 	    "vendor":"",
@@ -315,7 +315,7 @@
 	{
 	    "description": "Firefox 23.0 (Win 8 32)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.2; rv:22.0) Gecko/20130405 Firefox/23.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -326,7 +326,7 @@
 	{
 	    "description": "Firefox 24.0 (Win Vista WOW64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win32",
 	    "vendor":"",
@@ -337,7 +337,7 @@
 	{
 	    "description": "Firefox 25.0 (Win 7 64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "",
 	    "platform": "Win64",
 	    "vendor":"",
@@ -558,8 +558,8 @@
 	{
 	    "description": "MSIE 11 - (Win 8.1 WOW64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.3; rv:11.0) like Gecko",
-	    "appname": "",
-	    "appversion": "",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.3; WOW64; Trident/7.0; .NET4.0E;",
 	    "platform": "Win32",
 	    "vendor":"",
 	    "vendorsub":"",
@@ -571,8 +571,8 @@
 	    "useragent": "Opera/9.25 (Windows NT 6.0; U; en)",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -582,8 +582,8 @@
 	    "useragent": "Opera/9.80 (Windows NT 5.2; U; en) Presto/2.2.15 Version/10.10",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -593,8 +593,8 @@
 	    "useragent": "Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.7.39 Version/11.00",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -604,8 +604,8 @@
 	    "useragent": "Opera/9.80 (Windows NT 6.1; U; en) Presto/2.7.62 Version/11.01",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -615,8 +615,8 @@
 	    "useragent": "Opera/9.80 (Windows NT 5.1; U; zh-tw) Presto/2.8.131 Version/11.10",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -626,8 +626,8 @@
 	    "useragent": "Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -637,8 +637,8 @@
 	    "useragent": "Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "platform": "Win32",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -648,7 +648,7 @@
 	    "useragent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
+	    "platform": "Win32",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
@@ -659,7 +659,7 @@
 	    "useragent": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1 Safari/533.17.8",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
+	    "platform": "Win32",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
@@ -736,7 +736,7 @@
 	    "useragent": "Mozilla/5.0 (Windows NT 5.2; EN; rv:7.0a1) Gecko/20091211 SeaMonkey/9.23a1pre",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
+	    "platform": "Win32",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
@@ -940,7 +940,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -951,7 +951,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -962,7 +962,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -973,7 +973,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -984,7 +984,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -1484,10 +1484,10 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Linux i686",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":""
 	},
 	{
 	    "description": "Opera 10.10 (id as 9.8)",
@@ -1495,10 +1495,10 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Linux i686",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":""
 	},
 	{
 	    "description": "Opera 11.00 (id as 9.8)",
@@ -1506,10 +1506,10 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Linux x86_64",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":""
 	},
 	{
 	    "description": "Opera 12.14 (id as 9.8)",
@@ -1517,10 +1517,10 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "Linux i686",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":""
 	},
 	{
 	    "description": "QupZilla 1.2.0 (Webkit 534.34)",
@@ -2084,7 +2084,7 @@
 	    "appname": "",
 	    "appversion": "",
 	    "platform": "",
-	    "vendor":"",
+	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
