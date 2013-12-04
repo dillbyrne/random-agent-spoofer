@@ -37,7 +37,8 @@ device. The intention of the addon is to help hinder browser fingerprinting.
 
 # Icons #
 
-Icons are modified versions of those of the crystal project
+Icons are modified versions of those of the crystal project.
+
 Licence : https://www.gnu.org/licenses/lgpl-2.1.html
 
 # Note #
