@@ -35,6 +35,10 @@ I hope people will submit information on their browsers so I can keep the list
 up to date and correct. I do not intend to support every single useragent or 
 device. The intention of the addon is to help hinder browser fingerprinting.
 
+# Icons #
+
+Icons are modified versions of those of the crystal project
+Licence : https://www.gnu.org/licenses/lgpl-2.1.html
 
 # Note #
 
