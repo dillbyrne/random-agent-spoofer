@@ -1,35 +1,3 @@
-self.port.on("hide", function(arg){
-  
-  //get relevant elements
-  var timerdd = document.getElementById('timerdd');
-  var uaList = document.getElementsByName('ua');
-  var notifycb = document.getElementById('notify').checked;
-  
-  //get the chosen options
-  var optionsArray = new Array();
-   
-  var time = timerdd[timerdd.selectedIndex].value;
-  optionsArray.push(time);
-  
-  
-  
-  //get selected UA
-  var ua_choice;
-  for(var i = 0; i < uaList.length; i++){
-    if(uaList[i].checked){
-            ua_choice = uaList[i].value;
-      }
-  }
-
-  optionsArray.push(ua_choice);
-  optionsArray.push(notifycb);
-  //return options to main.js for processing 
-  self.port.emit("chosen-options", optionsArray );
-
-});
-
-
-
 self.port.on("restore-options",function(options){
 
   //set relevant elements
@@ -49,9 +17,7 @@ self.port.on("restore-options",function(options){
 
 });
 
-
-
-self.port.on('ua_list', function(data) {
+self.port.once('ua_list', function(data) {
    
     //create the list of user agents
     
@@ -128,8 +94,6 @@ self.port.on('ua_list', function(data) {
       listElement.appendChild(listItem);
 
     }
-     
-
 
 });
 

@@ -1,3 +1,33 @@
+document.body.addEventListener("change", function(e) {
+  
+  if( e.target.id == "notify"){
+    var notifycb = document.getElementById('notify').checked;
+    self.port.emit("notifycb",notifycb);
+
+  }
+  else{
+    
+    //get timer and selected ua option
+     var timerdd = document.getElementById('timerdd');
+     var uaList = document.getElementsByName('ua');
+    
+     var time = timerdd[timerdd.selectedIndex].value;
+
+     //get selected UA
+     var ua_choice;
+      for(var i = 0; i < uaList.length; i++){
+	if(uaList[i].checked){
+	  ua_choice = uaList[i].value;
+	}
+      }
+     self.port.emit("uachange",ua_choice,time);
+  
+  }
+
+
+},false);
+
+
 function toggleList(innerListElementId) {
   
   var innerlistElement = document.getElementById(innerListElementId);
