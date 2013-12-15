@@ -1,6 +1,5 @@
 body {
   font-size: 12px;
-  color: #073642;
 }   
 
 hr{ 
@@ -37,30 +36,28 @@ ul#tabs li {
   display: inline; 
 }
 
-ul#tabs li span { 
-  background-color: #dedbde; 
-  border: 1px solid #c9c3ba; 
-  border-bottom: none; 
+ul#tabs li span.nonselected { 
+  border: 1px solid ;
+  border-radius: 8px 8px 0px 0px;
   padding: 0.3em; 
   text-decoration: none; }
 
 ul#tabs li span:hover { 
-  background-color: #eeeeee; 
+  background-color:rgba(0,0,0,0.050);
 }
 
 
 ul#tabs li span.selected { 
-  background-color: #f1f0ee;  
+  border: 1px solid ; 
+  border-bottom: none;
+  border-radius: 8px 8px 0px 0px;
   font-weight: bold; 
-  padding: 0.7em 0.3em 0.38em 0.3em; 
+  padding: 0.5em 0.3em 0.38em 0.3em; 
 }
 
 div.tabContent { 
-  border: 1px solid #c9c3ba; 
+  border: 1px solid ;
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
   padding: 0.5em; 
-  background-color: #f1f0ee; 
-}
-
-div.tabContent.hide { 
-  display: none; 
 }
