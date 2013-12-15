@@ -46,3 +46,22 @@ function toggleList(innerListElementId) {
   }
 }
 
+function changeTab(selected_tab,tabs){
+
+  for (var i =0; i< tabs.length;i++){
+    if (tabs[i].children[0].id == selected_tab.id){
+      
+      var selected = document.getElementById(selected_tab.id+"_content");
+      selected.style.display ="block";
+      selected_tab.className = "selected";
+
+    }else{
+      var non_selected = document.getElementById(tabs[i].children[0].id+"_content");
+      non_selected.style.display = "none";
+      tabs[i].children[0].className = ""; 
+    }
+         
+  }
+
+
+}

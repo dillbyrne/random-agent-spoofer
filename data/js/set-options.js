@@ -17,6 +17,18 @@ self.port.on("restore-options",function(options){
 
 });
 
+self.port.once('tab_listener',function(){
+  //get all the tabs
+  var tabs = document.getElementById("tabs").children;
+
+  //add on click listener to each
+  for (var i =0; i< tabs.length;i++){
+    tabs[i].onclick = function(x,y) { return function() { changeTab(x,y); }; }(tabs[i].children[0],tabs);
+  } 
+});
+
+
+
 self.port.once('ua_list', function(data) {
    
     //create the list of user agents
