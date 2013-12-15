@@ -8,30 +8,42 @@
 
   <body>
 
-      <div align ="center"><b>Choose A User Agent</b></div><br>
-      <input type="radio" name="ua" id="random" value="random">
-      <label for="random"> Random (All)</label>
-      <input type="radio" name="ua" id="random_desktop" value="random_desktop">
-      <label for="random_desktop"> Random (Desktop only)</label><br>
+    <ul id="tabs">
+      <li><span id="ua_tab" class="selected">User Agent</span></li>
+      <li><span id="extras_tab">Extras</span></li>
+    </ul>
+
       
-      Change random agent on time interval:
+      <div id="ua_tab_content" class=tabContent>
+	<div align ="center"><b>Choose A User Agent</b></div><br>
+	<input type="radio" name="ua" id="random" value="random">
+	<label for="random"> Random (All)</label>
+	<input type="radio" name="ua" id="random_desktop" value="random_desktop">
+	<label for="random_desktop"> Random (Desktop only)</label><br>
+	
+	Change random agent on time interval:
 
-      <select id="timerdd">
-	<option value="none">No Timer</option>
-	<option value="random">Random</option>
-	<option value="1">1 Min</option>
-	<option value="5">5 Mins</option>
-	<option value="10">10 Mins</option>
-	<option value="20">20 Mins</option>
-	<option value="30">30 Mins</option>
-	<option value="40">40 Mins</option>
-	<option value="50">50 Mins</option>
-	<option value="60">60 Mins</option>
-      </select><br> 
-      Show notifications: <input type="checkbox" id="notify"/>
-      <hr>
+	<select id="timerdd">
+	  <option value="none">No Timer</option>
+	  <option value="random">Random</option>
+	  <option value="1">1 Min</option>
+	  <option value="5">5 Mins</option>
+	  <option value="10">10 Mins</option>
+	  <option value="20">20 Mins</option>
+	  <option value="30">30 Mins</option>
+	  <option value="40">40 Mins</option>
+	  <option value="50">50 Mins</option>
+	  <option value="60">60 Mins</option>
+	</select><br> 
+	Show notifications: <input type="checkbox" id="notify"/>
+	<hr>
 
-      <div id ="ualist"></div>
+	<div id ="ualist"></div>
+      </div>
+
+    <div id="extras_tab_content" class="tabContent" style="{display:none}">
+      this is placeholder text
+    </div>
 
   </body>
 
