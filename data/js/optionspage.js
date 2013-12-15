@@ -58,7 +58,7 @@ function changeTab(selected_tab,tabs){
     }else{
       var non_selected = document.getElementById(tabs[i].children[0].id+"_content");
       non_selected.style.display = "none";
-      tabs[i].children[0].className = ""; 
+      tabs[i].children[0].className = "nonselected"; 
     }
          
   }
