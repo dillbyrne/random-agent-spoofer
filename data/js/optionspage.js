@@ -1,15 +1,26 @@
 document.body.addEventListener("change", function(e) {
   
   if( e.target.id == "notify"){
-    var notifycb = document.getElementById('notify').checked;
+    var notifycb = document.getElementById("notify").checked;
     self.port.emit("notifycb",notifycb);
-
+  }
+  else if( e.target.id == "fonts"){
+    var fontscb = document.getElementById("fonts").checked;
+    self.port.emit("fontscb",fontscb);
+  }
+  else if( e.target.id == "dom"){
+    var domcb = document.getElementById("dom").checked;
+    self.port.emit("domcb",domcb);
+  }
+  else if( e.target.id == "history"){
+    var historycb = document.getElementById("history").checked;
+    self.port.emit("historycb",historycb);
   }
   else{
     
     //get timer and selected ua option
-     var timerdd = document.getElementById('timerdd');
-     var uaList = document.getElementsByName('ua');
+     var timerdd = document.getElementById("timerdd");
+     var uaList = document.getElementsByName("ua");
     
      var time = timerdd[timerdd.selectedIndex].value;
 
