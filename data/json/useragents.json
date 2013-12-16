@@ -346,6 +346,17 @@
 	    "oscpu":"Windows NT 6.1; Win64"
 	},
 	{
+	    "description": "Firefox 26.0 (Win 7 64)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows)",
+	    "platform": "Win64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Windows NT 6.1; Win64"
+	},
+	{
 	    "description": "iTunes 9.0.2 (Windows)",
 	    "useragent": "iTunes/9.0.2 (Windows; N)",
 	    "appname": "Netscape",
@@ -891,6 +902,17 @@
 	    "oscpu":"Intel Mac OS X 10.6"
 	},
 	{
+	    "description": "Firefox 26.0 (OS X 10.8 Intel)",
+	    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:26.0) Gecko/20100101 Firefox/26.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Macintosh)",
+	    "platform": "MacIntel",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Intel Mac OS X 10.8"
+	},
+	{
 	    "description": "iTunes 4.2 (OS X 10.2 PPC)",
 	    "useragent": "iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)",
 	    "appname": "",
@@ -1272,6 +1294,17 @@
 	{
 	    "description": "Firefox 25.0 (Ubuntu 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11)",
+	    "platform": "Linux x86_64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux x86_64"
+	},
+	{
+	    "description": "Firefox 26.0 (Linux 64 bit)",
+	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
 	    "platform": "Linux x86_64",
@@ -2004,6 +2037,17 @@
 	{
 	    "description": "Firefox 25.0 (FreeBSD 64)",
 	    "useragent": "Mozilla/5.0 (X11; FreeBSD amd64; rv:25.0) Gecko/20100101 Firefox/25.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11)",
+	    "platform": "FreeBSD amd64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"FreeBSD amd64"
+	},
+	{
+	    "description": "Firefox 26.0 (FreeBSD 64)",
+	    "useragent": "Mozilla/5.0 (X11; FreeBSD amd64; rv:26.0) Gecko/20100101 Firefox/26.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
 	    "platform": "FreeBSD amd64",
