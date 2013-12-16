@@ -2798,10 +2798,10 @@
 	{
 	    "description": "Playstation 3 (1.10)",
 	    "useragent": "Mozilla/5.0 (PLAYSTATION 3; 1.10)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (PLAYSTATION 3; 1.10)",
+	    "platform": "PlayStation 3",
+	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -2809,10 +2809,10 @@
 	{
 	    "description": "Playstation 3 (2.00)",
 	    "useragent": "Mozilla/5.0 (PLAYSTATION 3; 2.00)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (PLAYSTATION 3; 2.00)",
+	    "platform": "PlayStation 3",
+	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -2820,10 +2820,21 @@
 	{
 	    "description": "Playstation 3 (3.55)",
 	    "useragent": "Mozilla/5.0 (PLAYSTATION 3; 3.55)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (PLAYSTATION 3; 3.55)",
+	    "platform": "PlayStation 3",
+	    "vendor":"Sony Computer Entertainment Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":""
+	},
+	{
+	    "description": "Playstation 3 (4.50)",
+	    "useragent": "Mozilla/5.0 (PLAYSTATION 3; 4.50) AppleWebKit/531.22.8 (KHTML, like Gecko)",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (PLAYSTATION 3; 4.50) AppleWebKit/531.22.8 (KHTML, like Gecko)",
+	    "platform": "PlayStation 3",
+	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
@@ -2831,10 +2842,10 @@
 	{
 	    "description": "PSP (2.00)",
 	    "useragent": "Mozilla/4.0 (PSP (PlayStation Portable); 2.00)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "appname": "Netscape",
+	    "appversion": "4.0 (PSP (PlayStation Portable); 2.00)",
+	    "platform": "PlayStation Portable",
+	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
