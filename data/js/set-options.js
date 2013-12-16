@@ -1,6 +1,6 @@
 self.port.on("restore-options",function(options){
 
-  //set relevant elements
+  //set UA Tabs elements
   var timerdd = document.getElementById('timerdd');
 
 
@@ -14,6 +14,14 @@ self.port.on("restore-options",function(options){
 
   document.getElementById(options[1]).checked = true;
   document.getElementById('notify').checked = options[2];
+
+  //set Extras Tab Elements
+  document.getElementById('fonts').checked = options[3];
+  document.getElementById('dom').checked = options[4];
+  document.getElementById('history').checked = options[5];
+  document.getElementById('cache').checked = options[6];
+
+
 
 });
 
