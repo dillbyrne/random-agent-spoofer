@@ -4,13 +4,15 @@
 RAS is a firefox addon which allows the use of various user agents, which it can
 automatically switch to at random after a chosen period of time has expired.
 
+It also supports other privacy enhancing options
+
 
 # Features #
 
 - Allows the user to choose a random user agent (From all user agents or desktop only)  
 
 - Allows the user to specify the interval at which the random agent changes.
-  Interval can also be random
+  Interval can also be random, specific time period or per session if not set
 
 - Persistently remembers the users choice of user agent and time interval if set.
 
@@ -27,6 +29,14 @@ automatically switch to at random after a chosen period of time has expired.
 
 - It has a large list of user agents.
 
+- Option to limit local dom storage
+
+- Option to disable browser cache
+
+- Option to limit fonts to a standard set (monospace, serif, times new roman)
+
+- Option to limit tab history to two
+
 
 # What's Next #
 
@@ -34,6 +44,8 @@ I will continue to update the list of useragents and their related properties.
 I hope people will submit information on their browsers so I can keep the list 
 up to date and correct. I do not intend to support every single useragent or 
 device. The intention of the addon is to help hinder browser fingerprinting.
+
+I will continue to add more features also
 
 # Icons #
 
