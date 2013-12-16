@@ -16,6 +16,10 @@ document.body.addEventListener("change", function(e) {
     var historycb = document.getElementById("history").checked;
     self.port.emit("historycb",historycb);
   }
+  else if( e.target.id == "cache"){
+    var cachecb = document.getElementById("cache").checked;
+    self.port.emit("cachecb",cachecb);
+  }
   else{
     
     //get timer and selected ua option
