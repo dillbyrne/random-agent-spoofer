@@ -8,6 +8,11 @@ hr{
   border-right:0px;
 }   
 
+input,
+label{
+ cursor:pointer;
+}
+
 ul{ 
   list-style-type:none;
   padding:0px;
