@@ -20,6 +20,10 @@ document.body.addEventListener("change", function(e) {
     var cachecb = document.getElementById("cache").checked;
     self.port.emit("cachecb",cachecb);
   }
+  else if( e.target.id == "geo"){
+    var geocb = document.getElementById("geo").checked;
+    self.port.emit("geocb",geocb);
+  }
   else{
     
     //get timer and selected ua option
