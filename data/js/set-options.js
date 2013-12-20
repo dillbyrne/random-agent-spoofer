@@ -20,7 +20,7 @@ self.port.on("restore-options",function(options){
   document.getElementById('dom').checked = options[4];
   document.getElementById('history').checked = options[5];
   document.getElementById('cache').checked = options[6];
-
+  document.getElementById('geo').checked = options[7];
 
 
 });
