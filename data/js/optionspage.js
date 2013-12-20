@@ -24,6 +24,14 @@ document.body.addEventListener("change", function(e) {
     var geocb = document.getElementById("geo").checked;
     self.port.emit("geocb",geocb);
   }
+  else if( e.target.id == "xff"){
+    var xffcb = document.getElementById("xff").checked;
+    self.port.emit("xffcb",xffcb);
+  }
+  else if( e.target.id == "via"){
+    var geocb = document.getElementById("via").checked;
+    self.port.emit("viacb",geocb);
+  }
   else{
     
     //get timer and selected ua option

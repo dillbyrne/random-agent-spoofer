@@ -21,6 +21,8 @@ self.port.on("restore-options",function(options){
   document.getElementById('history').checked = options[5];
   document.getElementById('cache').checked = options[6];
   document.getElementById('geo').checked = options[7];
+  document.getElementById('xff').checked = options[8];
+  document.getElementById('via').checked = options[9];
 
 
 });
@@ -93,12 +95,8 @@ self.port.once('ua_list', function(data) {
 	label.setAttribute("for",i+","+j);
 	label.appendChild(document.createTextNode(data.uadata[i].useragents[j].description));
 
-	
-	
 	innerListItem.appendChild(radio);
 	innerListItem.appendChild(label);
-
-
 
 	//prevent clicks on child element triggering the showing/hiding of the
 	//child list	
