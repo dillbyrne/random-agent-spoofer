@@ -2972,6 +2972,17 @@
 	    "oscpu":""
 	},
 	{
+	    "description": "Playstation 4 (1.52)",
+	    "useragent": "Mozilla/5.0 (PlayStation 4 1.52) AppleWebKit/536.26 (KHTML, like Gecko)",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (PlayStation 4 1.52) AppleWebKit/536.26 (KHTML, like Gecko)",
+	    "platform": "PlayStation 4",
+	    "vendor":"Sony Computer Entertainment Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":""
+	},
+	{
 	    "description": "PSP (2.00)",
 	    "useragent": "Mozilla/4.0 (PSP (PlayStation Portable); 2.00)",
 	    "appname": "Netscape",
