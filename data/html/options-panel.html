@@ -10,6 +10,7 @@
 
     <ul id="tabs">
       <li><span id="ua_tab" class="selected">Profile</span></li>
+      <li><span id="headers_tab" class="nonselected">Headers</span></li>
       <li><span id="extras_tab" class="nonselected">Extras</span></li>
     </ul>
 
@@ -44,11 +45,8 @@
     <div id="extras_tab_content" class="tabContent" style="{display:none}">
       <div align ="center"><b>Extra Privacy Options</b></div><br>
 
-
       <input type="checkbox" id="fonts"/>
       <label for="fonts">Use standard font set</label><br>
-
-
 
       <input type="checkbox"id="dom"/>
       <label for="dom">Disable local dom storage</label><br>
@@ -61,14 +59,31 @@
    
       <input type="checkbox" id="geo"/>
       <label for="geo">Disable geolocation</label><br>
-      <hr>
+
+      <input type="checkbox" id="link"/>
+      <label for="link">Disable link prefetching</label><br>
+
+      <input type="checkbox" id="dns"/>
+      <label for="dns">Disable dns prefetching</label><br>
+    </div>
+
+    <div id="headers_tab_content" class="tabContent" style="{display:none}">
+      <div align ="center"><b>Header Spoofing Options</b></div><br>
+
+      <input type="checkbox" id="ifnone"/>
+      <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br>
+
+      <input type="checkbox" id="ifmodified"/>
+      <label for="ifmodified">Send spoofed 'If-Modified-Since' headers</label><br>
+
       <input type="checkbox" id="xff"/>
       <label for="xff">Send spoofed 'X-Forwarded-For' headers</label><br>
 
       <input type="checkbox" id="via"/>
       <label for="via">Send spoofed 'Via' headers</label><br>
-    </div>
 
+
+    </div>
   </body>
 
 </html>
