@@ -29,8 +29,24 @@ document.body.addEventListener("change", function(e) {
     self.port.emit("xffcb",xffcb);
   }
   else if( e.target.id == "via"){
-    var geocb = document.getElementById("via").checked;
-    self.port.emit("viacb",geocb);
+    var viacb = document.getElementById("via").checked;
+    self.port.emit("viacb",viacb);
+  }
+  else if( e.target.id == "ifnone"){
+    var ifnonecb = document.getElementById("ifnone").checked;
+    self.port.emit("ifnonecb",ifnonecb);
+  }
+  else if( e.target.id == "ifmodified"){
+    var ifmodifiedcb = document.getElementById("ifmodified").checked;
+    self.port.emit("ifmodifiedcb",ifmodifiedcb);
+  }
+  else if( e.target.id == "dns"){
+    var dnscb = document.getElementById("dns").checked;
+    self.port.emit("dnscb",dnscb);
+  }
+  else if( e.target.id == "link"){
+    var linkcb = document.getElementById("link").checked;
+    self.port.emit("linkcb",linkcb);
   }
   else{
     

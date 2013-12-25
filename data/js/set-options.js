@@ -21,9 +21,14 @@ self.port.on("restore-options",function(options){
   document.getElementById('history').checked = options[5];
   document.getElementById('cache').checked = options[6];
   document.getElementById('geo').checked = options[7];
+  document.getElementById('dns').checked = options[12];
+  document.getElementById('link').checked = options[13];
+  
+  //header spoofing
   document.getElementById('xff').checked = options[8];
   document.getElementById('via').checked = options[9];
-
+  document.getElementById('ifnone').checked = options[10];
+  document.getElementById('ifmodified').checked = options[11];
 
 });
 
