@@ -655,6 +655,39 @@
 	    "oscpu":""
 	},
 	{
+	    "description": "Palemoon 15.1.1 (W0W64)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/20120919 Firefox/15.1.1-x64 PaleMoon/15.1.1-x64",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/20120919 Firefox/15.1.1-x64 PaleMoon/15.1.1-x64",
+	    "platform": "Win64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Windows NT 6.2; Win64"
+	},
+	{
+	    "description": "Palemoon 19.02 (W0W64)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:19.0) Gecko/20130308 Firefox/19.0 PaleMoon/19.0.2",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.2; WOW64; rv:19.0) Gecko/20130308 Firefox/19.0 PaleMoon/19.0.2",
+	    "platform": "Win32",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Windows NT 6.2; WOW64"
+	},
+	{
+	    "description": "Palemoon 20.3 (W0W64)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.2; WOW64) KHTML/4.11 Gecko/20130308 Firefox/23.0 (PaleMoon/20.3)",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.2; WOW64) KHTML/4.11 Gecko/20130308 Firefox/23.0 (PaleMoon/20.3)",
+	    "platform": "Win32",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Windows NT 6.2; WOW64"
+	},
+	{
 	    "description": "Safari 531.21.10 (Win XP)",
 	    "useragent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10",
 	    "appname": "Netscape",
@@ -1338,6 +1371,17 @@
 	{
 	    "description": "Iceape (SeaMonkey) 2.0.8 (Debian)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.13) Gecko/20100916 Iceape/2.0.8",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11)",
+	    "platform": "Linux x86_64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux x86_64"
+	},
+	{
+	    "description": "GNU Icecat 17.0.1 (Firefox)" ,
+	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20121201 icecat/17.0.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
 	    "platform": "Linux x86_64",
