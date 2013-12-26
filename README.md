@@ -43,8 +43,8 @@ It also supports other privacy enhancing options
 
 - Option to disable link prefetching
 
-- Options to send spoofed headers including  via, x-forwarded-for,if-none-match and
-  if-modified-since.
+- Options to send spoofed headers including  via, x-forwarded-for and if-none-match.
+ 
 
 # What's Next #
 

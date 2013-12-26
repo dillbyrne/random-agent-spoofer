@@ -36,10 +36,6 @@ document.body.addEventListener("change", function(e) {
     var ifnonecb = document.getElementById("ifnone").checked;
     self.port.emit("ifnonecb",ifnonecb);
   }
-  else if( e.target.id == "ifmodified"){
-    var ifmodifiedcb = document.getElementById("ifmodified").checked;
-    self.port.emit("ifmodifiedcb",ifmodifiedcb);
-  }
   else if( e.target.id == "dns"){
     var dnscb = document.getElementById("dns").checked;
     self.port.emit("dnscb",dnscb);
