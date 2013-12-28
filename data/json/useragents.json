@@ -2436,6 +2436,17 @@
 	    "oscpu":"Linux armv7l"
 	},
 	{
+	    "description": "Android 4.1.1 Sony Xperia E",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; SonyC1505 Build/11.3.A.0.47) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Linux; U; Android 4.1.1; en-us; SonyC1505 Build/11.3.A.0.47) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+	    "platform": "Linux armv7l",
+	    "vendor":"Google Inc",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":""
+	},
+	{
 	    "description": "Android 4.2 - Firefox 19.0",
 	    "useragent": "Mozilla/5.0 (Android 4.2; rv:19.0) Gecko/20121129 Firefox/19.0",
 	    "appname": "Netscape",
