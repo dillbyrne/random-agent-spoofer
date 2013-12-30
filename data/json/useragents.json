@@ -2337,6 +2337,17 @@
 	    "oscpu":""
 	},
 	{
+	    "description": "Android 2.3.3 - HTC Wildfire - Mobile safari 533.1",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; HTC Wildfire Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Linux; U; Android 2.3.3; en-us; HTC Wildfire Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "platform": "Linux armv6l",
+	    "vendor":"Google Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":""
+	},
+	{
 	    "description": "Android 2.3.7 - HTC Hero CM7 - Opera 11",
 	    "useragent": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.817; U; en) Presto/2.8.119 Version/11.1010.119",
 	    "appname": "Opera",
