@@ -44,6 +44,18 @@ document.body.addEventListener("change", function(e) {
     var linkcb = document.getElementById("link").checked;
     self.port.emit("linkcb",linkcb);
   }
+  else if( e.target.id == "acceptd"){
+    var acceptdcb  = document.getElementById("acceptd").checked;
+    self.port.emit("acceptdcb",acceptdcb);
+  }
+  else if( e.target.id == "accepte"){
+    var acceptecb  = document.getElementById("accepte").checked;
+    self.port.emit("acceptecb",acceptecb);
+  }
+  else if( e.target.id == "acceptl"){
+    var acceptlcb  = document.getElementById("acceptl").checked;
+    self.port.emit("acceptlcb",acceptlcb);
+  }
   else{
     
     //get timer and selected ua option

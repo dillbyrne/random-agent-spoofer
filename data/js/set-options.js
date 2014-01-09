@@ -28,6 +28,9 @@ self.port.on("restore-options",function(options){
   document.getElementById('xff').checked = options[8];
   document.getElementById('via').checked = options[9];
   document.getElementById('ifnone').checked = options[10];
+  document.getElementById('acceptd').checked = options[13];
+  document.getElementById('accepte').checked = options[14];
+  document.getElementById('acceptl').checked = options[15];
 
 });
 
