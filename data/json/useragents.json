@@ -3331,6 +3331,48 @@
 	    "accept_lang":"en-US, en;q=0.8"
 	},
 	{
+	    "description": "iOS 5_1_1 - iPad - Safari 534",
+	    "useragent": "Mozilla/5.0 (iPad; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3",
+	    "appname": "Netscape",
+	    "appversion": "Mozilla/5.0 (iPad; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3",
+	    "platform": "iPad",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
+	},
+	{
+	    "description": "iOS 5_1_1 - iPad - Chrome 25.0.1346.124",
+	    "useragent": "Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/9B206 Safari/7534.48.3",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/25.0.1364.124 Mobile/9B206 Safari/7534.48.3",
+	    "platform": "iPad",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US, en;q=0.8"
+	},
+	{
+	    "description": "iOS 5_1_1 - iPad - Chrome 29.0.1547.11",
+	    "useragent": "Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/29.0.1547.11 Mobile/9B206 Safari/7534.48.3",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) CriOS/29.0.1547.11 Mobile/9B206 Safari/7534.48.3",
+	    "platform": "iPad",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US, en;q=0.8"
+	},
+	{
 	    "description": "iOS 7_0_4 - iPhone - Chrome (crios) 31.0.1650.18",
 	    "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
 	    "appname": "Netscape",
@@ -4312,9 +4354,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "iTunes 7.0 (OS X 10.4 PPC)",
@@ -4326,9 +4368,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "iTunes 8.2 (OS X 10.5.6 PPC)",
@@ -4340,9 +4382,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "iTunes 9.0 (OS X 10.5.8 Intel)",
@@ -4354,37 +4396,37 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "iTunes 9.0.2 (Windows)",
-	    "useragent": "iTunes/9.0.2 (Windows; N)",
+	    "description": "iTunes 10.2.1 (OS X 10.7)",
+	    "useragent": "iTunes/10.2.1 (Macintosh; Intel Mac OS X 10.7) AppleWebKit/534.20.8",
 	    "appname": "Netscape",
-	    "appversion": "9.0.2 (Windows)",
-	    "platform": "Win32",
-	    "vendor":"Apple Computer, Inc.",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
-	},
-	{
-	    "description": "iTunes 9.0.3 (OS X 10_6_2)",
-	    "useragent": "iTunes/9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-us)",
-	    "appname": "Netscape",
-	    "appversion": "9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-us)",
+	    "appversion": "10.2.1 (Macintosh; Intel Mac OS X 10.7) AppleWebKit/534.20.8",
 	    "platform": "MacIntel",
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "iTunes 11.1.3 (OS X 10.7)",
+	    "useragent": "iTunes/11.1.3 (Macintosh; Intel Mac OS X 10.7) AppleWebKit/534.20.8",
+	    "appname": "Netscape",
+	    "appversion": "11.1.3 (Macintosh; Intel Mac OS X 10.7) AppleWebKit/534.20.8",
+	    "platform": "MacIntel",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MS URL Control",
