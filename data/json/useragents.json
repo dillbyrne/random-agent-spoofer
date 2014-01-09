@@ -5,48 +5,87 @@
       "useragents": [
 	{
 	    "description": "Arora 0.6.0 - (Vista)",
-	    "useragent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.6 (Change: )",
-	    "appname": "",
-	    "appversion": "",
+	    "useragent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527 + (KHTML, like Gecko, Safari/419.3) Arora/0.6.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527 + (KHTML, like Gecko, Safari/419.3) Arora/0.6.0",
 	    "platform": "Win32",
 	    "buildID": "",
-	    "vendor":"",
+	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":""
 	},
 	{
-	    "description": "Arora 0.8.0 - (Windows)",
-	    "useragent": "Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.8.0",
-	    "appname": "",
-	    "appversion": "",
+	    "description": "Arora 0.8.0 - (Win 32)",
+	    "useragent": "Mozilla/5.0 (Windows; U; ; en-US) AppleWebKit/527 + (KHTML, like Gecko, Safari/419.3) Arora/0.8.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows; U; ; en-US) AppleWebKit/527 + (KHTML, like Gecko, Safari/419.3) Arora/0.8.0",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":""
 	},
 	{
-	    "description": "Avant Browser - MSIE 7 (Win XP)",
-	    "useragent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser; Avant Browser; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)",
-	    "appname": "",
-	    "appversion": "",
+	    "description": "Arora 0.10.0 - (Win 7 32)",
+	    "useragent": "Mozilla/5.0 (Windows; U; ; en-US) AppleWebKit/527 + (KHTML, like Gecko, Safari/419.3) Arora/0.10.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows; U; ; en-US) AppleWebKit/527 + (KHTML, like Gecko, Safari/419.3) Arora/0.10.0",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
-
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":""
 	},
 	{
-	    "description": "Beamrise - (Win 7 WOW64) - Webkit 535.8",
+	    "description": "Avant Browser 2014 build 1 - (Win 7 32)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.1; Avant TriCore) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.1; Avant TriCore) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36",
+	    "platform": "Win32",
+	    "vendor":"Google Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0/8",
+	    "accept_lang": "en-US,en;q=0.8"
+	},
+	{
+	    "description": "Beamrise 17.2.09 - (Win 7 WOW64)",
 	    "useragent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.8 (KHTML, like Gecko) Beamrise/17.2.0.9 Chrome/17.0.939.0 Safari/535.8",
-	    "appname": "",
-	    "appversion": "",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.8 (KHTML, like Gecko) Beamrise/17.2.0.9 Chrome/17.0.939.0 Safari/535.8",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
+	},
+	{
+	    "description": "Beamrise 29.3.0.7376 - (Win 7 32)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Beamrise/29.0.3.7376 Safari/537.36",
+	    "appname": "NetScape",
+	    "appversion": "5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Beamrise/29.0.3.7376 Safari/537.36",
+	    "platform": "Win32",
+	    "vendor":"Google Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 18.6.872.0 (Win 7)",
@@ -57,7 +96,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 19.0.1061.1 (Win 8 - NT 6.2)",
@@ -68,7 +110,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 20.0.1092.0 (Win 7 WOW64)",
@@ -79,7 +124,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 20.0.1090.0 (Win 8 32)",
@@ -90,7 +138,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 22.0.1207.1 (Win 7  WOW64)",
@@ -101,7 +152,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 28.0.1469.0 (Win 7 WOW64)",
@@ -112,7 +166,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 28.0.1469.0 (Win 8 WOW64)",
@@ -123,7 +180,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 29.0.1547.62 (Win 7 WOW64)",
@@ -134,7 +194,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 29.0.1547.2 (Win 8 WOW64)",
@@ -145,7 +208,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 30.0.1599.17 (Win 8 WOW64)",
@@ -156,7 +222,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 31.0.1623.0  (Win 7 WOW64)",
@@ -167,7 +236,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 31.0.1650.16  (Win XP)",
@@ -178,7 +250,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 32.0.1667.0  (Win 8 64)",
@@ -189,7 +264,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Firefox 12.0 (Win 7 32)",
@@ -200,7 +278,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win32"
+	    "oscpu":"Windows NT 6.1; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 14.0.1 (Win Vista)",
@@ -211,7 +292,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.0; Win32"
+	    "oscpu":"Windows NT 6.0; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 15.0a1 (Win 7 WOW64)",
@@ -222,7 +306,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; WOW64"
+	    "oscpu":"Windows NT 6.1; WOW64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 16.0 (Win 8 64)",
@@ -233,7 +320,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; Win64"
+	    "oscpu":"Windows NT 6.2; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 19.0 (Win 8 32)",
@@ -244,7 +334,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; Win32"
+	    "oscpu":"Windows NT 6.2; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 20.0 (Win 8 32)",
@@ -255,7 +348,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; Win32"
+	    "oscpu":"Windows NT 6.2; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 21.0 (Win 7 32)",
@@ -266,7 +362,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win32"
+	    "oscpu":"Windows NT 6.1; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 21.0 (Win 8 64)",
@@ -277,7 +376,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; Win64"
+	    "oscpu":"Windows NT 6.2; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 22.0 (Win 7 32)",
@@ -288,7 +390,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win32"
+	    "oscpu":"Windows NT 6.1; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 22.0 (Win 7 64)",
@@ -299,7 +404,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win64"
+	    "oscpu":"Windows NT 6.1; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 23.0 (Win 7 64)",
@@ -310,7 +418,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win64"
+	    "oscpu":"Windows NT 6.1; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 23.0 (Win 8 32)",
@@ -321,7 +432,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; Win32"
+	    "oscpu":"Windows NT 6.2; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 24.0 (Win Vista WOW64)",
@@ -332,7 +446,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.0; WOW64"
+	    "oscpu":"Windows NT 6.0; WOW64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 25.0 (Win 7 64)",
@@ -343,7 +460,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win64"
+	    "oscpu":"Windows NT 6.1; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 26.0 (Win 7 64)",
@@ -354,62 +474,66 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.1; Win64"
+	    "oscpu":"Windows NT 6.1; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "iTunes 9.0.2 (Windows)",
-	    "useragent": "iTunes/9.0.2 (Windows; N)",
+	    "description": "Konqueror 4.10.2 (Win 7 - KDE native)",
+	    "useragent": "Mozilla/5.0 (Windows; Windows i686) KHTML/4.10.2 (like Gecko) Konqueror/4.10",
 	    "appname": "Netscape",
-	    "appversion": "9.0.2 (Windows)",
+	    "appversion": "5.0 (Windows; Windows i686) KHTML/4.10.2 (like Gecko) Konqueror/4.10",
 	    "platform": "Win32",
-	    "vendor":"Apple Computer, Inc.",
+	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
-	},
-	{
-	    "description": "Konqueror 4.5 (Win XP - KDE native)",
-	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.5; Windows) KHTML/4.5.4 (like Gecko)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "Win32",
-	    "vendor":"",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Maxthon 2.0 (Trident/MSIE) (Win  7)",
 	    "useragent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Maxthon 2.0)",
-	    "appname": "",
-	    "appversion": "",
+	    "appname": "Netscape",
+	    "appversion": "4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Maxthon 2     .0)",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Maxthon Asia Ltd.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Maxthon 3.0.8.2 (Webkit) (Vista)",
 	    "useragent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1",
-	    "appname": "",
-	    "appversion": "",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Maxthon Asia Ltd.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "Maxthon 4.0.0.2000 (Webkit) (Win7 64 bit)",
-	    "useragent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML like Gecko) Maxthon/4.0.0.2000 Chrome/22.0.1229.79 Safari/537.1",
-	    "appname": "",
-	    "appversion": "",
+	    "description": "Maxthon 4.2.0.4000 (Webkit) (Win7 32 bit)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) Maxthon/4.2.0.4000 Chrome/30.0.1551.0 Safari/537.36",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML like Gecko) Maxthon/4.2.0.4000 Chrome/30.0.1551.0 Safari/537.36",
 	    "platform": "Win32",
-	    "vendor":"",
+	    "vendor":"Maxthon Asia Ltd.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 6 (Win XP)",
@@ -420,7 +544,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu": ""
+	    "oscpu": "",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 7 (Vista)",
@@ -431,7 +558,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 8 - standard mode (Win XP)",
@@ -442,7 +572,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 8 - standard mode (Win 7)",
@@ -453,7 +586,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 8 - compat mode (Vista)",
@@ -464,8 +600,10 @@
 	    "appname": "",
 	    "appversion": "4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0)",
 	    "buildID": "",
-	    "oscpu": ""
-
+	    "oscpu": "",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 8 - standard mode (Vista)",
@@ -476,7 +614,10 @@
 	    "appname": "",
 	    "appversion": "4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)",
 	    "buildID": "",
-	    "oscpu": ""
+	    "oscpu": "",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 9 - compat mode (Vista)",
@@ -487,7 +628,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 9 - standard mode (Win 7)",
@@ -498,7 +642,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 9 - standard mode (NT 6.2 32 Win 8)",
@@ -509,7 +656,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 9 - standard mode (Win 8 WOW64)",
@@ -520,7 +670,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 9 - standard mode (with Zune plugin) (Win 7 WOW64)",
@@ -531,7 +684,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 10 - standard mode (Win 7 WOW64)",
@@ -542,7 +698,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 10 - compat mode (Win 7 64)",
@@ -553,7 +712,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 10.6 - (Win 7 32)",
@@ -564,7 +726,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "MSIE 11 - (Win 8.1 WOW64)",
@@ -575,7 +740,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Opera 9.25 - (Vista)",
@@ -586,7 +754,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Opera 10.10 (id as 9.8) (Server 2003)",
@@ -597,7 +768,11 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
+
 	},
 	{
 	    "description": "Opera 11.00 (id as 9.8) (Win XP)",
@@ -608,7 +783,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 11.01 (id as 9.8) (Win 7)",
@@ -619,7 +797,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 11.10 (id as 9.8) (Win XP)",
@@ -630,7 +811,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 12.00 (id as 9.8) (Win 7)",
@@ -641,7 +825,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 12.14 (id as 9.8) (Win Vista)",
@@ -652,7 +839,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Palemoon 15.1.1 (W0W64)",
@@ -663,7 +853,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; Win64"
+	    "oscpu":"Windows NT 6.2; Win64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Palemoon 19.02 (W0W64)",
@@ -674,7 +867,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; WOW64"
+	    "oscpu":"Windows NT 6.2; WOW64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Palemoon 20.3 (W0W64)",
@@ -685,7 +881,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Windows NT 6.2; WOW64"
+	    "oscpu":"Windows NT 6.2; WOW64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Safari 531.21.10 (Win XP)",
@@ -696,7 +895,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Safari 533.17.8 (Server 2003/64 bit)",
@@ -707,7 +909,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Safari 533.19.4 (Win 7)",
@@ -718,7 +923,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Safari 8900.00 (6) (Win 8)",
@@ -729,7 +937,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "SeaMonkey (Mozilla) 2.0.12 (Win 7)",
@@ -740,7 +951,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":" Windows NT 6.1; Win32"
+	    "oscpu":" Windows NT 6.1; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "SeaMonkey (Mozilla) 2.7.1 (NT 5.2)",
@@ -751,7 +965,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":" Windows NT 5.2; Win32"
+	    "oscpu":" Windows NT 5.2; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "SeaMonkey (Mozilla) 2.9 (Win7 WOW64)",
@@ -762,7 +979,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":" Windows NT 6.1; WOW64"
+	    "oscpu":" Windows NT 6.1; WOW64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "SeaMonkey (Mozilla) 8.6.55 (Win7 32)",
@@ -773,7 +993,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":" Windows NT 6.1; Win32"
+	    "oscpu":" Windows NT 6.1; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "SeaMonkey (Mozilla) 9.23a1pre (Win server 2003)",
@@ -784,7 +1007,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":" Windows NT 5.2; Win32"
+	    "oscpu":" Windows NT 5.2; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	}
       ]	  	
     },
@@ -800,7 +1026,10 @@
 	    "vendor":"Camino",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.6"
+	    "oscpu":"Intel Mac OS X 10.6",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Camino 2.2a1pre (Firefox 4.0.1) (OS X 10.6 Intel)",
@@ -811,7 +1040,10 @@
 	    "vendor":"Camino",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":" Intel Mac OS X 10.6"
+	    "oscpu":" Intel Mac OS X 10.6",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Chrome 19.0.1063.0 (OS X 10_8_0 Intel)",
@@ -822,7 +1054,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 22.0.1229.79 (OS X 10_8_2 Intel)",
@@ -833,7 +1068,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 26.0.1410.63 (OS X 10_8_4 Intel)",
@@ -844,7 +1082,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 28.0.1469.0 (OS X 10_8_3 Intel)",
@@ -855,7 +1096,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 32.0.1664.3 (OS X 10_9_0 Intel)",
@@ -866,7 +1110,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Firefox 10.0.1 (OS X 10.6 Intel)",
@@ -877,7 +1124,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.6"
+	    "oscpu":"Intel Mac OS X 10.6",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 16.0 (OS X 10.8 Intel)",
@@ -888,7 +1138,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.8"
+	    "oscpu":"Intel Mac OS X 10.8",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 20.0 (OS X 10.7 Intel)",
@@ -899,7 +1152,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.7"
+	    "oscpu":"Intel Mac OS X 10.7",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 21.0 (OS X 10.8 Intel)",
@@ -910,7 +1166,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.8"
+	    "oscpu":"Intel Mac OS X 10.8",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 24.0 (OS X 10.8 Intel)",
@@ -921,7 +1180,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.8"
+	    "oscpu":"Intel Mac OS X 10.8",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 25.0 (OS X 10.6 Intel)",
@@ -932,7 +1194,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.6"
+	    "oscpu":"Intel Mac OS X 10.6",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 26.0 (OS X 10.8 Intel)",
@@ -943,29 +1208,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.8"
-	},
-	{
-	    "description": "iTunes 4.2 (OS X 10.2 PPC)",
-	    "useragent": "iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "MacPPC",
-	    "vendor":"Apple Computer, Inc.",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":""
-	},
-	{
-	    "description": "iTunes 9.0.3 (OS X 10_6_2)",
-	    "useragent": "iTunes/9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-ca)",
-	    "appname": "Netscape",
-	    "appversion": "9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-ca)",
-	    "platform": "MacIntel",
-	    "vendor":"Apple Computer, Inc.",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"Intel Mac OS X 10.8",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Omniweb 622.8.0 (OS X Intel)",
@@ -976,7 +1222,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Omniweb 622.8.0 (OS X 10_5_6 Intel)",
@@ -987,7 +1236,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Opera 9.20 (OS X Intel)",
@@ -998,7 +1250,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 9.64 (OS X PPC)",
@@ -1009,7 +1264,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 10.61 (id as 9.8) (OS X Intel)",
@@ -1020,7 +1278,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 11.00 (id as 9.8) (OS X Intel)",
@@ -1031,18 +1292,24 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 11.52 (id as 9.8) (OS X Intel)",
-	    "useragent": "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52",
+	    "useragent": "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.9.168 Version/11.52",
 	    "appname": "Netscape",
-	    "appversion": "9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52",
+	    "appversion": "9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.9.168 Version/11.52",
 	    "platform": "MacIntel",
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Safari 531.21.10 (OS X 10_6_2 Intel)",
@@ -1053,7 +1320,11 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+
 	},
 	{
 	    "description": "Safari 533.19.4 (OS X 10_6_5 Intel)",
@@ -1064,7 +1335,11 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+
 	},
 	{
 	    "description": "Safari 533.20.27 (OS X 10_6_6 Intel)",
@@ -1075,7 +1350,11 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+
 	},
 	{
 	    "description": "Safari 534.20.8 (OS X 10_7 Intel)",
@@ -1086,7 +1365,11 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+
 	},
 	{
 	    "description": "Safari 534.55.3 (OS X 10_7_3 Intel)",
@@ -1097,7 +1380,11 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+
 	},
 	{
 	    "description": "Safari 536.26.17 (6) (OS X 10_7_5 Intel)",
@@ -1108,7 +1395,11 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+
 	},
 	{
 	    "description": "SeaMonkey 2.7.1 (OS X 10.5 - Mozilla)",
@@ -1119,7 +1410,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Intel Mac OS X 10.5"
+	    "oscpu":"Intel Mac OS X 10.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	}
       ]     
     },
@@ -1129,13 +1423,16 @@
 	{
 	    "description": "Arora 0.11.1 - WebKit",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.1",
-	    "appname": "",
-	    "appversion": "",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11; U; Linux; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.1",
 	    "platform": "Linux i686",
-	    "vendor":"",
+	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Chrome 19.0.1084.9 (64 bit)",
@@ -1146,7 +1443,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 20.0.1132.57 (CrOS)",
@@ -1157,7 +1457,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 22.0.1229.56 (64 bit)",
@@ -1168,7 +1471,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 28.0.1478.0 (32 bit)",
@@ -1179,7 +1485,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chromium 25.0.1364 (Ubuntu 32 bit)",
@@ -1190,7 +1499,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chromium 31.0.1650.57 (Debian 7.2 64)",
@@ -1201,7 +1513,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Dillo 3.0",
@@ -1212,18 +1527,24 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"text/*,image/*,*/*;q=0.2",
+	    "accept_lang":""
 	},
 	{
-	    "description": "Epiphany - WebKit (528.5)",
-	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-us) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) lt-GtkLauncher",
+	    "description": "Epiphany - (Debian 7 64 bit)",
+	    "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+ Debian/7.0 (3.4.2-2.1) Epiphany/3.4.2",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (X11; U; Linux i686; en-us) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) lt-GtkLauncher",
+	    "appversion": "5.0 (X11; Linux x86_64) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+ Debian/7.0 (3.4.2-2.1) Epiphany/3.4.2",
 	    "platform": "Linux i686",
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Firefox 11.0 (32 bit)",
@@ -1234,7 +1555,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 12.0 (32 bit)",
@@ -1245,7 +1569,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 14.0.1 (Ubuntu 64 bit)",
@@ -1256,7 +1583,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 16.0 (32 bit)",
@@ -1267,7 +1597,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 19.0 (Slackware 13 32 bit)",
@@ -1278,7 +1611,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 20.0 (Ubuntu 64 bit)",
@@ -1289,7 +1625,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 20.0 (32 bit)",
@@ -1300,7 +1639,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 21.0 (32 bit)",
@@ -1311,7 +1653,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 24.0 (Ubuntu 64 bit)",
@@ -1322,7 +1667,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 25.0 (Ubuntu 64 bit)",
@@ -1333,7 +1681,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 26.0 (Linux 64 bit)",
@@ -1344,7 +1695,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Galeon 2.0.6 (Ubuntu)",
@@ -1355,18 +1709,24 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Galeon 2.0.6 (Gentoo)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.16) Gecko/20080716 (Gentoo) Galeon/2.0.6",
-	    "appname": "",
-	    "appversion": "Netscape",
+	    "appname": "Netscape",
+	    "appversion": "5.0(X11)",
 	    "platform": "Linux i686",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Iceape (SeaMonkey) 2.0.8 (Debian)",
@@ -1377,10 +1737,13 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "GNU Icecat 17.0.1 (Firefox)" ,
+	    "description": "(GNU) Icecat 17.0.1 (Firefox)" ,
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20121201 icecat/17.0.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -1388,7 +1751,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Iceweasel (Firefox) 14.0.1",
@@ -1399,7 +1765,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Iceweasel (Firefox) 15.02 (Debian)",
@@ -1410,7 +1779,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Iceweasel (Firefox) 19.0.2 (Debian 64)",
@@ -1421,7 +1793,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"  
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Iceweasel (Firefox) 25.0 (Debian 64)",
@@ -1432,7 +1807,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Iceweasel (Firefox) 26.0 (Debian 64)",
@@ -1443,7 +1821,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Konqueror 4.3 - khtml (Slackware 13)",
@@ -1454,7 +1835,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.3.1 - khtml (Fedora 11)",
@@ -1465,7 +1849,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.4.3 - khtml (Fedora 12)",
@@ -1476,7 +1863,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.4.3 - khtml (Kubuntu)",
@@ -1487,7 +1877,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.4.3 - khtml (Kubuntu)",
@@ -1498,7 +1891,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.8.4 - khtml (Debian)",
@@ -1509,7 +1905,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.9.1",
@@ -1520,7 +1919,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Midori 0.1.10 (Webkit 531)",
@@ -1531,7 +1933,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us,;q=0.1"
 	},
 	{
 	    "description": "Midori 1.19",
@@ -1542,7 +1947,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us,;q=0.1"
 	},
 	{
 	    "description": "Mozilla 1.9.0 (Debian)",
@@ -1553,7 +1961,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Mozilla 1.9a3pre",
@@ -1564,7 +1975,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Opera 9.64 (Linux Mint)",
@@ -1575,7 +1989,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 10.10 (id as 9.8)",
@@ -1586,7 +2003,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 11.00 (id as 9.8)",
@@ -1597,7 +2017,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Opera 12.14 (id as 9.8)",
@@ -1608,18 +2031,24 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,scdh",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
-	    "description": "QupZilla 1.2.0 (Webkit 534.34)",
-	    "useragent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.2.0 Safari/534.34",
+	    "description": "QupZilla 1.6.0 (Webkit 534.34)",
+	    "useragent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.6.0 Safari/534.34",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.2.0 Safari/534.34",
+	    "appversion": "5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.6.0 Safari/534.34",
 	    "platform": "Linux i686",
-	    "vendor":"",
+	    "vendor":"Apple Computer, Inc",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "SeaMonkey 2.0.12 (Mozilla)",
@@ -1630,7 +2059,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "SeaMonkey 2.7.1 (Mozilla)",
@@ -1641,7 +2073,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "SeaMonkey 2.9.1 (Mozilla)",
@@ -1652,7 +2087,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Shadowfox 7.0 (Mozilla)",
@@ -1663,7 +2101,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux x86_64"
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Swiftfox 3.6.3",
@@ -1674,7 +2115,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux i686"
+	    "oscpu":"Linux i686",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Uzbl (Webkit 1.8)",
@@ -1685,7 +2129,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Elinks 0.4pre5",
@@ -1696,7 +2143,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "ELinks 0.9.3 (Kanotix)",
@@ -1707,7 +2157,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "ELinks 0.12~pre5-4",
@@ -1718,7 +2171,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "Links 0.9.1",
@@ -1729,7 +2185,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,bzip2,lmza,lmza2",
+	    "accept_default":"*/*",
+	    "accept_lang":"en,*;q=0.1"
 	},
 	{
 	    "description": "Links 2.1",
@@ -1740,7 +2199,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,bzip2,lmza,lmza2",
+	    "accept_default":"*/*",
+	    "accept_lang":"en,*;q=0.1"
 	},
 	{
 	    "description": "Links 2.3pre1",
@@ -1751,7 +2213,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,bzip2,lmza,lmza2",
+	    "accept_default":"*/*",
+	    "accept_lang":"en,*;q=0.1"
 	},
 	{
 	    "description": "Lynx 2.8.5rel.1",
@@ -1762,7 +2227,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,compress,bzip2",
+	    "accept_default":"text/html,text/plain,text/css,text/sgml,text/html,*/*;q=0.1",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "w3m 0.5.1",
@@ -1773,7 +2241,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,compress,bzip,bzip2,deflate",
+	    "accept_default":"text/html,text/*;q=0.5,image/*,application/*,video/*,audio/*,message/*",
+	    "accept_lang":"en;q=1.0"
 	}
 
       ]
@@ -1784,13 +2255,16 @@
 	{
 	    "description": "Arora/0.10.2 (BSD/Haiku)",
 	    "useragent": "Mozilla/5.0 (Unknown; U; UNIX BSD/SYSV system; C -) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.2",
-	    "appname": "",
+	    "appname": "Netscape",
 	    "appversion": "5.0 (Unknown; U; UNIX BSD/SYSV system; C -) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.2",
 	    "platform": "UNIX BSD/SYSV system",
-	    "vendor":"",
+	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Chrome 19.0.1084.56 (FreeBSD 64)",
@@ -1801,7 +2275,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 22.0.1229.79 (FreeBSD 64)",
@@ -1812,7 +2289,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 23.0.1271.6 (FreeBSD 64)",
@@ -1823,7 +2303,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 24.0.1312.60 (FreeBSD 64)",
@@ -1834,7 +2317,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 27.0.1453.93 (FreeBSD 64)",
@@ -1845,7 +2331,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 28.0.1468.0 (FreeBSD 64)",
@@ -1856,7 +2345,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 29.0.1547.62 (FreeBSD 64)",
@@ -1867,7 +2359,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 30.0.1599.17 (FreeBSD 64)",
@@ -1878,7 +2373,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 31.0.1650.16 (FreeBSD 64)",
@@ -1889,7 +2387,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Chrome 32.0.1667.0 (FreeBSD 64)",
@@ -1900,7 +2401,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Epiphany 2.30.0 (OpenBSD)",
@@ -1911,7 +2415,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Epiphany 2.30.0 (FreeBSD)",
@@ -1922,7 +2429,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Firefox 3.1b3 (SunOs)",
@@ -1933,7 +2443,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"SunOs i86pc"
+	    "oscpu":"SunOs i86pc",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 3.5 (OpenBSD)",
@@ -1944,7 +2457,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"OpenBSD i386"
+	    "oscpu":"OpenBSD i386",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 3.6.8 (FreeBSD)",
@@ -1955,7 +2471,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD i386"
+	    "oscpu":"FreeBSD i386",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 5.0 (FreeBSD 64)",
@@ -1966,7 +2485,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 6.0 (FreeBSD 64)",
@@ -1977,7 +2499,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 7.0 (FreeBSD 64)",
@@ -1988,7 +2513,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 8.0 (FreeBSD 64)",
@@ -1999,7 +2527,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 9.0 (FreeBSD 64)",
@@ -2010,7 +2541,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 11.0 (FreeBSD 64)",
@@ -2021,7 +2555,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 15.0 (FreeBSD 64)",
@@ -2032,7 +2569,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 19.0 (FreeBSD 64)",
@@ -2043,7 +2583,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 20.0 (FreeBSD 64)",
@@ -2054,7 +2597,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 21.0 (FreeBSD 64)",
@@ -2065,7 +2611,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 24.0 (FreeBSD 64)",
@@ -2076,7 +2625,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 25.0 (FreeBSD 64)",
@@ -2087,7 +2639,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Firefox 26.0 (FreeBSD 64)",
@@ -2098,18 +2653,24 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"FreeBSD amd64"
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Konqueror 4.1 - khtml (DragonFly)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)",
-	    "platform": "DragonFly",
+	    "platform": "DragonFly i386",
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.1 - khtml (OpenBSD)",
@@ -2120,7 +2681,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.5.4 - khtml (NetBSD 5.0.2)",
@@ -2131,7 +2695,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.5.4 - khtml (FreeBSD)",
@@ -2142,7 +2709,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Konqueror 4.9.1 - khtml (FreeBSD)",
@@ -2153,7 +2723,10 @@
 	    "vendor":"KDE",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+	    "accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.9"
 	},
 	{
 	    "description": "Namoroka 3.6.15 (Firefox) (NetBSD)",
@@ -2164,18 +2737,24 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"NetBSD amd64"
+	    "oscpu":"NetBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "NetSurf 1.2 (NetBSD)",
 	    "useragent": "NetSurf/1.2 (NetBSD; amd64)",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "NetBSD amd64",
+	    "platform": "",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Opera 12.10 (FreeBSD)",
@@ -2186,7 +2765,10 @@
 	    "vendor":"Opera Software ASA",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Seamonkey 1.1.8 (Mozilla) (SunOS 32bit)",
@@ -2197,7 +2779,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"SunOs i86pc"
+	    "oscpu":"SunOs i86pc",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
         {
 	    "description": "ELinks 0.4.3 (NetBSD)",
@@ -2208,7 +2793,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "Links 2.1 (FreeBSD)",
@@ -2219,7 +2807,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate,bzip2,lmza,lmza2",
+	    "accept_default":"*/*",
+	    "accept_lang":"en,*;q=0.1"
 	},
 	{
 	    "description": "Lynx 2.8.7 (OpenBSD)",
@@ -2230,7 +2821,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",	    
+	    "accept_encoding":"gzip, compress, bzip2",
+	    "accept_default":"text/html,text/plain,text/css,text/sgml,text/html,*/*;q=0.1",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "w3m 0.5.1 (OpenBSD)",
@@ -2241,7 +2835,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, compress, bzip, bzip2, deflate",
+	    "accept_default":"text/html,text/*;q=0.5,image/*,application/*,video/*,audio/*,message/*",
+	    "accept_lang":"en;q=1.0"
 	}
       ]
     },
@@ -2249,7 +2846,7 @@
     "description": "Android",
     "useragents": [
 	{
-	    "description": "Android 0.5 - Safari 419",
+	    "description": "Android 0.5 - Mobile Safari 419",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522  (KHTML, like Gecko) Safari/419.3",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522  (KHTML, like Gecko) Safari/419.3",
@@ -2257,7 +2854,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 1.1 - Mobile Safari 523",
@@ -2268,7 +2868,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 1.5 - HTC Dream - Mobile Safari 525",
@@ -2279,7 +2882,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.0 - Motorola Droid - Mobile Safari 530.17",
@@ -2290,7 +2896,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.1 - Nexus One - Safari 530.17",
@@ -2301,7 +2910,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.2 - HTC Evo - Mobile Safari 533.1",
@@ -2312,7 +2924,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.2 - HTC Incredible - Safari 533.1",
@@ -2323,7 +2938,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.2 - Samsung Galaxy - Mobile Safari 533.1",
@@ -2334,7 +2952,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.3.3 - HTC Wildfire - Mobile safari 533.1",
@@ -2345,7 +2966,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.3.7 - HTC Hero CM7 - Opera 11",
@@ -2356,7 +2980,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
+	    "accept_lang":"en-US, en;q=0.9"
 	},
 	{
 	    "description": "Android 2.3.7 - HTC Hero CM7 - Lightning",
@@ -2367,7 +2994,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/plain;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android - Fennec 2.0.1 (arm)",
@@ -2381,7 +3011,7 @@
 	    "oscpu":"Linux arm7l"
 	},
 	{
-	    "description": "Android - 3.0.1 - Safari 534.13 - Acer Iconia",
+	    "description": "Android - 3.0.1 - Mobile Safari 534.13 - Acer Iconia",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
@@ -2389,7 +3019,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android - 3.0.1 - Mobile Safari 523.12 - Motorola Xoom",
@@ -2400,7 +3033,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.0.3 - Mobile Safari 534.30 - HTC Sensation",
@@ -2411,7 +3047,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.0.3 - Mobile Safari 534.30 - Samsung Galaxy S II",
@@ -2422,7 +3061,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.0.4 - Opera 12.00",
@@ -2433,7 +3075,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
+	    "accept_lang":"en-US, en;q=0.9"
 	},
 	{
 	    "description": "Android - Fennec 10.0.1",
@@ -2455,7 +3100,10 @@
 	    "vendor":"Google Inc",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.2 - Firefox 19.0",
@@ -2532,7 +3180,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.3.1 - CM - Galaxy S2 ",
@@ -2543,7 +3194,10 @@
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-US"
 	}
       ]
     },
@@ -2559,7 +3213,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 2.0 - iPhone - Safari 525.200",
@@ -2570,7 +3227,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 2.2.1 - iPod - Safari 525.20",
@@ -2581,7 +3241,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 3.0 - iPhone - Safari 528.16",
@@ -2592,7 +3255,10 @@
 	    "vendor": "Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 3.2 - iPad - Safari 531",
@@ -2603,51 +3269,80 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 4_2_1 - iPad - Safari 533",
-	    "useragent": "Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ja-jp) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
+	    "useragent": "Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ja-jp) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
+	    "appversion": "5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
 	    "platform": "iPad",
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 4_2_1 - iPhone - Safari 533.17.9",
-	    "useragent": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
+	    "useragent": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
+	    "appversion": "5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
 	    "platform": "iPhone",
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 4_3 - iPhone - Safari 533.17.9",
-	    "useragent": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190",
+	    "useragent": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190",
+	    "appversion": "5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190",
 	    "platform": "iPhone",
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 5_1_1 - iPhone - Chrome (crios) 19.0.1084.60",
-	    "useragent": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; da-dk) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3",
+	    "useragent": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; da-dk) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3",
+	    "appversion": "5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3",
 	    "platform": "iPhone",
-	    "vendor":"Google Inc.",
+	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US, en;q=0.8"
+	},
+	{
+	    "description": "iOS 7_0_4 - iPhone - Chrome (crios) 31.0.1650.18",
+	    "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
+	    "platform": "iPhone",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US, en;q=0.8"
 	}
       ]
     }, 
@@ -2756,7 +3451,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Baiduspider ",
@@ -2767,7 +3465,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Bing Bot 2.0 (renamed Msnbot)",
@@ -2778,7 +3479,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Exabot 3.0",
@@ -2789,7 +3493,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "FAST-WebCrawler 3.8",
@@ -2800,7 +3507,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Google AdsBot 1.0",
@@ -2811,7 +3521,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot 2.1 (New version)",
@@ -2822,7 +3535,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot 2.1 (Older Version)",
@@ -2833,7 +3549,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot-Image 1.0",
@@ -2844,7 +3563,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot MediaPartners",
@@ -2855,7 +3577,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot-Mobile 2.1 (ID: DoCoMo/2.0)",
@@ -2866,7 +3591,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot-Mobile 2.1 (ID: iPhone)",
@@ -2877,7 +3605,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot-Mobile 2.1 (ID: SAMSUNG-SGH-E250)",
@@ -2887,7 +3618,10 @@
 	    "platform": "",
 	    "vendor":"",
 	    "vendorsub":"",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot-News",
@@ -2898,7 +3632,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Googlebot-Video",
@@ -2909,29 +3646,38 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Google Toolbar 4.0 (XP - MSIE 6)",
 	    "useragent": "Mozilla/4.0 (compatible; GoogleToolbar 4.0.1019.5266-big; Windows XP 5.1; MSIE 6.0.2900.2180)",
 	    "appname": "",
 	    "appversion": "",
-	    "platform": "",
+	    "platform": "Win32",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Google Web Preview",
-	    "useragent": "Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
+	    "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11; Linux x86_64) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13",
+	    "platform": "Linux x86_64",
+	    "vendor":"Google Inc",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.8"
 	},
 	{
 	    "description": "Msnbot 1.0 (current version)",
@@ -2942,7 +3688,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Msnbot 1.1",
@@ -2953,7 +3702,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Msnbot 0.11 (beta version)",
@@ -2964,7 +3716,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Msnbot-Media 1.1",
@@ -2975,7 +3730,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Yahoo Slurp",
@@ -2986,7 +3744,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Yahoo Slurp China",
@@ -2997,7 +3758,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	}
       ]
     },
@@ -3013,7 +3777,11 @@
 	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-us, en;q=0.5"
+	    
 	},
 	{
 	    "description": "Playstation 3 (2.00)",
@@ -3024,7 +3792,10 @@
 	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-us, en;q=0.5"
 	},
 	{
 	    "description": "Playstation 3 (3.55)",
@@ -3035,7 +3806,10 @@
 	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-us, en;q=0.5"
 	},
 	{
 	    "description": "Playstation 3 (4.50)",
@@ -3046,7 +3820,10 @@
 	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-us, en;q=0.5"
 	},
 	{
 	    "description": "Playstation 4 (1.52)",
@@ -3057,7 +3834,10 @@
 	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-us, en;q=0.5"
 	},
 	{
 	    "description": "PSP (2.00)",
@@ -3068,18 +3848,52 @@
 	    "vendor":"Sony Computer Entertainment Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en-us, en;q=0.5"
+	},
+	{
+	    "description": "Wii 1.6.2.1",
+	    "useragent": "Opera/9.10 (Nintendo Wii; U; ; 1621; en)",
+	    "appname": "Opera",
+	    "appversion": "9.10 (Nintendo Wii; U; ; 1621; en)",
+	    "platform": "Nintendo Wii",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"defalte, gzip, x-gzip, identity, *;q=0",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/jpeg,image/gif,image/x-xbitmap,*/*;q=0.1",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "Wii 2.0.4.7-7",
 	    "useragent": "Opera/9.30 (Nintendo Wii; U; ; 2047-7; en)",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
+	    "appname": "Opera",
+	    "appversion": "9.30 (Nintendo Wii; U; ; 2047-7; en)",
+	    "platform": "Nintendo Wii",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"defalte, gzip, x-gzip, identity, *;q=0",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/jpeg,image/gif,image/x-xbitmap,*/*;q=0.1",
+	    "accept_lang":"en"
+	},
+	{
+	    "description": "Wii 3.6.4.2",
+	    "useragent": "Opera/9.30 (Nintendo Wii; U; ; 3642; en)",
+	    "appname": "Opera",
+	    "appversion": "9.30 (Nintendo Wii; U; ; 3642; en)",
+	    "platform": "Nintendo Wii",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"defalte, gzip, x-gzip, identity, *;q=0",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/jpeg,image/gif,image/x-xbitmap,*/*;q=0.1",
+	    "accept_lang":"en"
 	},
 	{
 	    "description": "Wii libnup (1.00)",
@@ -3090,7 +3904,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	}
       ]
     },
@@ -3150,7 +3967,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "cURL 7.9.8",
@@ -3161,7 +3981,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Peach 1.01",
@@ -3172,7 +3995,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "PHP 5.2.8",
@@ -3283,6 +4109,20 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":""
+	},
+	{
+	    "description": "(GNU) Wget 1.13.4",
+	    "useragent": "Wget/1.13.4 (linux-gnu)",
+	    "appname": "",
+	    "appversion": "",
+	    "platform": "",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	}
       ]
     },
@@ -3298,7 +4138,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "W3C CSS Validator",
@@ -3309,7 +4152,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "W3C (X)HTML Validator (1.654)",
@@ -3320,7 +4166,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "W3C (X)HTML Validator (1.305.2.12)",
@@ -3331,7 +4180,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "W3C P3P Validator",
@@ -3342,7 +4194,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "WDG CSS Validator (1.2.2)",
@@ -3353,7 +4208,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "WDG (X)HTML Validator (1.6.2)",
@@ -3364,7 +4222,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	}
       ]	
     },
@@ -3380,7 +4241,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Grub-Client",
@@ -3391,7 +4255,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "iTunes 4.2 (OS X 10.2 PPC)",
@@ -3402,7 +4269,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "iTunes 7.0 (OS X 10.4 PPC)",
@@ -3413,7 +4283,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "iTunes 8.2 (OS X 10.5.6 PPC)",
@@ -3424,7 +4297,10 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "iTunes 9.0 (OS X 10.5.8 Intel)",
@@ -3435,7 +4311,38 @@
 	    "vendor":"Apple Computer, Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
+	},
+	{
+	    "description": "iTunes 9.0.2 (Windows)",
+	    "useragent": "iTunes/9.0.2 (Windows; N)",
+	    "appname": "Netscape",
+	    "appversion": "9.0.2 (Windows)",
+	    "platform": "Win32",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
+	},
+	{
+	    "description": "iTunes 9.0.3 (OS X 10_6_2)",
+	    "useragent": "iTunes/9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-us)",
+	    "appname": "Netscape",
+	    "appversion": "9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-us)",
+	    "platform": "MacIntel",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "MS URL Control",
@@ -3446,7 +4353,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "winHTTP",
@@ -3457,12 +4367,13 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	}
       ]
     }
-
-
 
   ]
 
