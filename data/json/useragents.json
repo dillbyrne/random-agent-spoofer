@@ -3915,7 +3915,7 @@
       "description": "Libraries",
       "useragents": [
 	{
-	    "description": "Java 1.6.0_13",
+	    "description": "Java 1.6.0_13 (HttpURLConnection)",
 	    "useragent": "Java/1.6.0_13",
 	    "appname": "",
 	    "appversion": "",
@@ -3923,10 +3923,13 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"text/html,image/gif,image/jpeg,*; q=.2,*/*; q=.2",
+	    "accept_lang":""
 	},
 	{
-	    "description": "Java 1.6.0_26",
+	    "description": "Java 1.6.0_26 (HttpURLConnection)",
 	    "useragent": "Java/1.6.0_26",
 	    "appname": "",
 	    "appversion": "",
@@ -3934,7 +3937,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"text/html,image/gif,image/jpeg,*; q=.2,*/*; q=.2",
+	    "accept_lang":""
 	},
 	{
 	    "description": "libwww-perl 5.820",
@@ -3945,7 +3951,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "libwww-perl 5.821",
@@ -3956,7 +3965,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "cURL 7.8",
@@ -3997,7 +4009,7 @@
 	    "buildID": "",
 	    "oscpu":"",
 	    "accept_encoding":"",
-	    "accept_default":"*/*",
+	    "accept_default":"",
 	    "accept_lang":""
 	},
 	{
@@ -4009,7 +4021,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "PHP 5.2.9",
@@ -4020,7 +4035,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "PycURL 7.19.5",
@@ -4031,7 +4049,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "PycURL 7.19.7",
@@ -4042,7 +4063,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "PycURL 7.23.1",
@@ -4053,7 +4077,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"*/*",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Python-urllib 2.5",
@@ -4064,7 +4091,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Python-urllib 2.6",
@@ -4075,7 +4105,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Python-urllib 2.7",
@@ -4086,7 +4119,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Python-urllib 3.0",
@@ -4097,7 +4133,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Python-urllib 3.1",
@@ -4108,7 +4147,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"identity",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "(GNU) Wget 1.13.4",
