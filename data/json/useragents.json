@@ -2855,36 +2855,36 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 1.1 - Mobile Safari 523",
-	    "useragent": "Mozilla/5.0 (Linux; U; Android 1.1; en-gb; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 1.1; en-us; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (Linux; U; Android 1.1; en-gb; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
+	    "appversion": "5.0 (Linux; U; Android 1.1; en-us; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
 	    "platform": "",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 1.5 - HTC Dream - Mobile Safari 525",
-	    "useragent": "HTC_Dream Mozilla/5.0 (Linux; U; Android 1.5; en-ca; Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
+	    "useragent": "HTC_Dream Mozilla/5.0 (Linux; U; Android 1.5; en-us; Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (Linux; U; Android 1.5; en-ca; Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
+	    "appversion": "5.0 (Linux; U; Android 1.5; en-us; Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
 	    "platform": "",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
@@ -2897,8 +2897,8 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
@@ -2911,50 +2911,50 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 2.2 - HTC Evo - Mobile Safari 533.1",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; Sprint APA9292KT Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-	    "accept_lang":"en-US"
-	},
-	{
-	    "description": "Android 2.2 - HTC Incredible - Safari 533.1",
-	    "useragent": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; ADR6300 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-	    "appname": "",
-	    "appversion": "",
-	    "platform": "",
-	    "vendor":"",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-	    "accept_lang":"en-US"
-	},
-	{
-	    "description": "Android 2.2 - Samsung Galaxy - Mobile Safari 533.1",
-	    "useragent": "Mozilla/5.0 (Linux; U; Android 2.2; en-ca; GT-P1000M Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (Linux; U; Android 2.2; en-ca; GT-P1000M Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "appversion": "5.0 (Linux; U; Android 2.2; en-us; Sprint APA9292KT Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
 	    "platform": "",
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "Android 2.2 - HTC Incredible - Safari 533.1",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; ADR6300 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Linux; U; Android 2.2; en-us; ADR6300 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "platform": "",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "Android 2.2 - Samsung Galaxy - Mobile Safari 533.1",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; GT-P1000M Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Linux; U; Android 2.2; en-us; GT-P1000M Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+	    "platform": "",
+	    "vendor":"Google Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
@@ -3008,20 +3008,23 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux arm7l"
+	    "oscpu":"Linux arm7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android - 3.0.1 - Mobile Safari 534.13 - Acer Iconia",
-	    "useragent": "Mozilla/5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 3.0.1; en-us; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
+	    "appversion": "5.0 (Linux; U; Android 3.0.1; en-us; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
 	    "platform": "",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
@@ -3034,44 +3037,44 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.0.3 - Mobile Safari 534.30 - HTC Sensation",
-	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "appname": "",
-	    "appversion": "5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+	    "appversion": "5.0 (Linux; U; Android 4.0.3; en-us; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "platform": "",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.0.3 - Mobile Safari 534.30 - Samsung Galaxy S II",
-	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "appname": "Netscape",
-	    "appversion": "5.0 (Linux; U; Android 4.0.3; de-de; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+	    "appversion": "5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "platform": "Linux armv7l",
 	    "vendor":"Google Inc.",
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "Android 4.0.4 - Opera 12.00",
 	    "useragent": "Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1205181138; U; en) Presto/2.10.254 Version/12.00",
-	    "appname": "Netscape",
+	    "appname": "Opera",
 	    "appversion": "Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1205181138; U; en) Presto/2.10.254 Version/12.00",
-	    "platform": "",
+	    "platform": "Pike v7.8 release 517",
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
@@ -3089,7 +3092,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.1.1 Sony Xperia E",
@@ -3101,9 +3107,23 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-	    "accept_lang":"en-US"
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US;q=0.8"
+	},
+	{
+	    "description": "Android 4.1.2 - Opera Mini 11.10",
+	    "useragent": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.861; U; en) Presto/2.8.119 Version/11.10",
+	    "appname": "Opera",
+	    "appversion": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.861; U; en) Presto/2.8.119 Version/11.10",
+	    "platform": "Pike v7.8 release 517",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
+	    "accept_lang":"en-US, en;q=0.9"
 	},
 	{
 	    "description": "Android 4.2 - Firefox 19.0",
@@ -3114,7 +3134,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.2 - Firefox 22.0",
@@ -3125,7 +3148,38 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
+	    "description": "Android 4.2 - Firefox 25.0 - Cyclone Voyager II Tablet",
+	    "useragent": "Mozilla/5.0 (Android; Tablet; rv:25.0) Gecko/25.0 Firefox/25.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Android)",
+	    "platform": "Linux armv7l",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},	
+	{
+	    "description": "Android 4.2 - Firefox 26.0 - Cyclone Voyager II Tablet",
+	    "useragent": "Mozilla/5.0 (Android; Tablet; rv:26.0) Gecko/26.0 Firefox/26.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Android)",
+	    "platform": "Linux armv7l",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.2.2 - Firefox 23.0 - Galaxy S4",
@@ -3136,7 +3190,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.2.2 - Firefox 24.0 - Galaxy S4",
@@ -3147,7 +3204,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.2.2 - Firefox 25.0 - Galaxy S4",
@@ -3158,7 +3218,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.2.2 - Firefox 26.0 - Galaxy S4",
@@ -3169,7 +3232,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":"Linux armv7l"
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
 	    "description": "Android 4.2.2 - Mobile Safari 535.19 - Galaxy S4",
@@ -3181,12 +3247,12 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"gzip",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application+xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "Android 4.3.1 - CM - Galaxy S2 ",
+	    "description": "Android 4.3.1 - Safari 534.30 Galaxy S2",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.3.1; en-gb; GT-I9100 Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 CyanogenMod/10.2/i9100",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 4.3.1; en-gb; GT-I9100 Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 CyanogenMod/10.2/i9100",
