@@ -3014,7 +3014,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android - 3.0.1 - Mobile Safari 534.13 - Acer Iconia",
+	    "description": "Android - 3.0.1 - Acer Iconia - Mobile Safari 534.13",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 3.0.1; en-us; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 3.0.1; en-us; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
@@ -3028,7 +3028,7 @@
 	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "Android - 3.0.1 - Mobile Safari 523.12 - Motorola Xoom",
+	    "description": "Android - 3.0.1 - Motorola Xoom - Mobile Safari 523.12",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
 	    "appname": "Netcsape",
 	    "appversion": "5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
@@ -3042,7 +3042,7 @@
 	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "Android 4.0.3 - Mobile Safari 534.30 - HTC Sensation",
+	    "description": "Android 4.0.3 - HTC Sensation - Mobile Safari 534.30",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "appname": "",
 	    "appversion": "5.0 (Linux; U; Android 4.0.3; en-us; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
@@ -3056,7 +3056,7 @@
 	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "Android 4.0.3 - Mobile Safari 534.30 - Samsung Galaxy S II",
+	    "description": "Android 4.0.3 - Samsung Galaxy S II - Mobile Safari 534.30",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
@@ -3098,7 +3098,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.1.1 Sony Xperia E",
+	    "description": "Android 4.1.1 - Sony Xperia E - Mobile Safari 534.30",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; SonyC1505 Build/11.3.A.0.47) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 4.1.1; en-us; SonyC1505 Build/11.3.A.0.47) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
@@ -3124,6 +3124,20 @@
 	    "accept_encoding":"gzip, deflate",
 	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
 	    "accept_lang":"en-US, en;q=0.9"
+	},
+	{
+	    "description": "Android 4.1.2 - Galaxy S2 - Chrome 32",
+	    "useragent": "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Linux; Android 4.1.2; GT-I9100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36",
+	    "platform": "Linux armv7l",
+	    "vendor":"Google Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US, en;q=0.8"
 	},
 	{
 	    "description": "Android 4.2 - Firefox 19.0",
@@ -3154,7 +3168,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.2 - Firefox 25.0 - Cyclone Voyager II Tablet",
+	    "description": "Android 4.2 - Cyclone Voyager II - Firefox 25.0",
 	    "useragent": "Mozilla/5.0 (Android; Tablet; rv:25.0) Gecko/25.0 Firefox/25.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
@@ -3168,7 +3182,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},	
 	{
-	    "description": "Android 4.2 - Firefox 26.0 - Cyclone Voyager II Tablet",
+	    "description": "Android 4.2 - Cyclone Voyager II - Firefox 26.0",
 	    "useragent": "Mozilla/5.0 (Android; Tablet; rv:26.0) Gecko/26.0 Firefox/26.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
@@ -3182,7 +3196,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.2.2 - Firefox 23.0 - Galaxy S4",
+	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 23.0",
 	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:23.0) Gecko/23.0 Firefox/23.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
@@ -3196,7 +3210,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.2.2 - Firefox 24.0 - Galaxy S4",
+	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 24.0",
 	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:24.0) Gecko/24.0 Firefox/24.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
@@ -3210,7 +3224,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.2.2 - Firefox 25.0 - Galaxy S4",
+	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 25.0",
 	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:25.0) Gecko/25.0 Firefox/25.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
@@ -3224,7 +3238,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.2.2 - Firefox 26.0 - Galaxy S4",
+	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 26.0",
 	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
@@ -3238,7 +3252,7 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
-	    "description": "Android 4.2.2 - Mobile Safari 535.19 - Galaxy S4",
+	    "description": "Android 4.2.2 - Galaxy S4 - Mobile Safari 535.19",
 	    "useragent": "Mozilla/5.0 (Linux; Android 4.2.2; en-us; SAMSUNG GT-I9505 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19 ",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; Android 4.2.2; en-us; SAMSUNG GT-I9505 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
@@ -3252,7 +3266,7 @@
 	    "accept_lang":"en-US"
 	},
 	{
-	    "description": "Android 4.3.1 - Safari 534.30 Galaxy S2",
+	    "description": "Android 4.3.1 - Galaxy S2 - Safari 534.30",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 4.3.1; en-gb; GT-I9100 Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 CyanogenMod/10.2/i9100",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Linux; U; Android 4.3.1; en-gb; GT-I9100 Build/JLS36I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 CyanogenMod/10.2/i9100",
@@ -3397,7 +3411,7 @@
 	    "accept_lang":"en-US, en;q=0.8"
 	},
 	{
-	    "description": "iOS 5_1_1 - iPad - Safari 534",
+	    "description": "iOS 5_1_1 - iPad - Safari 534.48.3",
 	    "useragent": "Mozilla/5.0 (iPad; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3",
 	    "appname": "Netscape",
 	    "appversion": "Mozilla/5.0 (iPad; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3",
@@ -3437,6 +3451,20 @@
 	    "accept_encoding":"gzip, deflate, sdch",
 	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US, en;q=0.8"
+	},
+	{
+	    "description": "iOS 7_0_4 - iPad - Safari 537.53",
+	    "useragent": "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/5.1 Mobile/11B554a Safari/9537.53",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/5.1 Mobile/11B554a Safari/9537.53",
+	    "platform": "iPad",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	},
 	{
 	    "description": "iOS 7_0_4 - iPhone - Chrome (crios) 31.0.1650.18",
