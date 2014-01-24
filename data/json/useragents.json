@@ -3483,7 +3483,7 @@
       ]
     }, 
     {
-      "description": "Windows Phone",
+      "description": "Windows Phone/Tablet",
       "useragents": [
 	{
 	    "description": "Windows CE - ZuneHD 4.3 - IEMobile 6.12",
@@ -3494,7 +3494,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows CE - MSIE 6 - IEMobile 7.11",
@@ -3505,7 +3508,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows CE 5.2 - Sprint (HTC Titan) - IEMobile 7.11",
@@ -3516,7 +3522,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows CE - MSIE 6 - IEMobile 8.12",
@@ -3527,7 +3536,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows Phone 7 - Asus Galaxy - IEMobile 7.0",
@@ -3538,7 +3550,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows Phone 7 - MSIE 7 - IEMobile 7.0",
@@ -3549,7 +3564,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows Phone 7.5 - IEMobile 9.0",
@@ -3560,7 +3578,10 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Windows Phone 8.0 - ARM - IEMobile 10.0",
@@ -3571,7 +3592,80 @@
 	    "vendor":"",
 	    "vendorsub":"",
 	    "buildID": "",
-	    "oscpu":""
+	    "oscpu":"",
+	    "accept_encoding":"",
+	    "accept_default":"",
+	    "accept_lang":""
+	},
+	{
+	    "description": "Sony Vaio Tablet (Win 8) - Chrome 32 ",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36",
+	    "platform": "Win32",
+	    "vendor":"Google Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate, sdch",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+	    "accept_lang":"en-US;q=0.8, en;q=0.6"
+	},
+	{
+	    "description": "Sony Vaio Tablet (Win 8) - IE 11 ",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0; rv:11.0) like Gecko",
+	    "appname": "Netscape",
+	    "appversion": "",
+	    "platform": "Win32",
+	    "vendor":"5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0; rv:11.0) like Gecko",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "Lenovo Touchscreen Convertible (Win 8) - IE 11 ",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0; rv:11.0) like Gecko",
+	    "appname": "Netscape",
+	    "appversion": "",
+	    "platform": "Win64",
+	    "vendor":"5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0; rv:11.0) like Gecko",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "Microsoft Surface Pro 2(Win 8) - IE 11 ",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0; rv:11.0) like Gecko",
+	    "appname": "Netscape",
+	    "appversion": "",
+	    "platform": "Win64",
+	    "vendor":"5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0; rv:11.0) like Gecko",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "Microsoft Surface Tablet(Win 8) - IE 10 ",
+	    "useragent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0)",
+	    "appname": "Netscape",
+	    "appversion": "",
+	    "platform": "Win32",
+	    "vendor":"5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0)",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
 	}
       ]
     },
