@@ -3493,6 +3493,20 @@
 	    "accept_encoding":"gzip, deflate, sdch",
 	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US, en;q=0.8"
+	},
+	{
+	    "description": "iOS 7_0_4 - iPhone - Safari 537.53",
+	    "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53",
+	    "platform": "iPhone",
+	    "vendor":"Apple Computer, Inc.",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-us"
 	}
       ]
     }, 
