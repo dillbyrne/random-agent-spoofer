@@ -1,7 +1,7 @@
 # Random Agent Spoofer #
 
 
-RAS is a firefox addon which allows the use of various user agents, which it can
+RAS is a firefox addon which allows the use of various browser profiles, which it can
 automatically switch to at random after a chosen period of time has expired.
 
 It also supports other privacy enhancing options
@@ -63,17 +63,7 @@ Licence : https://www.gnu.org/licenses/lgpl-2.1.html
 
 # Note #
 
-Note although this app sets appname and other attributes. Mozilla has removed
-the ability from ff25. 
-
-According to a response from the Mozilla forums
-
-This is scheduled to be fixed in Firefox 28, per Bug #939445 –
-"general.appname.override" pref is ignored (Firefox 25 regression). It's not yet
-clear whether the change will be escalated into Firefox 26, but you can vote for
-the bug to try to increase the urgency.
-
-Mozilla have removed support for appvendor too. So while this addon supports it.
-It will not show changed in versions greater than firefox 24.
+Mozilla has removed support for vendor information in the browser. So while this addon supports it.
+It will not show as changed in versions greater than firefox 24.
 
 Please file any bug reports here on github
