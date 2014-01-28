@@ -4107,9 +4107,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"identity",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-	    "accept_lang":"en-us, en;q=0.5"
+	    "accept_encoding":"",
+	    "accept_default":"*/*;q=0.1",
+	    "accept_lang":""
 	},
 	{
 	    "description": "Wii 1.6.2.1",
