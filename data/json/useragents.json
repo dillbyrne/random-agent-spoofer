@@ -3511,7 +3511,7 @@
       ]
     }, 
     {
-      "description": "Windows Phone/Tablet",
+      "description": "Windows Phone / Tablet",
       "useragents": [
 	{
 	    "description": "WP8 - HTC 8X - IE 10",
@@ -3532,6 +3532,34 @@
 	    "useragent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00)",
 	    "appname": "Microsoft Internet Explorer",
 	    "appversion": "5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00)",
+	    "platform": "Win32",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "WP8 - Nokia Lumia 520 - IE 10",
+	    "useragent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)",
+	    "appname": "Microsoft Internet Explorer",
+	    "appversion": "5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520",
+	    "platform": "Win32",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/html,application/xhtml+xml,*/*",
+	    "accept_lang":"en-US"
+	},
+	{
+	    "description": "WP8 - Nokia Lumia 520 (desktop mode) - IE 10",
+	    "useragent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop)",
+	    "appname": "Microsoft Internet Explorer",
+	    "appversion": "5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop)",
 	    "platform": "Win32",
 	    "vendor":"",
 	    "vendorsub":"",
