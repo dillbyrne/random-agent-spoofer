@@ -1,60 +1,49 @@
 document.body.addEventListener("change", function(e) {
   
   if( e.target.id == "notify"){
-    var notifycb = document.getElementById("notify").checked;
-    self.port.emit("notifycb",notifycb);
+    self.port.emit("notifycb",document.getElementById("notify").checked);
   }
   else if( e.target.id == "fonts"){
-    var fontscb = document.getElementById("fonts").checked;
-    self.port.emit("fontscb",fontscb);
+    self.port.emit("fontscb",document.getElementById("fonts").checked);
   }
   else if( e.target.id == "dom"){
-    var domcb = document.getElementById("dom").checked;
-    self.port.emit("domcb",domcb);
+    self.port.emit("domcb",document.getElementById("dom").checked);
   }
   else if( e.target.id == "history"){
-    var historycb = document.getElementById("history").checked;
-    self.port.emit("historycb",historycb);
+    self.port.emit("historycb",document.getElementById("history").checked);
   }
   else if( e.target.id == "cache"){
-    var cachecb = document.getElementById("cache").checked;
-    self.port.emit("cachecb",cachecb);
+    self.port.emit("cachecb",document.getElementById("cache").checked);
   }
   else if( e.target.id == "geo"){
-    var geocb = document.getElementById("geo").checked;
-    self.port.emit("geocb",geocb);
+    self.port.emit("geocb",document.getElementById("geo").checked);
   }
   else if( e.target.id == "xff"){
-    var xffcb = document.getElementById("xff").checked;
-    self.port.emit("xffcb",xffcb);
+    self.port.emit("xffcb",document.getElementById("xff").checked);
   }
   else if( e.target.id == "via"){
-    var viacb = document.getElementById("via").checked;
-    self.port.emit("viacb",viacb);
+    self.port.emit("viacb",document.getElementById("via").checked);
   }
   else if( e.target.id == "ifnone"){
-    var ifnonecb = document.getElementById("ifnone").checked;
-    self.port.emit("ifnonecb",ifnonecb);
+    self.port.emit("ifnonecb",document.getElementById("ifnone").checked);
   }
   else if( e.target.id == "dns"){
-    var dnscb = document.getElementById("dns").checked;
-    self.port.emit("dnscb",dnscb);
+    self.port.emit("dnscb",document.getElementById("dns").checked);
   }
   else if( e.target.id == "link"){
-    var linkcb = document.getElementById("link").checked;
-    self.port.emit("linkcb",linkcb);
+    self.port.emit("linkcb",document.getElementById("link").checked);
   }
   else if( e.target.id == "acceptd"){
-    var acceptdcb  = document.getElementById("acceptd").checked;
-    self.port.emit("acceptdcb",acceptdcb);
+    self.port.emit("acceptdcb",document.getElementById("acceptd").checked);
   }
   else if( e.target.id == "accepte"){
-    var acceptecb  = document.getElementById("accepte").checked;
-    self.port.emit("acceptecb",acceptecb);
+    self.port.emit("acceptecb",document.getElementById("accepte").checked);
   }
   else if( e.target.id == "acceptl"){
-    var acceptlcb  = document.getElementById("acceptl").checked;
-    self.port.emit("acceptlcb",acceptlcb);
+    self.port.emit("acceptlcb",document.getElementById("acceptl").checked);
+  }
+  else if( e.target.id == "spoof"){
+    self.port.emit("spoofcb",document.getElementById("spoof").checked);
   }
   else{
     
