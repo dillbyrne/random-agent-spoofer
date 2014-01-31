@@ -49,7 +49,7 @@ self.port.once('tab_listener',function(){
 
 self.port.once('ua_list', function(data) {
    
-    //create the list of user agents
+    //create the list of browser profiles
     
     var ualist_div  = document.getElementById('ualist');  
     
