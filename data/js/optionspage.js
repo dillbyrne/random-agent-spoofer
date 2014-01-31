@@ -1,50 +1,9 @@
 document.body.addEventListener("change", function(e) {
-  
-  if( e.target.id == "notify"){
-    self.port.emit("notifycb",document.getElementById("notify").checked);
-  }
-  else if( e.target.id == "fonts"){
-    self.port.emit("fontscb",document.getElementById("fonts").checked);
-  }
-  else if( e.target.id == "dom"){
-    self.port.emit("domcb",document.getElementById("dom").checked);
-  }
-  else if( e.target.id == "history"){
-    self.port.emit("historycb",document.getElementById("history").checked);
-  }
-  else if( e.target.id == "cache"){
-    self.port.emit("cachecb",document.getElementById("cache").checked);
-  }
-  else if( e.target.id == "geo"){
-    self.port.emit("geocb",document.getElementById("geo").checked);
-  }
-  else if( e.target.id == "xff"){
-    self.port.emit("xffcb",document.getElementById("xff").checked);
-  }
-  else if( e.target.id == "via"){
-    self.port.emit("viacb",document.getElementById("via").checked);
-  }
-  else if( e.target.id == "ifnone"){
-    self.port.emit("ifnonecb",document.getElementById("ifnone").checked);
-  }
-  else if( e.target.id == "dns"){
-    self.port.emit("dnscb",document.getElementById("dns").checked);
-  }
-  else if( e.target.id == "link"){
-    self.port.emit("linkcb",document.getElementById("link").checked);
-  }
-  else if( e.target.id == "acceptd"){
-    self.port.emit("acceptdcb",document.getElementById("acceptd").checked);
-  }
-  else if( e.target.id == "accepte"){
-    self.port.emit("acceptecb",document.getElementById("accepte").checked);
-  }
-  else if( e.target.id == "acceptl"){
-    self.port.emit("acceptlcb",document.getElementById("acceptl").checked);
-  }
-  else if( e.target.id == "spoof"){
-    self.port.emit("spoofcb",document.getElementById("spoof").checked);
-  }
+ 
+  //get seleceted checkbox
+  if (e.target.type == "checkbox"){
+    self.port.emit(e.target.id+"cb",document.getElementById(e.target.id).checked);
+  }  
   else{
     
     //get timer and selected ua option
