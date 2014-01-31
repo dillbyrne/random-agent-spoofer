@@ -1,6 +1,6 @@
 document.body.addEventListener("change", function(e) {
  
-  //get seleceted checkbox
+  //get selected checkbox
   if (e.target.type == "checkbox"){
     self.port.emit(e.target.id+"cb",document.getElementById(e.target.id).checked);
   }  
