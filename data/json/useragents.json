@@ -1237,9 +1237,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en,ja;q=0.97,fr;q=0.94,de;q=0.90,es;q=0.87,it;q=0.84,pt;q=0.81,pt-pt;q=0.77,nl;q=0.74,sv;q=0.71,nb;q=0.68,da;q=0.65,fi;q=0.61,ru;q=0.58,pl;q=0.55,zh-hans;q=0.52,zh-hant;q=0.48,ko;q=0.45,ar;q=0.42,cs;q=0.39,hu;q=0.35,tr;q=0.32,th;q=0.29,ca;q=0.26,hr;q=0.23,el;q=0.19,he;q=0.16,ro;q=0.13,sk;q=0.10,uk;q=0.06"
 	},
 	{
 	    "description": "Omniweb 622.8.0 (OS X 10_5_6 Intel)",
@@ -1251,9 +1251,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"",
-	    "accept_default":"",
-	    "accept_lang":""
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+	    "accept_lang":"en,ja;q=0.97,fr;q=0.94,de;q=0.90,es;q=0.87,it;q=0.84,pt;q=0.81,pt-pt;q=0.77,nl;q=0.74,sv;q=0.71,nb;q=0.68,da;q=0.65,fi;q=0.61,ru;q=0.58,pl;q=0.55,zh-hans;q=0.52,zh-hant;q=0.48,ko;q=0.45,ar;q=0.42,cs;q=0.39,hu;q=0.35,tr;q=0.32,th;q=0.29,ca;q=0.26,hr;q=0.23,el;q=0.19,he;q=0.16,ro;q=0.13,sk;q=0.10,uk;q=0.06"
 	},
 	{
 	    "description": "Opera 9.20 (OS X Intel)",
