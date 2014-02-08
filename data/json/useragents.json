@@ -4289,9 +4289,9 @@
 	    "vendorsub":"",
 	    "buildID": "",
 	    "oscpu":"",
-	    "accept_encoding":"identity",
-	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-	    "accept_lang":"en-us, en;q=0.5"
+	    "accept_encoding":"gzip,deflate",
+	    "accept_default":"text/xhtml,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US"
 	},
 	{
 	    "description": "PSP (2.00)",
