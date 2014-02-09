@@ -16,6 +16,8 @@
 
       <div id="ua_tab_content" class=tabContent>
 	<div align ="center"><b>Choose A Browser Profile</b></div><br>
+	<input type="radio" name="ua" id="default" value="default">
+	<label for="default"> Default</label>
 	<input type="radio" name="ua" id="random" value="random">
 	<label for="random"> Random (All)</label>
 	<input type="radio" name="ua" id="random_desktop" value="random_desktop">
@@ -79,7 +81,8 @@
 
       <input type="checkbox" id="via"/>
       <label for="via">Send spoofed 'Via' headers</label><br>
-      
+      <hr>
+      Accept headers match the selected browser profile<br>
       <input type="checkbox" id="acceptd"/>
       <label for="acceptd">Spoof accepted documents</label><br>
 
