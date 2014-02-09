@@ -33,6 +33,7 @@ self.port.on("restore-options",function(options){
   document.getElementById('acceptl').checked = options[15];
   document.getElementById('spoof').checked = options[16];
   
+  
 });
 
 self.port.once('tab_listener',function(){
