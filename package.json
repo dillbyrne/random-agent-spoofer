@@ -2,11 +2,11 @@
   "name": "random-agent-spoofer",
   "title": "Random Agent Spoofer",
   "id": "jid1-AVgCeF1zoVzMjA",
-  "description": "Allows the use of various user agents, which it can automatically switch to at random after a chosen period of time has expired",
+  "description": "Allows the use of various browser profiles (including useragent ,platform, oscpu, accept headers and other options), which it can randomly switch between after a chosen period of time has expired",
   "author": "dbyrne",
   "license": "GNU GPL v3",
   "permissions": {"private-browsing": true},
   "icon":"data/images/icon.png",
   "icon64":"data/images/icon64.png",
-  "version": "0.6"
+  "version": "0.7"
 }
