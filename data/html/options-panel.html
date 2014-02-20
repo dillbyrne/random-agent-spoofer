@@ -1,99 +1,99 @@
 <html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" type="text/css" media="all" href="../css/style.css"/>
+        <script src="optionspage.js" type="text/javascript"></script>
+    </head>
 
-  <head>
-     <meta charset="utf-8"> 
-     <link rel="stylesheet" type="text/css" media="all" href="../css/style.css"/>
-     <script src="optionspage.js" type="text/javascript"></script>
-  </head>
+    <body>
 
-  <body>
+        <ul id="tabs">
+            <li><span id="ua_tab" class="selected">Profile</span></li>
+            <li><span id="headers_tab" class="nonselected">Headers</span></li>
+            <li><span id="extras_tab" class="nonselected">Extras</span></li>
+        </ul>
 
-    <ul id="tabs">
-      <li><span id="ua_tab" class="selected">Profile</span></li>
-      <li><span id="headers_tab" class="nonselected">Headers</span></li>
-      <li><span id="extras_tab" class="nonselected">Extras</span></li>
-    </ul>
-
-      <div id="ua_tab_content" class=tabContent>
-	<div align ="center"><b>Choose A Browser Profile</b></div><br>
-	<input type="radio" name="ua" id="default" value="default">
-	<label for="default"> Default</label>
-	<input type="radio" name="ua" id="random" value="random">
-	<label for="random"> Random (All)</label>
-	<input type="radio" name="ua" id="random_desktop" value="random_desktop">
-	<label for="random_desktop"> Random (Desktop only)</label><br>
+        <div id="ua_tab_content" class=tabContent>
+            <div align ="center"><b>Choose A Browser Profile</b></div><br>
+            <input type="radio" name="ua" id="default" value="default">
+	        <label for="default"> Default</label>
+	        <input type="radio" name="ua" id="random" value="random">
+	        <label for="random"> Random (All)</label>
+	        <input type="radio" name="ua" id="random_desktop" value="random_desktop">
+	        <label for="random_desktop"> Random (Desktop only)</label><br>
 	
-	Change random profile on time interval:
+	        Change random profile on time interval:
 
-	<select id="timerdd">
-	  <option value="none">No Timer</option>
-	  <option value="random">Random</option>
-	  <option value="1">1 Min</option>
-	  <option value="5">5 Mins</option>
-	  <option value="10">10 Mins</option>
-	  <option value="20">20 Mins</option>
-	  <option value="30">30 Mins</option>
-	  <option value="40">40 Mins</option>
-	  <option value="50">50 Mins</option>
-	  <option value="60">60 Mins</option>
-	</select><br> 
+	        <select id="timerdd">
+                <option value="none">No Timer</option>
+	            <option value="request">Per Request</option>
+	            <option value="random">Random</option>
+	            <option value="1">1 Min</option>
+	            <option value="5">5 Mins</option>
+	            <option value="10">10 Mins</option>
+	            <option value="20">20 Mins</option>
+	            <option value="30">30 Mins</option>
+	            <option value="40">40 Mins</option>
+	            <option value="50">50 Mins</option>
+	            <option value="60">60 Mins</option>
+	        </select><br> 
 
-	<input type="checkbox" id="notify"/><label for="notify">Show notifications</label>
-	<input type="checkbox" id="spoof"/><label for="spoof">Enable spoofing</label>
-	<hr>
+	        <input type="checkbox" id="notify"/><label for="notify">Show notifications</label>
+	        <input type="checkbox" id="spoof"/><label for="spoof">Enable spoofing</label>
+	        <hr>
 
-	<div id ="ualist"></div>
-      </div>
 
-    <div id="extras_tab_content" class="hidden">
-      <div align ="center"><b>Extra Privacy Options</b></div><br>
+            <div id ="ualist"></div>
+        </div>
 
-      <input type="checkbox" id="fonts"/>
-      <label for="fonts">Use standard font set</label><br>
+        <div id="extras_tab_content" class="hidden">
+            <div align ="center"><b>Extra Privacy Options</b></div><br>
 
-      <input type="checkbox"id="dom"/>
-      <label for="dom">Disable local dom storage</label><br>
+            <input type="checkbox" id="fonts"/>
+            <label for="fonts">Use standard font set</label><br>
+
+            <input type="checkbox"id="dom"/>
+            <label for="dom">Disable local dom storage</label><br>
       
-      <input type="checkbox" id="history"/>
-      <label for="history">Limit tab history to 2</label><br>
+            <input type="checkbox" id="history"/>
+            <label for="history">Limit tab history to 2</label><br>
       
-      <input type="checkbox" id="cache"/>
-      <label for="cache">Disable browser cache</label><br>
+            <input type="checkbox" id="cache"/>
+            <label for="cache">Disable browser cache</label><br>
    
-      <input type="checkbox" id="geo"/>
-      <label for="geo">Disable geolocation</label><br>
+            <input type="checkbox" id="geo"/>
+            <label for="geo">Disable geolocation</label><br>
 
-      <input type="checkbox" id="link"/>
-      <label for="link">Disable link prefetching</label><br>
+            <input type="checkbox" id="link"/>
+            <label for="link">Disable link prefetching</label><br>
 
-      <input type="checkbox" id="dns"/>
-      <label for="dns">Disable dns prefetching</label><br>
-    </div>
+            <input type="checkbox" id="dns"/>
+            <label for="dns">Disable dns prefetching</label><br>
+        </div>
 
-    <div id="headers_tab_content" class="hidden">
-      <div align ="center"><b>Header Spoofing Options</b></div><br>
+        <div id="headers_tab_content" class="hidden">
+            <div align ="center"><b>Header Spoofing Options</b></div><br>
 
-      <input type="checkbox" id="ifnone"/>
-      <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br>
+            <input type="checkbox" id="ifnone"/>
+            <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br>
 
-      <input type="checkbox" id="xff"/>
-      <label for="xff">Send spoofed 'X-Forwarded-For' headers</label><br>
+            <input type="checkbox" id="xff"/>
+            <label for="xff">Send spoofed 'X-Forwarded-For' headers</label><br>
 
-      <input type="checkbox" id="via"/>
-      <label for="via">Send spoofed 'Via' headers</label><br>
-      <hr>
-      Accept headers match the selected browser profile<br>
-      <input type="checkbox" id="acceptd"/>
-      <label for="acceptd">Spoof accepted documents</label><br>
+            <input type="checkbox" id="via"/>
+            <label for="via">Send spoofed 'Via' headers</label><br>
+            <hr>
+            
+            Accept headers match the selected browser profile<br>
+            <input type="checkbox" id="acceptd"/>
+            <label for="acceptd">Spoof accepted documents</label><br>
 
-      <input type="checkbox" id="accepte"/>
-      <label for="accepte">Spoof accepted encoding</label><br>
+            <input type="checkbox" id="accepte"/>
+            <label for="accepte">Spoof accepted encoding</label><br>
 
-      <input type="checkbox" id="acceptl"/>
-      <label for="acceptl">Spoof accepted language (US English)</label><br>
+            <input type="checkbox" id="acceptl"/>
+            <label for="acceptl">Spoof accepted language (US English)</label><br>
 
-
-    </div>
-  </body>
-
+        </div>
+    </body>
 </html>
