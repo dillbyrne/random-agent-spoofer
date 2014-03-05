@@ -1,16 +1,16 @@
 body {
-  font-size: 12px;
+	font-size: 12px;
 }   
 
 hr{ 
-  border-bottom:0px;
-  border-left:0px;
-  border-right:0px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
 }   
 
 input,
 label{
- cursor:pointer;
+	cursor:pointer;
 }
 
 input{
@@ -18,61 +18,60 @@ input{
 }
 
 ul{ 
-  list-style-type:none;
-  padding:0px;
-  margin:0px;
-  cursor: pointer;
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	cursor: pointer;
 }   
 
 .parentli:hover {
-  font-size:13px;
+	font-size:13px;
 }   
 
 ul .innerlist{
-  padding:5px;
-  display: none;
-  background-color:rgba(0,0,0,0.050);
-  border: 1px solid;
-  border-radius: 8px 8px 8px 8px;
+	padding:5px;
+	display: none;
+	background-color:rgba(0,0,0,0.050);
+	border: 1px solid;
+	border-radius: 8px 8px 8px 8px;
 }   
 
 ul#tabs { 
-  list-style-type: none; 
-  padding: 0 0 0.3em 0; 
+	list-style-type: none; 
+	padding: 0 0 0.3em 0; 
 }
 
 ul#tabs li { 
-  display: inline; 
+	display: inline; 
 }
 
 ul#tabs li span.nonselected { 
-  border: 1px solid ;
-  border-radius: 8px 8px 0px 0px;
-  padding: 0.3em; 
-  text-decoration: none; }
+	border: 1px solid ;
+	border-radius: 8px 8px 0px 0px;
+	padding: 0.3em; 
+	text-decoration: none; }
 
 ul#tabs li span:hover { 
-  background-color:rgba(0,0,0,0.050);
+	background-color:rgba(0,0,0,0.050);
 }
 
-
 ul#tabs li span.selected { 
-  border: 1px solid ; 
-  border-bottom: none;
-  border-radius: 8px 8px 0px 0px;
-  font-weight: bold; 
-  padding: 0.5em 0.3em 0.38em 0.3em; 
+	border: 1px solid ; 
+	border-bottom: none;
+	border-radius: 8px 8px 0px 0px;
+	font-weight: bold; 
+	padding: 0.5em 0.3em 0.38em 0.3em; 
 }
 
 div.tabContent { 
-  border: 1px solid ;
-  border-top: none;
-  border-radius: 0px 0px 8px 8px;
-  padding: 0.5em; 
+	border: 1px solid ;
+	border-top: none;
+	border-radius: 0px 0px 8px 8px;
+	padding: 0.5em; 
 }
 
 .hidden{
-  display:none;
+	display:none;
 }
 
 
