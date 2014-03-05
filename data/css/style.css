@@ -13,6 +13,10 @@ label{
  cursor:pointer;
 }
 
+input{
+	width:130px;
+}
+
 ul{ 
   list-style-type:none;
   padding:0px;
@@ -70,3 +74,22 @@ div.tabContent {
 .hidden{
   display:none;
 }
+
+
+input.validInput{
+	border: solid 2px #33FF00;
+	border-radius: 4px;
+	-moz-transition: .3s ease-in-out;
+}
+
+input.invalidInput{
+	border: solid 2px #CC0000;
+	border-radius:4px;
+	-moz-transition: .3s ease-in-out;
+}
+
+select.ipdropdown{
+	float:right;
+	clear:both;
+}
+
