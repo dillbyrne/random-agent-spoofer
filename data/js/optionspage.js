@@ -151,10 +151,15 @@ function validateIP(ipaddress){
 				//check if ip segment is a number and not a hex number or a
 				//space or an exponent
 				if( (!isNaN(ip_segments[i])) && ip_segments[i].indexOf('x') == -1 && ip_segments[i].length > 0
-						&& ip_segments[i].indexOf(' ') == -1 && ip_segments[i].indexOf('e') == -1 ){
+						&& ip_segments[i].length <= 3 && ip_segments[i].indexOf(' ') == -1 && ip_segments[i].indexOf('e') == -1 ){
 					
 					//check the range of the segment is valid
 					if(ip_segments[i] >=0 && ip_segments[i] <= 255 ){
+						
+						//check for 000 , 010 etc
+						if ((ip_segments[i].substring(0,1) == "0" && ip_segments[i] != 0) || ip_segments[i] == "00" || ip_segments[i] == "000")
+							throw("InvalidNumberIpSegmentException");
+
 						valid_segments++;
 					}else{
 						throw("NumberOutOfRangeIpSegmentException");
