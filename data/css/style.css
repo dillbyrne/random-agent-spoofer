@@ -18,6 +18,11 @@ label{
 	width:130px;
 }
 
+.iplabel{
+	display:inline-block;
+	width:50px;
+}
+
 ul{ 
 	list-style-type:none;
 	padding:0px;
