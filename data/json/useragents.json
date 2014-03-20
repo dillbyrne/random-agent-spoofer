@@ -494,6 +494,20 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
+	    "description": "Firefox 28.0 (Win 8 32)",
+	    "useragent": "Mozilla/5.0 (Windows NT 6.2; rv:28.0) Gecko/20100101 Firefox/28.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Windows)",
+	    "platform": "Win32",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Windows NT 6.2; Win32",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
 	    "description": "Konqueror 4.10.2 (Win 7 - KDE native)",
 	    "useragent": "Mozilla/5.0 (Windows; Windows i686) KHTML/4.10.2 (like Gecko) Konqueror/4.10",
 	    "appname": "Netscape",
@@ -1256,6 +1270,20 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
+	    "description": "Firefox 28.0 (OS X 10.9 Intel)",
+	    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Macintosh)",
+	    "platform": "MacIntel",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Intel Mac OS X 10.9",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
 	    "description": "Omniweb 622.8.0 (OS X Intel)",
 	    "useragent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/528.16 (KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0.112941",
 	    "appname": "Netscape",
@@ -1757,6 +1785,20 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
+	    "description": "Firefox 28.0 (Linux 64 bit)",
+	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11)",
+	    "platform": "Linux x86_64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
 	    "description": "Galeon 2.0.6 (Ubuntu)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko Galeon/2.0.6 (Ubuntu 2.0.6-2)",
 	    "appname": "Netscape",
@@ -1885,6 +1927,20 @@
 	{
 	    "description": "Iceweasel (Firefox) 27.0 (Debian 64)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:27.0) Gecko/20100101 Firefox/27.0 Iceweasel/27.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11)",
+	    "platform": "Linux x86_64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux x86_64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
+	    "description": "Iceweasel (Firefox) 28.0 (Debian 64)",
+	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0 Iceweasel/28.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
 	    "platform": "Linux x86_64",
@@ -2743,6 +2799,20 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
+	    "description": "Firefox 28.0 (FreeBSD 64)",
+	    "useragent": "Mozilla/5.0 (X11; FreeBSD amd64; rv:28.0) Gecko/20100101 Firefox/28.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (X11)",
+	    "platform": "FreeBSD amd64",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"FreeBSD amd64",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
 	    "description": "Konqueror 4.1 - khtml (DragonFly)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)",
 	    "appname": "Netscape",
@@ -3280,6 +3350,20 @@
 	    "accept_lang":"en-US,en;q=0.5"
 	},
 	{
+	    "description": "Android 4.2 - Cyclone Voyager II - Firefox 28.0",
+	    "useragent": "Mozilla/5.0 (Android; Tablet; rv:28.0) Gecko/28.0 Firefox/28.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Android)",
+	    "platform": "Linux armv7l",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
 	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 23.0",
 	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:23.0) Gecko/23.0 Firefox/23.0",
 	    "appname": "Netscape",
@@ -3338,6 +3422,20 @@
 	{
 	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 27.0",
 	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:27.0) Gecko/27.0 Firefox/27.0",
+	    "appname": "Netscape",
+	    "appversion": "5.0 (Android)",
+	    "platform": "Linux armv7l",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"Linux armv7l",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	    "accept_lang":"en-US,en;q=0.5"
+	},
+	{
+	    "description": "Android 4.2.2 - Galaxy S4 - Firefox 28.0",
+	    "useragent": "Mozilla/5.0 (Android; Mobile; rv:28.0) Gecko/28.0 Firefox/28.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Android)",
 	    "platform": "Linux armv7l",
