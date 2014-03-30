@@ -3084,6 +3084,34 @@
     "description": "Android",
     "useragents": [
 	{
+	    "description": "Android - Opera Mini 7.5.33361/34.817",
+	    "useragent": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.817; U; en) Presto/2.8.119 Version/11.1010.119",
+	    "appname": "Opera",
+	    "appversion": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.817; U; en) Presto/2.8.119 Version/11.1010.119",
+	    "platform": "Pike v7.8 release 517",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
+	    "accept_lang":"en-US, en;q=0.9"
+	},
+	{
+	    "description": "Android - Opera Mini 7.5.35199/34.1624",
+	    "useragent": "Opera/9.80 (Android; Opera Mini/7.5.35199/34.1624; U; en) Presto/2.8.119 Version/11.10",
+	    "appname": "Opera",
+	    "appversion": "Opera/9.80 (Android; Opera Mini/7.5.35199/34.1624; U; en) Presto/2.8.119 Version/11.10",
+	    "platform": "Pike v7.8 release 517",
+	    "vendor":"",
+	    "vendorsub":"",
+	    "buildID": "",
+	    "oscpu":"",
+	    "accept_encoding":"gzip, deflate",
+	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/jpeg,image/gif,image/x-bitmap,*/*;q=0.1",
+	    "accept_lang":"en-US, en;q=0.9"
+	},
+	{
 	    "description": "Android 0.5 - Mobile Safari 419",
 	    "useragent": "Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522  (KHTML, like Gecko) Safari/419.3",
 	    "appname": "Netscape",
@@ -3208,20 +3236,6 @@
 	    "accept_encoding":"gzip",
 	    "accept_default":"application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
 	    "accept_lang":"en-US"
-	},
-	{
-	    "description": "Android 2.3.7 - HTC Hero CM7 - Opera 11",
-	    "useragent": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.817; U; en) Presto/2.8.119 Version/11.1010.119",
-	    "appname": "Opera",
-	    "appversion": "Opera/9.80 (Android; Opera Mini/7.5.33361/34.817; U; en) Presto/2.8.119 Version/11.1010.119",
-	    "platform": "Pike v7.8 release 517",
-	    "vendor":"",
-	    "vendorsub":"",
-	    "buildID": "",
-	    "oscpu":"",
-	    "accept_encoding":"gzip, deflate",
-	    "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
-	    "accept_lang":"en-US, en;q=0.9"
 	},
 	{
 	    "description": "Android 2.3.7 - HTC Hero CM7 - Lightning",
@@ -3389,7 +3403,7 @@
 	    "oscpu":"",
 	    "accept_encoding":"gzip, deflate, sdch",
 	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-	    "accept_lang":"en-US, en;q=0.8"
+	    "accept_lang":"en-US;q=0.8, en;q=0.6"
 	},
 	{
 	    "description": "Android 4.2 - Firefox 19.0",
@@ -3801,7 +3815,7 @@
 	    "accept_encoding":"gzip, deflate",
 	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-us"
-	}
+	},
 	{
 	    "description": "iOS 7_1 - iPhone - Safari 537.53",
 	    "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53",
