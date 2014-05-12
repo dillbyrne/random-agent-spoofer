@@ -1350,7 +1350,8 @@
 	    "accept_encoding":"gzip, deflate",
 	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US,en;q=0.5"
-	},	{
+	},	
+	{
 	    "description": "Firefox 29.0 (OS X 10.9 Intel)",
 	    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:29.0) Gecko/20100101 Firefox/29.0",
 	    "appname": "Netscape",
@@ -1363,7 +1364,8 @@
 	    "accept_encoding":"gzip, deflate",
 	    "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 	    "accept_lang":"en-US,en;q=0.5"
-	},	{
+	},	
+	{
 	    "description": "Firefox 30.0 (OS X 10.9 Intel)",
 	    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0",
 	    "appname": "Netscape",
