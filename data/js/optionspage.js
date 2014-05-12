@@ -18,6 +18,9 @@ document.body.addEventListener("change", function(e) {
 		}
 
 		self.port.emit("ipdd",e.target.id,ipchoice);
+	} 
+	else if(e.target.id == "tzdd"){ //timezone
+		self.port.emit("tzdd",e.target[e.target.selectedIndex].value);
 	}
 	else if (e.target.id == "timerdd" || e.target.name == "ua") {
     
