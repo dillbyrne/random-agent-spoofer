@@ -98,3 +98,8 @@ select.ipdropdown{
 	clear:both;
 }
 
+.excludecb,
+.excludeSpan{
+	float:right;
+}
+

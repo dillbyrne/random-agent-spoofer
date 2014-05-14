@@ -1,9 +1,12 @@
 document.body.addEventListener("change", function(e) {
  
 	//get selected checkbox
-	if (e.target.type == "checkbox"){
+	if (e.target.type == "checkbox" && e.target.className != "excludecb"){
 		self.port.emit(e.target.id+"cb",document.getElementById(e.target.id).checked);
-	}  
+	} 
+	else if(e.target.className == "excludecb"){
+		self.port.emit("excludecb",e.target.id,e.target.value,document.getElementById(e.target.id).checked);
+	}
 	else if(e.target.className == "ipdropdown"){
 		
 		//get the spoofed ip choice
@@ -102,14 +105,17 @@ function toggleList(innerListElementId) {
 	//get the span of the parent li 
 	//it's index is the same as it's child list, so we can get it from that
 	var text = document.getElementById("li_text"+ innerListElementId.replace( /^\D+/g, '')); 
+	var excludeText = document.getElementById("li_exclude_text"+ innerListElementId.replace( /^\D+/g, '')); 
 
 	//toggle the child list and parents assiociated indicator
 	if (innerlistElement.style.display == "none"){
 		innerlistElement.style.display = "block";
 		text.innerHTML = " -";
+		excludeText.className = "excludeSpan";
 	}else{
 		innerlistElement.style.display = "none";
 		text.innerHTML = " +";
+		excludeText.className ="hidden";
 	}
 }
 
