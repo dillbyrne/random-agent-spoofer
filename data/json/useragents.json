@@ -1687,7 +1687,7 @@
 
 	},
 	{
-	    "description": "SeaMonkey 2.7.1 (OS X 10.5 - Mozilla)",
+	    "description": "SeaMonkey 2.7.1 (OS X 10.5 - Intel)",
 	    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (Macintosh)",
@@ -1707,7 +1707,7 @@
       "description":"Linux Browsers",
       "useragents": [
 	{
-	    "description": "Arora 0.11.1 - WebKit",
+	    "description": "Arora 0.11.1 - WebKit (Linux)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; U; Linux; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.1",
@@ -1722,7 +1722,7 @@
 	    "profileID":"ac2"
 	},
 	{
-	    "description": "Chrome 19.0.1084.9 (64 bit)",
+	    "description": "Chrome 19.0.1084.9 (Linux 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5",
@@ -1737,7 +1737,7 @@
 	    "profileID":"ac3"
 	},
 	{
-	    "description": "Chrome 20.0.1132.57 (CrOS)",
+	    "description": "Chrome 20.0.1132.57 (CrOS)(Linux)",
 	    "useragent": "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
@@ -1752,7 +1752,7 @@
 	    "profileID":"ac4"
 	},
 	{
-	    "description": "Chrome 22.0.1229.56 (64 bit)",
+	    "description": "Chrome 22.0.1229.56 (linux 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML like Gecko) Chrome/22.0.1229.56 Safari/537.4",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML like Gecko) Chrome/22.0.1229.56 Safari/537.4",
@@ -1767,7 +1767,7 @@
 	    "profileID":"ac5"
 	},
 	{
-	    "description": "Chrome 28.0.1478.0 (32 bit)",
+	    "description": "Chrome 28.0.1478.0 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1478.0 Safari/537.36",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1478.0 Safari/537.36",
@@ -1782,7 +1782,7 @@
 	    "profileID":"ac6"
 	},
 	{
-	    "description": "Chrome 33.0.1750.117 (32 bit)",
+	    "description": "Chrome 33.0.1750.117 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36",
@@ -1842,7 +1842,7 @@
 	    "profileID":"adb"
 	},
 	{
-	    "description": "Dillo 3.0",
+	    "description": "Dillo 3.0 (Linux)",
 	    "useragent": "Mozilla/4.0 (compatible; Dillo 3.0)",
 	    "appname": "",
 	    "appversion": "",
@@ -1872,7 +1872,7 @@
 	    "profileID":"ade"
 	},
 	{
-	    "description": "Firefox 11.0 (32 bit)",
+	    "description": "Firefox 11.0 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120421 Gecko Firefox/11.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -1887,7 +1887,7 @@
 	    "profileID":"adf"
 	},
 	{
-	    "description": "Firefox 12.0 (32 bit)",
+	    "description": "Firefox 12.0 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:12.0) Gecko/20100101 Firefox/12.0 ",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -1917,7 +1917,7 @@
 	    "profileID":"adh"
 	},
 	{
-	    "description": "Firefox 16.0 (32 bit)",
+	    "description": "Firefox 16.0 Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:16.0) Gecko/20100101 Firefox/16.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -1962,7 +1962,7 @@
 	    "profileID":"adk"
 	},
 	{
-	    "description": "Firefox 20.0 (32 bit)",
+	    "description": "Firefox 20.0 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -1977,7 +1977,7 @@
 	    "profileID":"adl"
 	},
 	{
-	    "description": "Firefox 21.0 (32 bit)",
+	    "description": "Firefox 21.0 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:21.0) Gecko/20100101 Firefox/21.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2097,7 +2097,7 @@
 	    "profileID":"adt"
 	},
 	{
-	    "description": "Galeon 2.0.6 (Ubuntu)",
+	    "description": "Galeon 2.0.6 (Ubuntu 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko Galeon/2.0.6 (Ubuntu 2.0.6-2)",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2112,7 +2112,7 @@
 	    "profileID":"adu"
 	},
 	{
-	    "description": "Galeon 2.0.6 (Gentoo)",
+	    "description": "Galeon 2.0.6 (Gentoo 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.16) Gecko/20080716 (Gentoo) Galeon/2.0.6",
 	    "appname": "Netscape",
 	    "appversion": "5.0(X11)",
@@ -2127,7 +2127,7 @@
 	    "profileID":"adv"
 	},
 	{
-	    "description": "Iceape (SeaMonkey) 2.0.8 (Debian)",
+	    "description": "Iceape 2.0.8 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.13) Gecko/20100916 Iceape/2.0.8",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2142,7 +2142,7 @@
 	    "profileID":"adw"
 	},
 	{
-	    "description": "(GNU) Icecat 17.0.1 (Firefox)" ,
+	    "description": "(GNU) Icecat 17.0.1 (Linux 64 bit)" ,
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20121201 icecat/17.0.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2157,7 +2157,7 @@
 	    "profileID":"adx"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 14.0.1",
+	    "description": "Iceweasel 14.0.1 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:14.0) Gecko/20100101 Firefox/14.0 Iceweasel/14.0.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2172,7 +2172,7 @@
 	    "profileID":"ady"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 15.0.2",
+	    "description": "Iceweasel 15.0.2 (Linux 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20120724 Firefox/15.0 Iceweasel/15.0.2",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2187,7 +2187,7 @@
 	    "profileID":"adz"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 19.0.2 (Debian 64)",
+	    "description": "Iceweasel 19.0.2 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0 Iceweasel/19.0.2",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2202,7 +2202,7 @@
 	    "profileID":"adA"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 25.0 (Debian 64)",
+	    "description": "Iceweasel 25.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0 Iceweasel/25.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2217,7 +2217,7 @@
 	    "profileID":"adB"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 26.0 (Debian 64)",
+	    "description": "Iceweasel26.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0 Iceweasel/26.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2232,7 +2232,7 @@
 	    "profileID":"adC"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 27.0 (Debian 64)",
+	    "description": "Iceweasel 27.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:27.0) Gecko/20100101 Firefox/27.0 Iceweasel/27.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2247,7 +2247,7 @@
 	    "profileID":"adD"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 28.0 (Debian 64)",
+	    "description": "Iceweasel 28.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0 Iceweasel/28.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2262,7 +2262,7 @@
 	    "profileID":"adE"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 29.0 (Debian 64)",
+	    "description": "Iceweasel 29.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:29.0) Gecko/20100101 Firefox/29.0 Iceweasel/29.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2277,7 +2277,7 @@
 	    "profileID":"adF"
 	},
 	{
-	    "description": "Iceweasel (Firefox) 30.0 (Debian 64)",
+	    "description": "Iceweasel 30.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:29.0) Gecko/20100101 Firefox/30.0 Iceweasel/30.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2292,7 +2292,7 @@
 	    "profileID":"adG"
 	},
 	{
-	    "description": "Konqueror 4.3 - khtml (Slackware 13)",
+	    "description": "Konqueror 4.3 - khtml (Slackware 13 32 bit)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0",
@@ -2307,7 +2307,7 @@
 	    "profileID":"adH"
 	},
 	{
-	    "description": "Konqueror 4.3.1 - khtml (Fedora 11)",
+	    "description": "Konqueror 4.3.1 - khtml (Fedora 11 32 bit)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.3; Linux) KHTML/4.3.1 (like Gecko) Fedora/4.3.1-3.fc11",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (compatible; Konqueror/4.3; Linux) KHTML/4.3.1 (like Gecko) Fedora/4.3.1-3.fc11",
@@ -2322,7 +2322,7 @@
 	    "profileID":"adI"
 	},
 	{
-	    "description": "Konqueror 4.4.3 - khtml (Fedora 12)",
+	    "description": "Konqueror 4.4.3 - khtml (Fedora 12 32 bit)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.4; Linux) KHTML/4.4.1 (like Gecko) Fedora/4.4.1-1.fc12",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (compatible; Konqueror/4.4; Linux) KHTML/4.4.1 (like Gecko) Fedora/4.4.1-1.fc12",
@@ -2337,7 +2337,7 @@
 	    "profileID":"adJ"
 	},
 	{
-	    "description": "Konqueror 4.4.3 - khtml (Kubuntu)",
+	    "description": "Konqueror 4.4.3 - khtml (Kubuntu 32 bit)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu",
@@ -2353,7 +2353,7 @@
    
 	},
 	{
-	    "description": "Konqueror 4.4.3 - khtml (Kubuntu)",
+	    "description": "Konqueror 4.4.3 - khtml (Kubuntu 32 bit)",
 	    "useragent": "Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu",
@@ -2368,7 +2368,7 @@
 	    "profileID":"adL"
 	},
 	{
-	    "description": "Konqueror 4.8.4 - khtml (Debian)",
+	    "description": "Konqueror 4.8.4 - khtml (Debian 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux 3.8-6.dmz.1-liquorix-686) KHTML/4.8.4 (like Gecko) Konqueror/4.8",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux 3.8-6.dmz.1-liquorix-686) KHTML/4.8.4 (like Gecko) Konqueror/4.8",
@@ -2383,7 +2383,7 @@
 	    "profileID":"adM"
 	},
 	{
-	    "description": "Konqueror 4.9.1",
+	    "description": "Konqueror 4.9.1 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux) KHTML/4.9.1 (like Gecko) Konqueror/4.9",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux) KHTML/4.9.1 (like Gecko) Konqueror/4.9",
@@ -2398,7 +2398,7 @@
 	    "profileID":"adN"
 	},
 	{
-	    "description": "Midori 0.1.10 (Webkit 531)",
+	    "description": "Midori 0.1.10 (Linux 32 bit)",
 	    "useragent": "Midori/0.1.10 (X11; Linux i686; U; en-us) WebKit/(531).(2) ",
 	    "appname": "Netscape",
 	    "appversion": "0.1.10 (X11; Linux i686; U; en-us) WebKit/(531).(2) ",
@@ -2413,7 +2413,7 @@
 	    "profileID":"adO"
 	},
 	{
-	    "description": "Midori 1.19",
+	    "description": "Midori 1.19 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-us) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) midori/1.19",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; U; Linux i686; en-us) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) midori/1.19",
@@ -2428,7 +2428,7 @@
 	    "profileID":"adP"
 	},
 	{
-	    "description": "Mozilla 1.9.0 (Debian)",
+	    "description": "Mozilla 1.9.0 (Debian 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.3) Gecko/2008092814 (Debian-3.0.1-1)",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2443,7 +2443,7 @@
 	    "profileID":"adQ"
 	},
 	{
-	    "description": "Mozilla 1.9a3pre",
+	    "description": "Mozilla 1.9a3pre (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a3pre) Gecko/20070330",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2458,7 +2458,7 @@
 	    "profileID":"adR"
 	},
 	{
-	    "description": "Opera 9.64 (Linux Mint)",
+	    "description": "Opera 9.64 (Linux Mint 32 bit)",
 	    "useragent": "Opera/9.64 (X11; Linux i686; U; Linux Mint; en) Presto/2.1.1",
 	    "appname": "Netscape",
 	    "appversion": "9.64 (X11; Linux i686; U; Linux Mint; en) Presto/2.1.1",
@@ -2473,7 +2473,7 @@
 	    "profileID":"adS"
 	},
 	{
-	    "description": "Opera 10.10 (id as 9.8)",
+	    "description": "Opera 10.10 (Linux 32 bit)",
 	    "useragent": "Opera/9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10",
 	    "appname": "Netscape",
 	    "appversion": "9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10",
@@ -2488,7 +2488,7 @@
 	    "profileID":"adT"
 	},
 	{
-	    "description": "Opera 11.00 (id as 9.8)",
+	    "description": "Opera 11.00 (Linux 64 bit)",
 	    "useragent": "Opera/9.80 (X11; Linux x86_64; U; en) Presto/2.7.62 Version/11.00",
 	    "appname": "Netscape",
 	    "appversion": "9.80 (X11; Linux x86_64; U; en) Presto/2.7.62 Version/11.00",
@@ -2503,7 +2503,7 @@
 	    "profileID":"adU"
 	},
 	{
-	    "description": "Opera 12.14 (id as 9.8)",
+	    "description": "Opera 12.14 (Linux 32 bit)",
 	    "useragent": "Opera/9.80 (X11; Linux i686; U; en) Presto/2.12.388 Version/12.14",
 	    "appname": "Netscape",
 	    "appversion": "9.80 (X11; Linux i686; U; en) Presto/2.12.388 Version/12.14",
@@ -2518,7 +2518,7 @@
 	    "profileID":"adV"
 	},
 	{
-	    "description": "QupZilla 1.6.0 (Webkit 534.34)",
+	    "description": "QupZilla 1.6.0 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.6.0 Safari/534.34",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.6.0 Safari/534.34",
@@ -2533,7 +2533,7 @@
 	    "profileID":"adW"
 	},
 	{
-	    "description": "SeaMonkey 2.0.12 (Mozilla)",
+	    "description": "SeaMonkey 2.0.12 (Linux 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.17) Gecko/20110123 SeaMonkey/2.0.12",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2548,7 +2548,7 @@
 	    "profileID":"adX"
 	},
 	{
-	    "description": "SeaMonkey 2.7.1 (Mozilla)",
+	    "description": "SeaMonkey 2.7.1 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2563,7 +2563,7 @@
 	    "profileID":"adY"
 	},
 	{
-	    "description": "SeaMonkey 2.9.1 (Mozilla)",
+	    "description": "SeaMonkey 2.9.1 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686; rv:12.0) Gecko/20120502 Firefox/12.0 SeaMonkey/2.9.1",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2578,7 +2578,7 @@
 	    "profileID":"adZ"
 	},
 	{
-	    "description": "Shadowfox 7.0 (Mozilla)",
+	    "description": "Shadowfox 7.0 (Linux 64 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux x86_64; us; rv:1.9.1.19) Gecko/20110430 shadowfox/7.0 (like Firefox/7.0)",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2593,7 +2593,7 @@
 	    "profileID":"ad0"
 	},
 	{
-	    "description": "Swiftfox 3.6.3",
+	    "description": "Swiftfox 3.6.3 (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.3) Gecko/20100406 Firefox/3.6.3 (Swiftfox)",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11)",
@@ -2608,7 +2608,7 @@
 	    "profileID":"ad1"
 	},
 	{
-	    "description": "Uzbl (Webkit 1.8)",
+	    "description": "Uzbl (Linux 32 bit)",
 	    "useragent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+",
 	    "appname": "Netscape",
 	    "appversion": "5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+",
@@ -2623,7 +2623,7 @@
 	    "profileID":"ad2"
 	},
 	{
-	    "description": "Elinks 0.4pre5",
+	    "description": "Elinks 0.4pre5 (Linux 32 bit)",
 	    "useragent": "ELinks (0.4pre5; Linux 2.6.10-ac7 i686; 80x33)",
 	    "appname": "",
 	    "appversion": "",
@@ -2638,7 +2638,7 @@
 	    "profileID":"ad3"
 	},
 	{
-	    "description": "ELinks 0.9.3 (Kanotix)",
+	    "description": "ELinks 0.9.3 (Linux 32 bit)",
 	    "useragent": "ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)",
 	    "appname": "",
 	    "appversion": "",
@@ -2653,7 +2653,7 @@
 	    "profileID":"ad4"
 	},
 	{
-	    "description": "ELinks 0.12~pre5-4",
+	    "description": "ELinks 0.12~pre5-4 (Debian 64 bit)",
 	    "useragent": "ELinks/0.12~pre5-4 (textmode; Debian; Linux 3.2.0-4-amd64 x86_64 192x47-2)",
 	    "appname": "",
 	    "appversion": "",
@@ -2713,7 +2713,7 @@
 	    "profileID":"ad8"
 	},
 	{
-	    "description": "Lynx 2.8.5rel.1",
+	    "description": "Lynx 2.8.5rel.1 (Linux)",
 	    "useragent": "Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/0.8.12",
 	    "appname": "",
 	    "appversion": "",
@@ -2728,7 +2728,7 @@
 	    "profileID":"ad9"
 	},
 	{
-	    "description": "w3m 0.5.1",
+	    "description": "w3m 0.5.1 (Linux)",
 	    "useragent": "w3m/0.5.1",
 	    "appname": "",
 	    "appversion": "",
