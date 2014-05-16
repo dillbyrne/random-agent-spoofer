@@ -11,10 +11,12 @@ It also supports other privacy enhancing options
 
 # Features #
 
-- Allows the user to choose a random user agent (From all user agents or desktop only)  
+- Allows the user to choose a browser profile at random (From all available profiles or desktop profiles only)  
 
-- Allows the user to specify the interval at which the random agent changes.
-  Interval can also be random, specific time period or per session if not set
+- Allows the user to specify the interval at which the random profiles are
+  chosen. Interval can also be random, a specific time period or per session if not set
+
+- Allows the user to exclude profiles from random selection.
 
 - Persistently remembers the users choice of user agent and time interval if set.
 
@@ -27,9 +29,9 @@ It also supports other privacy enhancing options
   values are known.
 
 - It has a left click menu of expandable lists to allow users to quickly choose
-  specific user agents
+  specific profiles
 
-- It has a large list of user agents.
+- It has a large list of profiles (nearly 400 at this time).
 
 - Option to limit local dom storage
 
@@ -47,7 +49,9 @@ It also supports other privacy enhancing options
 
 - Options to send spoofed headers including  via, x-forwarded-for and if-none-match.
  
-- Options to spoof the accept headers: documents, encoding and language (US English) so they match the spoofed profile. 
+- Options to spoof the accept headers: documents, encoding and language (US English) so they match the spoofed profile.
+
+- Option to override timezone offset to a random timezone, send nothing, specify one from a list or use the default one.
 
 # What's Next #
 
