@@ -26,6 +26,8 @@ self.port.on("restore-options",function(options){
 	document.getElementById('dns').checked = options[11];
 	document.getElementById('link').checked = options[12];
 	setSelectedIndexByValue('tzdd',options[22]);
+	setSelectedIndexByValue('screendd',options[24]);
+
 
 
 	//Set Header Tab Elements
