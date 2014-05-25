@@ -25,6 +25,9 @@ document.body.addEventListener("change", function(e) {
 	else if(e.target.id == "tzdd"){ //timezone
 		self.port.emit("tzdd",e.target[e.target.selectedIndex].value);
 	}
+	else if(e.target.id == "screendd"){ //screen size
+		self.port.emit("screendd",e.target[e.target.selectedIndex].value);
+	}
 	else if (e.target.id == "timerdd" || e.target.name == "ua") {
     
 		//get timer and selected ua option
