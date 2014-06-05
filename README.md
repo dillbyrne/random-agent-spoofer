@@ -25,6 +25,8 @@ It also supports other privacy enhancing options
 
 - Provides option to toggle notifications of user agent changes. 
 
+- Allows vendor spoofing that was removed in firefox 24
+
 - Sets other privacy attributes such as buildid, oscpu and platform where the
   values are known.
 
@@ -53,6 +55,9 @@ It also supports other privacy enhancing options
 
 - Option to override timezone offset to a random timezone, send nothing, specify one from a list or use the default one.
 
+- Option to spoof screen and window sizes to a specific size or set at random
+
+
 # What's Next #
 
 I will continue to update the list of browser profiles. I hope people will submit 
@@ -68,9 +73,9 @@ Icons are modified versions of those of the crystal project.
 
 Licence : https://www.gnu.org/licenses/lgpl-2.1.html
 
-# Note #
 
-Mozilla has removed support for vendor information in the browser. So while this addon supports it.
-It will not show as changed in versions greater than firefox 24.
+# Donations #
 
-Please file any bug reports here on github
+If you would like to donate you can do so at
+https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
+
