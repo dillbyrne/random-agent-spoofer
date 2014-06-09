@@ -113,11 +113,11 @@ function toggleList(innerListElementId) {
 	//toggle the child list and parents assiociated indicator
 	if (innerlistElement.style.display == "none"){
 		innerlistElement.style.display = "block";
-		text.innerHTML = " -";
+		text.textContent = " -";
 		excludeText.className = "excludeSpan";
 	}else{
 		innerlistElement.style.display = "none";
-		text.innerHTML = " +";
+		text.textContent = " +";
 		excludeText.className ="hidden";
 	}
 }
