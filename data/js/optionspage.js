@@ -28,6 +28,12 @@ document.body.addEventListener("change", function(e) {
 	else if(e.target.id == "screendd"){ //screen size
 		self.port.emit("screendd",e.target[e.target.selectedIndex].value);
 	}
+	else if(e.target.id == "refdd"){ //referer
+		self.port.emit("refdd",e.target[e.target.selectedIndex].value);
+	}
+	else if(e.target.id == "dntdd"){ //DNT
+		self.port.emit("dntdd",e.target[e.target.selectedIndex].value);
+	}
 	else if (e.target.id == "timerdd" || e.target.name == "ua") {
     
 		//get timer and selected ua option

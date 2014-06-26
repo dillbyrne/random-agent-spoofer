@@ -93,13 +93,23 @@ input.invalidInput{
 	-moz-transition: .3s ease-in-out;
 }
 
-select.ipdropdown{
-	float:right;
-	clear:both;
-}
-
 .excludecb,
 .excludeSpan{
 	float:right;
 }
 
+.ddright{
+	left: 0px;
+    top: 0px;
+    text-align: right
+}
+
+.ddright label{
+	float:left;
+	margin-top:9px;
+}
+
+.ddright input{
+	float:left;
+	margin-right: 7px;
+}

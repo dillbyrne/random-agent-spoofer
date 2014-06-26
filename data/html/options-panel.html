@@ -13,7 +13,7 @@
             <li><span id="extras_tab" class="nonselected">Extras</span></li>
         </ul>
 
-        <div id="ua_tab_content" class=tabContent>
+        <div id="ua_tab_content" class="tabContent">
             <div align ="center"><b>Choose A Browser Profile</b></div><br>
             <input type="radio" name="ua" id="default" value="default">
 	        <label for="default"> Default</label>
@@ -36,7 +36,7 @@
 	            <option value="40">40 Mins</option>
 	            <option value="50">50 Mins</option>
 	            <option value="60">60 Mins</option>
-	        </select><br> 
+	        </select><br/> 
 
 	        <input type="checkbox" id="notify"/><label for="notify">Show notifications</label>
 	        <input type="checkbox" id="spoof"/><label for="spoof">Enable spoofing</label>
@@ -47,153 +47,200 @@
         </div>
 
         <div id="extras_tab_content" class="hidden">
-            <div align ="center"><b>Extra Privacy Options</b></div><br>
+            <div align ="center"><b>Extra Privacy Options</b></div><br/>
 
-            Time zone spoofing (UTC):
-            
-            <select id="tzdd">
-                <option value="default">Default</option>
-                <option value="none">None</option>
-                <option value="random">Random</option>
-                <option value="12">-12:00</option>
-                <option value="11">-11:00</option>
-                <option value="10">-10:00</option>
-                <option value="9.5">-09:30</option>
-                <option value="9">-09:00</option>
-                <option value="8">-08:00</option>
-                <option value="7">-07:00</option>
-                <option value="6">-06:00</option>
-                <option value="5">-05:00</option> 
-                <option value="4.5">-04:30</option>
-                <option value="4">-04:00</option> 
-                <option value="3.5-">-03:30</option> 
-                <option value="3">-03:00</option> 
-                <option value="2">-02:00</option> 
-                <option value="1">-01:00</option> 
-                <option value="0">00:00</option> 
-                <option value="-1">+01:00</option> 
-                <option value="-2">+02:00</option> 
-                <option value="-3">+03:00</option>
-                <option value="-3.5">+03:30</option> 
-                <option value="-4">+04:00</option> 
-                <option value="-4.5">+04:30</option> 
-                <option value="-5">+05:00</option>  
-                <option value="-5.5">+05:30</option> 
-                <option value="-5.75">+05:45</option> 
-                <option value="-6">+06:00</option> 
-                <option value="-6.5">+06:30</option> 
-                <option value="-7">+07:00</option> 
-                <option value="-8">+08:00</option> 
-                <option value="-8.75">+08:45</option> 
-                <option value="-9">+09:00</option> 
-                <option value="-9.5">+09:30</option> 
-                <option value="-10">+10:00</option> 
-                <option value="-10.5">+10:30</option> 
-                <option value="-11">+11:00</option> 
-                <option value="-11.5">+11:30</option> 
-                <option value="-12">+12:00</option>
-                <option value="-12.75">+12:45</option> 
-                <option value="-13">+13:00</option> 
-                <option value="-14">+14:00</option>  
-            </select><br> 
+            <div class="ddright">
 
-            Screen size spoofing:
+               <!-- Time zone spoofing (UTC): Available in github version only -->
 
-            <select id="screendd">
-                <option value="default">Default</option>
-                <option value="random">Random</option>
-                <!-- <option value="profile">Profile</option>  TODO-->
-                <!-- <option value="custom">Custom</option>  TODO-->
-                <option value="800x600">800x600</option>
-                <option value="1024x600">1024x600</option>
-                <option value="1024x768">1024x768</option>
-                <option value="1152x864">1152x864</option>
-                <option value="1280x720">1280x720</option>
-                <option value="1280x768">1280x768</option>
-                <option value="1280x800">1280x800</option>
-                <option value="1280x960">1280x960</option>
-                <option value="1280x1024">1280x1024</option>
-                <option value="1360x768">1360x768</option>
-                <option value="1366x768">1366x768</option>
-                <option value="1440x900">1440x900</option>
-                <option value="1400x1050">1400x1050</option>
-                <option value="1600x900">1600x900</option>
-                <option value="1600x1200">1600x1200</option>
-                <option value="1680x1050">1680x1050</option>
-                <option value="1920x1080">1920x1080</option>
-                <option value="1920x1200">1920x1200</option>
-                <option value="2048x1152">2048x1152</option>
-                <option value="2560x1440">2560x1440</option>
-                <option value="2560x1600">2560x1600</option>
-            </select><br>
+                <label for="tzdd">Time zone spoofing (UTC): </label>
+
+                <select id="tzdd" >
+                    <option value="default">Default</option>
+                    <option value="none">None</option>
+                    <option value="random">Random</option>
+                    <option value="12">-12:00</option>
+                    <option value="11">-11:00</option>
+                    <option value="10">-10:00</option>
+                    <option value="9.5">-09:30</option>
+                    <option value="9">-09:00</option>
+                    <option value="8">-08:00</option>
+                    <option value="7">-07:00</option>
+                    <option value="6">-06:00</option>
+                    <option value="5">-05:00</option> 
+                    <option value="4.5">-04:30</option>
+                    <option value="4">-04:00</option> 
+                    <option value="3.5-">-03:30</option> 
+                    <option value="3">-03:00</option> 
+                    <option value="2">-02:00</option> 
+                    <option value="1">-01:00</option> 
+                    <option value="0">00:00</option> 
+                    <option value="-1">+01:00</option> 
+                    <option value="-2">+02:00</option> 
+                    <option value="-3">+03:00</option>
+                    <option value="-3.5">+03:30</option> 
+                    <option value="-4">+04:00</option> 
+                    <option value="-4.5">+04:30</option> 
+                    <option value="-5">+05:00</option>  
+                    <option value="-5.5">+05:30</option> 
+                    <option value="-5.75">+05:45</option> 
+                    <option value="-6">+06:00</option> 
+                    <option value="-6.5">+06:30</option> 
+                    <option value="-7">+07:00</option> 
+                    <option value="-8">+08:00</option> 
+                    <option value="-8.75">+08:45</option> 
+                    <option value="-9">+09:00</option> 
+                    <option value="-9.5">+09:30</option> 
+                    <option value="-10">+10:00</option> 
+                    <option value="-10.5">+10:30</option> 
+                    <option value="-11">+11:00</option> 
+                    <option value="-11.5">+11:30</option> 
+                    <option value="-12">+12:00</option>
+                    <option value="-12.75">+12:45</option> 
+                    <option value="-13">+13:00</option> 
+                    <option value="-14">+14:00</option>  
+                </select><br/> 
+            </div>
+
+      
+
+            <div class="ddright">
+
+              <!--  Screen size spoofing: Available in github version only -->
+
+              <label for="screendd">Screen size spoofing : </label>
+                
+                <select id="screendd">
+                    <option value="default">Default</option>
+                    <option value="random">Random</option> -->
+                    <!-- <option value="profile">Profile</option>  TODO-->
+                    <!-- <option value="custom">Custom</option>  TODO--> 
+                   
+                    <option value="800x600">800x600</option>
+                    <option value="1024x600">1024x600</option>
+                    <option value="1024x768">1024x768</option>
+                    <option value="1152x864">1152x864</option>
+                    <option value="1280x720">1280x720</option>
+                    <option value="1280x768">1280x768</option>
+                    <option value="1280x800">1280x800</option>
+                    <option value="1280x960">1280x960</option>
+                    <option value="1280x1024">1280x1024</option>
+                    <option value="1360x768">1360x768</option>
+                    <option value="1366x768">1366x768</option>
+                    <option value="1440x900">1440x900</option>
+                    <option value="1400x1050">1400x1050</option>
+                    <option value="1600x900">1600x900</option>
+                    <option value="1600x1200">1600x1200</option>
+                    <option value="1680x1050">1680x1050</option>
+                    <option value="1920x1080">1920x1080</option>
+                    <option value="1920x1200">1920x1200</option>
+                    <option value="2048x1152">2048x1152</option>
+                    <option value="2560x1440">2560x1440</option>
+                    <option value="2560x1600">2560x1600</option>
+                </select><br/>
+            </div>
+
+        
 
 
             <input type="checkbox" id="fonts"/>
-            <label for="fonts">Use standard font set</label><br>
+            <label for="fonts">Use standard font set</label><br/>
 
             <input type="checkbox"id="dom"/>
-            <label for="dom">Disable local dom storage</label><br>
+            <label for="dom">Disable local dom storage</label><br/>
       
             <input type="checkbox" id="history"/>
-            <label for="history">Limit tab history to 2</label><br>
+            <label for="history">Limit tab history to 2</label><br/>
             
             <input type="checkbox" id="browsing_downloads"/>
-            <label for="browsing_downloads">Disable browsing and download history</label><br>
+            <label for="browsing_downloads">Disable browsing and download history</label><br/>
       
             <input type="checkbox" id="cache"/>
-            <label for="cache">Disable browser cache</label><br>
+            <label for="cache">Disable browser cache</label><br/>
    
             <input type="checkbox" id="geo"/>
-            <label for="geo">Disable geolocation</label><br>
+            <label for="geo">Disable geolocation</label><br/>
 
             <input type="checkbox" id="link"/>
-            <label for="link">Disable link prefetching</label><br>
+            <label for="link">Disable link prefetching</label><br/>
 
             <input type="checkbox" id="dns"/>
-            <label for="dns">Disable dns prefetching</label><br>
+            <label for="dns">Disable dns prefetching</label><br/>
 
             <input type="checkbox" id="webgl"/>
-            <label for="webgl">Disable webgl</label><br>
+            <label for="webgl">Disable webgl</label><br/>
             
         </div>
 
         <div id="headers_tab_content" class="hidden">
-            <div align ="center"><b>Header Spoofing Options</b></div><br>
+            <div align ="center"><b>Header Spoofing Options</b></div><br/>
 
             <input type="checkbox" id="ifnone"/>
-            <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br>
+            <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br/>
 
-            <input type="checkbox" id="xff"/>
-            <label for="xff">Send spoofed 'X-Forwarded-For' headers</label>
-			<select class="ipdropdown" id="xffdd">
-				<option value="random">Random IP</option>
-				<option value="custom">Custom IP</option>
-			</select><br>
+            <div class="ddright">
+                <input type="checkbox" id="xff"/>
+                <label for="xff">Send spoofed 'X-Forwarded-For' headers</label>
+    			<select class="ipdropdown" id="xffdd">
+    				<option value="random">Random IP</option>
+    				<option value="custom">Custom IP</option>
+    			</select><br/>
+            </div>
+
 			<div id="customxff" class="hidden">
-				<label for="xffip" class="iplabel">XFF IP:</label><input type="text" id="xffip"maxlength="15"><br>
+				<label for="xffip" class="iplabel">XFF IP:</label><input type="text" id="xffip"maxlength="15"><br/>
 			</div>
 
-            <input type="checkbox" id="via"/>
-			<label for="via">Send spoofed 'Via' headers</label>
-			<select class="ipdropdown" id="viadd">
-				<option value="random">Random IP</option>
-				<option value="custom">Custom IP</option>
-			</select><br>
-			<div id="customvia" class="hidden">
-				<label for="viaip" class="iplabel">Via IP:</label><input type="text" id="viaip" maxlength="15"><br>
+            <div class="ddright">
+                <input type="checkbox" id="via"/>
+                <label for="via">Send spoofed 'Via' headers</label>
+    			<select class="ipdropdown" id="viadd">
+    				<option value="random">Random IP</option>
+    				<option value="custom">Custom IP</option>
+    			</select><br/>
+            </div>
+			
+            <div id="customvia" class="hidden">
+				<label for="viaip" class="iplabel">Via IP:</label><input type="text" id="viaip" maxlength="15"><br/>
 			</div>
-			<br>
+
+
+
+            <div class="ddright">
+
+                <label for="refdd">Referer header : </label>
+                <select id="refdd">
+                    <option value="0">None</option>
+                    <option value="1">Send on link</option>
+                    <option value="2">Send on link or image</option>
+                    <!--<option value="custom">Custom</option> -->
+
+                </select><br/>
+            </div>
+            
+
+            <div class="ddright">
+
+                <label for="dntdd">DNT header : </label>
+                <select id="dntdd">
+                    <option value="none">None</option>
+                    <option value="1">Enabled</option>
+                    <option value="0">Disabled</option>
+                </select><br/>
+        </div>
+
 			<hr>
             
-            Accept headers match the selected browser profile<br>
+            <div align="center">Accept headers match the selected browser profile</div>
+        
             <input type="checkbox" id="acceptd"/>
-            <label for="acceptd">Spoof accepted documents</label><br>
+            <label for="acceptd">Spoof accepted documents</label><br/>
 
             <input type="checkbox" id="accepte"/>
-            <label for="accepte">Spoof accepted encoding</label><br>
+            <label for="accepte">Spoof accepted encoding</label><br/>
 
             <input type="checkbox" id="acceptl"/>
-            <label for="acceptl">Spoof accepted language (US English)</label><br>
+            <label for="acceptl">Spoof accepted language (US English)</label><br/>
 
         </div>
     </body>
