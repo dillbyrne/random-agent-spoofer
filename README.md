@@ -49,6 +49,12 @@ It also supports other privacy enhancing options
 
 - Option to disable link prefetching
 
+- Option to disable webgl
+
+- Option to set referer header
+
+- Option to set do not track header 
+
 - Options to send spoofed headers including  via, x-forwarded-for and if-none-match.
  
 - Options to spoof the accept headers: documents, encoding and language (US English) so they match the spoofed profile.
@@ -58,14 +64,9 @@ It also supports other privacy enhancing options
 - Option to spoof screen and window sizes to a specific size or set at random
 
 
-# What's Next #
+# Installation Instructions #
 
-I will continue to update the list of browser profiles. I hope people will submit 
-information on their browsers so I can keep the list up to date and correct. I do 
-not intend to support every single browser or device. The intention of the addon 
-is to help hinder browser fingerprinting by being a moving target..
-
-I will continue to add more features as time goes on.
+Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions including how to build the addon from source as well as various methods of obtaining the addon.
 
 # Icons #
 
@@ -79,3 +80,11 @@ Licence : https://www.gnu.org/licenses/lgpl-2.1.html
 If you would like to donate you can do so at
 https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
 
+# What's Next #
+
+I will continue to update the list of browser profiles. I hope people will submit 
+information on their browsers so I can keep the list up to date and correct. I do 
+not intend to support every single browser or device. The intention of the addon 
+is to help hinder browser fingerprinting by being a moving target..
+
+I will continue to add more features as time goes on.
