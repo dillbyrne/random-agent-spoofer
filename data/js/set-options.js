@@ -46,6 +46,9 @@ self.port.on("restore-options",function(options){
 	document.getElementById('viaip').value = options[20];
 	document.getElementById('browsing_downloads').checked = options[21];
 
+	setSelectedIndexByValue('dntdd',options[26]);
+	setSelectedIndexByValue('refdd',options[27]);
+
 
 	//set custom ipcheckboxes to show if custom is selected
 	if(options[17] == "custom")
