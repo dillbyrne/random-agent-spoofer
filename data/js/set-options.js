@@ -28,6 +28,7 @@ self.port.on("restore-options",function(options){
 	setSelectedIndexByValue('tzdd',options[22]);
 	setSelectedIndexByValue('screendd',options[24]);
 	document.getElementById('webgl').checked = options[25];
+	document.getElementById('winname').checked = options[29];
 
 
 

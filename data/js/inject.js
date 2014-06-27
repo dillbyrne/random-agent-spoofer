@@ -1,4 +1,4 @@
-self.port.on("inject", function( intParams, strParams) {
+self.port.on("inject", function( intParams, strParams, boolParams) {
 
   	//build script to inject into the page with users chosen values
 	var script = document.createElement( "script" );
@@ -25,6 +25,16 @@ self.port.on("inject", function( intParams, strParams) {
 
 	// time zone offset
 	content +=  "Object.defineProperty( Date.prototype, 'getTimezoneOffset', {value: function(){return "+intParams[0]+";}});";
+	
+	
+ 	// Send blank date strings if the user selected not to send the time zone
+	if(intParams[0] == null){ 
+		content +=  "Object.defineProperty( Date.prototype, 'toLocaleString', {value: function(){return \"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toString', {value: function(){return \"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toUTCString', {value: function(){return \"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toGMTString', {value: function(){return \"\";}});";
+	}
+
 
 
 	// screen & window prefrences
@@ -39,9 +49,13 @@ self.port.on("inject", function( intParams, strParams) {
 		content +=  "Object.defineProperty( window, 'outerWidth', {value: "+intParams[7]+"});";
 		content +=  "Object.defineProperty( window, 'outerHeight', {value: "+intParams[8]+"});";
 	  
-
 	    content +=  "Object.defineProperty( window, 'open', {value: function(url,name,paramaters){var winOpen = Window.prototype.open;var win = winOpen.call(this, url, name, paramaters);"+copyWinAttribs("win", "win.opener")+"return win;}});";
 
+	}
+
+	//Reset window.name on each request
+	if (boolParams[0] == true){
+		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
 	}
 	
 	// restore vendor functionality
