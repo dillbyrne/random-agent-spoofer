@@ -1,6 +1,6 @@
 self.port.on("restore-options",function(options){
 
-	//Set UA Profile Tabe Elements
+	//Set Profile Tab Elements
 	setSelectedIndexByValue('timerdd',options[0]);
 	document.getElementById(options[1]).checked = true;
 	document.getElementById('notify').checked = options[2];
@@ -45,9 +45,9 @@ self.port.on("restore-options",function(options){
 	setSelectedIndexByValue('viadd',options[19]);
 	document.getElementById('viaip').value = options[20];
 	document.getElementById('browsing_downloads').checked = options[21];
-
 	setSelectedIndexByValue('dntdd',options[26]);
 	setSelectedIndexByValue('refdd',options[27]);
+	document.getElementById('auth').checked = options[28];
 
 
 	//set custom ipcheckboxes to show if custom is selected
@@ -73,8 +73,8 @@ self.port.once('tab_listener',function(){
 self.port.once('ua_list', function(data) {
 
 	//profile count, used for random profile exclusions
-	var total_random_other_count =0;
-	var total_random_desktop_count =0;
+	var total_random_other_count = 0;
+	var total_random_desktop_count = 0;
 
    
 	//create the list of browser profiles
