@@ -29,7 +29,8 @@ self.port.on("restore-options",function(options){
 	setSelectedIndexByValue('screendd',options[24]);
 	document.getElementById('webgl').checked = options[25];
 	document.getElementById('winname').checked = options[29];
-
+	document.getElementById('canvas').checked = options[30];
+	document.getElementById('webrtc').checked = options[31];
 
 
 
