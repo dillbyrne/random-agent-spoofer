@@ -98,18 +98,13 @@ input.invalidInput{
 	float:right;
 }
 
+
+
 .ddright{
-	left: 0px;
-    top: 0px;
-    text-align: right
+	clear:both;
+	overflow: hidden;
 }
 
-.ddright label{
-	float:left;
-	margin-top:9px;
-}
-
-.ddright input{
-	float:left;
-	margin-right: 7px;
+.ddspan{
+	float:right;
 }

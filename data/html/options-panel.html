@@ -55,51 +55,54 @@
 
                 <label for="tzdd">Time zone spoofing (UTC): </label>
 
-                <select id="tzdd" >
-                    <option value="default">Default</option>
-                    <option value="none">None</option>
-                    <option value="random">Random</option>
-                    <option value="12">-12:00</option>
-                    <option value="11">-11:00</option>
-                    <option value="10">-10:00</option>
-                    <option value="9.5">-09:30</option>
-                    <option value="9">-09:00</option>
-                    <option value="8">-08:00</option>
-                    <option value="7">-07:00</option>
-                    <option value="6">-06:00</option>
-                    <option value="5">-05:00</option> 
-                    <option value="4.5">-04:30</option>
-                    <option value="4">-04:00</option> 
-                    <option value="3.5-">-03:30</option> 
-                    <option value="3">-03:00</option> 
-                    <option value="2">-02:00</option> 
-                    <option value="1">-01:00</option> 
-                    <option value="0">00:00</option> 
-                    <option value="-1">+01:00</option> 
-                    <option value="-2">+02:00</option> 
-                    <option value="-3">+03:00</option>
-                    <option value="-3.5">+03:30</option> 
-                    <option value="-4">+04:00</option> 
-                    <option value="-4.5">+04:30</option> 
-                    <option value="-5">+05:00</option>  
-                    <option value="-5.5">+05:30</option> 
-                    <option value="-5.75">+05:45</option> 
-                    <option value="-6">+06:00</option> 
-                    <option value="-6.5">+06:30</option> 
-                    <option value="-7">+07:00</option> 
-                    <option value="-8">+08:00</option> 
-                    <option value="-8.75">+08:45</option> 
-                    <option value="-9">+09:00</option> 
-                    <option value="-9.5">+09:30</option> 
-                    <option value="-10">+10:00</option> 
-                    <option value="-10.5">+10:30</option> 
-                    <option value="-11">+11:00</option> 
-                    <option value="-11.5">+11:30</option> 
-                    <option value="-12">+12:00</option>
-                    <option value="-12.75">+12:45</option> 
-                    <option value="-13">+13:00</option> 
-                    <option value="-14">+14:00</option>  
-                </select><br/> 
+                <span class="ddspan">
+                    <select id="tzdd" >
+                        <option value="default">Default</option>
+                        <option value="none">None</option>
+                        <option value="random">Random</option>
+                        <option value="12">-12:00</option>
+                        <option value="11">-11:00</option>
+                        <option value="10">-10:00</option>
+                        <option value="9.5">-09:30</option>
+                        <option value="9">-09:00</option>
+                        <option value="8">-08:00</option>
+                        <option value="7">-07:00</option>
+                        <option value="6">-06:00</option>
+                        <option value="5">-05:00</option> 
+                        <option value="4.5">-04:30</option>
+                        <option value="4">-04:00</option> 
+                        <option value="3.5-">-03:30</option> 
+                        <option value="3">-03:00</option> 
+                        <option value="2">-02:00</option> 
+                        <option value="1">-01:00</option> 
+                        <option value="0">00:00</option> 
+                        <option value="-1">+01:00</option> 
+                        <option value="-2">+02:00</option> 
+                        <option value="-3">+03:00</option>
+                        <option value="-3.5">+03:30</option> 
+                        <option value="-4">+04:00</option> 
+                        <option value="-4.5">+04:30</option> 
+                        <option value="-5">+05:00</option>  
+                        <option value="-5.5">+05:30</option> 
+                        <option value="-5.75">+05:45</option> 
+                        <option value="-6">+06:00</option> 
+                        <option value="-6.5">+06:30</option> 
+                        <option value="-7">+07:00</option> 
+                        <option value="-8">+08:00</option> 
+                        <option value="-8.75">+08:45</option> 
+                        <option value="-9">+09:00</option> 
+                        <option value="-9.5">+09:30</option> 
+                        <option value="-10">+10:00</option> 
+                        <option value="-10.5">+10:30</option> 
+                        <option value="-11">+11:00</option> 
+                        <option value="-11.5">+11:30</option> 
+                        <option value="-12">+12:00</option>
+                        <option value="-12.75">+12:45</option> 
+                        <option value="-13">+13:00</option> 
+                        <option value="-14">+14:00</option>  
+                    </select>
+                </span>
+                <br/> 
             </div>
 
       
@@ -110,34 +113,37 @@
 
               <label for="screendd">Screen size spoofing : </label>
                 
-                <select id="screendd">
-                    <option value="default">Default</option>
-                    <option value="random">Random</option> -->
-                    <!-- <option value="profile">Profile</option>  TODO-->
-                    <!-- <option value="custom">Custom</option>  TODO--> 
-                   
-                    <option value="800x600">800x600</option>
-                    <option value="1024x600">1024x600</option>
-                    <option value="1024x768">1024x768</option>
-                    <option value="1152x864">1152x864</option>
-                    <option value="1280x720">1280x720</option>
-                    <option value="1280x768">1280x768</option>
-                    <option value="1280x800">1280x800</option>
-                    <option value="1280x960">1280x960</option>
-                    <option value="1280x1024">1280x1024</option>
-                    <option value="1360x768">1360x768</option>
-                    <option value="1366x768">1366x768</option>
-                    <option value="1440x900">1440x900</option>
-                    <option value="1400x1050">1400x1050</option>
-                    <option value="1600x900">1600x900</option>
-                    <option value="1600x1200">1600x1200</option>
-                    <option value="1680x1050">1680x1050</option>
-                    <option value="1920x1080">1920x1080</option>
-                    <option value="1920x1200">1920x1200</option>
-                    <option value="2048x1152">2048x1152</option>
-                    <option value="2560x1440">2560x1440</option>
-                    <option value="2560x1600">2560x1600</option>
-                </select><br/>
+                <span class="ddspan"> 
+                    <select id="screendd">
+                        <option value="default">Default</option>
+                        <option value="random">Random</option> -->
+                        <!-- <option value="profile">Profile</option>  TODO-->
+                        <!-- <option value="custom">Custom</option>  TODO--> 
+                       
+                        <option value="800x600">800x600</option>
+                        <option value="1024x600">1024x600</option>
+                        <option value="1024x768">1024x768</option>
+                        <option value="1152x864">1152x864</option>
+                        <option value="1280x720">1280x720</option>
+                        <option value="1280x768">1280x768</option>
+                        <option value="1280x800">1280x800</option>
+                        <option value="1280x960">1280x960</option>
+                        <option value="1280x1024">1280x1024</option>
+                        <option value="1360x768">1360x768</option>
+                        <option value="1366x768">1366x768</option>
+                        <option value="1440x900">1440x900</option>
+                        <option value="1400x1050">1400x1050</option>
+                        <option value="1600x900">1600x900</option>
+                        <option value="1600x1200">1600x1200</option>
+                        <option value="1680x1050">1680x1050</option>
+                        <option value="1920x1080">1920x1080</option>
+                        <option value="1920x1200">1920x1200</option>
+                        <option value="2048x1152">2048x1152</option>
+                        <option value="2560x1440">2560x1440</option>
+                        <option value="2560x1600">2560x1600</option>
+                    </select>
+                </span>
+                <br/>
             </div>
 
         
@@ -191,10 +197,13 @@
             <div class="ddright">
                 <input type="checkbox" id="xff"/>
                 <label for="xff">Send spoofed 'X-Forwarded-For' headers</label>
-    			<select class="ipdropdown" id="xffdd">
-    				<option value="random">Random IP</option>
-    				<option value="custom">Custom IP</option>
-    			</select><br/>
+                <span class="ddspan">
+        			<select class="ipdropdown" id="xffdd">
+        				<option value="random">Random IP</option>
+        				<option value="custom">Custom IP</option>
+        			</select>
+                </span>
+                <br/>
             </div>
 
 			<div id="customxff" class="hidden">
@@ -204,10 +213,13 @@
             <div class="ddright">
                 <input type="checkbox" id="via"/>
                 <label for="via">Send spoofed 'Via' headers</label>
-    			<select class="ipdropdown" id="viadd">
-    				<option value="random">Random IP</option>
-    				<option value="custom">Custom IP</option>
-    			</select><br/>
+                <span class="ddspan">
+        			<select class="ipdropdown" id="viadd">
+        				<option value="random">Random IP</option>
+        				<option value="custom">Custom IP</option>
+        			</select>
+                </span>
+                <br/>
             </div>
 			
             <div id="customvia" class="hidden">
@@ -219,22 +231,27 @@
             <div class="ddright">
 
                 <label for="refdd">Referer header : </label>
-                <select id="refdd">
-                    <option value="none">None</option>
-                    <option value="default">Default</option>
-                    <!--<option value="custom">Custom</option> -->
-
-                </select><br/>
+                
+                <span class="ddspan">
+                    <select id="refdd">
+                        <option value="none">None</option>
+                        <option value="default">Default</option>
+                        <!--<option value="custom">Custom</option> -->
+                    </select>
+                </span>
+                <br/>
             </div>
             
 
             <div class="ddright">
 
                 <label for="dntdd">DNT header : </label>
-                <select id="dntdd">
-                    <option value="none">None</option>
-                    <option value="enabled">Enabled</option>
-                </select><br/>
+                <span class="ddspan">
+                    <select id="dntdd">
+                        <option value="none">None</option>
+                        <option value="enabled">Enabled</option>
+                    </select>
+                </span><br/>
         </div>
 
 			<hr>
