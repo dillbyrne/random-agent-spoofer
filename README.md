@@ -51,6 +51,10 @@ It also supports other privacy enhancing options
 
 - Option to disable webgl
 
+- Option to disable webRTC
+
+- Option to disable canvas element support
+
 - Option to set referer header
 
 - Option to set do not track header 
