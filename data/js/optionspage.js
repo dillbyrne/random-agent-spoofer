@@ -89,15 +89,15 @@ document.body.addEventListener("keyup", function(e) {
 		    data.whitelist = sortWhiteListObjByURL(data.whitelist);
 
 		    //copy the urls into another list for faster lookups
-		    var sitelist = ""
+		    var sitelist = new Array();
 
 		    for(var i=0; i<data.whitelist.length; i++){
-		        sitelist += data.whitelist[i].url + ",";
+		        sitelist.push(data.whitelist[i].url);
 		    }
 
 		    //save the lists
 		    //remove the last comma from the sitelist
-		    self.port.emit("whitelist","siteWhiteList",JSON.stringify(data),sitelist.substring(0,sitelist.length -1));
+		    self.port.emit("whitelist","siteWhiteList",JSON.stringify(data),sitelist.toString());
 
 		}
 			
@@ -107,41 +107,8 @@ document.body.addEventListener("keyup", function(e) {
 },false);
 
 
-//handle site lists
+//handle whitelist
 document.body.addEventListener("click",function(e) {
-
-/*
-	//whitelist save button
-    if(e.target.id =="wlsavebtn"){
-
-    	if (validateJSON(document.getElementById("site_whitelist").value) == true){
-
-	    	//only handle valid json data
-	    	try{ 
-
-		    	var data = JSON.parse(document.getElementById("site_whitelist").value);
-
-		        //sort the json data by url attribute
-		        data.whitelist = sortWhiteListObjByURL(data.whitelist);
-
-		     	//copy the urls into another list for faster lookups
-		        var sitelist = ""
-
-		        for(var i=0; i<data.whitelist.length; i++){
-		            sitelist += data.whitelist[i].url + ",";
-		        }
-
-		        //save the lists
-		        //remove the last comma from the sitelist
-		        self.port.emit("whitelist","siteWhiteList",JSON.stringify(data),sitelist.substring(0,sitelist.length -1));
-	    	
-	    	}catch(e){} // don't do anything if invalid json data is submitted
-	    }
-    
-
-    //whitelist profile save button
-    }else if(e.target.id =="wlprofsavebtn"){
-*/    	
 	
 	//whitelist profile save button
     if(e.target.id =="wlprofsavebtn"){
