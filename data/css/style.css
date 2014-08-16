@@ -120,10 +120,6 @@ div.tabContent {
 	width:100%;
 }
 
-#wlsavebtn,
-#wlprofsavebtn{
-	float: right;
-}
 
 #whitelist_profile{
 	padding:5px;

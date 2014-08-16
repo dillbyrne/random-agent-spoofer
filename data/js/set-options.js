@@ -119,7 +119,7 @@ self.port.once('ua_list', function(data) {
 
 
 
-//whitelist or blacklist
+//whitelist
 self.port.on("setSiteList",function(listid,listItems){
 	document.getElementById(listid).value = listItems;
 });
