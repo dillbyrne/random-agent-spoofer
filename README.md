@@ -81,8 +81,11 @@ Licence : https://www.gnu.org/licenses/lgpl-2.1.html
 
 # Donations #
 
-If you would like to donate you can do so at
+If you would like to donate with you can do so at
 https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
+
+or with bitcoin at
+1L44pgmZpeMsWsd24WgN6SJjEUARG5eY6G
 
 # What's Next #
 

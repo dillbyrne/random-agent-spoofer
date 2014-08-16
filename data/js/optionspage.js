@@ -73,10 +73,111 @@ document.body.addEventListener("keyup", function(e) {
 			self.port.emit("validcustomip",e.target.id,input.value);
 		}
 			
-	}  
+	}else 	if (e.target.id == "site_whitelist"){
+		var input =  document.getElementById(e.target.id);
+
+		var result = validateJSON(input.value);
+
+		if (result == false){
+			input.className = "invalidInput";
+		}else{
+			input.className = "validInput";
+
+			var data = JSON.parse(document.getElementById("site_whitelist").value);
+
+		    //sort the json data by url attribute
+		    data.whitelist = sortWhiteListObjByURL(data.whitelist);
+
+		    //copy the urls into another list for faster lookups
+		    var sitelist = ""
+
+		    for(var i=0; i<data.whitelist.length; i++){
+		        sitelist += data.whitelist[i].url + ",";
+		    }
+
+		    //save the lists
+		    //remove the last comma from the sitelist
+		    self.port.emit("whitelist","siteWhiteList",JSON.stringify(data),sitelist.substring(0,sitelist.length -1));
+
+		}
+			
+	}    
 
 
 },false);
+
+
+//handle site lists
+document.body.addEventListener("click",function(e) {
+
+/*
+	//whitelist save button
+    if(e.target.id =="wlsavebtn"){
+
+    	if (validateJSON(document.getElementById("site_whitelist").value) == true){
+
+	    	//only handle valid json data
+	    	try{ 
+
+		    	var data = JSON.parse(document.getElementById("site_whitelist").value);
+
+		        //sort the json data by url attribute
+		        data.whitelist = sortWhiteListObjByURL(data.whitelist);
+
+		     	//copy the urls into another list for faster lookups
+		        var sitelist = ""
+
+		        for(var i=0; i<data.whitelist.length; i++){
+		            sitelist += data.whitelist[i].url + ",";
+		        }
+
+		        //save the lists
+		        //remove the last comma from the sitelist
+		        self.port.emit("whitelist","siteWhiteList",JSON.stringify(data),sitelist.substring(0,sitelist.length -1));
+	    	
+	    	}catch(e){} // don't do anything if invalid json data is submitted
+	    }
+    
+
+    //whitelist profile save button
+    }else if(e.target.id =="wlprofsavebtn"){
+*/    	
+	
+	//whitelist profile save button
+    if(e.target.id =="wlprofsavebtn"){
+		wl_profile = new Array();
+
+    	wl_profile.push(document.getElementById("useragent_input").value);
+    	wl_profile.push(document.getElementById("appcodename_input").value);
+    	wl_profile.push(document.getElementById("appname_input").value);
+    	wl_profile.push(document.getElementById("appversion_input").value);
+    	wl_profile.push(document.getElementById("vendor_input").value);
+    	wl_profile.push(document.getElementById("vendorsub_input").value);
+    	wl_profile.push(document.getElementById("platform_input").value);
+    	wl_profile.push(document.getElementById("oscpu_input").value);
+    	wl_profile.push(document.getElementById("acceptdefault_input").value);
+    	wl_profile.push(document.getElementById("acceptencoding_input").value);
+    	wl_profile.push(document.getElementById("acceptlanguage_input").value);
+
+    	self.port.emit("wl_prof",wl_profile);
+
+    
+    }else if(e.target.id =="whitelist_profile_title"){
+    	
+    	if(document.getElementById("whitelist_profile").className == ""){
+    		document.getElementById("whitelist_profile").className = "hidden";
+    		document.getElementById("wl_prof_title_span").textContent = "+";
+
+    	}else{
+    		document.getElementById("whitelist_profile").className = "";
+    		document.getElementById("wl_prof_title_span").textContent = "-";
+    	}
+    }else if(e.target.id == "wlhelpbtn"){
+    	self.port.emit("wlhelp");
+    }
+
+},false);
+
 
 
 document.body.addEventListener("focus", function(e) {
@@ -91,7 +192,17 @@ document.body.addEventListener("focus", function(e) {
 		else
 			input.className = "validInput";
 			
-	}  
+	}else if(e.target.id == "site_whitelist"){
+
+		var input =  document.getElementById(e.target.id);
+
+		var result = validateJSON(input.value);
+
+		if (result == false)
+			input.className = "invalidInput";
+		else
+			input.className = "validInput";
+	}
 
 
 },true);
@@ -101,6 +212,8 @@ document.body.addEventListener("blur", function(e) {
  
 	//remove the class for input validation
 	if ((e.target.id).substr(3,2) == "ip"){
+		document.getElementById(e.target.id).className = "";
+	}else if(e.target.id == "site_whitelist"){
 		document.getElementById(e.target.id).className = "";
 	}  
 
@@ -197,4 +310,39 @@ function validateIP(ipaddress){
 		return false;
 	}
 
+}
+
+function validateJSON(jsonStringData){
+	try{
+		var data = JSON.parse(jsonStringData);
+		
+		if (data.whitelist.length == 0)
+			return false;
+
+		//a url must be present for each entry
+		for(var i =0; i< data.whitelist.length;i++){
+			if (data.whitelist[i].url == "" || data.whitelist[i].url === undefined)
+				return false;
+		}
+		
+		return true;
+
+	}catch(e){
+		return false;
+	}
+}
+
+function sortWhiteListObjByURL(array){
+
+	var array = array.sort(function(a,b){
+
+		if(a.url == b.url)
+		    return 0;
+		if(a.url < b.url)
+		    return -1;
+		if(a.url > b.url)
+		    return 1;
+		});
+
+	return array;
 }

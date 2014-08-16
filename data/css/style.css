@@ -9,7 +9,8 @@ hr{
 }   
 
 input,
-label{
+label,
+#whitelist_profile_title{
 	cursor:pointer;
 }
 
@@ -30,7 +31,8 @@ ul{
 	cursor: pointer;
 }   
 
-.parentli:hover {
+.parentli:hover,
+#whitelist_profile_title:hover {
 	font-size:13px;
 }   
 
@@ -74,6 +76,7 @@ div.tabContent {
 	border-top: none;
 	border-radius: 0px 0px 8px 8px;
 	padding: 0.5em; 
+	overflow:hidden;
 }
 
 .hidden{
@@ -81,13 +84,13 @@ div.tabContent {
 }
 
 
-input.validInput{
+.validInput{
 	border: solid 2px #33FF00;
 	border-radius: 4px;
 	-moz-transition: .3s ease-in-out;
 }
 
-input.invalidInput{
+.invalidInput{
 	border: solid 2px #CC0000;
 	border-radius:4px;
 	-moz-transition: .3s ease-in-out;
@@ -98,8 +101,6 @@ input.invalidInput{
 	float:right;
 }
 
-
-
 .ddright{
 	clear:both;
 	overflow: hidden;
@@ -107,4 +108,27 @@ input.invalidInput{
 
 .ddspan{
 	float:right;
+}
+
+#site_whitelist{
+    resize:none;
+    width:100%;
+    height:60%;
+}
+
+.wl_prof{
+	width:100%;
+}
+
+#wlsavebtn,
+#wlprofsavebtn{
+	float: right;
+}
+
+#whitelist_profile{
+	padding:5px;
+	background-color:rgba(0,0,0,0.050);
+	border: 1px solid;
+	border-radius: 8px 8px 8px 8px;
+	overflow:hidden;
 }
