@@ -58,6 +58,21 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		return content;
 	}
 
+	function whiteListHandler(){
+
+		var content =  "Object.defineProperty( navigator, 'userAgent', {value: \""+strParams[1]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'appCodeName', {value: \""+strParams[2]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'appName', {value: \""+strParams[3]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'appVersion', {value: \""+strParams[4]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'vendor', {value: \""+strParams[5]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'vendorSub', {value: \""+strParams[6]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'platform', {value: \""+strParams[7]+"\"});";
+		content +=  "Object.defineProperty( navigator, 'oscpu', {value: \""+strParams[8]+"\"});";
+
+		return content;
+	}
+
+
 	var content = "(function (){try{"  
 	
 	// time zone offset
@@ -78,9 +93,18 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
 	}
 	
-	// restore vendor functionality
-	content +=  "Object.defineProperty( navigator, 'vendor', {value: \""+strParams[0]+"\"});";
+	//whitelist profile
+	if (boolParams[2] == true){
+		content += whiteListHandler();
+	}else{
+		// spoof as normal
+		// restore vendor functionality
+		content +=  "Object.defineProperty( navigator, 'vendor', {value: \""+strParams[0]+"\"});";
+	}
 
+	//blank out the productSub property
+	content += "Object.defineProperty( navigator, 'productSub', {value: \"\"});";
+	
 	//Disable  canvas support
 	if (boolParams[1] == true) {
 		content += canvasHandler();

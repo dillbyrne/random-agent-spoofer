@@ -11,6 +11,7 @@
             <li><span id="ua_tab" class="selected">Profile</span></li>
             <li><span id="headers_tab" class="nonselected">Headers</span></li>
             <li><span id="extras_tab" class="nonselected">Extras</span></li>
+            <li><span id="whitelist_tab" class="nonselected">Whitelist</span></li>
         </ul>
 
         <div id="ua_tab_content" class="tabContent">
@@ -36,7 +37,7 @@
 	            <option value="40">40 Mins</option>
 	            <option value="50">50 Mins</option>
 	            <option value="60">60 Mins</option>
-	        </select><br/> 
+	        </select><br> 
 
 	        <input type="checkbox" id="notify"/><label for="notify">Show notifications</label>
 	        <input type="checkbox" id="spoof"/><label for="spoof">Enable spoofing</label>
@@ -102,7 +103,7 @@
                         <option value="-14">+14:00</option>  
                     </select>
                 </span>
-                <br/> 
+                <br> 
             </div>
 
       
@@ -143,45 +144,51 @@
                         <option value="2560x1600">2560x1600</option>
                     </select>
                 </span>
-                <br/>
+                <br>
             </div>
 
         
             <input type="checkbox" id="winname"/>
-            <label for="winname">Protect window.name</label><br/>
+            <label for="winname">Protect window.name</label><br>
 
             <input type="checkbox" id="canvas"/>
-            <label for="canvas">Disable canvas support</label><br/>
+            <label for="canvas">Disable canvas support</label><br>
 
             <input type="checkbox" id="fonts"/>
-            <label for="fonts">Use standard font set</label><br/>
+            <label for="fonts">Use standard font set</label><br>
 
             <input type="checkbox"id="dom"/>
-            <label for="dom">Disable local dom storage</label><br/>
+            <label for="dom">Disable local dom storage</label><br>
       
             <input type="checkbox" id="history"/>
-            <label for="history">Limit tab history to 2</label><br/>
+            <label for="history">Limit tab history to 2</label><br>
             
             <input type="checkbox" id="browsing_downloads"/>
-            <label for="browsing_downloads">Disable browsing and download history</label><br/>
+            <label for="browsing_downloads">Disable browsing and download history</label><br>
       
             <input type="checkbox" id="cache"/>
-            <label for="cache">Disable browser cache</label><br/>
+            <label for="cache">Disable browser cache</label><br>
    
             <input type="checkbox" id="geo"/>
-            <label for="geo">Disable geolocation</label><br/>
+            <label for="geo">Disable geolocation</label><br>
 
             <input type="checkbox" id="link"/>
-            <label for="link">Disable link prefetching</label><br/>
+            <label for="link">Disable link prefetching</label><br>
 
             <input type="checkbox" id="dns"/>
-            <label for="dns">Disable dns prefetching</label><br/>
+            <label for="dns">Disable dns prefetching</label><br>
 
             <input type="checkbox" id="webgl"/>
-            <label for="webgl">Disable webGL</label><br/>
+            <label for="webgl">Disable webGL</label><br>
 
             <input type="checkbox" id="webrtc"/>
-            <label for="webrtc">Disable webRTC</label><br/>
+            <label for="webrtc">Disable webRTC</label><br>
+
+            <input type="checkbox" id="pdfjs"/>
+            <label for="pdfjs">Disable pdfjs</label><br>
+
+            <input type="checkbox" id="search_suggest"/>
+            <label for="search_suggest">Disable search suggestions</label><br>
             
         </div>
 
@@ -189,10 +196,10 @@
             <div align ="center"><b>Header Options</b></div>
 
             <input type="checkbox" id="auth"/>
-            <label for="auth">Disable HTTP Authentication header</label><br/>
+            <label for="auth">Disable Authorization header</label><br>
 
             <input type="checkbox" id="ifnone"/>
-            <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br/>
+            <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br>
 
             <div class="ddright">
                 <input type="checkbox" id="xff"/>
@@ -203,11 +210,11 @@
         				<option value="custom">Custom IP</option>
         			</select>
                 </span>
-                <br/>
+                <br>
             </div>
 
 			<div id="customxff" class="hidden">
-				<label for="xffip" class="iplabel">XFF IP:</label><input type="text" id="xffip"maxlength="15"><br/>
+				<label for="xffip" class="iplabel">XFF IP:</label><input type="text" id="xffip"maxlength="15"><br>
 			</div>
 
             <div class="ddright">
@@ -219,11 +226,11 @@
         				<option value="custom">Custom IP</option>
         			</select>
                 </span>
-                <br/>
+                <br>
             </div>
 			
             <div id="customvia" class="hidden">
-				<label for="viaip" class="iplabel">Via IP:</label><input type="text" id="viaip" maxlength="15"><br/>
+				<label for="viaip" class="iplabel">Via IP:</label><input type="text" id="viaip" maxlength="15"><br>
 			</div>
 
 
@@ -239,7 +246,7 @@
                         <!--<option value="custom">Custom</option> -->
                     </select>
                 </span>
-                <br/>
+                <br>
             </div>
             
 
@@ -251,7 +258,7 @@
                         <option value="none">None</option>
                         <option value="enabled">Enabled</option>
                     </select>
-                </span><br/>
+                </span><br>
         </div>
 
 			<hr>
@@ -259,13 +266,47 @@
             <div align="center">Accept headers match the selected browser profile</div>
         
             <input type="checkbox" id="acceptd"/>
-            <label for="acceptd">Spoof accepted documents</label><br/>
+            <label for="acceptd">Spoof accepted documents</label><br>
 
             <input type="checkbox" id="accepte"/>
-            <label for="accepte">Spoof accepted encoding</label><br/>
+            <label for="accepte">Spoof accepted encoding</label><br>
 
             <input type="checkbox" id="acceptl"/>
-            <label for="acceptl">Spoof accepted language (US English)</label><br/>
+            <label for="acceptl">Spoof accepted language (US English)</label><br>
+
+        </div>
+        <div id="whitelist_tab_content" class="hidden">
+            <div align ="center"><b>Whitelist Options</b></div>
+
+            <input type="checkbox" id="whitelist_disabled"/>
+            <label for="whitelist_disabled">Disable whitelist support</label><br>
+
+
+            <b id="whitelist_profile_title">Whitelist profile <span id="wl_prof_title_span">+</span></b>
+            
+            <div id="whitelist_profile" class="hidden">
+                User Agent: <input type="text" id="useragent_input" class="wl_prof"><br>
+                AppCodeName: <input type="text" id="appcodename_input" class="wl_prof"><br>
+                AppName: <input type="text" id="appname_input" class="wl_prof"><br>
+                AppVersion: <input type="text" id="appversion_input" class="wl_prof"><br>
+                Vendor: <input type="text" id="vendor_input" class="wl_prof"><br>
+                VendorSub: <input type="text" id="vendorsub_input" class="wl_prof"><br>
+                Platform: <input type="text" id="platform_input" class="wl_prof"><br>
+                OsCpu: <input type="text" id="oscpu_input" class="wl_prof"><br>
+                Accept Default: <input type="text" id="acceptdefault_input" class="wl_prof"><br>
+                Accept Encoding: <input type="text" id="acceptencoding_input" class="wl_prof"><br>
+                Accept Language: <input type="text" id="acceptlanguage_input" class="wl_prof"><br>
+                <button type="button" id="wlprofsavebtn">Save Profile</button>
+            </div>
+
+            <br>
+
+            Add whitelist json here
+            <textarea id="site_whitelist"></textarea>
+            <!--<button type="button" id="wlsavebtn">Save WhiteList</button>-->
+            <button type="button" id="wlhelpbtn">Help</button>
+            <button type="button" id="wlsavebtn">Save WhiteList</button>
+
 
         </div>
     </body>

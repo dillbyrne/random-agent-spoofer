@@ -1,65 +1,3 @@
-self.port.on("restore-options",function(options){
-
-	//Set Profile Tab Elements
-	setSelectedIndexByValue('timerdd',options[0]);
-	document.getElementById(options[1]).checked = true;
-	document.getElementById('notify').checked = options[2];
-
-	//set exclude the checkboxes states
-	if (options[23].length > 0){
-
-		var exclude_list = options[23].split(',');
-
-		for (var i=0; i< exclude_list.length;i++){
-
-			document.getElementById(exclude_list[i]).checked = true;
-		}
-	}
-
-
-	//Set Extras Tab Elements
-	document.getElementById('fonts').checked = options[3];
-	document.getElementById('dom').checked = options[4];
-	document.getElementById('history').checked = options[5];
-	document.getElementById('cache').checked = options[6];
-	document.getElementById('geo').checked = options[7];
-	document.getElementById('dns').checked = options[11];
-	document.getElementById('link').checked = options[12];
-	setSelectedIndexByValue('tzdd',options[22]);
-	setSelectedIndexByValue('screendd',options[24]);
-	document.getElementById('webgl').checked = options[25];
-	document.getElementById('winname').checked = options[29];
-	document.getElementById('canvas').checked = options[30];
-	document.getElementById('webrtc').checked = options[31];
-
-
-
-	//Set Header Tab Elements
-	document.getElementById('xff').checked = options[8];
-	document.getElementById('via').checked = options[9];
-	document.getElementById('ifnone').checked = options[10];
-	document.getElementById('acceptd').checked = options[13];
-	document.getElementById('accepte').checked = options[14];
-	document.getElementById('acceptl').checked = options[15];
-	document.getElementById('spoof').checked = options[16];
-	setSelectedIndexByValue('xffdd',options[17]);
-	document.getElementById('xffip').value = options[18];
-	setSelectedIndexByValue('viadd',options[19]);
-	document.getElementById('viaip').value = options[20];
-	document.getElementById('browsing_downloads').checked = options[21];
-	setSelectedIndexByValue('dntdd',options[26]);
-	setSelectedIndexByValue('refdd',options[27]);
-	document.getElementById('auth').checked = options[28];
-
-
-	//set custom ipcheckboxes to show if custom is selected
-	if(options[17] == "custom")
-		document.getElementById('customxff').className="";
-
-	if(options[19] == "custom")
-		document.getElementById('customvia').className="";
-});
-
 self.port.once('tab_listener',function(){
 	//get all the tabs
 	var tabs = document.getElementById("tabs").children;
@@ -178,7 +116,31 @@ self.port.once('ua_list', function(data) {
 
 });
 
-function setSelectedIndexByValue(dropdown,indexvalue){
+
+
+
+//whitelist or blacklist
+self.port.on("setSiteList",function(listid,listItems){
+	document.getElementById(listid).value = listItems;
+});
+
+self.port.on("setCheckBox",function(checkboxid,value){
+	document.getElementById(checkboxid).checked = value;
+});
+
+self.port.on("setElementValue",function(elementid,value){
+	document.getElementById(elementid).value = value;
+
+	//set custom ipcheckboxes to show if custom is selected
+	if(value == "custom")
+		document.getElementById('custom'+elementid).className="";
+});
+
+self.port.on("setTextInputValue",function(elementid,value){
+	document.getElementById(elementid).value = value;
+});
+
+self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 
 	var dd = document.getElementById(dropdown);
 
@@ -189,4 +151,20 @@ function setSelectedIndexByValue(dropdown,indexvalue){
 			break;
 		}
 	}
-};
+
+});
+
+self.port.on("setMultiCheckBox",function(checkBoxArray){
+
+	//set exclude the checkboxes states
+	if (checkBoxArray.length > 0){
+
+		var exclude_list = checkBoxArray.split(',');
+
+		for (var i=0; i< exclude_list.length;i++){
+
+			document.getElementById(exclude_list[i]).checked = true;
+		}
+	}
+
+});
