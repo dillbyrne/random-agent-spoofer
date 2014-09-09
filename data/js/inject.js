@@ -89,12 +89,12 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	}
 
 	//Reset window.name on each request
-	if (boolParams[0] == true){
+	if (boolParams[2] == true){
 		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
 	}
 	
 	//whitelist profile
-	if (boolParams[2] == true){
+	if (boolParams[0] == true){
 		content += whiteListHandler();
 	}else{
 		// spoof as normal
