@@ -75,24 +75,6 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 
 	var content = "(function (){try{"  
 	
-	// time zone offset
-	content +=  "Object.defineProperty( Date.prototype, 'getTimezoneOffset', {value: function(){return "+intParams[0]+";}});";	
-	
- 	// Send blank date strings if the user selected not to send the time zone
-	if(intParams[0] == null){ 
-		content += dateHandler();
-	}
-
-	// screen & window prefrences
-	if(intParams[1] != null){ 
-		content += windowHandler();
-	}
-
-	//Reset window.name on each request
-	if (boolParams[2] == true){
-		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
-	}
-	
 	//whitelist profile
 	if (boolParams[0] == true){
 		content += whiteListHandler();
@@ -109,6 +91,33 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	if (boolParams[1] == true) {
 		content += canvasHandler();
 	}
+
+	//Reset window.name on each request
+	if (boolParams[2] == true){
+		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
+	}
+
+	// screen & window prefrences
+	if (boolParams[3] == true){
+
+		if(intParams[1] != null){ 
+			content += windowHandler();
+		}
+	}
+
+	// date prefrences
+	if (boolParams[4] == true){
+
+	 	// Send blank date strings if the user selected not to send the time zone
+		if(intParams[0] == null){ 
+			content += dateHandler();
+		}
+
+		// time zone offset
+		content +=  "Object.defineProperty( Date.prototype, 'getTimezoneOffset', {value: function(){return "+intParams[0]+";}});";	
+
+	}
+
 
 	//remove script after modifications to prevent sites from reading it
 	content += "var ras_script = document.getElementsByTagName('script')[0]; ras_script.parentNode.removeChild(ras_script);";
