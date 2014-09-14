@@ -131,9 +131,10 @@ self.port.on("setCheckBox",function(checkboxid,value){
 self.port.on("setElementValue",function(elementid,value){
 	document.getElementById(elementid).value = value;
 
-	//set custom ipcheckboxes to show if custom is selected
-	if(value == "custom")
-		document.getElementById('custom'+elementid).className="";
+	//set custom ipcheck inputs to show if custom is selected
+	if( document.getElementById(elementid.slice(0, -2)+'dd').value == "custom"){
+		document.getElementById('custom'+elementid.slice(0, -2)).className="";
+	}
 });
 
 self.port.on("setTextInputValue",function(elementid,value){
