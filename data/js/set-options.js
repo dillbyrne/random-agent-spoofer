@@ -67,6 +67,10 @@ self.port.once('ua_list', function(data) {
 	
 			var innerListItem = document.createElement("li");
 	
+			//container for the line to fix float issue on win xp
+			var container = document.createElement("div");
+			container.setAttribute("class","profileLine");
+
 			//pass the item index for the parent and for child as the value and id
 			var radio = document.createElement("input");
 			radio.setAttribute("name","ua");	
@@ -85,9 +89,11 @@ self.port.once('ua_list', function(data) {
 			chkbox.setAttribute("id",data.uadata[i].useragents[j].profileID);
 			chkbox.setAttribute("value",i+","+j);
 
-			innerListItem.appendChild(radio);
-			innerListItem.appendChild(label);
-			innerListItem.appendChild(chkbox);
+			container.appendChild(radio);
+			container.appendChild(label);
+			container.appendChild(chkbox);
+
+			innerListItem.appendChild(container);
 
 			//prevent clicks on child element triggering the showing/hiding of the
 			//child list	

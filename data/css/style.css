@@ -96,8 +96,13 @@ div.tabContent {
 	-moz-transition: .3s ease-in-out;
 }
 
-.excludecb,
-.excludeSpan{
+
+.profileLine{
+	clear:both;
+}
+
+.excludeSpan,
+.excludecb{
 	float:right;
 }
 
