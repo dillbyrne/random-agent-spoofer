@@ -4,28 +4,30 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	var script = document.createElement( "script" );
 	script.type = "text/javascript";
 
-
 	// copy parent windows attributes to child
 	function copyWinAttribs(targetWin, sourceWin) {
 
 	    var winAttribs = ["screen","performance","Components","navigator","innerHeight","innerWidth","outerHeight","outerWidth"];
 	    var win = ""
 	    for (var i=0;i<winAttribs.length;i++) {
-
 	        win += "try { Object.defineProperty("+targetWin+",'"+winAttribs[i]+"',{ value: "+sourceWin+"."+winAttribs[i]+" }); } catch (e) {} ";
-	    	
 	    }
 	    win += targetWin+".open = "+sourceWin+".open; ";
 	    return win;
 	}
 
-
 	function dateHandler(){
 
-		var content =  "Object.defineProperty( Date.prototype, 'toLocaleString', {value: function(){return \"\";}});";
-		content +=  "Object.defineProperty( Date.prototype, 'toString', {value: function(){return \"\";}});";
-		content +=  "Object.defineProperty( Date.prototype, 'toUTCString', {value: function(){return \"\";}});";
-		content +=  "Object.defineProperty( Date.prototype, 'toGMTString', {value: function(){return \"\";}});";
+		//TODO set locale string using spoofed language
+
+	     // Date functions
+		var content =  "Object.defineProperty( Date.prototype, 'toString', {value: function(){return \""+strParams[9]+"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toLocaleString', {value: function(){return \""+strParams[10]+"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toLocaleDateString', {value: function(){return \""+strParams[11]+"\";}});";
+
+		// time zone offset
+		content +=  "Object.defineProperty( Date.prototype, 'getTimezoneOffset', {value: function(){return "+intParams[0]+";}});";
+
 		return content;
 	}
 
@@ -71,17 +73,33 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 
 		return content;
 	}
+	
+	/*
+	//TODO
+	function pluginHandler(){
 
+		var content =  "Object.defineProperty( navigator.plugins, 'length', {value:0 });";
+		return content;
+	}
+
+	//TODO
+	function mimeTypeHandler(){
+
+		var content =  "Object.defineProperty( navigator.mimeTypes, 'length', {value:0 });";
+		return content;
+	}
+	*/
 
 	var content = "(function (){try{"  
 	
-	//whitelist profile
+	// Use whitelisted profile
 	if (boolParams[0] == true){
 		content += whiteListHandler();
 	}else{
 		// spoof as normal
 		// restore vendor functionality
 		content +=  "Object.defineProperty( navigator, 'vendor', {value: \""+strParams[0]+"\"});";
+		//TODO set navigator.language equal to the accept language header 
 	}
 
 	//blank out the productSub property
@@ -105,24 +123,14 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		}
 	}
 
-	// date prefrences
+	// date & timezone prefrences
 	if (boolParams[4] == true){
-
-	 	// Send blank date strings if the user selected not to send the time zone
-		if(intParams[0] == null){ 
-			content += dateHandler();
-		}
-
-		// time zone offset
-		content +=  "Object.defineProperty( Date.prototype, 'getTimezoneOffset', {value: function(){return "+intParams[0]+";}});";	
-
+		content += dateHandler();
 	}
-
 
 	//remove script after modifications to prevent sites from reading it
 	content += "var ras_script = document.getElementsByTagName('script')[0]; ras_script.parentNode.removeChild(ras_script);";
 	content +=  "} catch (e) {} }) ();"
-
 
 	script.textContent = content;
 	
@@ -130,4 +138,3 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
 	window.document.head.appendChild( script );
 });
-
