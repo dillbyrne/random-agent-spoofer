@@ -86,17 +86,16 @@ document.body.addEventListener("keyup", function(e) {
 			var data = JSON.parse(document.getElementById("site_whitelist").value);
 
 		    //sort the json data by url attribute
-		    data.whitelist = sortWhiteListObjByURL(data.whitelist);
+		    data = sortWhiteListObjByURL(data);
 
 		    //copy the urls into another list for faster lookups
 		    var sitelist = new Array();
 
-		    for(var i=0; i<data.whitelist.length; i++){
-		        sitelist.push(data.whitelist[i].url);
+		    for(var i=0; i<data.length; i++){
+		        sitelist.push(data[i].url);
 		    }
 
 		    //save the lists
-		    //remove the last comma from the sitelist
 		    self.port.emit("whitelist","siteWhiteList",JSON.stringify(data),sitelist.toString());
 
 		}
@@ -283,12 +282,12 @@ function validateJSON(jsonStringData){
 	try{
 		var data = JSON.parse(jsonStringData);
 		
-		if (data.whitelist.length == 0)
+		if (data.length == 0)
 			return false;
 
 		//a url must be present for each entry
-		for(var i =0; i< data.whitelist.length;i++){
-			if (data.whitelist[i].url == "" || data.whitelist[i].url === undefined)
+		for(var i =0; i< data.length;i++){
+			if (data[i].url == "" || data[i].url === undefined)
 				return false;
 		}
 		
