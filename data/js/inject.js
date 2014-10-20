@@ -18,12 +18,14 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 
 	function dateHandler(){
 
-		//TODO set locale string using spoofed language
+		//TODO set locale string using spoofed language. Needs issue #67 to be implemented first
 
-	     // Date functions
+	    // Date string functions
 		var content =  "Object.defineProperty( Date.prototype, 'toString', {value: function(){return \""+strParams[9]+"\";}});";
 		content +=  "Object.defineProperty( Date.prototype, 'toLocaleString', {value: function(){return \""+strParams[10]+"\";}});";
 		content +=  "Object.defineProperty( Date.prototype, 'toLocaleDateString', {value: function(){return \""+strParams[11]+"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toTimeString', {value: function(){return \""+strParams[12]+"\";}});";
+		content +=  "Object.defineProperty( Date.prototype, 'toLocaleTimeString', {value: function(){return \""+strParams[13]+"\";}});";
 
 		// time zone offset
 		content +=  "Object.defineProperty( Date.prototype, 'getTimezoneOffset', {value: function(){return "+intParams[0]+";}});";
@@ -92,7 +94,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 
 	var content = "(function (){try{"  
 	
-	// Use whitelisted profile
+	// Use whitelisted profile (if selected)
 	if (boolParams[0] == true){
 		content += whiteListHandler();
 	}else{
@@ -105,17 +107,17 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	//blank out the productSub property
 	content += "Object.defineProperty( navigator, 'productSub', {value: \"\"});";
 	
-	//Disable  canvas support
+	//Disable  canvas support (if selected)
 	if (boolParams[1] == true) {
 		content += canvasHandler();
 	}
 
-	//Reset window.name on each request
+	//Reset window.name on each request (if selected)
 	if (boolParams[2] == true){
 		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
 	}
 
-	// screen & window prefrences
+	// screen & window prefrences (if selected)
 	if (boolParams[3] == true){
 
 		if(intParams[1] != null){ 
@@ -123,7 +125,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		}
 	}
 
-	// date & timezone prefrences
+	// date & timezone prefrences (if selected)
 	if (boolParams[4] == true){
 		content += dateHandler();
 	}
