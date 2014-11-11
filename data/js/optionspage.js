@@ -63,7 +63,6 @@ document.body.addEventListener("keyup", function(e) {
 	//set the input validation class
 	if ((e.target.id).substr(3,2) == "ip"){
 		var input =  document.getElementById(e.target.id);
-		//console.log(input.value);
 		var result = validateIP(input.value);
 
 		if (result == false){
