@@ -26,97 +26,100 @@ self.port.once('ua_list', function(data) {
 
 	ualist_div.appendChild(listElement);
 
-    for (var i = 0; i < data.uadata.length; i++){
+	for (var k = 0;k < data.length;k++){
 
-		var listItem = document.createElement("li");
-     
-		var b = document.createElement("b");
-		var textSpan = document.createElement("span");
-		var indicatorSpan = document.createElement("span");
-		var excludeSpan = document.createElement("span");
+	    for (var i = 0; i < data[k].list.length; i++){
 
-		textSpan.appendChild(document.createTextNode(data.uadata[i].description));
-		textSpan.setAttribute("class","parentli");
-		indicatorSpan.appendChild(document.createTextNode(" +"));
-		indicatorSpan.setAttribute("id","li_text"+i);
+			var listItem = document.createElement("li");
+	     
+			var b = document.createElement("b");
+			var textSpan = document.createElement("span");
+			var indicatorSpan = document.createElement("span");
+			var excludeSpan = document.createElement("span");
 
-		excludeSpan.appendChild(document.createTextNode("Exclude"));
-		excludeSpan.setAttribute("id","li_exclude_text"+i);
-		excludeSpan.setAttribute("class","hidden");
-      
-		textSpan.appendChild(indicatorSpan);
-		textSpan.appendChild(excludeSpan);
+			textSpan.appendChild(document.createTextNode(data[k].list[i].description));
+			textSpan.setAttribute("class","parentli");
+			indicatorSpan.appendChild(document.createTextNode(" +"));
+			indicatorSpan.setAttribute("id","li_text"+k+""+i);
 
-		b.appendChild(textSpan);
-		listItem.appendChild(b);
+			excludeSpan.appendChild(document.createTextNode("Exclude"));
+			excludeSpan.setAttribute("id","li_exclude_text"+k+""+i);
+			excludeSpan.setAttribute("class","hidden");
+	      
+			textSpan.appendChild(indicatorSpan);
+			textSpan.appendChild(excludeSpan);
 
-      
-		//inner List  
-		var innerListElement = document.createElement("ul");
-		innerListElement.setAttribute("class","innerlist");
-		innerListElement.setAttribute("id","innerlist"+i);
-	
-		//set the inline style to none 
-		//this prevents the need for two clicks to open the list
-		innerListElement.style.display = "none";
+			b.appendChild(textSpan);
+			listItem.appendChild(b);
 
-		//show or hide inner list element when the list item it is appended to is clicked
-		listItem.onclick = function(x) { return function() { toggleList(x); }; }(innerListElement.id);
-      
-		for (var j=0; j< data.uadata[i].useragents.length; j++){
-	
-			var innerListItem = document.createElement("li");
-	
-			//container for the line to fix float issue on win xp
-			var container = document.createElement("div");
-			container.setAttribute("class","profileLine");
+	      
+			//inner List  
+			var innerListElement = document.createElement("ul");
+			innerListElement.setAttribute("class","innerlist");
+			innerListElement.setAttribute("id","innerlist"+k+""+i);
+		
+			//set the inline style to none 
+			//this prevents the need for two clicks to open the list
+			innerListElement.style.display = "none";
 
-			//pass the item index for the parent and for child as the value and id
-			var radio = document.createElement("input");
-			radio.setAttribute("name","ua");	
-			radio.setAttribute("type","radio");	
-			radio.setAttribute("id",i+","+j);	
-			radio.setAttribute("value",i+","+j);
-	
-			var label = document.createElement("label");
-			label.setAttribute("for",i+","+j);
-			label.appendChild(document.createTextNode(data.uadata[i].useragents[j].description));
+			//show or hide inner list element when the list item it is appended to is clicked
+			listItem.onclick = function(x) { return function() { toggleList(x); }; }(innerListElement.id);
+	      
+			for (var j=0; j< data[k].list[i].useragents.length; j++){
+		
+				var innerListItem = document.createElement("li");
+		
+				//container for the line to fix float issue on win xp
+				var container = document.createElement("div");
+				container.setAttribute("class","profileLine");
 
-			//checkbox used to exclude a profile from random selection using the profile's id
-			var chkbox = document.createElement("input");
-			chkbox.setAttribute("type","checkbox");
-			chkbox.setAttribute("class","excludecb");
-			chkbox.setAttribute("id",data.uadata[i].useragents[j].profileID);
-			chkbox.setAttribute("value",i+","+j);
+				//pass the item index for the parent and for child as the value and id
+				var radio = document.createElement("input");
+				radio.setAttribute("name","ua");	
+				radio.setAttribute("type","radio");	
+				radio.setAttribute("id",k+","+i+","+j);	
+				radio.setAttribute("value",k+","+i+","+j);
+		
+				var label = document.createElement("label");
+				label.setAttribute("for",k+","+i+","+j);
+				label.appendChild(document.createTextNode(data[k].list[i].useragents[j].description));
 
-			container.appendChild(radio);
-			container.appendChild(label);
-			container.appendChild(chkbox);
+				//checkbox used to exclude a profile from random selection using the profile's id
+				var chkbox = document.createElement("input");
+				chkbox.setAttribute("type","checkbox");
+				chkbox.setAttribute("class","excludecb");
+				chkbox.setAttribute("id",data[k].list[i].useragents[j].profileID);
+				chkbox.setAttribute("value",k+","+i+","+j);
 
-			innerListItem.appendChild(container);
+				container.appendChild(radio);
+				container.appendChild(label);
+				container.appendChild(chkbox);
 
-			//prevent clicks on child element triggering the showing/hiding of the
-			//child list	
-			innerListElement.onclick= function stopProp (event){
-				event.stopPropagation();
-			}	
+				innerListItem.appendChild(container);
 
-			innerListElement.appendChild(innerListItem);
+				//prevent clicks on child element triggering the showing/hiding of the
+				//child list	
+				innerListElement.onclick= function stopProp (event){
+					event.stopPropagation();
+				}	
 
-			if(i < 4){
+				innerListElement.appendChild(innerListItem);
 
-				total_random_desktop_count++;
+
 			}
-			else{
-				total_random_other_count++;
-			}
-		}
-      
-		listItem.appendChild(innerListElement);
-		listElement.appendChild(listItem);
+	      
+			listItem.appendChild(innerListElement);
+			listElement.appendChild(listItem);
 
 
-    }
+			//limits used when checking excluded profiles
+			if(data[k].type === "desktop")
+				total_random_desktop_count += data[k].list[i].useragents.length;
+			else
+				total_random_other_count += data[k].list[i].useragents.length;
+
+	    }
+	}
 		
 	self.port.emit("randomcount",total_random_desktop_count, total_random_desktop_count + total_random_other_count);
 
