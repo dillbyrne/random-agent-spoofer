@@ -4,9 +4,10 @@
   "id": "jid1-AVgCeF1zoVzMjA",
   "description": "Allows the use of various browser profiles (including useragent ,platform, oscpu, accept headers and other options), which it can randomly switch between after a chosen period of time has expired",
   "author": "dbyrne",
+  "homepage":"https://github.com/dillbyrne/random-agent-spoofer",
   "license": "GNU GPL v3",
   "permissions": {"private-browsing": true},
   "icon":"data/images/icon.png",
   "icon64":"data/images/icon64.png",
-  "version": "0.9.4.2"
+  "version": "0.9.4.3"
 }
