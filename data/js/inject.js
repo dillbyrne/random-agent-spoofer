@@ -4,17 +4,6 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	var script = document.createElement( "script" );
 	script.type = "text/javascript";
 
-	// copy parent windows attributes to child
-	function copyWinAttribs(targetWin, sourceWin) {
-
-	    var winAttribs = ["screen","performance","Components","navigator","innerHeight","innerWidth","outerHeight","outerWidth"];
-	    var win = ""
-	    for (var i=0;i<winAttribs.length;i++) {
-	        win += "try { Object.defineProperty("+targetWin+",'"+winAttribs[i]+"',{ value: "+sourceWin+"."+winAttribs[i]+" }); } catch (e) {} ";
-	    }
-	    win += targetWin+".open = "+sourceWin+".open; ";
-	    return win;
-	}
 
 	function dateHandler(){
 
@@ -43,8 +32,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		content +=  "Object.defineProperty( window, 'innerHeight', {value: "+intParams[6]+"});";
 		content +=  "Object.defineProperty( window, 'outerWidth', {value: "+intParams[7]+"});";
 		content +=  "Object.defineProperty( window, 'outerHeight', {value: "+intParams[8]+"});";
-	    content +=  "Object.defineProperty( window, 'open', {value: function(url,name,paramaters){var winOpen = Window.prototype.open;var win = winOpen.call(this, url, name, paramaters);"+copyWinAttribs("win", "win.opener")+"return win;}});";
-	    
+	    	    
 	    return content;
 
 	}
