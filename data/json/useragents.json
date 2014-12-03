@@ -4144,6 +4144,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"320x480,480x320,320x533,533x320,360x640,640x360",
                         "profileID":""
                     },
                     {
@@ -4229,6 +4230,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4246,6 +4248,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4263,6 +4266,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4280,6 +4284,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },                   
                     {
@@ -4297,6 +4302,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4314,6 +4320,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4331,6 +4338,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4348,6 +4356,7 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
@@ -4365,21 +4374,22 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
+                        "screens":"552X960,960x552",
                         "profileID":""
                     },
                     {
-                        "description":"Android 4.2.2 - Galaxy S4 - Safari chrome 18.0.1025.308",
-                        "useragent":"Mozilla/5.0 (Linux; Android 4.2.2; en-us; SAMSUNG GT-I9505 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
+                        "description":"Android 4.4.2 - Galaxy S4 - Chrome 39.0.2171.59",
+                        "useragent":"Mozilla/5.0 (Linux; Android 4.4.2; GT-I9505 Build/KOT4H9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36",
                         "appname":"Netscape",
-                        "appversion":"5.0 (Linux; Android 4.2.2; en-us; SAMSUNG GT-I9505 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
+                        "appversion":"5.0 (Linux; Android 4.4.2; GT-I9505 Build/KOT4H9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36",
                         "platform":"Linux armv7l",
                         "vendor":"Google Inc.",
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip,deflate",
+                        "accept_encoding":"gzip,deflate,sdch",
                         "accept_default":"text/html,application/xhtml+xml,application+xml;q=0.9,*/*;q=0.8",
-                        "accept_lang":"en-US",
+                        "accept_lang":"en-US;q=0.8,en;q=0.6",
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"360x640,640x360",
@@ -4441,6 +4451,227 @@
                     }
                 ]
             },
+                  {
+                "description":"Firefox OS",
+                "useragents":[
+                    {
+                        "description":"Flame - firefox 32.0",
+                        "useragent":"Mozilla/5.0 (Mobile; rv:32.0) Gecko/32.0 Firefox/32.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x569,569x320",
+                        "profileID":"F1"
+                    },                    
+                    {
+                        "description":"Flame - firefox 33.0",
+                        "useragent":"Mozilla/5.0 (Mobile; rv:33.0) Gecko/33.0 Firefox/33.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x569,569x320",
+                        "profileID":"F2"
+                    },
+                    {
+                        "description":"Flame - firefox 34.0",
+                        "useragent":"Mozilla/5.0 (Mobile; rv:34.0) Gecko/34.0 Firefox/34.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x569,569x320",
+                        "profileID":"F3"
+                    },
+                    {
+                        "description":"Flame - firefox 35.0",
+                        "useragent":"Mozilla/5.0 (Mobile; rv:35.0) Gecko/35.0 Firefox/35.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x569,569x320",
+                        "profileID":"F4"
+                    },
+                    {
+                        "description":"Flame - firefox 36.0",
+                        "useragent":"Mozilla/5.0 (Mobile; rv:36.0) Gecko/36.0 Firefox/36.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x569,569x320",
+                        "profileID":"F5"
+                    },
+                    {
+                        "description":"Flame - firefox 37.0",
+                        "useragent":"Mozilla/5.0 (Mobile; rv:37.0) Gecko/37.0 Firefox/37.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x569,569x320",
+                        "profileID":"F6"
+                    },                    
+                    {
+                        "description":"ZTE OPEN C - firefox 32.0",
+                        "useragent":"Mozilla/5.0 (Mobile; OPENC; rv:32.0) Gecko/32.0 Firefox/32.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x533,533x320",
+                        "profileID":"F7"
+                    },
+                    {
+                        "description":"ZTE OPEN C - firefox 33.0",
+                        "useragent":"Mozilla/5.0 (Mobile; OPENC; rv:33.0) Gecko/33.0 Firefox/33.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x533,533x320",
+                        "profileID":"F8"
+                    },
+                    {
+                        "description":"ZTE OPEN C - firefox 34.0",
+                        "useragent":"Mozilla/5.0 (Mobile; OPENC; rv:34.0) Gecko/34.0 Firefox/34.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x533,533x320",
+                        "profileID":"F9"
+                    },
+                    {
+                        "description":"ZTE OPEN C - firefox 35.0",
+                        "useragent":"Mozilla/5.0 (Mobile; OPENC; rv:35.0) Gecko/35.0 Firefox/35.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x533,533x320",
+                        "profileID":"F10"
+                    },
+                    {
+                        "description":"ZTE OPEN C - firefox 36.0",
+                        "useragent":"Mozilla/5.0 (Mobile; OPENC; rv:36.0) Gecko/36.0 Firefox/36.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x533,533x320",
+                        "profileID":"F11"
+                    },
+                    {
+                        "description":"ZTE OPEN C - firefox 37.0",
+                        "useragent":"Mozilla/5.0 (Mobile; OPENC; rv:37.0) Gecko/37.0 Firefox/37.0",
+                        "appname":"Netscape",
+                        "appversion":"5.0 ()",
+                        "platform":"",
+                        "vendor":"",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x533,533x320",
+                        "profileID":"F12"
+                    }
+                ]
+            },
             {
                 "description":"iOS",
                 "useragents":[
@@ -4456,7 +4687,10 @@
                         "oscpu":"",
                         "accept_encoding":"gzip,deflate,sdch",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                        "accept_lang":"en-US, en;q=0.8",
+                        "accept_lang":"en-US,en;q=0.8",
+                        "pixeldepth":"",
+                        "colordepth":"",
+                        "screens":"",
                         "profileID":""
                     },
                     {
@@ -4474,7 +4708,7 @@
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4487,12 +4721,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate, sdch",
+                        "accept_encoding":"gzip,deflate,sdch",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                        "accept_lang":"en-US, en;q=0.8",
+                        "accept_lang":"en-US,en;q=0.8",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4505,12 +4739,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate, sdch",
+                        "accept_encoding":"gzip,deflate,sdch",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-US, en;q=0.8",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4523,12 +4757,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4541,12 +4775,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4559,12 +4793,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4577,12 +4811,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },                    
                     {
@@ -4595,12 +4829,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4613,12 +4847,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4636,7 +4870,7 @@
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4654,7 +4888,7 @@
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4672,7 +4906,7 @@
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4690,7 +4924,7 @@
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
@@ -4708,11 +4942,11 @@
                         "accept_lang":"en-us",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"768x1024,1024x768",
+                        "screens":"768x1024,1024x768,2048x1536,1536x2048",
                         "profileID":""
                     },
                     {
-                        "description":"iOS 7_0_4 - iPhone - Chrome (crios) 31.0.1650.18",
+                        "description":"iOS 7_0_4 - iPhone 5 - Chrome (crios) 31.0.1650.18",
                         "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
                         "appname":"Netscape",
                         "appversion":"5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
@@ -4723,11 +4957,14 @@
                         "oscpu":"",
                         "accept_encoding":"gzip,deflate,sdch",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                        "accept_lang":"en-US, en;q=0.8",
+                        "accept_lang":"en-US,en;q=0.8",
+                        "pixeldepth":"",
+                        "colordepth":"",
+                        "screens":"",
                         "profileID":""
                     },
                     {
-                        "description":"iOS 7_0_4 - iPhone - Safari 7.0",
+                        "description":"iOS 7_0_4 - iPhone 5 - Safari 7.0",
                         "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53",
                         "appname":"Netscape",
                         "appversion":"5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53",
@@ -4739,10 +4976,13 @@
                         "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
+                        "pixeldepth":"",
+                        "colordepth":"",
+                        "screens":"",
                         "profileID":""
                     },
                     {
-                        "description":"iOS 7_1 - iPhone - Safari 7.0",
+                        "description":"iOS 7_1 - iPhone 5 - Safari 7.0",
                         "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53",
                         "appname":"Netscape",
                         "appversion":"5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53",
@@ -4754,13 +4994,16 @@
                         "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
+                        "pixeldepth":"",
+                        "colordepth":"",
+                        "screens":"",
                         "profileID":""
                     },
                     {
-                        "description":"iOS 8_1_1 - iPhone - Safari 8.0",
-                        "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4",
+                        "description":"iOS 8_1_1 - iPhone 6 - Safari 8.0",
+                        "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
                         "appname":"Netscape",
-                        "appversion":"5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4",
+                        "appversion":"5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
                         "platform":"iPhone",
                         "vendor":"Apple Computer, Inc.",
                         "vendorsub":"",
@@ -4769,6 +5012,27 @@
                         "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"375x667,667x375",
+                        "profileID":""
+                    },
+                    {
+                        "description":"iOS 8_1_1 - iPhone 6 - Chrome 39.0.2171.50",
+                        "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B436 Safari/600.1.4",
+                        "appname":"Netscape",
+                        "appversion":"5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B436 Safari/600.1.4",
+                        "platform":"iPhone",
+                        "vendor":"Apple Computer, Inc.",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,image/webp",
+                        "accept_lang":"en-US,en;q=0.8",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"375x667,667x375",
                         "profileID":""
                     }
                 ]
@@ -5387,9 +5651,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"gzip, deflate",
+                        "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,*/*",
-                        "accept_lang":"en-US",
+                        "accept_lang":"en-US,en;q=0.5",
+                        "pixeldepth":"24",
+                        "colordepth":"24",
+                        "screens":"1324x745",
                         "profileID":"G18"
                     }
                 ]
