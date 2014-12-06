@@ -5762,12 +5762,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"deflate, gzip, x-gzip, identity, *;q=0",
+                        "accept_encoding":"deflate,gzip,x-gzip,identity,*;q=0",
                         "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/jpeg,image/gif,image/x-xbitmap,*/*;q=0.1",
                         "accept_lang":"en",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"800x600",
+                        "screens":"800x464",
                         "profileID":"G15"
                     },
                     {
@@ -5780,12 +5780,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"deflate, gzip, x-gzip, identity, *;q=0",
+                        "accept_encoding":"deflate,gzip,x-gzip,identity,*;q=0",
                         "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/jpeg,image/gif,image/x-xbitmap,*/*;q=0.1",
                         "accept_lang":"en",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"800x600",
+                        "screens":"800x464",
                         "profileID":"G16"
                     },
                     {
@@ -5798,12 +5798,12 @@
                         "vendorsub":"",
                         "buildID":"",
                         "oscpu":"",
-                        "accept_encoding":"deflate, gzip, x-gzip, identity, *;q=0",
+                        "accept_encoding":"deflate,gzip,x-gzip,identity,*;q=0",
                         "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/jpeg,image/gif,image/x-xbitmap,*/*;q=0.1",
                         "accept_lang":"en",
                         "pixeldepth":"32",
                         "colordepth":"32",
-                        "screens":"800x600",
+                        "screens":"800x464",
                         "profileID":"G17"
                     },
                     {

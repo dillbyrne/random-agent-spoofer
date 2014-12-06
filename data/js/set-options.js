@@ -165,12 +165,10 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 });
 
 self.port.on("setMultiCheckBox",function(checkBoxArray){
-
 	//set exclude the checkboxes states
 	if (checkBoxArray.length > 0){
 
 		var exclude_list = checkBoxArray.split(',');
-
 		for (var i=0; i< exclude_list.length;i++){
 
 			document.getElementById(exclude_list[i]).checked = true;
