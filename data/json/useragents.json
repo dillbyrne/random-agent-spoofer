@@ -4043,22 +4043,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x533,533x320",
-                        "profileID":""
-                    },
-                    {
-                        "description":"Android 4.0.4 - Opera 12.00",
-                        "useragent":"Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1205181138; U; en) Presto/2.10.254 Version/12.00",
-                        "appname":"Opera",
-                        "appversion":"Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1205181138; U; en) Presto/2.10.254 Version/12.00",
-                        "platform":"Pike v7.8 release 517",
-                        "vendor":"",
-                        "vendorsub":"",
-                        "buildID":"",
-                        "oscpu":"",
-                        "accept_encoding":"gzip,deflate",
-                        "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
-                        "accept_lang":"en-US,en;q=0.9",
-                        "profileID":""
+                        "profileID":"A1"
                     },
                     {
                         "description":"Android 4.1.1 - Sony Xperia E - Safari 4.0",
@@ -4076,22 +4061,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x480,480x320",
-                        "profileID":""
-                    },
-                    {
-                        "description":"Android 4.1.2 - Opera Mini 11.10",
-                        "useragent":"Opera/9.80 (Android; Opera Mini/7.5.33361/34.861; U; en) Presto/2.8.119 Version/11.10",
-                        "appname":"Opera",
-                        "appversion":"Opera/9.80 (Android; Opera Mini/7.5.33361/34.861; U; en) Presto/2.8.119 Version/11.10",
-                        "platform":"Pike v7.8 release 517",
-                        "vendor":"",
-                        "vendorsub":"",
-                        "buildID":"",
-                        "oscpu":"",
-                        "accept_encoding":"gzip,deflate",
-                        "accept_default":"text/html,application/xml;q=0.9,application/xhtml+xml,image/png,image/webp,image/gif,image/x-bitmap,*/*;q=0.1",
-                        "accept_lang":"en-US,en;q=0.9",
-                        "profileID":""
+                        "profileID":"A2"
                     },
                     {
                         "description":"Android 4.1.2 - Galaxy S2 - Chrome 32",
@@ -4109,7 +4079,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x533,533x320",
-                        "profileID":""
+                        "profileID":"A3"
                     },
                     {
                         "description":"Android 4.1.2 - Galaxy S2 - Chrome 33",
@@ -4127,7 +4097,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x533,533x320",
-                        "profileID":""
+                        "profileID":"A4"
                     },
                     {
                         "description":"Android - Firefox 30.0",
@@ -4145,7 +4115,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x480,480x320,320x533,533x320,360x640,640x360,384x640,640x384",
-                        "profileID":""
+                        "profileID":"A5"
                     },
                     {
                         "description":"Android - Firefox 31.0",
@@ -4162,7 +4132,8 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
-                        "profileID":""
+                        "screens":"320x480,480x320,320x533,533x320,360x640,640x360,384x640,640x384",
+                        "profileID":"A6"
                     },
                     {
                         "description":"Android - Firefox 32.0",
@@ -4179,7 +4150,8 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
-                        "profileID":""
+                        "screens":"320x480,480x320,320x533,533x320,360x640,640x360,384x640,640x384",
+                        "profileID":"A7"
                     },
                     {
                         "description":"Android - Firefox 33.0",
@@ -4196,7 +4168,8 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
-                        "profileID":""
+                        "screens":"320x480,480x320,320x533,533x320,360x640,640x360,384x640,640x384",
+                        "profileID":"A8"
                     },
                     {
                         "description":"Android - Firefox 34.0",
@@ -4213,7 +4186,8 @@
                         "accept_lang":"en-US,en;q=0.5",
                         "pixeldepth":"24",
                         "colordepth":"24",
-                        "profileID":""
+                        "screens":"320x480,480x320,320x533,533x320,360x640,640x360,384x640,640x384",
+                        "profileID":"A9"
                     },
                     {
                         "description":"Android - Tablet - Firefox 30.0 (armv7l)",
@@ -4231,7 +4205,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A10"
                     },
                     {
                         "description":"Android - Tablet - Firefox 31.0 (armv7l)",
@@ -4249,7 +4223,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A11"
                     },
                     {
                         "description":"Android - Tablet - Firefox 31.0 (Linux 32)",
@@ -4267,7 +4241,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A12"
                     },
                     {
                         "description":"Android - Tablet - Firefox 32.0 (armv7l)",
@@ -4285,7 +4259,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A13"
                     },                   
                     {
                         "description":"Android - Tablet - Firefox 32.0 (Linux 32)",
@@ -4303,7 +4277,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A14"
                     },
                     {
                         "description":"Android - Tablet - Firefox 33.0 (armv7l)",
@@ -4321,7 +4295,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A15"
                     },
                     {
                         "description":"Android - Tablet - Firefox 33.0 (Linux 32)",
@@ -4339,7 +4313,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A16"
                     },
                     {
                         "description":"Android - Tablet - Firefox 34.0 (armv7l)",
@@ -4357,7 +4331,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A17"
                     },
                     {
                         "description":"Android - Tablet - Firefox 34.0 (Linux 32)",
@@ -4375,7 +4349,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A18"
                     },                    
                     {
                         "description":"Android - Tablet - Firefox 35.0 (armv7l)",
@@ -4393,7 +4367,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A19"
                     },
                     {
                         "description":"Android - Tablet - Firefox 35.0 (Linux 32)",
@@ -4411,7 +4385,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"552X960,960x552",
-                        "profileID":""
+                        "profileID":"A20"
                     },
                     {
                         "description":"Android 4.4.2 - Galaxy S4 - Chrome 39.0.2171.59",
@@ -4429,7 +4403,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"360x640,640x360",
-                        "profileID":""
+                        "profileID":"A21"
                     },
                     {
                         "description":"Android 4.4.4 - G Note 4 - Chrome 39.0.2171.59",
@@ -4447,7 +4421,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"360x640,640x360",
-                        "profileID":""
+                        "profileID":"A22"
                     },
                     {
                         "description":"Android 4.3.1 - Galaxy S2 - Safari 534.30",
@@ -4465,7 +4439,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x533,533x320",
-                        "profileID":""
+                        "profileID":"A23"
                     },
                     {
                         "description":"Android 4.4.2 - Galaxy S2 - Safari 537.36",
@@ -4483,7 +4457,7 @@
                         "pixeldepth":"24",
                         "colordepth":"24",
                         "screens":"320x533,533x320",
-                        "profileID":""
+                        "profileID":"A24"
                     },
                     {
                         "description":"Android 5.0 - Nexus 4 - Chrome 39.0.2171.59",
@@ -4501,11 +4475,11 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"384x640,640x384",
-                        "profileID":""
+                        "profileID":"A25"
                     }
                 ]
             },
-                  {
+            {
                 "description":"Firefox OS",
                 "useragents":[
                     {
@@ -4745,7 +4719,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I1"
                     },
                     {
                         "description":"iOS 6_0_1 - iPad - Safari 6.0",
@@ -4763,7 +4737,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I2"
                     },
                     {
                         "description":"iOS 6_0_2 - iPad - Safari 6.0",
@@ -4781,7 +4755,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I3"
                     },
                     {
                         "description":"iOS 6_1 - iPad - Safari 6.0",
@@ -4799,7 +4773,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I4"
                     },                    
                     {
                         "description":"iOS 6_1_2 - iPad - Safari 6.0",
@@ -4817,7 +4791,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I5"
                     },
                     {
                         "description":"iOS 6_1_3 - iPad - Safari 6.0",
@@ -4835,7 +4809,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I6"
                     },
                     {
                         "description":"iOS 7_0 - iPad - Safari 7.0",
@@ -4853,7 +4827,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I7"
                     },
                     {
                         "description":"iOS 7_0_4 - iPad - Safari 7.0",
@@ -4871,7 +4845,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I8"
                     },
                     {
                         "description":"iOS 7_1 - iPad - Safari 7.0",
@@ -4889,7 +4863,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I9"
                     },
                     {
                         "description":"iOS 7_1_1 - iPad - Chrome 38.0.2125.59",
@@ -4907,7 +4881,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I10"
                     },
                     {
                         "description":"iOS 7_1_2 - iPad - Safari 7.0",
@@ -4925,7 +4899,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I11"
                     },
                     {
                         "description":"iOS 7_1_2 - iPad - Chrome 38.0.2125.59",
@@ -4943,7 +4917,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I12"
                     },
                     {
                         "description":"iOS 7_1_2 - iPad - Chrome 39.0.2171.50",
@@ -4961,7 +4935,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I13"
                     },
                     {
                         "description":"iOS 8_1 - iPad - Safari 8.0",
@@ -4979,7 +4953,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
+                        "profileID":"I14"
                     },
                     {
                         "description":"iOS 8_1_1 - iPad - Safari 8.0",
@@ -4997,25 +4971,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"768x1024,1024x768,2048x1536,1536x2048",
-                        "profileID":""
-                    },
-                    {
-                        "description":"iOS 7_0_4 - iPhone 5 - Chrome 31.0.1650.18",
-                        "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
-                        "appname":"Netscape",
-                        "appversion":"5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/11B554a Safari/8536.25",
-                        "platform":"iPhone",
-                        "vendor":"Apple Computer, Inc.",
-                        "vendorsub":"",
-                        "buildID":"",
-                        "oscpu":"",
-                        "accept_encoding":"gzip,deflate,sdch",
-                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                        "accept_lang":"en-US,en;q=0.8",
-                        "pixeldepth":"",
-                        "colordepth":"",
-                        "screens":"",
-                        "profileID":""
+                        "profileID":"I15"
                     },
                     {
                         "description":"iOS 7_0_4 - iPhone 5 - Safari 7.0",
@@ -5030,10 +4986,10 @@
                         "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
-                        "pixeldepth":"",
-                        "colordepth":"",
-                        "screens":"",
-                        "profileID":""
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x568,568x320",
+                        "profileID":"I16"
                     },
                     {
                         "description":"iOS 7_1 - iPhone 5 - Safari 7.0",
@@ -5048,10 +5004,10 @@
                         "accept_encoding":"gzip,deflate",
                         "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                         "accept_lang":"en-us",
-                        "pixeldepth":"",
-                        "colordepth":"",
-                        "screens":"",
-                        "profileID":""
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x568,568x320",
+                        "profileID":"I17"
                     },
                     {
                         "description":"iOS 8_0_2 - iPhone 6 - Safari 8.0",
@@ -5069,7 +5025,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"375x667,667x375",
-                        "profileID":""
+                        "profileID":"I18"
                     },
                     {
                         "description":"iOS 8_0_2 - iPhone 6 - Chrome 38.0.2125.59",
@@ -5087,7 +5043,25 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"375x667,667x375",
-                        "profileID":""
+                        "profileID":"I19"
+                    },
+                    {
+                        "description":"iOS 8_1 - iPhone 5 - Safari 8.0",
+                        "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+                        "appname":"Netscape",
+                        "appversion":"5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+                        "platform":"iPhone",
+                        "vendor":"Apple Computer, Inc.",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "accept_lang":"en-us",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x568,568x320",
+                        "profileID":"I20"
                     },
                     {
                         "description":"iOS 8_1 - iPhone 6 - Safari 8.0",
@@ -5105,7 +5079,25 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"375x667,667x375",
-                        "profileID":""
+                        "profileID":"I21"
+                    },
+                    {
+                        "description":"iOS 8_1 - iPhone 5 - Chrome 39.0.2171.50",
+                        "useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B411 Safari/600.1.4",
+                        "appname":"Netscape",
+                        "appversion":"5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/39.0.2171.50 Mobile/12B411 Safari/600.1.4",
+                        "platform":"iPhone",
+                        "vendor":"Apple Computer, Inc.",
+                        "vendorsub":"",
+                        "buildID":"",
+                        "oscpu":"",
+                        "accept_encoding":"gzip,deflate",
+                        "accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,image/webp",
+                        "accept_lang":"en-US,en;q=0.8",
+                        "pixeldepth":"32",
+                        "colordepth":"32",
+                        "screens":"320x568,568x320",
+                        "profileID":"I22"
                     },
                     {
                         "description":"iOS 8_1_1 - iPhone 6 - Safari 8.0",
@@ -5123,7 +5115,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"375x667,667x375",
-                        "profileID":""
+                        "profileID":"I23"
                     },
                     {
                         "description":"iOS 8_1_1 - iPhone 6 - Chrome 39.0.2171.50",
@@ -5141,7 +5133,7 @@
                         "pixeldepth":"32",
                         "colordepth":"32",
                         "screens":"375x667,667x375",
-                        "profileID":""
+                        "profileID":"I24"
                     }
                 ]
             },
