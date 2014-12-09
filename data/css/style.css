@@ -36,7 +36,7 @@ ul{
 	font-size:13px;
 }   
 
-ul .innerlist{
+.innerlist{
 	padding:5px;
 	display: none;
 	background-color:rgba(0,0,0,0.050);
@@ -44,26 +44,26 @@ ul .innerlist{
 	border-radius: 8px 8px 8px 8px;
 }   
 
-ul#tabs { 
+#tabs { 
 	list-style-type: none; 
 	padding: 0 0 0.3em 0; 
 }
 
-ul#tabs li { 
+#tabs li { 
 	display: inline; 
 }
 
-ul#tabs li span.nonselected { 
+#tabs li span.nonselected { 
 	border: 1px solid ;
 	border-radius: 8px 8px 0px 0px;
 	padding: 0.3em; 
 	text-decoration: none; }
 
-ul#tabs li span:hover { 
+#tabs li span:hover { 
 	background-color:rgba(0,0,0,0.050);
 }
 
-ul#tabs li span.selected { 
+#tabs li span.selected { 
 	border: 1px solid ; 
 	border-bottom: none;
 	border-radius: 8px 8px 0px 0px;
@@ -71,7 +71,7 @@ ul#tabs li span.selected {
 	padding: 0.5em 0.3em 0.38em 0.3em; 
 }
 
-div.tabContent { 
+.tabContent { 
 	border: 1px solid ;
 	border-top: none;
 	border-radius: 0px 0px 8px 8px;
