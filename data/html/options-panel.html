@@ -40,7 +40,7 @@
 	        </select><br> 
 
 	        <input type="checkbox" id="notify"/><label for="notify">Show notifications</label>
-	        <input type="checkbox" id="spoof"/><label for="spoof">Enable spoofing</label>
+	        <input type="checkbox" id="spoof"/><label for="spoof">Enable RAS</label>
 	        <hr>
 
 
@@ -117,8 +117,7 @@
                     <select id="screendd">
                         <option value="default">Default</option>
                         <option value="random">Random</option> -->
-                        <!-- <option value="profile">Profile</option>  TODO-->
-                        <!-- <option value="custom">Custom</option>  TODO--> 
+                        <option value="profile">Profile</option> 
                        
                         <option value="800x600">800x600</option>
                         <option value="1024x600">1024x600</option>
@@ -198,7 +197,7 @@
             <label for="auth">Disable Authorization header</label><br>
 
             <input type="checkbox" id="ifnone"/>
-            <label for="ifnone">Send spoofed 'If-None_Match' headers (ETags)</label><br>
+            <label for="ifnone">Send spoofed 'If-None-Match' headers (ETags)</label><br>
 
             <div class="ddright">
                 <input type="checkbox" id="xff"/>
