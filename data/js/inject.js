@@ -35,7 +35,6 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		content +=  "Object.defineProperty( screen, 'colorDepth', {value: "+intParams[9]+"});";
 		content +=  "Object.defineProperty( screen, 'pixelDepth', {value: "+intParams[10]+"});";
 
-
 	    return content;
 
 	}
@@ -98,7 +97,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	//blank out the productSub property
 	content += "Object.defineProperty( navigator, 'productSub', {value: \"\"});";
 	
-	//Disable  canvas support (if selected)
+	//Disable canvas support (if selected)
 	if (boolParams[1] == true) {
 		content += canvasHandler();
 	}
