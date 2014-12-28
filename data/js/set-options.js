@@ -12,14 +12,11 @@ self.port.once('tab_listener',function(){
 
 self.port.once('ua_list', function(data) {
 
-	//profile count, used for random profile exclusions
-	var total_random_other_count = 0;
-	var total_random_desktop_count = 0;
-
-   
 	//create the list of browser profiles
     
     var ualist_div  = document.getElementById('ualist');  
+
+    var random_other_div = document.getElementById("random_other_content");
     
     //outer list
     var listElement = document.createElement("ul");
@@ -57,30 +54,60 @@ self.port.once('ua_list', function(data) {
 			var innerListElement = document.createElement("ul");
 			innerListElement.setAttribute("class","innerlist");
 			innerListElement.setAttribute("id","innerlist"+k+""+i);
+
+
+			//Add Random option as first element of inner list
+			var innerListItem = document.createElement("li");
+			var container = document.createElement("div");
+			container.setAttribute("class","profileLine");
+
+			var radio = document.createElement("input");
+			radio.setAttribute("name","ua");	
+			radio.setAttribute("type","radio");	
+			radio.setAttribute("id","random_"+k+","+i);	
+			radio.setAttribute("value","random_"+k+","+i);
+
+			var label = document.createElement("label");
+			label.setAttribute("for","random_"+k+","+i);
+			label.appendChild(document.createTextNode( "Random "+  data[k].list[i].description));
+
+			container.appendChild(radio);
+			container.appendChild(label);
+
+			innerListItem.appendChild(container);
+			innerListElement.appendChild(innerListItem);
+
 		
 			//set the inline style to none 
 			//this prevents the need for two clicks to open the list
 			innerListElement.style.display = "none";
+
+
+			//prevent clicks on child element triggering the showing/hiding of the
+			//child list	
+			innerListElement.onclick= function stopProp (event){
+				event.stopPropagation();
+			}	
 
 			//show or hide inner list element when the list item it is appended to is clicked
 			listItem.onclick = function(x) { return function() { toggleList(x); }; }(innerListElement.id);
 	      
 			for (var j=0; j< data[k].list[i].useragents.length; j++){
 		
-				var innerListItem = document.createElement("li");
+				innerListItem = document.createElement("li");
 		
 				//container for the line to fix float issue on win xp
-				var container = document.createElement("div");
+				container = document.createElement("div");
 				container.setAttribute("class","profileLine");
 
 				//pass the item index for the parent and for child as the value and id
-				var radio = document.createElement("input");
+				radio = document.createElement("input");
 				radio.setAttribute("name","ua");	
 				radio.setAttribute("type","radio");	
 				radio.setAttribute("id",k+","+i+","+j);	
 				radio.setAttribute("value",k+","+i+","+j);
 		
-				var label = document.createElement("label");
+				label = document.createElement("label");
 				label.setAttribute("for",k+","+i+","+j);
 				label.appendChild(document.createTextNode(data[k].list[i].useragents[j].description));
 
@@ -97,12 +124,6 @@ self.port.once('ua_list', function(data) {
 
 				innerListItem.appendChild(container);
 
-				//prevent clicks on child element triggering the showing/hiding of the
-				//child list	
-				innerListElement.onclick= function stopProp (event){
-					event.stopPropagation();
-				}	
-
 				innerListElement.appendChild(innerListItem);
 
 
@@ -110,18 +131,9 @@ self.port.once('ua_list', function(data) {
 	      
 			listItem.appendChild(innerListElement);
 			listElement.appendChild(listItem);
-
-
-			//limits used when checking excluded profiles
-			if(data[k].type === "desktop")
-				total_random_desktop_count += data[k].list[i].useragents.length;
-			else
-				total_random_other_count += data[k].list[i].useragents.length;
-
+			
 	    }
 	}
-		
-	self.port.emit("randomcount",total_random_desktop_count, total_random_desktop_count + total_random_other_count);
 
 });
 
@@ -164,11 +176,13 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 
 });
 
-self.port.on("setMultiCheckBox",function(checkBoxArray){
-	//set exclude the checkboxes states
-	if (checkBoxArray.length > 0){
+self.port.on("setMultiCheckBox",function(checkBoxList){
+	
+	//set exclude the checkboxes states	
+	if (checkBoxList.length > 0 ){
 
-		var exclude_list = checkBoxArray.split(',');
+		var exclude_list = checkBoxList.split(',');
+		console.log("exclude_list is "+exclude_list);
 		for (var i=0; i< exclude_list.length;i++){
 
 			document.getElementById(exclude_list[i]).checked = true;

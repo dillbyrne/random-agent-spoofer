@@ -4025,7 +4025,7 @@
         "type":"mobile",
         "list":[
             {
-                "description":"Android",
+                "description":"Android Browsers",
                 "useragents":[
                     {
                         "description":"Android 4.0.3 - Galaxy S2 - Safari 534.30",
@@ -4480,7 +4480,7 @@
                 ]
             },
             {
-                "description":"Firefox OS",
+                "description":"Firefox OS Browsers",
                 "useragents":[
                     {
                         "description":"FFOS - Flame - Firefox 32.0",
@@ -4701,7 +4701,7 @@
                 ]
             },
             {
-                "description":"iOS",
+                "description":"iOS Browsers",
                 "useragents":[
                     {
                         "description":"iOS 6_0 - iPad - Safari 6.0",
@@ -5138,7 +5138,7 @@
                 ]
             },
             {
-                "description":"Windows Phone / Tablet",
+                "description":"Windows Phone Browsers",
                 "useragents":[
                     {
                         "description":"WP8.1 - HTC 8X - IE 11",
@@ -5490,7 +5490,7 @@
         "type":"other",
         "list":[
             {
-                "description":"Game Consoles",
+                "description":"Console Browsers",
                 "useragents":[
                     {
                         "description":"Playstation 3 (4.50)",
