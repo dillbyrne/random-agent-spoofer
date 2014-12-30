@@ -104,7 +104,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 
 	//Reset window.name on each request (if selected)
 	if (boolParams[2] == true){
-		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: true});";
+		content +=  "Object.defineProperty( window, 'name', {value: \"\", writable: false});";
 	}
 
 	// screen & window prefrences (if selected)
