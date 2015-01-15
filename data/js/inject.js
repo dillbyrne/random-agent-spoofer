@@ -129,6 +129,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	// firefox should create a head tag if the document does not have one
 	// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
 	window.document.head.appendChild( script );
-});
-	//needed to force scrit reinjection when navigating with the history buttons
+
+	//needed to force script reinjection when navigating with the history buttons
 	window.onunload = function(){};
+});
