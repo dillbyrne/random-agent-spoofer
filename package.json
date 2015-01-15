@@ -9,5 +9,12 @@
   "permissions": {"private-browsing": true},
   "icon":"data/images/icon.png",
   "icon64":"data/images/icon64.png",
-  "version": "0.9.5.1"
+  "version": "0.9.5.1",
+  "preferences": [
+  {
+    "name": "show_context_menu",
+    "title": "Show context menu entry ?",
+    "type": "bool",
+    "value": true
+  }]
 }
