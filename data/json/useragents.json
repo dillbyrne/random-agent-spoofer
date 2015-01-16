@@ -4028,7 +4028,7 @@
                 "description":"Android Browsers",
                 "useragents":[
                     {
-                        "description":"Android 4.0.3 - Galaxy S2 - Safari 534.30",
+                        "description":"Android 4.10.3 - Galaxy S2 - Safari 534.30",
                         "useragent":"Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
                         "appname":"Netscape",
                         "appversion":"5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
