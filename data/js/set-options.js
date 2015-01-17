@@ -10,7 +10,7 @@ self.port.once('tab_listener',function(){
 
 
 
-self.port.once('ua_list', function(data) {
+self.port.once('ua_list', function(data,localized_strings) {
 
 	//create the list of browser profiles
     
@@ -39,7 +39,7 @@ self.port.once('ua_list', function(data) {
 			indicatorSpan.appendChild(document.createTextNode(" +"));
 			indicatorSpan.setAttribute("id","li_text"+k+""+i);
 
-			excludeSpan.appendChild(document.createTextNode("Exclude"));
+			excludeSpan.appendChild(document.createTextNode(localized_strings[0]));
 			excludeSpan.setAttribute("id","li_exclude_text"+k+""+i);
 			excludeSpan.setAttribute("class","hidden");
 	      
@@ -69,7 +69,7 @@ self.port.once('ua_list', function(data) {
 
 			var label = document.createElement("label");
 			label.setAttribute("for","random_"+k+","+i);
-			label.appendChild(document.createTextNode( "Random "+  data[k].list[i].description));
+			label.appendChild(document.createTextNode( localized_strings[1]+" "+  data[k].list[i].description));
 
 			container.appendChild(radio);
 			container.appendChild(label);
