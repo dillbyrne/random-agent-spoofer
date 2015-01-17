@@ -11,19 +11,18 @@ It also supports other privacy enhancing options
 
 # Features #
 
-- Allows the user to choose a browser profile at random (From all available profiles or desktop profiles only)  
+- Allows the user to choose a specific browser profile or one at random (from all available profiles, desktop profiles only or from the OS family)  
 
 - Allows the user to specify the interval at which the random profiles are
-  chosen. Interval can also be random, a specific time period or per session if not set
+  chosen. Interval can also be random, a specific time period or per session if the timer is not set
 
 - Allows the user to exclude profiles from random selection.
 
-- Persistently remembers the users choice of user agent and time interval if set.
+- Persistently remembers the users choice of profile and time interval if set.
 
-- Provides a quick toggle to enable/disable the addon via right clicking the
-  icon as well as a checkbox in the UI.
+- Provides a mouse context menu to for quickly selecting random profile and timers. This can be shown or hidden in the preferences
 
-- Provides option to toggle notifications of user agent changes. 
+- Provides option to toggle notifications of profiles changes. 
 
 - Allows vendor spoofing that was removed in firefox 24
 
@@ -33,11 +32,11 @@ It also supports other privacy enhancing options
 - It has a left click menu of expandable lists to allow users to quickly choose
   specific profiles
 
-- It has a large list of profiles (nearly 400 at this time).
+- It has a large list of profiles ( 320 at this time).
 
 - Option to limit local dom storage
 
-- Option to disable browser cache
+- Option to disable browser cache (forced by default to fix issue #121 looking for a work around)
 
 - Option to limit fonts to a standard set (monospace, serif, times new roman)
 
@@ -49,7 +48,7 @@ It also supports other privacy enhancing options
 
 - Option to disable link prefetching
 
-- Option to disable webgl
+- Option to disable webGL
 
 - Option to disable webRTC
 
@@ -68,9 +67,21 @@ It also supports other privacy enhancing options
 - Option to spoof screen and window sizes to a specific size or set at random
 
 
-# Installation Instructions #
+# Localizations #
 
-Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions including how to build the addon from source as well as various methods of obtaining the addon.
+Localizations so far.
+
+- en-US
+
+Please get in touch if you would like to translate RAS to your language.
+
+
+# Wiki #
+
+Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions, a user guide and ideas for contributing.
+
+
+
 
 # Icons #
 
