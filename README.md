@@ -71,9 +71,35 @@ It also supports other privacy enhancing options
 
 Localizations so far.
 
+- da-DK
+
+- de-DE
+
 - en-US
 
-Please get in touch if you would like to translate RAS to your language.
+- es-ES
+
+- fr-FR
+
+- it-IT
+
+- ja
+
+- ko
+
+- no-NO
+
+- pl
+
+- pt-PT
+
+- ru
+
+- sv-SE
+
+- zh-CN
+
+Please get in touch if you would like to translate RAS to your language or improve an existing one.
 
 
 # Wiki #
