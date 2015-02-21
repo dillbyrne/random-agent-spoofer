@@ -16,17 +16,5 @@
     "title": "Show context menu entry ?",
     "type": "bool",
     "value": true
-  },
-  {
-    "name": "check_for_updates",
-    "title": "Check for updates on startup ?",
-    "type": "bool",
-    "value": true
-  },
-  {
-    "name": "download_updates",
-    "title": "Download updates automatically ?",
-    "type": "bool",
-    "value": false
   }]
 }
