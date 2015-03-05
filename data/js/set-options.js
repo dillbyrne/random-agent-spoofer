@@ -138,28 +138,21 @@ self.port.once('ua_list', function(data,localized_strings) {
 });
 
 
-
-
-//whitelist
-self.port.on("setSiteList",function(listid,listItems){
-	document.getElementById(listid).value = listItems;
-});
-
 self.port.on("setCheckBox",function(checkboxid,value){
 	document.getElementById(checkboxid).checked = value;
 });
 
 self.port.on("setElementValue",function(elementid,value){
 	document.getElementById(elementid).value = value;
+});
+
+self.port.on("setIPDDValues",function(elementid,value){
+	document.getElementById(elementid).value = value;
 
 	//set custom ipcheck inputs to show if custom is selected
 	if( document.getElementById(elementid.slice(0, -2)+'dd').value == "custom"){
 		document.getElementById('custom'+elementid.slice(0, -2)).className="";
 	}
-});
-
-self.port.on("setTextInputValue",function(elementid,value){
-	document.getElementById(elementid).value = value;
 });
 
 self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){

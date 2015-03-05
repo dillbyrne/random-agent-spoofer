@@ -16,5 +16,11 @@
     "title": "Show context menu entry ?",
     "type": "bool",
     "value": true
+  },  
+  {
+    "name": "show_notifications",
+    "title": "Show notifications ?",
+    "type": "bool",
+    "value": true
   }]
 }
