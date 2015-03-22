@@ -7,37 +7,56 @@
 
     <body>
 
-        <ul id="tabs">
-            <li><span id="ua_tab" class="selected" data-l10n-id="profile_tab_id"></span></li>
-            <li><span id="headers_tab" class="nonselected" data-l10n-id="headers_tab_id"></span></li>
-            <li><span id="extras_tab" class="nonselected" data-l10n-id="extras_tab_id"></span></li>
-            <li><span id="whitelist_tab" class="nonselected" data-l10n-id="whitelist_tab_id"></span></li>
-        </ul>
+        <div id="tabs_container">
+            <ul id="tabs">
+                <li><span id="ua_tab" class="selected" data-l10n-id="profile_tab_id"></span></li><!--
+             --><li><span id="headers_tab" class="nonselected" data-l10n-id="headers_tab_id"></span></li><!--
+             --><li><span id="extras_tab" class="nonselected" data-l10n-id="extras_tab_id"></span></li><!--
+             --><li><span id="whitelist_tab" class="nonselected" data-l10n-id="whitelist_tab_id"></span></li><!--
+             --><li><span id="help_tab" class="nonselected" data-l10n-id="help_tab_id"></span></li>
+            </ul>
+        </div>
 
         <div id="ua_tab_content" class="tabContent">
-            <div align ="center"><b data-l10n-id="choose_browser_profile_id"></b></div>
-            <input type="radio" name="ua" id="default" value="default">
-	        <label for="default" data-l10n-id="default_id"></label>
-	        <input type="radio" name="ua" id="random" value="random">
-	        <label for="random" data-l10n-id="random_all_id"></label>
-	        <input type="radio" name="ua" id="random_desktop" value="random_desktop">
-	        <label for="random_desktop" data-l10n-id="random_desktop_id"></label><br>
 
-	        <span data-l10n-id="change_on_timer_id"></span>
+            <div id="top_profile_radios">
+                <ul>
+                    <li>
+                        <input type="radio" name="ua" id="default" value="default">
+            	        <label for="default" data-l10n-id="real_id"></label>
+                    </li><!--
+                 --><li>
+                        <input type="radio" name="ua" id="random_desktop" value="random_desktop">
+            	        <label for="random_desktop" data-l10n-id="random_desktop_id"></label>
+                    </li><!--
+                 --><li>
+                        <input type="radio" name="ua" id="random" value="random">
+                        <label for="random" data-l10n-id="random_id"></label>
+                    </li><!--
+                 --><li>             
+                        <input type="radio" name="ua" id="random_mobile" value="random_mobile">
+                        <label for="random_mobile" data-l10n-id="random_mobile_id"></label>
+                    </li>
+                </ul>
+            </div>
 
-	        <select id="timerdd">
-                <option value="none" data-l10n-id="no_timer_id"></option>
-	            <option value="request" data-l10n-id="per_request_id"></option>
-	            <option value="randomTime" data-l10n-id="random_id"></option>
-	            <option value="1" data-l10n-id="1_min_id"></option>
-	            <option value="5" data-l10n-id="5_mins_id"></option>
-	            <option value="10" data-l10n-id="10_mins_id"></option>
-	            <option value="20" data-l10n-id="20_mins_id"></option>
-	            <option value="30" data-l10n-id="30_mins_id"></option>
-	            <option value="40" data-l10n-id="40_mins_id"></option>
-	            <option value="50" data-l10n-id="50_mins_id"></option>
-	            <option value="60" data-l10n-id="60_mins_id"></option>
-	        </select><br> 
+            <div id="time_interval_display" class="hidden">
+    	        <span data-l10n-id="change_on_timer_id"></span>
+
+    	        <select id="timerdd">
+                    <option value="none" data-l10n-id="no_timer_id"></option>
+                    <option value="randomTime" data-l10n-id="random_id"></option>
+    	            <option value="request" data-l10n-id="per_request_id"></option>
+    	            <option value="1" data-l10n-id="1_min_id"></option>
+    	            <option value="5" data-l10n-id="5_mins_id"></option>
+    	            <option value="10" data-l10n-id="10_mins_id"></option>
+    	            <option value="20" data-l10n-id="20_mins_id"></option>
+    	            <option value="30" data-l10n-id="30_mins_id"></option>
+    	            <option value="40" data-l10n-id="40_mins_id"></option>
+    	            <option value="50" data-l10n-id="50_mins_id"></option>
+    	            <option value="60" data-l10n-id="60_mins_id"></option>
+    	        </select>
+            </div>
 	        <hr>
 
             <div id ="ualist"></div>
@@ -277,7 +296,7 @@
                         <option value="enabled" data-l10n-id="enabled_id"></option>
                     </select>
                 </span><br>
-        </div>
+            </div>
 
 			<hr>
             
@@ -296,14 +315,18 @@
             <label for="acceptl" data-l10n-id="acceptl_id"></label><br>
 
         </div>
+        
         <div id="whitelist_tab_content" class="hidden">
             <div align ="center"><b data-l10n-id="whitelist_option_id"></b></div>
 
             <input type="checkbox" id="whitelist_disabled" data-invertvalue="false" 
                 data-prefname="extensions.agentSpoof.whiteListDisabled"/>
             <label for="whitelist_disabled" data-l10n-id="disable_whitelist_id"></label><br>
-
-            <b><span id="whitelist_profile_title" data-l10n-id="whitelist_profile_id"></span> <span id="wl_prof_title_span">+</span> </b>
+            <hr>
+            <div id="wl_prof_expand">
+                <span id="whitelist_profile_title" data-l10n-id="whitelist_profile_id"></span>
+                <span id="wl_prof_title_span">+</span>
+            </div>
             
             <div id="whitelist_profile" class="hidden">
                 User Agent: <input type="text" id="useragent_input" class="wl_prof" 
@@ -331,12 +354,55 @@
                 <button type="button" id="wlprofsavebtn" data-l10n-id="save_wl_profile_id"></button>
             </div>
 
-            <br>
+            
 
-            <span data-l10n-id="add_whitelist_here_id"></span>
-            <textarea id="site_whitelist"></textarea>
-            <button type="button" id="wlhelpbtn" data-l10n-id="help_id"></button>
-
+            <div id="wl_rules_expand">
+                <span id="whitelist_rules_title"data-l10n-id="add_whitelist_here_id"></span>
+                <span id="wl_rules_title_span">+</span>
+            </div>
+            <textarea id="site_whitelist" class="hidden"></textarea>
         </div>
+
+        <div id="help_tab_content" class="hidden">
+
+
+            <h2>Random Agent Spoofer</h2>
+
+            <p class="version">0.9.5.2</p>
+
+                <!--Use customlink class to force loading of link in new tabs and not inside RAS's panel-->
+            <p>
+                Random Agent Spoofer is developed by <span class="customlink" data-url="https://github.com/dillbyrne/">dillbyrne</span> and
+                <span class="customlink"
+                data-url="https://github.com/dillbyrne/random-agent-spoofer/graphs/contributors">contributors</span>.
+                It is <em>free</em> (as in freedom) software distributed under GPLv3 license.
+            </p>
+
+            <h3>Code</h3>
+
+            <ul>
+                <li><div class="customlink" 
+                    data-url="https://github.com/dillbyrne/random-agent-spoofer/">Source code
+                </div></li>
+                <li><div class="customlink" 
+                    data-url="https://github.com/dillbyrne/random-agent-spoofer/labels/bug">Report problems
+                </div></li>
+            </ul>
+
+            <h3>Community</h3>
+
+            <ul>
+                <li><div class="customlink" 
+                    data-url="https://github.com/dillbyrne/random-agent-spoofer/wiki">Wiki
+                </div></li>
+                <li><div class="customlink" 
+                    data-url="https://github.com/dillbyrne/random-agent-spoofer/wiki/User-Manual">User manual
+                </div></li>
+                <li><div class="customlink" 
+                    data-url="https://github.com/dillbyrne/random-agent-spoofer/labels/enhancement">Suggest improvements
+                </div></li>
+            </ul>
+        </div>
+
     </body>
 </html>

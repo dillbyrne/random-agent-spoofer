@@ -28,33 +28,34 @@ self.port.once('ua_list', function(data,localized_strings) {
 	    for (var i = 0; i < data[k].list.length; i++){
 
 			var listItem = document.createElement("li");
+			listItem.setAttribute("id","listItem_"+k);
+
 	     
-			var b = document.createElement("b");
+			var p = document.createElement("p");
+			p.setAttribute("class","listitem_p");
 			var textSpan = document.createElement("span");
 			var indicatorSpan = document.createElement("span");
-			var excludeSpan = document.createElement("span");
+
+
 
 			textSpan.appendChild(document.createTextNode(data[k].list[i].description));
 			textSpan.setAttribute("class","parentli");
-			indicatorSpan.appendChild(document.createTextNode(" +"));
+			indicatorSpan.appendChild(document.createTextNode("+"));
+			indicatorSpan.setAttribute("class","indicatorSpan");
 			indicatorSpan.setAttribute("id","li_text"+k+""+i);
 
-			excludeSpan.appendChild(document.createTextNode(localized_strings[0]));
-			excludeSpan.setAttribute("id","li_exclude_text"+k+""+i);
-			excludeSpan.setAttribute("class","hidden");
-	      
-			textSpan.appendChild(indicatorSpan);
-			textSpan.appendChild(excludeSpan);
 
-			b.appendChild(textSpan);
-			listItem.appendChild(b);
+			textSpan.appendChild(indicatorSpan);
+
+
+			p.appendChild(textSpan);
+			listItem.appendChild(p);
 
 	      
 			//inner List  
 			var innerListElement = document.createElement("ul");
 			innerListElement.setAttribute("class","innerlist");
 			innerListElement.setAttribute("id","innerlist"+k+""+i);
-
 
 			//Add Random option as first element of inner list
 			var innerListItem = document.createElement("li");
@@ -69,10 +70,16 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			var label = document.createElement("label");
 			label.setAttribute("for","random_"+k+","+i);
-			label.appendChild(document.createTextNode( localized_strings[1]+" "+  data[k].list[i].description));
+			label.appendChild(document.createTextNode(" "+localized_strings[1]+" "+  data[k].list[i].description));
+			
+			var excludeSpan = document.createElement("span");
+			excludeSpan.appendChild(document.createTextNode("Exclude"));
+			excludeSpan.setAttribute("class","excludeSpan");
+
 
 			container.appendChild(radio);
 			container.appendChild(label);
+			container.appendChild(excludeSpan);
 
 			innerListItem.appendChild(container);
 			innerListElement.appendChild(innerListItem);
@@ -109,7 +116,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 		
 				label = document.createElement("label");
 				label.setAttribute("for",k+","+i+","+j);
-				label.appendChild(document.createTextNode(data[k].list[i].useragents[j].description));
+				label.appendChild(document.createTextNode(" "+data[k].list[i].useragents[j].description));
 
 				//checkbox used to exclude a profile from random selection using the profile's id
 				var chkbox = document.createElement("input");
@@ -183,3 +190,83 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 	}
 
 });
+
+
+
+self.port.on("updatePanelItems",function(ua_choice){
+
+	setListItemColors(ua_choice);
+	setTimerVisibility(ua_choice);
+	setExcludeCheckboxVisibility(ua_choice);
+	setExcludeSpanVisibility(ua_choice);
+	setTabsColors(ua_choice);
+
+});
+
+//show or hide timer based if a random UA was chosen or not as
+// only applies to random options
+function setTimerVisibility(ua_choice){
+
+	if(ua_choice.substr(0,6) === "random"){
+		document.getElementById("time_interval_display").className ="";
+	}else{
+		document.getElementById("time_interval_display").className ="hidden";
+	}
+
+};
+//set the background color of the tabs
+function setTabsColors(ua_choice){
+
+	if(ua_choice != "default"){
+		document.getElementById("tabs_container").className ="spoof";
+	}else{
+		document.getElementById("tabs_container").className ="";
+	}
+
+};
+//set the list item color containing the selected profile
+function setListItemColors(ua_choice){
+
+	//reset any list item header colors
+	var lih = document.getElementsByClassName("listitem_p_spoof");
+	for (var i=0; i<lih.length;i++){
+		lih[i].className = "listitem_p";
+	}
+	
+	//set the current profile's parent list item header colors
+	//get the p element
+	var x = (((document.getElementById(ua_choice).parentElement).parentElement).parentElement).parentElement.firstChild;
+
+	if(x.className == "listitem_p")
+		x.className = "listitem_p_spoof";
+}
+
+function setExcludeCheckboxVisibility(ua_choice){
+
+	var excludes = document.getElementsByClassName("excludecb");
+
+	if(ua_choice.substr(0,6) === "random"){
+		for (var i = 0; i < excludes.length; i++) {
+			excludes[i].style.display = "inline-block";
+		};
+	}else{
+		for (var i = 0; i < excludes.length; i++) {
+			excludes[i].style.display = "none";
+		};
+	}
+}
+
+function setExcludeSpanVisibility(ua_choice){
+
+	var excludes = document.getElementsByClassName("excludeSpan");
+
+	if(ua_choice.substr(0,6) === "random"){
+		for (var i = 0; i < excludes.length; i++) {
+			excludes[i].style.display = "block";
+		};
+	}else{
+		for (var i = 0; i < excludes.length; i++) {
+			excludes[i].style.display = "none";
+		};
+	}
+}
