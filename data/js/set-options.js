@@ -73,7 +73,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 			label.appendChild(document.createTextNode(" "+localized_strings[1]+" "+  data[k].list[i].description));
 			
 			var excludeSpan = document.createElement("span");
-			excludeSpan.appendChild(document.createTextNode("Exclude"));
+- 			excludeSpan.appendChild(document.createTextNode(localized_strings[0]));
 			excludeSpan.setAttribute("class","excludeSpan");
 
 
@@ -203,8 +203,7 @@ self.port.on("updatePanelItems",function(ua_choice){
 
 });
 
-//show or hide timer based if a random UA was chosen or not as
-// only applies to random options
+//show or hide the timer if a random UA was chosen or not
 function setTimerVisibility(ua_choice){
 
 	if(ua_choice.substr(0,6) === "random"){
@@ -214,6 +213,7 @@ function setTimerVisibility(ua_choice){
 	}
 
 };
+
 //set the background color of the tabs
 function setTabsColors(ua_choice){
 
@@ -224,7 +224,8 @@ function setTabsColors(ua_choice){
 	}
 
 };
-//set the list item color containing the selected profile
+
+//set the color of list item containing the selected profile
 function setListItemColors(ua_choice){
 
 	//reset any list item header colors
