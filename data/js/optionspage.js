@@ -38,13 +38,7 @@ document.body.addEventListener("change", function(e) {
 		var time = timerdd[timerdd.selectedIndex].value;
 
 		//get selected profile
-		var ua_choice;
-		for(var i = 0; i < uaList.length; i++){
-			if(uaList[i].checked){
-				ua_choice = uaList[i].value;
-			}
-		}
-
+		var ua_choice =  document.querySelector('input[name = "ua"]:checked').value;
 		self.port.emit("uachange",ua_choice,time);
 	}	
 
@@ -134,7 +128,8 @@ document.body.addEventListener("click",function(e) {
 			document.getElementById("acceptlanguage_input").dataset.prefname,
 			document.getElementById("acceptlanguage_input").value);
 
-    }else if(e.target.id =="whitelist_profile_title"){
+    }else if(e.target.id =="wl_prof_expand" || e.target.id == "whitelist_profile_title" 
+    	|| e.target.id == "wl_prof_title_span"){
     	
     	if(document.getElementById("whitelist_profile").className == ""){
     		document.getElementById("whitelist_profile").className = "hidden";
@@ -144,8 +139,21 @@ document.body.addEventListener("click",function(e) {
     		document.getElementById("whitelist_profile").className = "";
     		document.getElementById("wl_prof_title_span").textContent = "-";
     	}
-    }else if(e.target.id == "wlhelpbtn"){
-    	self.port.emit("wlhelp");
+
+    }else if(e.target.id =="wl_rules_expand" || e.target.id =="whitelist_rules_title" 
+    	|| e.target.id == "wl_rules_title_span"){
+
+    	if(document.getElementById("site_whitelist").className == ""){
+    		document.getElementById("site_whitelist").className = "hidden";
+    		document.getElementById("wl_rules_title_span").textContent = "+";
+
+    	}else{
+    	  	document.getElementById("site_whitelist").className = "";
+    	  	document.getElementById("wl_rules_title_span").textContent = "-";
+    	}
+
+    }else if(e.target.className == "customlink"){
+    	self.port.emit("customlink",e.target.dataset.url);
     }
 
 },false);
@@ -203,12 +211,10 @@ function toggleList(innerListElementId) {
 	//toggle the child list and parents assiociated indicator
 	if (innerlistElement.style.display == "none"){
 		innerlistElement.style.display = "block";
-		text.textContent = " -";
-		excludeText.className = "excludeSpan";
+		text.textContent = "-";
 	}else{
 		innerlistElement.style.display = "none";
-		text.textContent = " +";
-		excludeText.className ="hidden";
+		text.textContent = "+";
 	}
 }
 

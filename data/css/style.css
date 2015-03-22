@@ -1,16 +1,22 @@
 body {
-	font-size: 12px;
-}   
+    background: #fff;
+    margin: 0;
+    font-size: .8em;
+}
 
-hr{ 
-	border-bottom:0px;
-	border-left:0px;
-	border-right:0px;
-}   
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    display: block;
+    height: 1px;
+    margin: 1.5em 0;
+}
+h2{
+	text-align: center;
+}
 
 input,
-label,
-#whitelist_profile_title{
+label{
 	cursor:pointer;
 }
 
@@ -23,30 +29,82 @@ label,
 	display:inline-block;
 	width:50px;
 }
+#tabs li > span{
+    cursor: pointer;
+    display: inline-block;
+    padding: .5em;
+    text-align: center;
+    width: 23%;
+    height: 5%;
+    list-style-type: none;
+}
+
+#tabs li:last-child > span {
+    width: 8%;
+    cursor: help;
+}
 
 ul{ 
 	list-style-type:none;
 	padding:0px;
 	margin:0px;
-	cursor: pointer;
 }   
 
-.parentli:hover,
-#whitelist_profile_title:hover {
-	font-size:13px;
-}   
+#top_profile_radios ul:first-child li {
+    display: inline-block;
+    width: 50%;
+}
 
 .innerlist{
-	padding:5px;
+	padding:0;
 	display: none;
-	background-color:rgba(0,0,0,0.050);
-	border: 1px solid;
-	border-radius: 8px 8px 8px 8px;
 }   
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: .25em;
+    vertical-align: middle;
+}
+
+input[type="radio"]:checked + label {
+    color: #219be2;
+    font-weight: bold;
+}
+input[type="radio"][id="default"]:checked + label {
+    color: #000;
+}
+
+.listitem_p,
+#wl_prof_expand,
+#wl_rules_expand {
+    background: #ccc;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: .5em;
+    position: relative;
+}
+
+.listitem_p_spoof{
+    background: #219be2;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: .5em;
+    position: relative;
+}
+
 
 #tabs { 
 	list-style-type: none; 
-	padding: 0 0 0.3em 0; 
+	padding: 0; 
+	margin: 0;
 }
 
 #tabs li { 
@@ -54,55 +112,63 @@ ul{
 }
 
 #tabs li span.nonselected { 
-	border: 1px solid ;
-	border-radius: 8px 8px 0px 0px;
-	padding: 0.3em; 
-	text-decoration: none; }
-
-#tabs li span:hover { 
-	background-color:rgba(0,0,0,0.050);
+	padding: 0em; 
+	text-decoration: none; 
+	background: #000;
+	color:#fff;
+	margin: 0;
+	text-align: center;
 }
 
 #tabs li span.selected { 
-	border: 1px solid ; 
-	border-bottom: none;
-	border-radius: 8px 8px 0px 0px;
 	font-weight: bold; 
-	padding: 0.5em 0.3em 0.38em 0.3em; 
+	padding: 0em; 
+	background: #fff;
+	color:#000;
+	margin: 0;
+	text-align: center;
+}
+
+.spoof #tabs li span.nonselected { 
+	background: #219be2;
+}
+
+.spoof #tabs li span.selected { 
+	color: #219be2;
+}
+
+#tabs li span:hover { 
+	opacity: 0.6;
 }
 
 .tabContent { 
-	border: 1px solid ;
-	border-top: none;
-	border-radius: 0px 0px 8px 8px;
 	padding: 0.5em; 
 	overflow:hidden;
+	background: #fff;
+	color:#000;
+	margin:none;
 }
-
-.hidden{
-	display:none;
-}
-
 
 .validInput{
-	border: solid 2px #33FF00;
-	border-radius: 4px;
+	border: solid 2px #219be2;
 	-moz-transition: .3s ease-in-out;
 }
 
 .invalidInput{
-	border: solid 2px #CC0000;
-	border-radius:4px;
+	border: solid 2px #000000;
 	-moz-transition: .3s ease-in-out;
 }
-
 
 .profileLine{
 	clear:both;
 }
 
-.excludeSpan,
-.excludecb{
+
+.indicatorSpan,
+#wl_prof_title_span,
+#wl_rules_title_span,
+.excludecb,
+.excludeSpan{
 	float:right;
 }
 
@@ -125,11 +191,17 @@ ul{
 	width:100%;
 }
 
-
 #whitelist_profile{
 	padding:5px;
-	background-color:rgba(0,0,0,0.050);
-	border: 1px solid;
-	border-radius: 8px 8px 8px 8px;
 	overflow:hidden;
+}
+
+.customlink{
+	text-decoration: underline;
+	cursor: pointer;
+	color:  #219be2;
+}
+
+.hidden{
+	display:none;
 }
