@@ -55,6 +55,10 @@ ul{
     width: 50%;
 }
 
+#top_profile_radios{
+	margin-bottom: 2px;
+}
+
 .innerlist{
 	padding:0;
 	display: none;
