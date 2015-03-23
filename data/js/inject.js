@@ -126,10 +126,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 
 	script.textContent = content;
 	
-	// firefox should create a head tag if the document does not have one
-	// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
-	window.document.head.appendChild( script );
-
-	//needed to force script reinjection when navigating with the history buttons
-	window.onunload = function(){};
+	//Append script as first child of the head element
+	var head = window.document.head;
+	head.insertBefore(script, head.firstChild);
 });
