@@ -1,15 +1,15 @@
 body {
-    background: #fff;
-    margin: 0;
-    font-size: .8em;
+	background: #fff;
+	margin: 0;
+	font-size: .8em;
 }
 
 hr {
-    border: 0;
-    border-top: 1px solid #ccc;
-    display: block;
-    height: 1px;
-    margin: 1.5em 0;
+	border: 0;
+	border-top: 1px solid #ccc;
+	display: block;
+	height: 1px;
+	margin: 1.5em 0;
 }
 h2{
 	text-align: center;
@@ -30,29 +30,29 @@ label{
 	width:50px;
 }
 #tabs li > span{
-    cursor: pointer;
-    display: inline-block;
-    padding: .5em;
-    text-align: center;
-    width: 23%;
-    height: 5%;
-    list-style-type: none;
+	cursor: pointer;
+	display: inline-block;
+	padding: .5em;
+	text-align: center;
+	width: 23%;
+	height: 5%;
+	list-style-type: none;
 }
 
 #tabs li:last-child > span {
-    width: 8%;
-    cursor: help;
+	width: 8%;
+	cursor: help;
 }
 
 ul{ 
 	list-style-type:none;
 	padding:0px;
 	margin:0px;
-}   
+}		
 
 #top_profile_radios ul:first-child li {
-    display: inline-block;
-    width: 50%;
+	display: inline-block;
+	width: 50%;
 }
 
 #top_profile_radios{
@@ -62,46 +62,46 @@ ul{
 .innerlist{
 	padding:0;
 	display: none;
-}   
+}		
 
 input[type="radio"],
 input[type="checkbox"] {
-    display: inline-block;
-    margin-right: .25em;
-    vertical-align: middle;
+	display: inline-block;
+	margin-right: .25em;
+	vertical-align: middle;
 }
 
 input[type="radio"]:checked + label {
-    color: #219be2;
-    font-weight: bold;
+	color: #219be2;
+	font-weight: bold;
 }
 input[type="radio"][id="default"]:checked + label {
-    color: #000;
+		color: #000;
 }
 
 .listitem_p,
 #wl_prof_expand,
 #wl_rules_expand {
-    background: #ccc;
-    cursor: pointer;
-    margin-top: 2px;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    padding: .5em;
-    position: relative;
+	background: #ccc;
+	cursor: pointer;
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: .5em;
+	position: relative;
 }
 
 .listitem_p_spoof{
-    background: #219be2;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 2px;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    padding: .5em;
-    position: relative;
+	background: #219be2;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: .5em;
+	position: relative;
 }
 
 
@@ -186,9 +186,9 @@ input[type="radio"][id="default"]:checked + label {
 }
 
 #site_whitelist{
-    resize:none;
-    width:100%;
-    height:60%;
+	resize:none;
+	width:100%;
+	height:60%;
 }
 
 .wl_prof{
@@ -203,7 +203,7 @@ input[type="radio"][id="default"]:checked + label {
 .customlink{
 	text-decoration: underline;
 	cursor: pointer;
-	color:  #219be2;
+	color:	#219be2;
 }
 
 .hidden{
