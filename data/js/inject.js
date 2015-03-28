@@ -120,6 +120,11 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 		content += dateHandler();
 	}
 
+	// Limit tab history to 2
+	if (boolParams[5] == true){
+		content += "Object.defineProperty( history,'length', {value: \"2\"});";
+	}
+
 	//remove script after modifications to prevent sites from reading it
 	content += "var ras_script = document.getElementsByTagName('script')[0]; ras_script.parentNode.removeChild(ras_script);";
 	content +=	"} catch (e) {} }) ();"
