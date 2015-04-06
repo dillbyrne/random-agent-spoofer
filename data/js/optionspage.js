@@ -211,7 +211,7 @@ function toggleList(innerListElementId) {
 	//toggle the child list and parents assiociated indicator
 	if (innerlistElement.style.display == "none"){
 		innerlistElement.style.display = "block";
-		text.textContent = "-";
+		innerlistElement.style.margin = "1em 0";
 	}else{
 		innerlistElement.style.display = "none";
 		text.textContent = "+";
