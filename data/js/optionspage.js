@@ -137,7 +137,7 @@ document.body.addEventListener("click",function(e) {
 
     	}else{
     		document.getElementById("whitelist_profile").className = "";
-    		document.getElementById("wl_prof_title_span").textContent = "-";
+    	  	document.getElementById("wl_prof_title_span").textContent = "–";
     	}
 
     }else if(e.target.id =="wl_rules_expand" || e.target.id =="whitelist_rules_title" 
@@ -149,7 +149,7 @@ document.body.addEventListener("click",function(e) {
 
     	}else{
     	  	document.getElementById("site_whitelist").className = "";
-    	  	document.getElementById("wl_rules_title_span").textContent = "-";
+    	  	document.getElementById("wl_rules_title_span").textContent = "–";
     	}
 
     }else if(e.target.className == "customlink"){
@@ -212,6 +212,7 @@ function toggleList(innerListElementId) {
 	if (innerlistElement.style.display == "none"){
 		innerlistElement.style.display = "block";
 		innerlistElement.style.margin = "1em 0";
+		text.textContent = "–";
 	}else{
 		innerlistElement.style.display = "none";
 		text.textContent = "+";
