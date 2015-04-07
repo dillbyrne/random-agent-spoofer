@@ -153,6 +153,10 @@ self.port.on("setElementValue",function(elementid,value){
 	document.getElementById(elementid).value = value;
 });
 
+self.port.on("setElementText",function(elementid,value){
+	document.getElementById(elementid).textContent = value;
+});
+
 self.port.on("setIPDDValues",function(elementid,value){
 	document.getElementById(elementid).value = value;
 
