@@ -177,8 +177,6 @@ document.body.addEventListener("click",function(e) {
     	  	document.getElementById("standard_extras_title_span").textContent = "–";
     	}
 
-    }else if(e.target.className == "customlink"){
-    	self.port.emit("customlink",e.target.dataset.url);
     }
 
 },false);

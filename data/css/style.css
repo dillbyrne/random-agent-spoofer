@@ -240,9 +240,3 @@ h2,
 #version {
 	text-align: center;
 }
-
-.customlink {
-	color:	blue;
-	cursor: pointer;
-	text-decoration: underline;
-}
