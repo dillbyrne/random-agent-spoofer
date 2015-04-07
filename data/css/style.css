@@ -175,9 +175,10 @@ input[type="radio"][id="default"]:checked + label {
 	width: 25%;
 }
 
-.iplabel + input {
-	display: inline-block;
-	width: 75%;
+
+#xffip,
+#viaip{
+	width:120px;
 }
 
 .profileLine {
@@ -220,6 +221,11 @@ input[type="radio"][id="default"]:checked + label {
 	width: 100%;
 }
 
+#whitelist_profile {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
 .wl_prof {
 	width:100%;
 }
@@ -228,6 +234,11 @@ input[type="radio"][id="default"]:checked + label {
 
 h2 {
 	margin-top: 0;
+}
+
+h2,
+#version {
+	text-align: center;
 }
 
 .customlink {
