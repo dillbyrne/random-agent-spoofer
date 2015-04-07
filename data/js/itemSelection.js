@@ -33,9 +33,17 @@ function setupTempEmail(data,node){
 		node.value = mailbox_id+"@dispostable.com";
 		url = "http://www.dispostable.com/inbox/"+mailbox_id+"/";
 
+	}else if(data === "mail_yopmail"){
+		node.value = mailbox_id+"@yopmail.com";
+		url = "http://www.yopmail.com/en/?"+mailbox_id;
+
 	}else if(data === "mail_mailcatch"){
 		node.value = mailbox_id+"@mailcatch.com";
 		url = "http://www.mailcatch.com/en/temporary-inbox?box="+mailbox_id;
+	
+	}else if(data === "mail_mailinator"){
+		node.value = mailbox_id+"@mailinator.com";
+		url = "https://www.mailinator.com/inbox.jsp?to="+mailbox_id;
 	}
 	
 	return [data,url];
