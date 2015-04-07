@@ -152,6 +152,30 @@ document.body.addEventListener("click",function(e) {
     	  	document.getElementById("wl_rules_title_span").textContent = "-";
     	}
 
+    }else if(e.target.id =="script_injection_expand" || e.target.id =="script_injection_title" 
+    	|| e.target.id == "script_injection_title_span"){
+
+    	if(document.getElementById("script_injection_content").className == ""){
+    		document.getElementById("script_injection_content").className = "hidden";
+    		document.getElementById("script_injection_title_span").textContent = "+";
+
+    	}else{
+    	  	document.getElementById("script_injection_content").className = "";
+    	  	document.getElementById("script_injection_title_span").textContent = "-";
+    	}
+
+    }else if(e.target.id =="standard_extras_expand" || e.target.id =="standard_extras_title" 
+    	|| e.target.id == "standard_extras_title_span"){
+
+    	if(document.getElementById("standard_extras_content").className == ""){
+    		document.getElementById("standard_extras_content").className = "hidden";
+    		document.getElementById("standard_extras_title_span").textContent = "+";
+
+    	}else{
+    	  	document.getElementById("standard_extras_content").className = "";
+    	  	document.getElementById("standard_extras_title_span").textContent = "-";
+    	}
+
     }else if(e.target.className == "customlink"){
     	self.port.emit("customlink",e.target.dataset.url);
     }

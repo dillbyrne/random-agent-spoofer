@@ -76,12 +76,14 @@ input[type="radio"]:checked + label {
 	font-weight: bold;
 }
 input[type="radio"][id="default"]:checked + label {
-		color: #000;
+		color: #4e4e4e;
 }
 
 .listitem_p,
 #wl_prof_expand,
-#wl_rules_expand {
+#wl_rules_expand,
+#script_injection_expand,
+#standard_extras_expand {
 	background: #ccc;
 	cursor: pointer;
 	margin-top: 2px;
@@ -118,7 +120,7 @@ input[type="radio"][id="default"]:checked + label {
 #tabs li span.nonselected { 
 	padding: 0em; 
 	text-decoration: none; 
-	background: #000;
+	background: #8e8e8e;
 	color:#fff;
 	margin: 0;
 	text-align: center;
@@ -128,7 +130,7 @@ input[type="radio"][id="default"]:checked + label {
 	font-weight: bold; 
 	padding: 0em; 
 	background: #fff;
-	color:#000;
+	color:#4e4e4e;
 	margin: 0;
 	text-align: center;
 }
@@ -171,6 +173,8 @@ input[type="radio"][id="default"]:checked + label {
 .indicatorSpan,
 #wl_prof_title_span,
 #wl_rules_title_span,
+#script_injection_title_span,
+#standard_extras_title_span,
 .excludecb,
 .excludeSpan{
 	float:right;
