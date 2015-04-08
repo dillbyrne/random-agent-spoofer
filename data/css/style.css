@@ -208,22 +208,22 @@ input[type="radio"][id="default"]:checked + label {
 
 #script_injection_content,
 #standard_extras_content {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 /* whitelist tab */
 
 #site_whitelist {
 	height: 60%;
-	margin-top: 0.5em;
+	margin-top: .5em;
 	resize: none;
 	width: 100%;
 }
 
 #whitelist_profile {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 .wl_prof {
