@@ -31,7 +31,7 @@ hr {
 }
 
 #tabs,
-#top_profile_radios ul,
+#ua_tab_content > ul:first-child,
 #ualist ul {
 	list-style-type: none;
 	padding: 0;
@@ -123,13 +123,13 @@ input[type="radio"][id="default"]:checked + label {
 
 /* profile tab */
 
-#top_profile_radios ul {
+#ua_tab_content > ul:first-child {
 	-moz-columns: 2;
 		 columns: 2;
 	margin-bottom: 1.5em;
 }
 
-#top_profile_radios ul li {
+#ua_tab_content > ul:first-child li {
 	display: inline-block;
 	width: 100%;
 }
