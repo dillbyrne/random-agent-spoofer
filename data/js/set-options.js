@@ -222,9 +222,9 @@ function setTimerVisibility(ua_choice){
 function setTabsColors(ua_choice){
 
 	if(ua_choice != "default"){
-		document.getElementById("tabs_container").className ="spoof";
+		document.body.classList.add("spoof");
 	}else{
-		document.getElementById("tabs_container").className ="";
+		document.body.classList.remove("spoof");
 	}
 
 };
