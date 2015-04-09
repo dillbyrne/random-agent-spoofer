@@ -62,87 +62,76 @@
 
 <!-- "Headers" Tab Content -->
 <div id="headers_tab_content" class="hidden">
-	<input type="checkbox" id="auth" data-invertvalue="false" data-prefname="extensions.agentSpoof.authorization" />
-	<label for="auth" data-l10n-id="disable_auth_header_id"></label>
-	<br>
+	<p>
+		<input type="checkbox" id="auth" data-invertvalue="false" data-prefname="extensions.agentSpoof.authorization" />
+		<label for="auth" data-l10n-id="disable_auth_header_id"></label>
+	</p>
 
-	<input type="checkbox" id="dnt" data-invertvalue="false" data-prefname="privacy.donottrackheader.enabled" />
-	<label for="dnt" data-l10n-id="dnt_header_id" ></label>
-	<br>
+	<p>
+		<input type="checkbox" id="dnt" data-invertvalue="false" data-prefname="privacy.donottrackheader.enabled" />
+		<label for="dnt" data-l10n-id="dnt_header_id" ></label>
+	</p>
 
-	<input type="checkbox" id="ifnone" data-invertvalue="false" data-prefname="extensions.agentSpoof.ifnone" />
-	<label for="ifnone" data-l10n-id="if_none_header_id"></label>
-	<br>
+	<p>
+		<input type="checkbox" id="ifnone" data-invertvalue="false" data-prefname="extensions.agentSpoof.ifnone" />
+		<label for="ifnone" data-l10n-id="if_none_header_id"></label>
+	</p>
 
-	<div class="ddright">
+	<p class="multi">
 		<input type="checkbox" id="xff" data-invertvalue="false" data-prefname="extensions.agentSpoof.xff" />
 		<label for="xff" data-l10n-id="xff_header_id"></label>
+		<select class="ipdropdown" id="xffdd" data-prefname="extensions.agentSpoof.xffdd" data-uipref="customxff">
+			<option value="random" data-l10n-id="random_ip_id"></option>
+			<option value="custom" data-l10n-id="custom_ip_id"></option>
+		</select>
+	</p>
 
-		<span class="ddspan">
-			<select class="ipdropdown" id="xffdd" data-prefname="extensions.agentSpoof.xffdd" data-uipref="customxff">
-				<option value="random" data-l10n-id="random_ip_id"></option>
-				<option value="custom" data-l10n-id="custom_ip_id"></option>
-			</select>
-		</span>
-
-		<br>
-	</div>
-
-	<div id="customxff" class="hidden">
-		<label for="xffip" class="iplabel" data-l10n-id="xff_ip_id"></label>
+	<p id="customxff" class="hidden">
+		<label for="xffip" data-l10n-id="xff_ip_id"></label>
 		<input type="text" id="xffip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.xffip" />
-		<br>
-	</div>
+	</p>
 
-	<div class="ddright">
+	<p class="multi">
 		<input type="checkbox" id="via" data-invertvalue="false" data-prefname="extensions.agentSpoof.via" />
 		<label for="via" data-l10n-id="via_header_id"></label>
+		<select class="ipdropdown" id="viadd" data-prefname="extensions.agentSpoof.viadd" data-uipref="customvia">
+			<option value="random" data-l10n-id="random_ip_id" ></option>
+			<option value="custom" data-l10n-id="custom_ip_id" ></option>
+		</select>
+	</p>
 
-		<span class="ddspan">
-			<select class="ipdropdown" id="viadd" data-prefname="extensions.agentSpoof.viadd" data-uipref="customvia">
-				<option value="random" data-l10n-id="random_ip_id" ></option>
-				<option value="custom" data-l10n-id="custom_ip_id" ></option>
-			</select>
-		</span>
+	<p id="customvia" class="hidden">
+		<label for="viaip" data-l10n-id="via_ip_id"></label>
+		<input type="text" id="viaip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.viaip" />
+	</p>
 
-		<br>
-	</div>
-
-	<div id="customvia" class="hidden">
-		<label for="viaip" class="iplabel" data-l10n-id="via_ip_id"></label>
-		<input type="text" id="viaip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.viaip">
-		<br>
-	</div>
-
-	<div class="ddright">
+	<p class="multi">
 		<label for="refdd" data-l10n-id="referer_header_id"></label>
-
-		<span class="ddspan">
-			<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
-				<option value="none" data-l10n-id="none_id"></option>
-				<option value="default" data-l10n-id="default_id"></option>
-				<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
-			</select>
-		</span>
-
-		<br>
-	</div>
+		<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
+			<option value="none" data-l10n-id="none_id"></option>
+			<option value="default" data-l10n-id="default_id"></option>
+			<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
+		</select>
+	</p>
 
 	<hr>
 
-	<div align="center" data-l10n-id="accept_header_info_id"></div>
+	<p data-l10n-id="accept_header_info_id" class="notice"></p>
 
-	<input type="checkbox" id="acceptd" data-raspref="extensions.agentSpoof.acceptDefault" data-ffheader="network.http.accept.default" />
-	<label for="acceptd" data-l10n-id="acceptd_id"></label>
-	<br>
+	<p>
+		<input type="checkbox" id="acceptd" data-raspref="extensions.agentSpoof.acceptDefault" data-ffheader="network.http.accept.default" />
+		<label for="acceptd" data-l10n-id="acceptd_id"></label>
+	</p>
 
-	<input type="checkbox" id="accepte"data-raspref="extensions.agentSpoof.acceptEncoding" data-ffheader="network.http.accept-encoding" />
-	<label for="accepte" data-l10n-id="accepte_id"></label>
-	<br>
+	<p>
+		<input type="checkbox" id="accepte"data-raspref="extensions.agentSpoof.acceptEncoding" data-ffheader="network.http.accept-encoding" />
+		<label for="accepte" data-l10n-id="accepte_id"></label>
+	</p>
 
-	<input type="checkbox" id="acceptl"data-raspref="extensions.agentSpoof.acceptLang" data-ffheader="intl.accept_languages" />
-	<label for="acceptl" data-l10n-id="acceptl_id"></label>
-	<br>
+	<p>
+		<input type="checkbox" id="acceptl"data-raspref="extensions.agentSpoof.acceptLang" data-ffheader="intl.accept_languages" />
+		<label for="acceptl" data-l10n-id="acceptl_id"></label>
+	</p>
 </div> <!-- End "Headers" Tab Content-->
 
 
