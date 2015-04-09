@@ -186,8 +186,12 @@ input[type="radio"][id="default"]:checked + label {
 	margin: 1em 0;
 }
 #headers_tab_content select {
-	background: rgba(0, 0, 0, .025);
+	-moz-appearance: none;
+		appearance: none;
+	background: rgba(0, 0, 0, .025) url('../images/dropdown.png') no-repeat right center;
 	border: none;
+	cursor: pointer;
+	padding-right: 1.5em;
 }
 .profileLine {
 	clear: both;
