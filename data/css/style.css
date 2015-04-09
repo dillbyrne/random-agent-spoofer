@@ -170,17 +170,24 @@ input[type="radio"][id="default"]:checked + label {
 
 /* headers tab */
 
-.iplabel {
-	display: inline-block;
-	width: 25%;
+#headers_tab_content p {
+	margin: .5em 0;
 }
-
-
+#headers_tab_content p.multi {
+	margin: .1em 0;
+}
+.multi + p label {
+	margin-left: 1.7em;
+	width: calc(25% - 1.7em);
+}
 #xffip,
 #viaip{
-	width:120px;
+	margin-left: 1em;
+	width: calc(75% - 1em);
 }
-
+#headers_tab_content p.notice {
+	margin: 1em 0;
+}
 .profileLine {
 	clear: both;
 }
