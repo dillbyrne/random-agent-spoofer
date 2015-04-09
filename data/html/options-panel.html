@@ -78,20 +78,6 @@
 	</p>
 
 	<p class="multi">
-		<input type="checkbox" id="xff" data-invertvalue="false" data-prefname="extensions.agentSpoof.xff" />
-		<label for="xff" data-l10n-id="xff_header_id"></label>
-		<select class="ipdropdown" id="xffdd" data-prefname="extensions.agentSpoof.xffdd" data-uipref="customxff">
-			<option value="random" data-l10n-id="random_ip_id"></option>
-			<option value="custom" data-l10n-id="custom_ip_id"></option>
-		</select>
-	</p>
-
-	<p id="customxff" class="hidden">
-		<label for="xffip" data-l10n-id="xff_ip_id"></label>
-		<input type="text" id="xffip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.xffip" />
-	</p>
-
-	<p class="multi">
 		<input type="checkbox" id="via" data-invertvalue="false" data-prefname="extensions.agentSpoof.via" />
 		<label for="via" data-l10n-id="via_header_id"></label>
 		<select class="ipdropdown" id="viadd" data-prefname="extensions.agentSpoof.viadd" data-uipref="customvia">
@@ -105,13 +91,27 @@
 		<input type="text" id="viaip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.viaip" />
 	</p>
 
-	<p class="multi">
+	<p>
 		<label for="refdd" data-l10n-id="referer_header_id"></label>
 		<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
 			<option value="none" data-l10n-id="none_id"></option>
 			<option value="default" data-l10n-id="default_id"></option>
 			<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
 		</select>
+	</p>
+
+	<p class="multi">
+		<input type="checkbox" id="xff" data-invertvalue="false" data-prefname="extensions.agentSpoof.xff" />
+		<label for="xff" data-l10n-id="xff_header_id"></label>
+		<select class="ipdropdown" id="xffdd" data-prefname="extensions.agentSpoof.xffdd" data-uipref="customxff">
+			<option value="random" data-l10n-id="random_ip_id"></option>
+			<option value="custom" data-l10n-id="custom_ip_id"></option>
+		</select>
+	</p>
+
+	<p id="customxff" class="hidden">
+		<label for="xffip" data-l10n-id="xff_ip_id"></label>
+		<input type="text" id="xffip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.xffip" />
 	</p>
 
 	<hr>
