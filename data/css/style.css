@@ -173,9 +173,6 @@ input[type="radio"][id="default"]:checked + label {
 #headers_tab_content p {
 	margin: .5em 0;
 }
-#headers_tab_content p.multi {
-	margin: .1em 0;
-}
 .multi + p label {
 	margin-left: 1.7em;
 	width: calc(25% - 1.7em);
@@ -187,6 +184,10 @@ input[type="radio"][id="default"]:checked + label {
 }
 #headers_tab_content p.notice {
 	margin: 1em 0;
+}
+#headers_tab_content select {
+	background: rgba(0, 0, 0, .025);
+	border: none;
 }
 .profileLine {
 	clear: both;
