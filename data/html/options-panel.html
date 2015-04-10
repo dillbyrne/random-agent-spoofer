@@ -77,6 +77,15 @@
 		<label for="ifnone" data-l10n-id="if_none_header_id"></label>
 	</p>
 
+	<p>
+		<label for="refdd" data-l10n-id="referer_header_id"></label>
+		<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
+			<option value="none" data-l10n-id="none_id"></option>
+			<option value="default" data-l10n-id="default_id"></option>
+			<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
+		</select>
+	</p>
+
 	<p class="multi">
 		<input type="checkbox" id="via" data-invertvalue="false" data-prefname="extensions.agentSpoof.via" />
 		<label for="via" data-l10n-id="via_header_id"></label>
@@ -89,15 +98,6 @@
 	<p id="customvia" class="hidden">
 		<label for="viaip" data-l10n-id="via_ip_id"></label>
 		<input type="text" id="viaip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.viaip" />
-	</p>
-
-	<p>
-		<label for="refdd" data-l10n-id="referer_header_id"></label>
-		<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
-			<option value="none" data-l10n-id="none_id"></option>
-			<option value="default" data-l10n-id="default_id"></option>
-			<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
-		</select>
 	</p>
 
 	<p class="multi">
