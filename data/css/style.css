@@ -174,13 +174,14 @@ input[type="radio"][id="default"]:checked + label {
 	margin: .5em 0;
 }
 .multi + p label {
+	display: inline-block;
 	margin-left: 1.7em;
-	width: calc(25% - 1.7em);
+	width: calc(30% - 1.7em);
 }
 #xffip,
 #viaip{
 	margin-left: 1em;
-	width: calc(75% - 1em);
+	width: calc(70% - 1em);
 }
 #headers_tab_content p.notice {
 	margin: 1em 0;
