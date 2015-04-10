@@ -20,10 +20,12 @@ document.body.addEventListener("change", function(e) {
 	}
 	else if(e.target.className == "ipdropdown"){ //show or hide the ip input boxes
 
-		if (e.target[e.target.selectedIndex].value == "custom")
+		if (e.target[e.target.selectedIndex].value == "custom") {
 			document.getElementById(e.target.dataset.uipref).className="";
-		else
+			document.querySelectorAll("#" + e.target.dataset.uipref + " input")[0].focus();
+		} else {
 			document.getElementById(e.target.dataset.uipref).className="hidden";
+		}
 
 		self.port.emit("setPrefValue",e.target.dataset.prefname,e.target[e.target.selectedIndex].value);
 	}
