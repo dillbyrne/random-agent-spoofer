@@ -69,6 +69,15 @@ input[type="radio"][id="default"]:checked + label {
 	-moz-transition: .3s ease-in-out;
 }
 
+select {
+	-moz-appearance: none;
+		appearance: none;
+	background: rgba(0, 0, 0, .025) url('../images/dropdown.png') no-repeat right center;
+	border: none;
+	cursor: pointer;
+	padding-right: 1.5em;
+}
+
 
 /* tabs
 ------------------------ */
@@ -170,17 +179,22 @@ input[type="radio"][id="default"]:checked + label {
 
 /* headers tab */
 
-.iplabel {
-	display: inline-block;
-	width: 25%;
+#headers_tab_content p {
+	margin: .5em 0;
 }
-
-
+.multi + p label {
+	display: inline-block;
+	margin-left: 1.7em;
+	width: calc(30% - 1.7em);
+}
 #xffip,
 #viaip{
-	width:120px;
+	margin-left: 1em;
+	width: calc(70% - 1em);
 }
-
+#headers_tab_content p.notice {
+	margin: 1em 0;
+}
 .profileLine {
 	clear: both;
 }
