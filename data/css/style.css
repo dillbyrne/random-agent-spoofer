@@ -69,6 +69,15 @@ input[type="radio"][id="default"]:checked + label {
 	-moz-transition: .3s ease-in-out;
 }
 
+select {
+	-moz-appearance: none;
+		appearance: none;
+	background: rgba(0, 0, 0, .025) url('../images/dropdown.png') no-repeat right center;
+	border: none;
+	cursor: pointer;
+	padding-right: 1.5em;
+}
+
 
 /* tabs
 ------------------------ */
@@ -185,14 +194,6 @@ input[type="radio"][id="default"]:checked + label {
 }
 #headers_tab_content p.notice {
 	margin: 1em 0;
-}
-#headers_tab_content select {
-	-moz-appearance: none;
-		appearance: none;
-	background: rgba(0, 0, 0, .025) url('../images/dropdown.png') no-repeat right center;
-	border: none;
-	cursor: pointer;
-	padding-right: 1.5em;
 }
 .profileLine {
 	clear: both;
