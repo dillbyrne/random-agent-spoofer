@@ -152,6 +152,7 @@ document.body.addEventListener("click",function(e) {
 		}else{
 			document.getElementById("site_whitelist").className = "";
 			document.getElementById("wl_rules_title_span").textContent = "–";
+			document.getElementById("site_whitelist").focus();
 		}
 
 
