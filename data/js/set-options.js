@@ -51,7 +51,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			for (var j=0; j< data[k].list[i].useragents.length; j++) {
 
-				yolo = document.createElement("li");
+				userAgent = document.createElement("li");
 
 				var radio = document.createElement("input");
 				radio.setAttribute("name","ua");
@@ -69,11 +69,11 @@ self.port.once('ua_list', function(data,localized_strings) {
 				excludeBox.setAttribute("id",data[k].list[i].useragents[j].profileID);
 				excludeBox.setAttribute("value",k+","+i+","+j);
 
-				yolo.appendChild(radio);
-				yolo.appendChild(label);
-				yolo.appendChild(excludeBox);
+				userAgent.appendChild(radio);
+				userAgent.appendChild(label);
+				userAgent.appendChild(excludeBox);
 
-				listItems.appendChild(yolo);
+				listItems.appendChild(userAgent);
 			}
 	    }
 	}
