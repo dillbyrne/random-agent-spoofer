@@ -51,7 +51,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			for (var j=0; j< data[k].list[i].useragents.length; j++) {
 
-				userAgent = document.createElement("li");
+				var userAgent = document.createElement("li");
 
 				var radio = document.createElement("input");
 				radio.setAttribute("name","ua");
