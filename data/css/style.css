@@ -163,6 +163,19 @@ select {
 #ualist ul + h2 {
 	margin-top: 2px;
 }
+#ualist li {
+	position: relative;
+}
+.random #ualist li span,
+.random #ualist li input[type="checkbox"] {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+#ualist li span,
+#ualist li input[type="checkbox"]{
+	display: none;
+}
 
 
 /* headers tab */
