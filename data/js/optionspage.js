@@ -22,7 +22,7 @@ document.body.addEventListener("change", function(e) {
 
 		if (e.target[e.target.selectedIndex].value == "custom") {
 			document.getElementById(e.target.dataset.uipref).className="";
-			document.querySelectorAll("#" + e.target.dataset.uipref + " input")[0].focus();
+			document.querySelector("#" + e.target.dataset.uipref + " input").focus();
 		} else {
 			document.getElementById(e.target.dataset.uipref).className="hidden";
 		}
