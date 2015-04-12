@@ -5,143 +5,78 @@ self.port.once('tab_listener',function(){
 	//add on click listener to each
 	for (var i =0; i< tabs.length;i++){
 		tabs[i].onclick = function(x,y) { return function() { changeTab(x,y); }; }(tabs[i].children[0],tabs);
-	}	 
+	}
 });
 
 
 
 self.port.once('ua_list', function(data,localized_strings) {
 
-	//create the list of browser profiles
-    
-    var ualist_div  = document.getElementById('ualist');  
+    var uaList  = document.getElementById("ualist");
 
-    var random_other_div = document.getElementById("random_other_content");
-    
-    //outer list
-    var listElement = document.createElement("ul");
+	for (var k = 0; k < data.length; k++) {
 
-	ualist_div.appendChild(listElement);
+	    for (var i = 0; i < data[k].list.length; i++) {
 
-	for (var k = 0;k < data.length;k++){
+			var section = document.createElement("h2");
+			section.innerHTML = data[k].list[i].description;
 
-	    for (var i = 0; i < data[k].list.length; i++){
+			section.addEventListener("click", function() {
 
-			var listItem = document.createElement("li");
-			listItem.setAttribute("id","listItem_"+k);
+				this.classList.toggle("open");
+			});
 
-	     
-			var p = document.createElement("p");
-			p.setAttribute("class","listitem_p");
-			var textSpan = document.createElement("span");
-			var indicatorSpan = document.createElement("span");
+			var listItems = document.createElement("ul");
 
-
-
-			textSpan.appendChild(document.createTextNode(data[k].list[i].description));
-			textSpan.setAttribute("class","parentli");
-			indicatorSpan.appendChild(document.createTextNode("+"));
-			indicatorSpan.setAttribute("class","indicatorSpan");
-			indicatorSpan.setAttribute("id","li_text"+k+""+i);
-
-
-			textSpan.appendChild(indicatorSpan);
-
-
-			p.appendChild(textSpan);
-			listItem.appendChild(p);
-
-	      
-			//inner List  
-			var innerListElement = document.createElement("ul");
-			innerListElement.setAttribute("class","innerlist");
-			innerListElement.setAttribute("id","innerlist"+k+""+i);
-
-			//Add Random option as first element of inner list
-			var innerListItem = document.createElement("li");
-			var container = document.createElement("div");
-			container.setAttribute("class","profileLine");
+			var listRandom = document.createElement("li");
+			listRandom.setAttribute("class","profileLine");
 
 			var radio = document.createElement("input");
-			radio.setAttribute("name","ua");	
-			radio.setAttribute("type","radio");	
-			radio.setAttribute("id","random_"+k+","+i);	
+			radio.setAttribute("name","ua");
+			radio.setAttribute("type","radio");
+			radio.setAttribute("id","random_"+k+","+i);
 			radio.setAttribute("value","random_"+k+","+i);
 
 			var label = document.createElement("label");
 			label.setAttribute("for","random_"+k+","+i);
-			label.appendChild(document.createTextNode(" "+localized_strings[1]+" "+  data[k].list[i].description));
-			
-			var excludeSpan = document.createElement("span");
-- 			excludeSpan.appendChild(document.createTextNode(localized_strings[0]));
-			excludeSpan.setAttribute("class","excludeSpan");
+			label.innerHTML = " "+localized_strings[1]+" "+  data[k].list[i].description;
 
+			// excludeSpan.appendChild(document.createTextNode(localized_strings[0]));
 
-			container.appendChild(radio);
-			container.appendChild(label);
-			container.appendChild(excludeSpan);
+			uaList.appendChild(section);
+			uaList.appendChild(listItems);
+			listItems.appendChild(listRandom);
+			listRandom.appendChild(radio);
+			listRandom.appendChild(label);
 
-			innerListItem.appendChild(container);
-			innerListElement.appendChild(innerListItem);
+			for (var j=0; j< data[k].list[i].useragents.length; j++) {
 
-		
-			//set the inline style to none 
-			//this prevents the need for two clicks to open the list
-			innerListElement.style.display = "none";
+				userAgent = document.createElement("li");
 
-
-			//prevent clicks on child element triggering the showing/hiding of the
-			//child list	
-			innerListElement.onclick= function stopProp (event){
-				event.stopPropagation();
-			}	
-
-			//show or hide inner list element when the list item it is appended to is clicked
-			listItem.onclick = function(x) { return function() { toggleList(x); }; }(innerListElement.id);
-	      
-			for (var j=0; j< data[k].list[i].useragents.length; j++){
-		
-				innerListItem = document.createElement("li");
-		
-				//container for the line to fix float issue on win xp
-				container = document.createElement("div");
-				container.setAttribute("class","profileLine");
-
-				//pass the item index for the parent and for child as the value and id
-				radio = document.createElement("input");
-				radio.setAttribute("name","ua");	
-				radio.setAttribute("type","radio");	
-				radio.setAttribute("id",k+","+i+","+j);	
+				var radio = document.createElement("input");
+				radio.setAttribute("name","ua");
+				radio.setAttribute("type","radio");
+				radio.setAttribute("id",k+","+i+","+j);
 				radio.setAttribute("value",k+","+i+","+j);
-		
-				label = document.createElement("label");
+
+				var label = document.createElement("label");
 				label.setAttribute("for",k+","+i+","+j);
-				label.appendChild(document.createTextNode(" "+data[k].list[i].useragents[j].description));
+				label.innerHTML = " "+data[k].list[i].useragents[j].description;
 
-				//checkbox used to exclude a profile from random selection using the profile's id
-				var chkbox = document.createElement("input");
-				chkbox.setAttribute("type","checkbox");
-				chkbox.setAttribute("class","excludecb");
-				chkbox.setAttribute("id",data[k].list[i].useragents[j].profileID);
-				chkbox.setAttribute("value",k+","+i+","+j);
+				var excludeBox = document.createElement("input");
+				excludeBox.setAttribute("type","checkbox");
+				excludeBox.setAttribute("class","excludecb");
+				excludeBox.setAttribute("id",data[k].list[i].useragents[j].profileID);
+				excludeBox.setAttribute("value",k+","+i+","+j);
 
-				container.appendChild(radio);
-				container.appendChild(label);
-				container.appendChild(chkbox);
+				userAgent.appendChild(radio);
+				userAgent.appendChild(label);
+				userAgent.appendChild(excludeBox);
 
-				innerListItem.appendChild(container);
-
-				innerListElement.appendChild(innerListItem);
-
-
+				listItems.appendChild(userAgent);
 			}
-	      
-			listItem.appendChild(innerListElement);
-			listElement.appendChild(listItem);
-			
 	    }
 	}
-
 });
 
 
@@ -171,7 +106,7 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 	var dd = document.getElementById(dropdown);
 
 	for (var i = 0; i < dd.options.length; i++) {
-	
+
 		if (dd.options[i].value === indexvalue) {
 			dd.selectedIndex = i;
 			break;
@@ -181,8 +116,8 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 });
 
 self.port.on("setMultiCheckBox",function(checkBoxList){
-	
-	//set exclude the checkboxes states	
+
+	//set exclude the checkboxes states
 	if (checkBoxList.length > 0 ){
 
 		var exclude_list = checkBoxList.split(',');
@@ -237,7 +172,7 @@ function setListItemColors(ua_choice){
 	for (var i=0; i<lih.length;i++){
 		lih[i].className = "listitem_p";
 	}
-	
+
 	//set the current profile's parent list item header colors
 	//get the p element
 	var x = (((document.getElementById(ua_choice).parentElement).parentElement).parentElement).parentElement.firstChild;
