@@ -27,7 +27,7 @@ hr {
 	margin: 1.5em 0;
 }
 .hidden {
-	display:none;
+	display: none;
 }
 #tabs,
 #ua_tab_content > ul:first-child,
