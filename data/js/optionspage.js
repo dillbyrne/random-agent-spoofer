@@ -167,7 +167,7 @@ document.body.addEventListener("click",function(e) {
     	  	document.getElementById("script_injection_title_span").textContent = "–";
     	}
 
-    }else if(e.target.id =="standard_extras_expand" || e.target.id =="standard_extras_title" 
+    }else if(e.target.id =="standard_extras_expand" || e.target.id =="standard_extras_title"
     	|| e.target.id == "standard_extras_title_span"){
 
     	if(document.getElementById("standard_extras_content").className == ""){
