@@ -171,7 +171,7 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 	var dd = document.getElementById(dropdown);
 
 	for (var i = 0; i < dd.options.length; i++) {
-	
+
 		if (dd.options[i].value === indexvalue) {
 			dd.selectedIndex = i;
 			break;
@@ -181,8 +181,8 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 });
 
 self.port.on("setMultiCheckBox",function(checkBoxList){
-	
-	//set exclude the checkboxes states	
+
+	//set exclude the checkboxes states
 	if (checkBoxList.length > 0 ){
 
 		var exclude_list = checkBoxList.split(',');
@@ -237,7 +237,7 @@ function setListItemColors(ua_choice){
 	for (var i=0; i<lih.length;i++){
 		lih[i].className = "listitem_p";
 	}
-	
+
 	//set the current profile's parent list item header colors
 	//get the p element
 	var x = (((document.getElementById(ua_choice).parentElement).parentElement).parentElement).parentElement.firstChild;
