@@ -168,7 +168,7 @@ select {
 /* headers tab */
 
 #headers_tab_content p {
-	margin: .5em 0;
+	margin: .1em 0;
 }
 .multi + p label {
 	display: inline-block;
@@ -190,6 +190,9 @@ select {
 #standard_extras_content {
 	margin-top: .5em;
 	margin-bottom: .5em;
+}
+#extras_tab_content p {
+	margin: .1em 0;
 }
 
 /* whitelist tab */
