@@ -9,7 +9,7 @@ document.body.addEventListener("change", function(e) {
 		else if(e.target.dataset.invertvalue == "true")
 			self.port.emit("setPrefValue",e.target.dataset.prefname,!(e.target.checked));
 
-		else if(e.target.dataset.ffheader) // is it an accept header ?
+		else if(e.target.dataset.ffheader)
 			self.port.emit("setAcceptHeader",e.target.dataset.raspref,e.target.dataset.ffheader,e.target.checked);
 
 		else //call a specific function for this checkbox
