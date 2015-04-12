@@ -224,26 +224,6 @@ document.body.addEventListener("blur", function(e) {
 },true);
 
 
-function toggleList(innerListElementId) {
-
-	var innerlistElement = document.getElementById(innerListElementId);
-
-	//get the span of the parent li
-	//it's index is the same as it's child list, so we can get it from that
-	var text = document.getElementById("li_text"+ innerListElementId.replace( /^\D+/g, ''));
-	var excludeText = document.getElementById("li_exclude_text"+ innerListElementId.replace( /^\D+/g, ''));
-
-	//toggle the child list and parents assiociated indicator
-	if (innerlistElement.style.display == "none"){
-		innerlistElement.style.display = "block";
-		innerlistElement.style.margin = ".5em 0";
-		text.textContent = "–";
-	}else{
-		innerlistElement.style.display = "none";
-		text.textContent = "+";
-	}
-}
-
 function changeTab(selected_tab,tabs){
 
 	for (var i =0; i< tabs.length;i++){
