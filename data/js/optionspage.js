@@ -9,7 +9,7 @@ document.body.addEventListener("change", function(e) {
 		else if(e.target.dataset.invertvalue == "true")
 			self.port.emit("setPrefValue",e.target.dataset.prefname,!(e.target.checked));
 
-		else if(e.target.dataset.ffheader) // is it an accept header ?
+		else if(e.target.dataset.ffheader)
 			self.port.emit("setAcceptHeader",e.target.dataset.raspref,e.target.dataset.ffheader,e.target.checked);
 
 		else //call a specific function for this checkbox
@@ -22,7 +22,7 @@ document.body.addEventListener("change", function(e) {
 
 		if (e.target[e.target.selectedIndex].value == "custom") {
 			document.getElementById(e.target.dataset.uipref).className="";
-			document.querySelectorAll("#" + e.target.dataset.uipref + " input")[0].focus();
+			document.querySelector("#" + e.target.dataset.uipref + " input").focus();
 		} else {
 			document.getElementById(e.target.dataset.uipref).className="hidden";
 		}
@@ -168,7 +168,7 @@ document.body.addEventListener("click",function(e) {
     	  	document.getElementById("script_injection_title_span").textContent = "–";
     	}
 
-    }else if(e.target.id =="standard_extras_expand" || e.target.id =="standard_extras_title" 
+    }else if(e.target.id =="standard_extras_expand" || e.target.id =="standard_extras_title"
     	|| e.target.id == "standard_extras_title_span"){
 
     	if(document.getElementById("standard_extras_content").className == ""){
@@ -224,26 +224,6 @@ document.body.addEventListener("blur", function(e) {
 
 },true);
 
-
-function toggleList(innerListElementId) {
-
-	var innerlistElement = document.getElementById(innerListElementId);
-
-	//get the span of the parent li
-	//it's index is the same as it's child list, so we can get it from that
-	var text = document.getElementById("li_text"+ innerListElementId.replace( /^\D+/g, ''));
-	var excludeText = document.getElementById("li_exclude_text"+ innerListElementId.replace( /^\D+/g, ''));
-
-	//toggle the child list and parents assiociated indicator
-	if (innerlistElement.style.display == "none"){
-		innerlistElement.style.display = "block";
-		innerlistElement.style.margin = ".5em 0";
-		text.textContent = "–";
-	}else{
-		innerlistElement.style.display = "none";
-		text.textContent = "+";
-	}
-}
 
 function changeTab(selected_tab,tabs){
 
