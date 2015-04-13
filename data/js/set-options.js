@@ -152,11 +152,9 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 
 });
 
-
-
 self.port.on("updatePanelItems", function(ua_choice) {
 
-	setListItemColors(ua_choice);
+	toggleSectionHeaderColor(ua_choice);
 	toggleRandomOptions(ua_choice);
 	setTabsColors(ua_choice);
 });
@@ -174,20 +172,23 @@ function setTabsColors(ua_choice) {
 };
 
 //set the color of list item containing the selected profile
-function setListItemColors(ua_choice){
 
-	//reset any list item header colors
-	var lih = document.getElementsByClassName("listitem_p_spoof");
-	for (var i=0; i<lih.length;i++){
-		lih[i].className = "listitem_p";
+function toggleSectionHeaderColor(ua_choice) {
+
+	var sectionHeaders = document.querySelectorAll("#ualist h2");
+
+	[].forEach.call(sectionHeaders, function(header) {
+
+		header.classList.remove("active");
+	});
+
+	var uaList = document.getElementById("ualist");
+	var currentElement = document.getElementById(ua_choice);
+
+	if (uaList.contains(currentElement)) {
+
+		currentElement.parentNode.parentNode.previousSibling.classList.add("active");
 	}
-
-	//set the current profile's parent list item header colors
-	//get the p element
-	var x = (((document.getElementById(ua_choice).parentElement).parentElement).parentElement).parentElement.firstChild;
-
-	if(x.className == "listitem_p")
-		x.className = "listitem_p_spoof";
 }
 
 function toggleRandomOptions(ua_choice) {
