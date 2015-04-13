@@ -8,17 +8,17 @@
 
 <!-- Navigation tabs -->
 
-<ul id="tabs">
-	<li><span id="ua_tab" class="selected" data-l10n-id="profile_tab_id"></span></li><!--
-	--><li><span id="headers_tab" class="nonselected" data-l10n-id="headers_tab_id"></span></li><!--
-	--><li><span id="extras_tab" class="nonselected" data-l10n-id="extras_tab_id"></span></li><!--
-	--><li><span id="whitelist_tab" class="nonselected" data-l10n-id="whitelist_tab_id"></span></li><!--
-	--><li><span id="help_tab" class="nonselected" data-l10n-id="help_tab_id"></span></li>
+<ul id="nav">
+	<li id="ua" class="selected" data-l10n-id="profile_tab_id"></li><!--
+	--><li id="headers" data-l10n-id="headers_tab_id"></li><!--
+	--><li id="extras" data-l10n-id="extras_tab_id"></li><!--
+	--><li id="whitelist" data-l10n-id="whitelist_tab_id"></li><!--
+	--><li id="help" data-l10n-id="help_tab_id"></li>
 </ul>
 
-<!-- "Profile" Tab Content -->
+<!-- "Profile" Tab -->
 
-<div id="ua_tab_content" class="tabContent">
+<div id="ua_tab">
 	<ul>
 		<li>
 			<input type="radio" name="ua" id="default" value="default" />
@@ -57,11 +57,11 @@
 	</div>
 
 	<div id ="ualist"></div>
-</div> <!-- End "Profile" Tab Content -->
+</div> <!-- End "Profile" Tab -->
 
-<!-- "Headers" Tab Content -->
+<!-- "Headers" Tab -->
 
-<div id="headers_tab_content" class="hidden">
+<div id="headers_tab" class="hidden">
 	<p>
 		<input type="checkbox" id="auth" data-invertvalue="false" data-prefname="extensions.agentSpoof.authorization" />
 		<label for="auth" data-l10n-id="disable_auth_header_id"></label>
@@ -132,12 +132,12 @@
 		<input type="checkbox" id="acceptl"data-raspref="extensions.agentSpoof.acceptLang" data-ffheader="intl.accept_languages" />
 		<label for="acceptl" data-l10n-id="acceptl_id"></label>
 	</p>
-</div> <!-- End "Headers" Tab Content-->
+</div> <!-- End "Headers" Tab-->
 
 
-<!-- "Extras" Tab Content -->
+<!-- "Extras" Tab -->
 
-<div id="extras_tab_content" class="hidden">
+<div id="extras_tab" class="hidden">
 	<div id="script_injection_expand">
 		<span id="script_injection_title" data-l10n-id="script_injection_id"></span>
 		<span id="script_injection_title_span">+</span>
@@ -373,12 +373,12 @@
 		</p>
 
 	</div> <!-- End "Extras" Standard Options -->
-</div> <!-- End "Extras" Tab Content-->
+</div> <!-- End "Extras" Tab-->
 
 
-<!-- "Whitelist" Tab Content -->
+<!-- "Whitelist" Tab -->
 
-<div id="whitelist_tab_content" class="hidden">
+<div id="whitelist_tab" class="hidden">
 	<p>
 		<input type="checkbox" id="whitelist_disabled" data-invertvalue="false" data-prefname="extensions.agentSpoof.whiteListDisabled" />
 		<label for="whitelist_disabled" data-l10n-id="disable_whitelist_id"></label>
@@ -454,11 +454,11 @@
 	</div>
 
 	<textarea id="site_whitelist" class="hidden"></textarea>
-</div> <!-- End "Whitelist" Tab Content-->
+</div> <!-- End "Whitelist" Tab-->
 
-<!-- "Help" Tab Content -->
+<!-- "Help" Tab -->
 
-<div id="help_tab_content" class="hidden">
+<div id="help_tab" class="hidden">
 	<h2>Random Agent Spoofer</h2>
 
 	<p id="version"></p>
@@ -483,7 +483,7 @@
 		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/wiki/User-Manual" target="_blank">User manual</a></li>
 		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/labels/enhancement" target="_blank">Suggest improvements</a></li>
 	</ul>
-</div> <!-- End "Help" Tab Content-->
+</div> <!-- End "Help" Tab-->
 
 </body>
 </html>

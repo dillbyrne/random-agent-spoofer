@@ -29,8 +29,8 @@ hr {
 .hidden {
 	display: none;
 }
-#tabs,
-#ua_tab_content > ul:first-child,
+#nav,
+#ua_tab > ul:first-child,
 #ualist ul {
 	list-style-type: none;
 	padding: 0;
@@ -74,38 +74,40 @@ select {
 }
 
 
-/* tabs
+/* nav
 ------------------------ */
 
-#tabs li {
-	display: inline;
+#nav {
+	background: #8e8e8e;
+	color: #fff;
 }
-#tabs li:last-child span {
-	width: 8%;
-}
-#tabs li span {
+#nav li {
 	cursor: pointer;
 	display: inline-block;
 	padding: .5em;
 	text-align: center;
 	width: 23%;
 }
-#tabs li span:hover {
-	opacity: .6;
+#nav li:last-child {
+	width: 8%;
 }
-#tabs li span.nonselected { 
-	background: #8e8e8e;
-	color:#fff;
+#nav li:hover,
+#nav li:focus {
+    background: rgba(255, 255, 255, .3);
 }
-#tabs li span.selected {
+#nav li.selected {
 	background: #fff;
-	color:#8e8e8e;
+	color: #8e8e8e;
 	font-weight: bold;
 }
-.spoof #tabs li span.nonselected {
+#nav li.selected:hover,
+#nav li.selected:focus {
+	background: #fff;
+}
+.spoof #nav {
 	background: #219be2;
 }
-.spoof #tabs li span.selected {
+.spoof #nav li.selected {
 	color: #219be2;
 }
 
@@ -113,18 +115,18 @@ select {
 /* .tabContent
 ------------------------ */
 
-.tabContent {
+body > div {
 	padding: 2em 1.5em;
 }
 
 /* profile tab */
 
-#ua_tab_content > ul:first-child {
+#ua_tab > ul:first-child {
 	-moz-columns: 2;
 		 columns: 2;
 	margin-bottom: 1.5em;
 }
-#ua_tab_content > ul:first-child li {
+#ua_tab > ul:first-child li {
 	display: inline-block;
 	width: 100%;
 }
@@ -190,7 +192,7 @@ select {
 
 /* headers tab */
 
-#headers_tab_content p {
+#headers_tab p {
 	margin: .1em 0;
 }
 .multi + p label {
@@ -203,18 +205,18 @@ select {
 	margin-left: 1em;
 	width: calc(70% - 1em);
 }
-#headers_tab_content p.notice {
+#headers_tab p.notice {
 	margin: 1em 0;
 }
 
 /* extras tab */
 
-#script_injection_content,
-#standard_extras_content {
+#script_injection,
+#standard_extras {
 	margin-top: .5em;
 	margin-bottom: .5em;
 }
-#extras_tab_content p {
+#extras_tab p {
 	margin: .1em 0;
 }
 
@@ -238,7 +240,7 @@ select {
 
 /* help tab */
 
-#help_tab_content h2,
+#help_tab h2,
 #version {
 	text-align: center;
 }

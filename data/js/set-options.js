@@ -1,11 +1,28 @@
-self.port.once('tab_listener',function(){
-	//get all the tabs
-	var tabs = document.getElementById("tabs").children;
+self.port.once('nav_listener', function() {
 
-	//add on click listener to each
-	for (var i =0; i< tabs.length;i++){
-		tabs[i].onclick = function(x,y) { return function() { changeTab(x,y); }; }(tabs[i].children[0],tabs);
-	}
+	var nav = document.getElementById("nav").children;
+
+	[].forEach.call(nav, function(navEl) {
+
+		navEl.addEventListener("click", function() {
+
+			[].forEach.call(nav, function(navEl) {
+
+				navEl.classList.remove("selected");
+			});
+
+			this.classList.add("selected");
+
+			var tabs = document.querySelectorAll("body > div");
+
+			[].forEach.call(tabs, function(tab) {
+
+				tab.classList.add("hidden");
+			});
+
+			document.getElementById(this.id + "_tab").classList.remove("hidden");
+		});
+	});
 });
 
 self.port.once('ua_list', function(data,localized_strings) {
