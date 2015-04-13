@@ -19,12 +19,22 @@ body {
 body > div > *:first-child {
 	margin-top: 0;
 }
+p {
+	margin: .2em 0;
+}
 hr {
 	border: 0;
 	border-top: 1px solid #ccc;
 	display: block;
 	height: 1px;
 	margin: 1.5em 0;
+}
+h2 {
+	border-bottom: 1px solid #ccc;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-top: 2em;
+	padding-bottom: .5em;
 }
 .hidden {
 	display: none;
@@ -35,6 +45,9 @@ hr {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+}
+.notice {
+	margin: 1em 0;
 }
 
 /* input */
@@ -93,7 +106,7 @@ select {
 }
 #nav li:hover,
 #nav li:focus {
-    background: rgba(255, 255, 255, .3);
+	background: rgba(255, 255, 255, .3);
 }
 #nav li.selected {
 	background: #fff;
@@ -112,7 +125,7 @@ select {
 }
 
 
-/* .tabContent
+/* tabs
 ------------------------ */
 
 body > div {
@@ -140,13 +153,14 @@ body > div {
 	margin-top: 1.5em;
 }
 #ualist h2 {
-    background: rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: normal;
-    margin: 0;
-    padding: .5em;
-    position: relative;
+	background: rgba(0, 0, 0, .1);
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+	padding: .5em;
+	position: relative;
 	text-align: left;
 }
 #ualist h2.active {
@@ -154,20 +168,20 @@ body > div {
 	color: #fff;
 }
 #ualist h2:after {
-    content: "+";
-    display: block;
-    position: absolute;
-    top: .5em;
-    right: .5em;
+	content: "+";
+	display: block;
+	position: absolute;
+	top: .5em;
+	right: .5em;
 }
 #ualist h2 + ul {
 	display: none;
 }
 #ualist h2.open:after {
-    content: "–";
+	content: "–";
 }
 #ualist h2.open + ul {
-    display: block;
+	display: block;
 }
 #ualist ul {
 	margin: .7em 0;
@@ -192,9 +206,6 @@ body > div {
 
 /* headers tab */
 
-#headers_tab p {
-	margin: .1em 0;
-}
 .multi + p label {
 	display: inline-block;
 	margin-left: 1.7em;
@@ -205,20 +216,10 @@ body > div {
 	margin-left: 1em;
 	width: calc(70% - 1em);
 }
-#headers_tab p.notice {
-	margin: 1em 0;
-}
 
 /* extras tab */
 
-#script_injection,
-#standard_extras {
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-#extras_tab p {
-	margin: .1em 0;
-}
+
 
 /* whitelist tab */
 
@@ -240,6 +241,15 @@ body > div {
 
 /* help tab */
 
+#help_tab h2 {
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0;
+}
+#help_tab #version {
+	margin: 1em 0;
+}
 #help_tab h2,
 #version {
 	text-align: center;

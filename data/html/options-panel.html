@@ -134,25 +134,18 @@
 	</p>
 </div> <!-- End "Headers" Tab-->
 
-
 <!-- "Extras" Tab -->
 
 <div id="extras_tab" class="hidden">
-	<div id="script_injection_expand">
-		<span id="script_injection_title" data-l10n-id="script_injection_id"></span>
-		<span id="script_injection_title_span">+</span>
-	</div>
+	<h2 id="script_injection_title" data-l10n-id="script_injection_id"></h2>
 
-	<!-- Extras Script injection Options-->
-	<div id="script_injection_content" class="hidden">
+	<div>
 		<p>
 			<input type="checkbox" id="scriptinjection"data-invertvalue="false" data-prefname="extensions.agentSpoof.scriptInjection" />
 			<label for="scripinjection" data-l10n-id="enable_script_injection_id"></label>
 		</p>
 
-		<p data-l10n-id="script_injection_required_id"></p>
-
-		<hr>
+		<p data-l10n-id="script_injection_required_id" class="notice"></p>
 
 		<p>
 			<label for="tzdd" data-l10n-id="tz_spoofing_id"></label>
@@ -246,17 +239,11 @@
 			<input type="checkbox" id="tab_history" data-invertvalue="false" data-prefname="extensions.agentSpoof.limitTab" />
 			<label for="tab_history" data-l10n-id="limit_tab_history_id"></label>
 		</p>
-	</div> <!-- End "Extras" Script Injection Options-->
-
-
-	<div id="standard_extras_expand">
-		<span id="standard_extras_title" data-l10n-id="standard_extras_id"></span>
-		<span id="standard_extras_title_span">+</span>
 	</div>
 
-	<!-- "Extras" Standard Options-->
-	<div id="standard_extras_content" class="hidden">
+	<h2 id="standard_extras_title" data-l10n-id="standard_extras_id"></h2>
 
+	<div>
 		<p>
 			<input type="checkbox" id="fonts" data-prefname ="browser.display.use_document_fonts"/>
 			<label for="fonts" data-l10n-id="use_standard_font_id"></label>
@@ -381,10 +368,8 @@
 			<input type="checkbox" id="css_visited_links" data-invertvalue="true" data-prefname="layout.css.visited_links_enabled"/>
 			<label for="css_visited_links" data-l10n-id="disable_css_visited_links_id" ></label>
 		</p>
-
-	</div> <!-- End "Extras" Standard Options -->
+	</div>
 </div> <!-- End "Extras" Tab-->
-
 
 <!-- "Whitelist" Tab -->
 
@@ -394,12 +379,9 @@
 		<label for="whitelist_enabled" data-l10n-id="enable_whitelist_id"></label>
 	</p>
 
-	<div id="wl_prof_expand">
-		<span id="whitelist_profile_title" data-l10n-id="whitelist_profile_id"></span>
-		<span id="wl_prof_title_span">+</span>
-	</div>
+	<h2 id="whitelist_profile_title" data-l10n-id="whitelist_profile_id"></h2>
 
-	<div id="whitelist_profile" class="hidden">
+	<div>
 		<p>
 			<label for="useragent_input">User Agent:</label>
 			<input type="text" id="useragent_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListUserAgent" />
@@ -458,12 +440,9 @@
 		<p><button type="button" id="wlprofsavebtn" data-l10n-id="save_wl_profile_id"></button></p>
 	</div>
 
-	<div id="wl_rules_expand">
-		<span id="whitelist_rules_title"data-l10n-id="add_whitelist_here_id"></span>
-		<span id="wl_rules_title_span">+</span>
-	</div>
+	<h2 id="whitelist_rules_title"data-l10n-id="add_whitelist_here_id"></h2>
 
-	<textarea id="site_whitelist" class="hidden"></textarea>
+	<textarea id="site_whitelist"></textarea>
 </div> <!-- End "Whitelist" Tab-->
 
 <!-- "Help" Tab -->
