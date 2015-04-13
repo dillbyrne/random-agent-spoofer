@@ -128,6 +128,12 @@ select {
 	display: inline-block;
 	width: 100%;
 }
+#time_interval_display {
+	display: none;
+}
+.random #time_interval_display {
+	display: block;
+}
 #ualist {
 	margin-top: 1.5em;
 }

@@ -157,22 +157,9 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 self.port.on("updatePanelItems", function(ua_choice) {
 
 	setListItemColors(ua_choice);
-	setTimerVisibility(ua_choice);
-	setExcludeComponentsVisibility(ua_choice)
+	toggleRandomOptions(ua_choice);
 	setTabsColors(ua_choice);
-
 });
-
-//show or hide the timer if a random UA was chosen or not
-function setTimerVisibility(ua_choice){
-
-	if(ua_choice.substr(0,6) === "random"){
-		document.getElementById("time_interval_display").className ="";
-	}else{
-		document.getElementById("time_interval_display").className ="hidden";
-	}
-
-};
 
 //set the background color of the tabs
 function setTabsColors(ua_choice) {
@@ -203,7 +190,7 @@ function setListItemColors(ua_choice){
 		x.className = "listitem_p_spoof";
 }
 
-function setExcludeComponentsVisibility(ua_choice) {
+function toggleRandomOptions(ua_choice) {
 
 	if (ua_choice.substr(0,6) == "random")
 
