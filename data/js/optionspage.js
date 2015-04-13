@@ -13,7 +13,7 @@ document.body.addEventListener("change", function(e) {
 			self.port.emit("setAcceptHeader",e.target.dataset.raspref,e.target.dataset.ffheader,e.target.checked);
 
 		else //call a specific function for this checkbox
-			self.port.emit(e.target.id,e.target.checked);
+			self.port.emit(e.target.id,e.target.dataset.prefname,e.target.checked);
 	}
 	else if(e.target.className == "excludecb"){
 		self.port.emit("excludecb",e.target.id,e.target.value,e.target.checked);
