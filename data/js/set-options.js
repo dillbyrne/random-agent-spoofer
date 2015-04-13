@@ -156,11 +156,12 @@ self.port.on("updatePanelItems", function(ua_choice) {
 
 	toggleSectionHeaderColor(ua_choice);
 	toggleRandomOptions(ua_choice);
-	setTabsColors(ua_choice);
+	toggleTabsColor(ua_choice);
 });
 
 //set the background color of the tabs
-function setTabsColors(ua_choice) {
+
+function toggleTabsColor(ua_choice) {
 
 	if (ua_choice != "default")
 
