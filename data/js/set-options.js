@@ -12,11 +12,11 @@ self.port.once('tab_listener',function(){
 
 self.port.once('ua_list', function(data,localized_strings) {
 
-    var profileList = document.getElementById("ualist");
+	var profileList = document.getElementById("ualist");
 
 	for (var k = 0; k < data.length; k++) {
 
-	    for (var i = 0; i < data[k].list.length; i++) {
+		for (var i = 0; i < data[k].list.length; i++) {
 
 			// section header
 
@@ -97,7 +97,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 				regularEl.appendChild(excludeBox);
 			}
-	    }
+		}
 	}
 });
 
