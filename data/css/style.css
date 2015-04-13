@@ -147,6 +147,10 @@ select {
     position: relative;
 	text-align: left;
 }
+#ualist h2.active {
+	background: #219be2;
+	color: #fff;
+}
 #ualist h2:after {
     content: "+";
     display: block;
