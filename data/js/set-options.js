@@ -1,84 +1,120 @@
-self.port.once('tab_listener',function(){
-	//get all the tabs
-	var tabs = document.getElementById("tabs").children;
+self.port.once('nav_listener', function() {
 
-	//add on click listener to each
-	for (var i =0; i< tabs.length;i++){
-		tabs[i].onclick = function(x,y) { return function() { changeTab(x,y); }; }(tabs[i].children[0],tabs);
-	}
+	var nav = document.getElementById("nav").children;
+
+	[].forEach.call(nav, function(navEl) {
+
+		navEl.addEventListener("click", function() {
+
+			[].forEach.call(nav, function(navEl) {
+
+				navEl.classList.remove("selected");
+			});
+
+			this.classList.add("selected");
+
+			var tabs = document.querySelectorAll("body > div");
+
+			[].forEach.call(tabs, function(tab) {
+
+				tab.classList.add("hidden");
+			});
+
+			document.getElementById(this.id + "_tab").classList.remove("hidden");
+		});
+	});
 });
-
-
 
 self.port.once('ua_list', function(data,localized_strings) {
 
-    var uaList  = document.getElementById("ualist");
+	var profileList = document.getElementById("ualist");
 
 	for (var k = 0; k < data.length; k++) {
 
-	    for (var i = 0; i < data[k].list.length; i++) {
+		for (var i = 0; i < data[k].list.length; i++) {
 
-			var section = document.createElement("h2");
-			section.innerHTML = data[k].list[i].description;
+			// section header
 
-			section.addEventListener("click", function() {
+			var sectionHeader = document.createElement("h2");
+			sectionHeader.innerHTML = data[k].list[i].description;
+
+			sectionHeader.addEventListener("click", function() {
 
 				this.classList.toggle("open");
 			});
 
-			var listItems = document.createElement("ul");
+			profileList.appendChild(sectionHeader);
 
-			var listRandom = document.createElement("li");
-			listRandom.setAttribute("class","profileLine");
+			// user agent list
+
+			var uaList = document.createElement("ul");
+
+			profileList.appendChild(uaList);
+
+			// random element
+
+			var randomEl = document.createElement("li");
+
+			uaList.appendChild(randomEl);
+
+			// random element components
 
 			var radio = document.createElement("input");
-			radio.setAttribute("name","ua");
-			radio.setAttribute("type","radio");
-			radio.setAttribute("id","random_"+k+","+i);
-			radio.setAttribute("value","random_"+k+","+i);
+			radio.setAttribute("name", "ua");
+			radio.setAttribute("type", "radio");
+			radio.setAttribute("id", "random_" + k + "," + i);
+			radio.setAttribute("value", "random_" + k + "," + i);
+
+			randomEl.appendChild(radio);
 
 			var label = document.createElement("label");
-			label.setAttribute("for","random_"+k+","+i);
-			label.innerHTML = " "+localized_strings[1]+" "+  data[k].list[i].description;
+			label.setAttribute("for", "random_" + k + "," + i);
+			label.innerHTML = " " + localized_strings[1] + " " + data[k].list[i].description;
 
-			// excludeSpan.appendChild(document.createTextNode(localized_strings[0]));
+			randomEl.appendChild(label);
 
-			uaList.appendChild(section);
-			uaList.appendChild(listItems);
-			listItems.appendChild(listRandom);
-			listRandom.appendChild(radio);
-			listRandom.appendChild(label);
+			var excludeHeader = document.createElement("span");
+			excludeHeader.innerHTML = localized_strings[0];
+
+			randomEl.appendChild(excludeHeader);
 
 			for (var j=0; j< data[k].list[i].useragents.length; j++) {
 
-				var userAgent = document.createElement("li");
+				// regular element
+
+				var regularEl = document.createElement("li");
+
+				uaList.appendChild(regularEl);
+
+				// regular element components
 
 				var radio = document.createElement("input");
-				radio.setAttribute("name","ua");
-				radio.setAttribute("type","radio");
-				radio.setAttribute("id",k+","+i+","+j);
-				radio.setAttribute("value",k+","+i+","+j);
+
+				radio.setAttribute("name", "ua");
+				radio.setAttribute("type", "radio");
+				radio.setAttribute("id", k + "," + i + "," + j);
+				radio.setAttribute("value", k + "," + i + "," + j);
+
+				regularEl.appendChild(radio);
 
 				var label = document.createElement("label");
-				label.setAttribute("for",k+","+i+","+j);
-				label.innerHTML = " "+data[k].list[i].useragents[j].description;
+
+				label.setAttribute("for", k + "," + i + "," + j);
+				label.innerHTML = " " + data[k].list[i].useragents[j].description;
+
+				regularEl.appendChild(label);
 
 				var excludeBox = document.createElement("input");
-				excludeBox.setAttribute("type","checkbox");
-				excludeBox.setAttribute("class","excludecb");
-				excludeBox.setAttribute("id",data[k].list[i].useragents[j].profileID);
-				excludeBox.setAttribute("value",k+","+i+","+j);
+				excludeBox.setAttribute("type", "checkbox");
+				excludeBox.setAttribute("class", "excludecb");
+				excludeBox.setAttribute("id", data[k].list[i].useragents[j].profileID);
+				excludeBox.setAttribute("value", k + "," + i + "," + j);
 
-				userAgent.appendChild(radio);
-				userAgent.appendChild(label);
-				userAgent.appendChild(excludeBox);
-
-				listItems.appendChild(userAgent);
+				regularEl.appendChild(excludeBox);
 			}
-	    }
+		}
 	}
 });
-
 
 self.port.on("setCheckBox",function(checkboxid,value){
 	document.getElementById(checkboxid).checked = value;
@@ -130,83 +166,48 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 
 });
 
+self.port.on("updatePanelItems", function(ua_choice) {
 
-
-self.port.on("updatePanelItems",function(ua_choice){
-
-	setListItemColors(ua_choice);
-	setTimerVisibility(ua_choice);
-	setExcludeCheckboxVisibility(ua_choice);
-	setExcludeSpanVisibility(ua_choice);
-	setTabsColors(ua_choice);
-
+	toggleSectionHeaderColor(ua_choice);
+	toggleRandomOptions(ua_choice);
+	toggleTabsColor(ua_choice);
 });
 
-//show or hide the timer if a random UA was chosen or not
-function setTimerVisibility(ua_choice){
+function toggleTabsColor(ua_choice) {
 
-	if(ua_choice.substr(0,6) === "random"){
-		document.getElementById("time_interval_display").className ="";
-	}else{
-		document.getElementById("time_interval_display").className ="hidden";
-	}
+	if (ua_choice != "default")
 
-};
-
-//set the background color of the tabs
-function setTabsColors(ua_choice){
-
-	if(ua_choice != "default"){
 		document.body.classList.add("spoof");
-	}else{
-		document.body.classList.remove("spoof");
-	}
 
+	else
+
+		document.body.classList.remove("spoof");
 };
 
-//set the color of list item containing the selected profile
-function setListItemColors(ua_choice){
+function toggleSectionHeaderColor(ua_choice) {
 
-	//reset any list item header colors
-	var lih = document.getElementsByClassName("listitem_p_spoof");
-	for (var i=0; i<lih.length;i++){
-		lih[i].className = "listitem_p";
-	}
+	var sectionHeaders = document.querySelectorAll("#ualist h2");
 
-	//set the current profile's parent list item header colors
-	//get the p element
-	var x = (((document.getElementById(ua_choice).parentElement).parentElement).parentElement).parentElement.firstChild;
+	[].forEach.call(sectionHeaders, function(header) {
 
-	if(x.className == "listitem_p")
-		x.className = "listitem_p_spoof";
+		header.classList.remove("active");
+	});
+
+	var uaList = document.getElementById("ualist");
+	var currentElement = document.getElementById(ua_choice);
+
+	if (uaList.contains(currentElement))
+
+		currentElement.parentNode.parentNode.previousSibling.classList.add("active");
 }
 
-function setExcludeCheckboxVisibility(ua_choice){
+function toggleRandomOptions(ua_choice) {
 
-	var excludes = document.getElementsByClassName("excludecb");
+	if (ua_choice.substr(0,6) == "random")
 
-	if(ua_choice.substr(0,6) === "random"){
-		for (var i = 0; i < excludes.length; i++) {
-			excludes[i].style.display = "inline-block";
-		};
-	}else{
-		for (var i = 0; i < excludes.length; i++) {
-			excludes[i].style.display = "none";
-		};
-	}
-}
+		document.body.classList.add("random");
 
-function setExcludeSpanVisibility(ua_choice){
+	else
 
-	var excludes = document.getElementsByClassName("excludeSpan");
-
-	if(ua_choice.substr(0,6) === "random"){
-		for (var i = 0; i < excludes.length; i++) {
-			excludes[i].style.display = "block";
-		};
-	}else{
-		for (var i = 0; i < excludes.length; i++) {
-			excludes[i].style.display = "none";
-		};
-	}
+		document.body.classList.remove("random");
 }
