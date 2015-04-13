@@ -8,8 +8,6 @@ self.port.once('tab_listener',function(){
 	}
 });
 
-
-
 self.port.once('ua_list', function(data,localized_strings) {
 
 	var profileList = document.getElementById("ualist");
@@ -101,7 +99,6 @@ self.port.once('ua_list', function(data,localized_strings) {
 	}
 });
 
-
 self.port.on("setCheckBox",function(checkboxid,value){
 	document.getElementById(checkboxid).checked = value;
 });
@@ -159,8 +156,6 @@ self.port.on("updatePanelItems", function(ua_choice) {
 	toggleTabsColor(ua_choice);
 });
 
-//set the background color of the tabs
-
 function toggleTabsColor(ua_choice) {
 
 	if (ua_choice != "default")
@@ -171,8 +166,6 @@ function toggleTabsColor(ua_choice) {
 
 		document.body.classList.remove("spoof");
 };
-
-//set the color of list item containing the selected profile
 
 function toggleSectionHeaderColor(ua_choice) {
 
@@ -186,10 +179,9 @@ function toggleSectionHeaderColor(ua_choice) {
 	var uaList = document.getElementById("ualist");
 	var currentElement = document.getElementById(ua_choice);
 
-	if (uaList.contains(currentElement)) {
+	if (uaList.contains(currentElement))
 
 		currentElement.parentNode.parentNode.previousSibling.classList.add("active");
-	}
 }
 
 function toggleRandomOptions(ua_choice) {
