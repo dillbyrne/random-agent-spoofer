@@ -129,60 +129,9 @@ document.body.addEventListener("click",function(e) {
 		self.port.emit("setPrefValue",
 			document.getElementById("acceptlanguage_input").dataset.prefname,
 			document.getElementById("acceptlanguage_input").value);
+	}
 
-	}else if(e.target.id =="wl_prof_expand" || e.target.id == "whitelist_profile_title"
-		|| e.target.id == "wl_prof_title_span"){
-
-		if(document.getElementById("whitelist_profile").className == ""){
-			document.getElementById("whitelist_profile").className = "hidden";
-			document.getElementById("wl_prof_title_span").textContent = "+";
-
-		}else{
-			document.getElementById("whitelist_profile").className = "";
-			document.getElementById("wl_prof_title_span").textContent = "–";
-		}
-
-	}else if(e.target.id =="wl_rules_expand" || e.target.id =="whitelist_rules_title"
-		|| e.target.id == "wl_rules_title_span"){
-
-		if(document.getElementById("site_whitelist").className == ""){
-			document.getElementById("site_whitelist").className = "hidden";
-			document.getElementById("wl_rules_title_span").textContent = "+";
-
-		}else{
-			document.getElementById("site_whitelist").className = "";
-			document.getElementById("wl_rules_title_span").textContent = "–";
-			document.getElementById("site_whitelist").focus();
-		}
-
-
-    }else if(e.target.id =="script_injection_expand" || e.target.id =="script_injection_title" 
-    	|| e.target.id == "script_injection_title_span"){
-
-    	if(document.getElementById("script_injection_content").className == ""){
-    		document.getElementById("script_injection_content").className = "hidden";
-    		document.getElementById("script_injection_title_span").textContent = "+";
-
-    	}else{
-    	  	document.getElementById("script_injection_content").className = "";
-    	  	document.getElementById("script_injection_title_span").textContent = "–";
-    	}
-
-    }else if(e.target.id =="standard_extras_expand" || e.target.id =="standard_extras_title"
-    	|| e.target.id == "standard_extras_title_span"){
-
-    	if(document.getElementById("standard_extras_content").className == ""){
-    		document.getElementById("standard_extras_content").className = "hidden";
-    		document.getElementById("standard_extras_title_span").textContent = "+";
-
-    	}else{
-    	  	document.getElementById("standard_extras_content").className = "";
-    	  	document.getElementById("standard_extras_title_span").textContent = "–";
-    	}
-
-    }
-
-},false);
+}, false);
 
 
 document.body.addEventListener("focus", function(e) {
