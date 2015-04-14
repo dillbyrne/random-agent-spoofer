@@ -36,7 +36,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 			// section header
 
 			var sectionHeader = document.createElement("h2");
-			sectionHeader.innerHTML = data[k].list[i].description;
+			sectionHeader.textContent = data[k].list[i].description;
 
 			sectionHeader.addEventListener("click", function() {
 
@@ -69,12 +69,12 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			var label = document.createElement("label");
 			label.setAttribute("for", "random_" + k + "," + i);
-			label.innerHTML = " " + localized_strings[1] + " " + data[k].list[i].description;
+			label.textContent = " " + localized_strings[1] + " " + data[k].list[i].description;
 
 			randomEl.appendChild(label);
 
 			var excludeHeader = document.createElement("span");
-			excludeHeader.innerHTML = localized_strings[0];
+			excludeHeader.textContent = localized_strings[0];
 
 			randomEl.appendChild(excludeHeader);
 
@@ -100,7 +100,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 				var label = document.createElement("label");
 
 				label.setAttribute("for", k + "," + i + "," + j);
-				label.innerHTML = " " + data[k].list[i].useragents[j].description;
+				label.textContent = " " + data[k].list[i].useragents[j].description;
 
 				regularEl.appendChild(label);
 
