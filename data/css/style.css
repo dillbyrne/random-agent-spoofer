@@ -50,7 +50,7 @@ h2 {
 	margin: 1em 0;
 }
 
-/* input */
+/* form elements */
 
 input:not([type="text"]),
 label {
@@ -84,6 +84,34 @@ select {
 	border: none;
 	cursor: pointer;
 	padding-right: 1.5em;
+}
+
+/* expand/collapse section */
+
+.trigger,
+#ualist h3 {
+	cursor: pointer;
+	position: relative;
+}
+.trigger:after,
+#ualist h3:after {
+	content: "+";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: .5em;
+}
+.trigger + .expandable,
+#ualist h3 + ul {
+	display: none;
+}
+.trigger.open:after,
+#ualist h3.open:after {
+	content: "–";
+}
+.trigger.open + .expandable,
+#ualist h3.open + ul {
+	display: block;
 }
 
 
@@ -152,41 +180,26 @@ body > div {
 #ualist {
 	margin-top: 1.5em;
 }
-#ualist h2 {
+#ualist h3 {
 	background: rgba(0, 0, 0, .1);
 	border: none;
-	cursor: pointer;
 	font-size: 1em;
 	font-weight: normal;
 	margin: 0;
 	padding: .5em;
-	position: relative;
 	text-align: left;
 }
-#ualist h2.active {
+#ualist h3.active {
 	background: #219be2;
 	color: #fff;
 }
-#ualist h2:after {
-	content: "+";
-	display: block;
-	position: absolute;
+#ualist h3:after {
 	top: .5em;
-	right: .5em;
-}
-#ualist h2 + ul {
-	display: none;
-}
-#ualist h2.open:after {
-	content: "–";
-}
-#ualist h2.open + ul {
-	display: block;
 }
 #ualist ul {
 	margin: .7em 0;
 }
-#ualist ul + h2 {
+#ualist ul + h3 {
 	margin-top: 2px;
 }
 #ualist li {
@@ -223,19 +236,13 @@ body > div {
 
 /* whitelist tab */
 
-#site_whitelist {
+#whitelist_tab textarea {
 	height: 60%;
 	margin-top: .5em;
 	resize: none;
 	width: 100%;
 }
-
-#whitelist_profile {
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-.wl_prof {
+#whitelist_tab input[type="text"] {
 	width:100%;
 }
 

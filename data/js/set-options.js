@@ -35,7 +35,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			// section header
 
-			var sectionHeader = document.createElement("h2");
+			var sectionHeader = document.createElement("h3");
 			sectionHeader.textContent = data[k].list[i].description;
 
 			sectionHeader.addEventListener("click", function() {
@@ -186,7 +186,7 @@ function toggleTabsColor(ua_choice) {
 
 function toggleSectionHeaderColor(ua_choice) {
 
-	var sectionHeaders = document.querySelectorAll("#ualist h2");
+	var sectionHeaders = document.querySelectorAll("#ualist h3");
 
 	[].forEach.call(sectionHeaders, function(header) {
 
@@ -211,3 +211,13 @@ function toggleRandomOptions(ua_choice) {
 
 		document.body.classList.remove("random");
 }
+
+var triggers = document.querySelectorAll(".trigger");
+
+[].forEach.call(triggers, function(trigger) {
+
+	trigger.addEventListener("click", function () {
+
+		this.classList.toggle("open");
+	});
+});
