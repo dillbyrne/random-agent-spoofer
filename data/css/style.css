@@ -50,7 +50,7 @@ h2 {
 	margin: 1em 0;
 }
 
-/* input */
+/* form elements */
 
 input:not([type="text"]),
 label {
@@ -89,12 +89,12 @@ select {
 /* expand/collapse section */
 
 .trigger,
-#ualist h2 {
+#ualist h3 {
 	cursor: pointer;
 	position: relative;
 }
 .trigger:after,
-#ualist h2:after {
+#ualist h3:after {
 	content: "+";
 	display: block;
 	position: absolute;
@@ -102,15 +102,15 @@ select {
 	right: .5em;
 }
 .trigger + .expandable,
-#ualist h2 + ul {
+#ualist h3 + ul {
 	display: none;
 }
 .trigger.open:after,
-#ualist h2.open:after {
+#ualist h3.open:after {
 	content: "–";
 }
 .trigger.open + .expandable,
-#ualist h2.open + ul {
+#ualist h3.open + ul {
 	display: block;
 }
 
@@ -180,7 +180,7 @@ body > div {
 #ualist {
 	margin-top: 1.5em;
 }
-#ualist h2 {
+#ualist h3 {
 	background: rgba(0, 0, 0, .1);
 	border: none;
 	font-size: 1em;
@@ -189,17 +189,17 @@ body > div {
 	padding: .5em;
 	text-align: left;
 }
-#ualist h2.active {
+#ualist h3.active {
 	background: #219be2;
 	color: #fff;
 }
-#ualist h2:after {
+#ualist h3:after {
 	top: .5em;
 }
 #ualist ul {
 	margin: .7em 0;
 }
-#ualist ul + h2 {
+#ualist ul + h3 {
 	margin-top: 2px;
 }
 #ualist li {
