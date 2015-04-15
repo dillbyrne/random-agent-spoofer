@@ -126,7 +126,7 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 - Option to set a custom whitelist profile
 
-- Option to write and edit whitlist rules
+- Option to write and edit whitelist rules
 
 ### Context Menu Options
 
