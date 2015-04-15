@@ -236,19 +236,13 @@ body > div {
 
 /* whitelist tab */
 
-#site_whitelist {
+#whitelist_tab textarea {
 	height: 60%;
 	margin-top: .5em;
 	resize: none;
 	width: 100%;
 }
-
-#whitelist_profile {
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-.wl_prof {
+#whitelist_tab input[type="text"] {
 	width:100%;
 }
 
