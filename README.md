@@ -30,7 +30,7 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 - Persistently remembers the users choice of profile and time interval if set.
 
-- Profile notifications of profiles changes can be toggle in addons preferences (see about:addons).
+- Profile notifications can be toggled in the addons preferences (see about:addons).
 
 - Allows vendor spoofing that was removed in firefox 24
 
@@ -45,7 +45,7 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 - Options to send spoofed headers including via and x-forwarded-for headers with a random or custom ip.
 
-- Option to send spoofer if-none-match headers 
+- Option to send spoofed if-none-match headers 
 
 - Option to disable sending of authorization headers 
 
@@ -58,11 +58,9 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 ### Extras
 
-- Option to toggle ras script injection
+- Option to toggle RAS script injection (it is required for cetain options and for the whitelist)
 
-- Option to several options and features (e.g. whitelist) require script injection.
-
-- Option to spoof the date anf time strings to a random one or a specific one. (An issue is open to improve this)
+- Option to spoof the date and time strings to a random one or a specific one. (An issue is open to improve this)
 
 - Option to spoof screen and window sizes to a specific size or random or a random tailored size defined in the profile
 
@@ -116,7 +114,7 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 - Option to disable context menu events
 
-- Option to enable tracking protection
+- Option to enable tracking protection (which uses disconnect's blocklist)
 
 - Option to disable plugin name enumeration
 
@@ -177,7 +175,7 @@ Please get in touch if you would like to translate RAS to your language or impro
 
 # Wiki 
 
-Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions, a user guide and ideas for contributing.
+Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions, a user guide and ideas for contributing. 
 
 
 
