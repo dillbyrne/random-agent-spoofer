@@ -1,4 +1,6 @@
-# Random Agent Spoofer #
+# Random Agent Spoofer ![RAS icon](https://github.com/dillbyrne/random-agent-spoofer/blob/master/data/images/icon.png "RAS icon")
+
+
 
 
 RAS is a privacy enhancing firefox addon which aims to hinder browser
@@ -9,65 +11,136 @@ browser as much as possible, within the limits set by firefox.
 It also supports other privacy enhancing options
 
 
-# Features #
+This document was last updated for 0.9.5.2 release (to be released soon)
 
-- Allows the user to choose a specific browser profile or one at random (from all available profiles, desktop profiles only or from the OS family)  
+![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/2903711/7170740/af8847fc-e3c8-11e4-9d36-b4d362dff886.png "Ras Profile Tab 0.9.5.2")
+
+
+
+# Features 
+
+### Profile
+
+- Allows the user to choose a specific browser profile or one at random (from all available profiles, desktop, mobile or by OS family)  
 
 - Allows the user to specify the interval at which the random profiles are
-  chosen. Interval can also be random, a specific time period or per session if the timer is not set
+  chosen. Interval can also be random (1-60 minutes), a specific time period or per session if the timer is not set
 
-- Allows the user to exclude profiles from random selection.
+- Allows the user to exclude profiles from random selection .
 
 - Persistently remembers the users choice of profile and time interval if set.
 
-- Provides a mouse context menu to for quickly selecting random profile and timers. This can be shown or hidden in the preferences
-
-- Provides option to toggle notifications of profiles changes. 
+- Profile notifications of profiles changes can be toggle in addons preferences (see about:addons).
 
 - Allows vendor spoofing that was removed in firefox 24
 
-- Sets other privacy attributes such as buildid, oscpu and platform where the
-  values are known.
-
+- Sets other privacy attributes such as buildid, oscpu and platform 
+ 
 - It has a left click menu of expandable lists to allow users to quickly choose
-  specific profiles
+  specific profiles and options
 
-- It has a large list of profiles ( 320 at this time).
+- It has a large list of profiles ( 321 at this time).
 
-- Option to limit local dom storage
+### Headers
 
-- Option to disable browser cache (forced by default to fix issue #121 looking for a work around)
+- Options to send spoofed headers including via and x-forwarded-for headers with a random or custom ip.
 
-- Option to limit fonts to a standard set (monospace, serif, times new roman)
+- Option to send spoofer if-none-match headers 
 
-- Option to limit tab history to two
+- Option to disable sending of authorization headers 
 
-- Option to disable geolocation support
+- Option to send do not track headers
 
-- Option to disable dns prefetching
+- Option to block or allow referer headers (there is an issue open to build upon this)
+ 
+- Options to send spoofed accept headers that are tailored to the currently selected profile. (there is an issue open to add more options for the language header)
+
+
+### Extras
+
+- Option to toggle ras script injection
+
+- Option to several options and features (e.g. whitelist) require script injection.
+
+- Option to spoof the date anf time strings to a random one or a specific one. (An issue is open to improve this)
+
+- Option to spoof screen and window sizes to a specific size or random or a random tailored size defined in the profile
+
+- Option to protect window.name
+
+- Option to disable canvas support
+
+- Option to limit tab history to 2 
+
+- Option to use document fonts
+
+- Option to disable local dom storage
+
+- Option to disable browsing and download history
+
+- Option to disable memory cache
+
+- Option to disable disk cache
+
+- Option to disable network cache (forced by default to fix issue #121 looking for a work around)
+
+- Option to disable geolocation
 
 - Option to disable link prefetching
 
-- Option to disable webGL
+- Option to disable dns prefetching
 
-- Option to disable webRTC
+- Option to disable webgl
 
-- Option to disable canvas element support
+- Option to disable webrtc
 
-- Option to set referer header
+- Option to disable pdfjs
 
-- Option to set do not track header 
+- Option to disable search suggestions
 
-- Options to send spoofed headers including  via, x-forwarded-for and if-none-match.
- 
-- Options to spoof the accept headers: documents, encoding and language (US English) so they match the spoofed profile.
+- Option to disable navigation timing
 
-- Option to override timezone offset to a random timezone, send nothing, specify one from a list or use the default one.
+- Option to disable battery api
 
-- Option to spoof screen and window sizes to a specific size or set at random
+- Option to disable gamepad api
 
+- Option to use click to play for plugins
 
-# Localizations #
+- Option to block active mixed content
+
+- Option to block display mixed content
+
+- Option to disable browser pings
+
+- Option to disable clipboard events
+
+- Option to disable context menu events
+
+- Option to enable tracking protection
+
+- Option to disable plugin name enumeration
+
+- Option to disable css visited links
+
+### Whitelist
+
+- Option to toggle whitelsit support
+
+- Option to set a custom whitelist profile
+
+- Option to write and edit whitlist rules
+
+### Context Menu Options
+
+- The context menu entry can be toggled on or off in the addons preference (see about:addons)
+
+- Option to select all but specific profiles
+
+- Option to set the random profile timer
+
+- Option to allow users to use temporary email services for one time signups when invoked on an input box
+
+# Localizations
 
 Localizations so far.
 
@@ -102,33 +175,33 @@ Localizations so far.
 Please get in touch if you would like to translate RAS to your language or improve an existing one.
 
 
-# Wiki #
+# Wiki 
 
 Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions, a user guide and ideas for contributing.
 
 
 
+# Icons 
 
-# Icons #
+Most of the icons used are from the  Unique-Round-Blue icon set by http://www.uniquedesign10.com/
 
-Icons are modified versions of those of the crystal project.
+Some of these have been modified for RAS.
 
-Licence : https://www.gnu.org/licenses/lgpl-2.1.html
+Licence : Free for commercial use (Include link to authors website)  
 
 
-# Donations #
+The timer icon used is blue clock icon by http://www.doublejdesign.co.uk/
+
+It has been slightly modified
+
+Licence :  Creative Commons (Attribution 3.0 Unported)
+
+
+
+# Donations 
 
 If you would like to donate with you can do so at
 https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
 
 or with bitcoin at
 1L44pgmZpeMsWsd24WgN6SJjEUARG5eY6G
-
-# What's Next #
-
-I will continue to update the list of browser profiles. I hope people will submit 
-information on their browsers so I can keep the list up to date and correct. I do 
-not intend to support every single browser or device. The intention of the addon 
-is to help hinder browser fingerprinting by being a moving target..
-
-I will continue to add more features as time goes on.
