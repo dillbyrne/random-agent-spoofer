@@ -137,9 +137,9 @@
 <!-- "Extras" Tab -->
 
 <div id="extras_tab" class="hidden">
-	<h2 id="script_injection_title" data-l10n-id="script_injection_id"></h2>
+	<h2 id="script_injection_title" data-l10n-id="script_injection_id" class="trigger open"></h2>
 
-	<div>
+	<div class="expandable">
 		<p>
 			<input type="checkbox" id="scriptinjection"data-invertvalue="false" data-prefname="extensions.agentSpoof.scriptInjection" />
 			<label for="scripinjection" data-l10n-id="enable_script_injection_id"></label>
@@ -241,9 +241,9 @@
 		</p>
 	</div>
 
-	<h2 id="standard_extras_title" data-l10n-id="standard_extras_id"></h2>
+	<h2 id="standard_extras_title" data-l10n-id="standard_extras_id" class="trigger open"></h2>
 
-	<div>
+	<div class="expandable">
 		<p>
 			<input type="checkbox" id="fonts" data-prefname ="browser.display.use_document_fonts"/>
 			<label for="fonts" data-l10n-id="use_standard_font_id"></label>
@@ -379,70 +379,72 @@
 		<label for="whitelist_enabled" data-l10n-id="enable_whitelist_id"></label>
 	</p>
 
-	<h2 id="whitelist_profile_title" data-l10n-id="whitelist_profile_id"></h2>
+	<h2 id="whitelist_profile_title" data-l10n-id="whitelist_profile_id" class="trigger open"></h2>
 
-	<div>
+	<div class="expandable">
 		<p>
 			<label for="useragent_input">User Agent:</label>
-			<input type="text" id="useragent_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListUserAgent" />
+			<input type="text" id="useragent_input" data-prefname="extensions.agentSpoof.whiteListUserAgent" />
 		</p>
 
 		<p>
 			<label for="appcodename_input">AppCodeName:</label>
-			<input type="text" id="appcodename_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListAppCodeName" />
+			<input type="text" id="appcodename_input" data-prefname="extensions.agentSpoof.whiteListAppCodeName" />
 		</p>
 
 		<p>
 			<label for="appname_input">AppName:</label>
-			<input type="text" id="appname_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListAppName" />
+			<input type="text" id="appname_input" data-prefname="extensions.agentSpoof.whiteListAppName" />
 		</p>
 
 		<p>
 			<label for="appversion_input">AppVersion:</label>
-			<input type="text" id="appversion_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListAppVersion" />
+			<input type="text" id="appversion_input" data-prefname="extensions.agentSpoof.whiteListAppVersion" />
 		</p>
 
 		<p>
 			<label for="vendor_input">Vendor:</label>
-			<input type="text" id="vendor_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListVendor" />
+			<input type="text" id="vendor_input" data-prefname="extensions.agentSpoof.whiteListVendor" />
 		</p>
 
 		<p>
 			<label for="vendorsub_input">VendorSub:</label>
-			<input type="text" id="vendorsub_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListVendorSub" />
+			<input type="text" id="vendorsub_input" data-prefname="extensions.agentSpoof.whiteListVendorSub" />
 		</p>
 
 		<p>
 			<label for="platform_input">Platform:</label>
-			<input type="text" id="platform_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListPlatform" />
+			<input type="text" id="platform_input" data-prefname="extensions.agentSpoof.whiteListPlatform" />
 		</p>
 
 		<p>
 			<label for="oscpu_input">OsCpu:</label>
-			<input type="text" id="oscpu_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListOsCpu" />
+			<input type="text" id="oscpu_input" data-prefname="extensions.agentSpoof.whiteListOsCpu" />
 		</p>
 
 		<p>
 			<label for="acceptdefault_input">Accept Default:</label>
-			<input type="text" id="acceptdefault_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListAccept" />
+			<input type="text" id="acceptdefault_input" data-prefname="extensions.agentSpoof.whiteListAccept" />
 		</p>
 
 		<p>
 			<label for="acceptencoding_input">Accept Encoding:</label>
-			<input type="text" id="acceptencoding_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListAcceptEncoding" />
+			<input type="text" id="acceptencoding_input" data-prefname="extensions.agentSpoof.whiteListAcceptEncoding" />
 		</p>
 
 		<p>
 			<label for="acceptlanguage_input">Accept Language:</label>
-			<input type="text" id="acceptlanguage_input" class="wl_prof" data-prefname="extensions.agentSpoof.whiteListAcceptLanguage" />
+			<input type="text" id="acceptlanguage_input" data-prefname="extensions.agentSpoof.whiteListAcceptLanguage" />
 		</p>
 
 		<p><button type="button" id="wlprofsavebtn" data-l10n-id="save_wl_profile_id"></button></p>
 	</div>
 
-	<h2 id="whitelist_rules_title"data-l10n-id="add_whitelist_here_id"></h2>
+	<h2 id="whitelist_rules_title"data-l10n-id="add_whitelist_here_id" class="trigger open"></h2>
 
-	<textarea id="site_whitelist"></textarea>
+	<div class="expandable">
+		<textarea id="site_whitelist"></textarea>
+	</div>
 </div> <!-- End "Whitelist" Tab-->
 
 <!-- "Help" Tab -->
