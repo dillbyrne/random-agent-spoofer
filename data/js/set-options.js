@@ -216,7 +216,7 @@ var triggers = document.querySelectorAll(".trigger");
 
 [].forEach.call(triggers, function(trigger) {
 
-	trigger.addEventListener("click", function (){
+	trigger.addEventListener("click", function () {
 
 		this.classList.toggle("open");
 	});
