@@ -58,7 +58,7 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 ### Extras
 
-- Option to toggle RAS script injection (it is required for cetain options and for the whitelist)
+- Option to toggle RAS script injection (it is required for certain options and for the whitelist)
 
 - Option to spoof the date and time strings to a random one or a specific one. (An issue is open to improve this)
 
@@ -122,7 +122,7 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 ### Whitelist
 
-- Option to toggle whitelsit support
+- Option to toggle whitelist support
 
 - Option to set a custom whitelist profile
 
@@ -130,13 +130,13 @@ This document was last updated for 0.9.5.2 release (to be released soon)
 
 ### Context Menu Options
 
-- The context menu entry can be toggled on or off in the addons preference (see about:addons)
+- The context menu entry can be toggled on or off in the addon preferences (see about:addons)
 
-- Option to select all but specific profiles
+- Option to select the real profile or any random profile option.
 
 - Option to set the random profile timer
 
-- Option to allow users to use temporary email services for one time signups when invoked on an input box
+- Option to allow users to use temporary email services for one time signups when invoked on an input box. (6 services currently available)
 
 # Localizations
 
@@ -181,14 +181,14 @@ Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) fo
 
 # Icons 
 
-Most of the icons used are from the  Unique-Round-Blue icon set by http://www.uniquedesign10.com/
+Most of the icons used are from the  Unique-Round-Blue icon set by [Unique Design 10](http://www.uniquedesign10.com/)
 
 Some of these have been modified for RAS.
 
 Licence : Free for commercial use (Include link to authors website)  
 
 
-The timer icon used is blue clock icon by http://www.doublejdesign.co.uk/
+The timer icon used is blue clock icon by [Double J Design](http://www.doublejdesign.co.uk/)
 
 It has been slightly modified
 
@@ -198,8 +198,8 @@ Licence :  Creative Commons (Attribution 3.0 Unported)
 
 # Donations 
 
-If you would like to donate with you can do so at
-https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/
+If you would like to donate with you can do so at the
+[RAS mozilla addons page](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/)
 
 or with bitcoin at
 1L44pgmZpeMsWsd24WgN6SJjEUARG5eY6G
