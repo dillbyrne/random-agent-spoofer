@@ -98,7 +98,7 @@ select {
 	content: "+";
 	display: block;
 	position: absolute;
-	top: 0;
+	top: .5em;
 	right: .5em;
 }
 .trigger + .expandable,
@@ -112,6 +112,8 @@ select {
 .trigger.open + .expandable,
 #ualist h3.open + ul {
 	display: block;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 
@@ -180,7 +182,7 @@ body > div {
 #ualist {
 	margin-top: 1.5em;
 }
-#ualist h3 {
+#ualist h3  {
 	background: rgba(0, 0, 0, .1);
 	border: none;
 	font-size: 1em;
@@ -232,13 +234,36 @@ body > div {
 
 /* extras tab */
 
+#extras_tab h3 {
+	background: rgba(0, 0, 0, .1);
+	border: none;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+	padding: .5em;
+	text-align: left;
+	margin-top: 2px;
+}
+
 
 
 /* whitelist tab */
 
+#whitelist_tab h3 {
+	background: rgba(0, 0, 0, .1);
+	border: none;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+	padding: .5em;
+	text-align: left;
+	margin-top: 2px;
+}
+#whitelist_checkbox_line  {
+	margin-bottom: 1em;
+}
 #whitelist_tab textarea {
 	height: 60%;
-	margin-top: .5em;
 	resize: none;
 	width: 100%;
 }
