@@ -13,7 +13,7 @@ It also supports other privacy enhancing options
 
 This document was last updated for 0.9.5.2 release (to be released soon)
 
-![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/2903711/7170740/af8847fc-e3c8-11e4-9d36-b4d362dff886.png "Ras Profile Tab 0.9.5.2")
+![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/2903711/7181625/00f8a3ea-e444-11e4-89b6-aaa0890a2654.png "Ras Profile Tab 0.9.5.2")
 
 
 
