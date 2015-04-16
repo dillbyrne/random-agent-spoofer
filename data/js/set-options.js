@@ -157,7 +157,6 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 	if (checkBoxList.length > 0 ){
 
 		var exclude_list = checkBoxList.split(',');
-		console.log("exclude_list is "+exclude_list);
 		for (var i=0; i< exclude_list.length;i++){
 
 			document.getElementById(exclude_list[i]).checked = true;

@@ -129,6 +129,9 @@ document.body.addEventListener("click",function(e) {
 		self.port.emit("setPrefValue",
 			document.getElementById("acceptlanguage_input").dataset.prefname,
 			document.getElementById("acceptlanguage_input").value);
+	
+	}else if(e.target.id =="whitelist_rules_title"){
+		document.getElementById("site_whitelist").focus();
 	}
 
 }, false);
