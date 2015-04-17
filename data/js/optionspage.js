@@ -51,7 +51,7 @@ document.body.addEventListener("keyup", function(e) {
 
 	//set the input validation class
 	if ((e.target.id).substr(3,2) == "ip"){
-		var input =  document.getElementById(e.target.id);
+		var input = document.getElementById(e.target.id);
 		var result = validateIP(input.value);
 
 		if (result == false){
@@ -61,8 +61,8 @@ document.body.addEventListener("keyup", function(e) {
 			self.port.emit("setPrefValue",e.target.dataset.prefname,input.value);
 		}
 
-	}else 	if (e.target.id == "site_whitelist"){
-		var input =  document.getElementById(e.target.id);
+	}else if (e.target.id == "site_whitelist"){
+		var input = document.getElementById(e.target.id);
 
 		var result = validateJSON(input.value);
 
@@ -79,7 +79,7 @@ document.body.addEventListener("keyup", function(e) {
 			//copy the urls into another list for faster lookups
 			var sitelist = new Array();
 
-			for(var i=0; i<data.length; i++){
+			for (i = 0, len = data.length ; i < len ; i++) {
 				sitelist.push(data[i].url);
 			}
 
@@ -129,7 +129,7 @@ document.body.addEventListener("click",function(e) {
 		self.port.emit("setPrefValue",
 			document.getElementById("acceptlanguage_input").dataset.prefname,
 			document.getElementById("acceptlanguage_input").value);
-	
+
 	}else if(e.target.id =="whitelist_rules_title"){
 		document.getElementById("site_whitelist").focus();
 	}
@@ -141,7 +141,7 @@ document.body.addEventListener("focus", function(e) {
 
 	//set the input validation class
 	if ((e.target.id).substr(3,2) == "ip"){
-		var input =  document.getElementById(e.target.id);
+		var input = document.getElementById(e.target.id);
 		var result = validateIP(input.value);
 
 		if (result == false)
@@ -151,7 +151,7 @@ document.body.addEventListener("focus", function(e) {
 
 	}else if(e.target.id == "site_whitelist"){
 
-		var input =  document.getElementById(e.target.id);
+		var input = document.getElementById(e.target.id);
 
 		var result = validateJSON(input.value);
 
@@ -188,7 +188,7 @@ function validateIP(ipaddress){
 		return false;
 	}else{
 
-		for (var i=0; i<4; i++){
+		for (i = 0 ; i < 4 ; i++) {
 			//check if ip segment is a number and not a hex number or a space or an exponent
 			if( (!isNaN(ip_segments[i])) && ip_segments[i].indexOf('x') == -1 && ip_segments[i].length > 0
 					&& ip_segments[i].length <= 3 && ip_segments[i].indexOf(' ') == -1 && ip_segments[i].indexOf('e') == -1 ){
@@ -218,7 +218,7 @@ function validateJSON(jsonStringData){
 			return false;
 
 		//a url must be present for each entry
-		for(var i =0; i< data.length;i++){
+		for (i = 0, len = data.length ; i < len ; i++) {
 			if (data[i].url == "" || data[i].url === undefined)
 				return false;
 		}
