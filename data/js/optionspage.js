@@ -51,7 +51,7 @@ document.body.addEventListener("keyup", function(e) {
 
 	//set the input validation class
 	if ((e.target.id).substr(3,2) == "ip"){
-		var input =  document.getElementById(e.target.id);
+		var input = document.getElementById(e.target.id);
 		var result = validateIP(input.value);
 
 		if (result == false){
@@ -61,8 +61,8 @@ document.body.addEventListener("keyup", function(e) {
 			self.port.emit("setPrefValue",e.target.dataset.prefname,input.value);
 		}
 
-	}else 	if (e.target.id == "site_whitelist"){
-		var input =  document.getElementById(e.target.id);
+	}else if (e.target.id == "site_whitelist"){
+		var input = document.getElementById(e.target.id);
 
 		var result = validateJSON(input.value);
 
@@ -129,7 +129,7 @@ document.body.addEventListener("click",function(e) {
 		self.port.emit("setPrefValue",
 			document.getElementById("acceptlanguage_input").dataset.prefname,
 			document.getElementById("acceptlanguage_input").value);
-	
+
 	}else if(e.target.id =="whitelist_rules_title"){
 		document.getElementById("site_whitelist").focus();
 	}
@@ -141,7 +141,7 @@ document.body.addEventListener("focus", function(e) {
 
 	//set the input validation class
 	if ((e.target.id).substr(3,2) == "ip"){
-		var input =  document.getElementById(e.target.id);
+		var input = document.getElementById(e.target.id);
 		var result = validateIP(input.value);
 
 		if (result == false)
@@ -151,7 +151,7 @@ document.body.addEventListener("focus", function(e) {
 
 	}else if(e.target.id == "site_whitelist"){
 
-		var input =  document.getElementById(e.target.id);
+		var input = document.getElementById(e.target.id);
 
 		var result = validateJSON(input.value);
 
