@@ -29,13 +29,14 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 	var profileList = document.getElementById("ualist");
 
-	for (var k = 0; k < data.length; k++) {
+	for (k = 0, len = data.length ; k < len ; k++) {
 
-		for (var i = 0; i < data[k].list.length; i++) {
+		for (i = 0, len2 = data[k].list.length ; i < len2 ; i++) {
 
 			// section header
 
 			var sectionHeader = document.createElement("h3");
+			sectionHeader.classList.add("trigger");
 			sectionHeader.textContent = data[k].list[i].description;
 
 			sectionHeader.addEventListener("click", function() {
@@ -48,6 +49,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 			// user agent list
 
 			var uaList = document.createElement("ul");
+			uaList.classList.add("expandable");
 
 			profileList.appendChild(uaList);
 
@@ -78,7 +80,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			randomEl.appendChild(excludeHeader);
 
-			for (var j=0; j< data[k].list[i].useragents.length; j++) {
+			for (j = 0, len3 = data[k].list[i].useragents.length ; j < len3 ; j++) {
 
 				// regular element
 
@@ -141,7 +143,7 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 
 	var dd = document.getElementById(dropdown);
 
-	for (var i = 0; i < dd.options.length; i++) {
+	for (i = 0, len = dd.options.length ; i < len ; i++) {
 
 		if (dd.options[i].value === indexvalue) {
 			dd.selectedIndex = i;
@@ -157,7 +159,7 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 	if (checkBoxList.length > 0 ){
 
 		var exclude_list = checkBoxList.split(',');
-		for (var i=0; i< exclude_list.length;i++){
+		for (i = 0, len = exclude_list.length ; i < len ; i++) {
 
 			document.getElementById(exclude_list[i]).checked = true;
 		}
