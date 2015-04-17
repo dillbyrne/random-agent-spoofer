@@ -88,7 +88,7 @@ This document was last updated for 0.9.5.2 release (to be released soon).
 - it-IT
 - ja
 - ko
-- no-NO
+- nn-NO
 - pl
 - pt-PT
 - ru
