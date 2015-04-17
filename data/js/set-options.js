@@ -29,9 +29,9 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 	var profileList = document.getElementById("ualist");
 
-	for (k = 0, len = data.length ; k < len ; k++) {
+	for (var k = 0, len = data.length ; k < len ; k++) {
 
-		for (i = 0, len2 = data[k].list.length ; i < len2 ; i++) {
+		for (var i = 0, len2 = data[k].list.length ; i < len2 ; i++) {
 
 			// section header
 
@@ -80,7 +80,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 
 			randomEl.appendChild(excludeHeader);
 
-			for (j = 0, len3 = data[k].list[i].useragents.length ; j < len3 ; j++) {
+			for (var j = 0, len3 = data[k].list[i].useragents.length ; j < len3 ; j++) {
 
 				// regular element
 
@@ -143,7 +143,7 @@ self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
 
 	var dd = document.getElementById(dropdown);
 
-	for (i = 0, len = dd.options.length ; i < len ; i++) {
+	for (var i = 0, len = dd.options.length ; i < len ; i++) {
 
 		if (dd.options[i].value === indexvalue) {
 			dd.selectedIndex = i;
@@ -159,7 +159,7 @@ self.port.on("setMultiCheckBox",function(checkBoxList){
 	if (checkBoxList.length > 0 ){
 
 		var exclude_list = checkBoxList.split(',');
-		for (i = 0, len = exclude_list.length ; i < len ; i++) {
+		for (var i = 0, len = exclude_list.length ; i < len ; i++) {
 
 			document.getElementById(exclude_list[i]).checked = true;
 		}
