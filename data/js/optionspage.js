@@ -79,7 +79,7 @@ document.body.addEventListener("keyup", function(e) {
 			//copy the urls into another list for faster lookups
 			var sitelist = new Array();
 
-			for(var i=0; i<data.length; i++){
+			for (i = 0, len = data.length ; i < len ; i++) {
 				sitelist.push(data[i].url);
 			}
 
@@ -188,7 +188,7 @@ function validateIP(ipaddress){
 		return false;
 	}else{
 
-		for (var i=0; i<4; i++){
+		for (i = 0 ; i < 4 ; i++) {
 			//check if ip segment is a number and not a hex number or a space or an exponent
 			if( (!isNaN(ip_segments[i])) && ip_segments[i].indexOf('x') == -1 && ip_segments[i].length > 0
 					&& ip_segments[i].length <= 3 && ip_segments[i].indexOf(' ') == -1 && ip_segments[i].indexOf('e') == -1 ){
@@ -218,7 +218,7 @@ function validateJSON(jsonStringData){
 			return false;
 
 		//a url must be present for each entry
-		for(var i =0; i< data.length;i++){
+		for (i = 0, len = data.length ; i < len ; i++) {
 			if (data[i].url == "" || data[i].url === undefined)
 				return false;
 		}
