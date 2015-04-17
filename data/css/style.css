@@ -7,7 +7,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 * {
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 			box-sizing: border-box;
 }
 body {
@@ -217,7 +217,7 @@ body > div {
 	width: calc(30% - 1.7em);
 }
 #xffip,
-#viaip{
+#viaip {
 	margin-left: 1em;
 	width: calc(70% - 1em);
 }
@@ -234,7 +234,7 @@ body > div {
 	width: 100%;
 }
 #whitelist_tab input[type="text"] {
-	width:100%;
+	width: 100%;
 }
 
 /* help tab */
