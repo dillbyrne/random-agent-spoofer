@@ -36,6 +36,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 			// section header
 
 			var sectionHeader = document.createElement("h3");
+			sectionHeader.classList.add("trigger");
 			sectionHeader.textContent = data[k].list[i].description;
 
 			sectionHeader.addEventListener("click", function() {
@@ -48,6 +49,7 @@ self.port.once('ua_list', function(data,localized_strings) {
 			// user agent list
 
 			var uaList = document.createElement("ul");
+			uaList.classList.add("expandable");
 
 			profileList.appendChild(uaList);
 
