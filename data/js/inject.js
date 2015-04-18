@@ -87,7 +87,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	// Use whitelisted profile (if selected)
 	if (boolParams[0] == true){
 		content += whiteListHandler();
-	}else{
+	} else {
 		// spoof as normal
 		// restore vendor functionality
 		content +=	"Object.defineProperty( navigator, 'vendor', {value: \""+strParams[0]+"\"});";
@@ -110,7 +110,7 @@ self.port.on("inject", function( intParams, strParams, boolParams) {
 	// screen & window prefrences (if selected)
 	if (boolParams[3] == true){
 
-		if(intParams[1] != null){
+		if (intParams[1] != null){
 			content += windowHandler();
 		}
 	}
