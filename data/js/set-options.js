@@ -134,7 +134,7 @@ self.port.on("setIPDDValues",function(elementid,value){
 	document.getElementById(elementid).value = value;
 
 	//set custom ipcheck inputs to show if custom is selected
-	if( document.getElementById(elementid.slice(0, -2)+'dd').value == "custom"){
+	if ( document.getElementById(elementid.slice(0, -2)+'dd').value == "custom"){
 		document.getElementById('custom'+elementid.slice(0, -2)).className="";
 	}
 });
