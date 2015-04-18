@@ -3,22 +3,22 @@ document.body.addEventListener("change", function(e) {
 	//get selected checkbox
 	if (e.target.type == "checkbox" && e.target.className != "excludecb"){
 
-		if(e.target.dataset.invertvalue == "false")
+		if (e.target.dataset.invertvalue == "false")
 			self.port.emit("setPrefValue",e.target.dataset.prefname,e.target.checked);
 
-		else if(e.target.dataset.invertvalue == "true")
+		else if (e.target.dataset.invertvalue == "true")
 			self.port.emit("setPrefValue",e.target.dataset.prefname,!(e.target.checked));
 
-		else if(e.target.dataset.ffheader)
+		else if (e.target.dataset.ffheader)
 			self.port.emit("setAcceptHeader",e.target.dataset.raspref,e.target.dataset.ffheader,e.target.checked);
 
 		else //call a specific function for this checkbox
 			self.port.emit(e.target.id,e.target.dataset.prefname,e.target.checked);
 	}
-	else if(e.target.className == "excludecb"){
+	else if (e.target.className == "excludecb"){
 		self.port.emit("excludecb",e.target.id,e.target.value,e.target.checked);
 	}
-	else if(e.target.className == "ipdropdown"){ //show or hide the ip input boxes
+	else if (e.target.className == "ipdropdown"){ //show or hide the ip input boxes
 
 		if (e.target[e.target.selectedIndex].value == "custom") {
 			document.getElementById(e.target.dataset.uipref).className="";
@@ -29,7 +29,7 @@ document.body.addEventListener("change", function(e) {
 
 		self.port.emit("setPrefValue",e.target.dataset.prefname,e.target[e.target.selectedIndex].value);
 	}
-	else if(e.target.className == "dd"){
+	else if (e.target.className == "dd"){
 		self.port.emit("setPrefValue",e.target.dataset.prefname,e.target[e.target.selectedIndex].value);
 	}
 	else if (e.target.id == "timerdd" || e.target.name == "ua") {
@@ -44,7 +44,7 @@ document.body.addEventListener("change", function(e) {
 		self.port.emit("uachange",ua_choice,time);
 	}
 
-},false);
+}, false);
 
 
 document.body.addEventListener("keyup", function(e) {
@@ -56,19 +56,19 @@ document.body.addEventListener("keyup", function(e) {
 
 		if (result == false){
 			input.className = "invalidInput";
-		}else{
+		} else {
 			input.className = "validInput";
 			self.port.emit("setPrefValue",e.target.dataset.prefname,input.value);
 		}
 
-	}else if (e.target.id == "site_whitelist"){
+	} else if (e.target.id == "site_whitelist"){
 		var input = document.getElementById(e.target.id);
 
 		var result = validateJSON(input.value);
 
 		if (result == false){
 			input.className = "invalidInput";
-		}else{
+		} else {
 			input.className = "validInput";
 
 			var data = JSON.parse(document.getElementById("site_whitelist").value);
@@ -88,13 +88,13 @@ document.body.addEventListener("keyup", function(e) {
 		}
 	}
 
-},false);
+}, false);
 
 //handle whitelist
 document.body.addEventListener("click",function(e) {
 
 	//whitelist profile save button
-	if(e.target.id =="wlprofsavebtn"){
+	if (e.target.id =="wlprofsavebtn"){
 
 		self.port.emit("setPrefValue",
 			document.getElementById("useragent_input").dataset.prefname,
@@ -130,7 +130,7 @@ document.body.addEventListener("click",function(e) {
 			document.getElementById("acceptlanguage_input").dataset.prefname,
 			document.getElementById("acceptlanguage_input").value);
 
-	}else if(e.target.id == "whitelist_rules_title"){
+	} else if (e.target.id == "whitelist_rules_title"){
 		document.getElementById("site_whitelist").focus();
 	}
 
@@ -149,7 +149,7 @@ document.body.addEventListener("focus", function(e) {
 		else
 			input.className = "validInput";
 
-	}else if(e.target.id == "site_whitelist"){
+	} else if (e.target.id == "site_whitelist"){
 
 		var input = document.getElementById(e.target.id);
 
@@ -170,7 +170,7 @@ document.body.addEventListener("blur", function(e) {
 	//remove the class for input validation
 	if ((e.target.id).substr(3,2) == "ip"){
 		document.getElementById(e.target.id).className = "";
-	}else if(e.target.id == "site_whitelist"){
+	} else if (e.target.id == "site_whitelist"){
 		document.getElementById(e.target.id).className = "";
 	}
 
@@ -178,31 +178,31 @@ document.body.addEventListener("blur", function(e) {
 
 function validateIP(ipaddress){
 
-	if(ipaddress === null || ipaddress == "")
+	if (ipaddress === null || ipaddress == "")
 		return false;
 
 	var ip_segments = ipaddress.split(".");
 
 	//check for 4 segments split on "."
-	if(ip_segments.length != 4){
+	if (ip_segments.length != 4){
 		return false;
-	}else{
+	} else {
 
 		for (var i = 0 ; i < 4 ; i++) {
 			//check if ip segment is a number and not a hex number or a space or an exponent
-			if( (!isNaN(ip_segments[i])) && ip_segments[i].indexOf('x') == -1 && ip_segments[i].length > 0
+			if ( (!isNaN(ip_segments[i])) && ip_segments[i].indexOf('x') == -1 && ip_segments[i].length > 0
 					&& ip_segments[i].length <= 3 && ip_segments[i].indexOf(' ') == -1 && ip_segments[i].indexOf('e') == -1 ){
 
 				//check the range of the segment is valid
-				if(ip_segments[i] >=0 && ip_segments[i] <= 255 ){
+				if (ip_segments[i] >=0 && ip_segments[i] <= 255 ){
 
 					//check for 000 , 010 etc
 					if ((ip_segments[i].substring(0,1) == "0" && ip_segments[i] != 0) || ip_segments[i] == "00" || ip_segments[i] == "000")
 						return false;
-				}else{
+				} else {
 					return false;
 				}
-			}else{
+			} else {
 				return false;
 			}
 		}
@@ -234,11 +234,11 @@ function sortWhiteListObjByURL(array){
 
 	var array = array.sort(function(a,b){
 
-		if(a.url == b.url)
+		if (a.url == b.url)
 			return 0;
-		if(a.url < b.url)
+		if (a.url < b.url)
 			return -1;
-		if(a.url > b.url)
+		if (a.url > b.url)
 			return 1;
 		});
 
