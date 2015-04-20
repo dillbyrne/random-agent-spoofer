@@ -25,7 +25,7 @@ self.port.once('nav_listener', function() {
 	});
 });
 
-self.port.once('ua_list', function(data,localized_strings) {
+self.port.once('ua_list', function(data, localized_strings) {
 
 	var profileList = document.getElementById("ualist");
 
@@ -118,53 +118,58 @@ self.port.once('ua_list', function(data,localized_strings) {
 	}
 });
 
-self.port.on("setCheckBox",function(checkboxid,value){
+self.port.on("setCheckBox", function(checkboxid, value) {
+
 	document.getElementById(checkboxid).checked = value;
 });
 
-self.port.on("setElementValue",function(elementid,value){
+self.port.on("setElementValue", function(elementid, value) {
+
 	document.getElementById(elementid).value = value;
 });
 
-self.port.on("setElementText",function(elementid,value){
+self.port.on("setElementText", function(elementid, value) {
+
 	document.getElementById(elementid).textContent = value;
 });
 
-self.port.on("setIPDDValues",function(elementid,value){
+self.port.on("setIPDDValues", function(elementid, value) {
+
 	document.getElementById(elementid).value = value;
 
 	//set custom ipcheck inputs to show if custom is selected
-	if ( document.getElementById(elementid.slice(0, -2)+'dd').value == "custom"){
+	if (document.getElementById(elementid.slice(0, -2) + 'dd').value == "custom") {
+
 		document.getElementById('custom'+elementid.slice(0, -2)).className="";
 	}
 });
 
-self.port.on("setSelectedIndexByValue",function(dropdown,indexvalue){
+self.port.on("setSelectedIndexByValue", function(dropdown, indexvalue) {
 
 	var dd = document.getElementById(dropdown);
 
 	for (var i = 0, len = dd.options.length ; i < len ; i++) {
 
 		if (dd.options[i].value === indexvalue) {
+
 			dd.selectedIndex = i;
 			break;
 		}
 	}
-
 });
 
-self.port.on("setMultiCheckBox",function(checkBoxList){
+self.port.on("setMultiCheckBox", function(checkBoxList) {
 
 	//set exclude the checkboxes states
-	if (checkBoxList.length > 0 ){
+	if (checkBoxList.length > 0) {
 
 		var exclude_list = checkBoxList.split(',');
+
 		for (var i = 0, len = exclude_list.length ; i < len ; i++) {
 
 			document.getElementById(exclude_list[i]).checked = true;
 		}
 	}
-
 });
 
 self.port.on("updatePanelItems", function(ua_choice) {
@@ -217,7 +222,7 @@ var triggers = document.querySelectorAll(".trigger");
 
 [].forEach.call(triggers, function(trigger) {
 
-	trigger.addEventListener("click", function () {
+	trigger.addEventListener("click", function() {
 
 		this.classList.toggle("open");
 	});
