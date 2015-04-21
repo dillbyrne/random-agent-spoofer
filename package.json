@@ -11,17 +11,17 @@
 	"icon64":"data/images/icon64.png",
 	"version": "0.9.5.1",
 	"preferences": [
-    	{
-        	"name": "show_context_menu",
-        	"title": "Show context menu entry ?",
-        	"type": "bool",
-        	"value": true
-    	},
-    	{
-        	"name": "show_notifications",
-        	"title": "Show notifications ?",
-        	"type": "bool",
-        	"value": true
-    	}
-    ]
+		{
+			"name": "show_context_menu",
+			"title": "Show context menu entry ?",
+			"type": "bool",
+			"value": true
+		},
+		{
+			"name": "show_notifications",
+			"title": "Show notifications ?",
+			"type": "bool",
+			"value": true
+		}
+	]
 }

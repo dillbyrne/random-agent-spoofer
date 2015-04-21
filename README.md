@@ -78,25 +78,6 @@ This document was last updated for 0.9.5.2 release (to be released soon).
 - Option to set the random profile timer.
 - Option to allow users to use temporary email services for one time signups when invoked on an input box (6 services currently available).
 
-## Localizations
-
-- da-DK
-- de-DE
-- en-US
-- es-ES
-- fr-FR
-- it-IT
-- ja
-- ko
-- nn-NO
-- pl
-- pt-PT
-- ru
-- sv-SE
-- zh-CN
-
-Please get in touch if you would like to translate RAS to your language or improve an existing one.
-
 ## Wiki
 
 Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions, a user guide and ideas for contributing.

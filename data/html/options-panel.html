@@ -9,11 +9,11 @@
 <!-- Navigation tabs -->
 
 <ul id="nav">
-	<li id="ua" class="selected" data-l10n-id="profile_tab_id"></li><!--
-	--><li id="headers" data-l10n-id="headers_tab_id"></li><!--
-	--><li id="extras" data-l10n-id="extras_tab_id"></li><!--
-	--><li id="whitelist" data-l10n-id="whitelist_tab_id"></li><!--
-	--><li id="help" data-l10n-id="help_tab_id"></li>
+	<li id="ua" class="selected">Profile</li><!--
+	--><li id="headers">Headers</li><!--
+	--><li id="extras">Options</li><!--
+	--><li id="whitelist">Whitelist</li><!--
+	--><li id="help">?</li>
 </ul>
 
 <!-- "Profile" Tab -->
@@ -22,37 +22,37 @@
 	<ul>
 		<li>
 			<input type="radio" name="ua" id="default" value="default" />
-			<label for="default" data-l10n-id="real_id"></label>
+			<label for="default">Real Profile</label>
 		</li>
 		<li>
 			<input type="radio" name="ua" id="random" value="random" />
-			<label for="random" data-l10n-id="random_id"></label>
+			<label for="random">Random</label>
 		</li>
 		<li>
 			<input type="radio" name="ua" id="random_desktop" value="random_desktop" />
-			<label for="random_desktop" data-l10n-id="random_desktop_id"></label>
+			<label for="random_desktop">Random (Desktop)</label>
 		</li>
 		<li>
 			<input type="radio" name="ua" id="random_mobile" value="random_mobile" />
-			<label for="random_mobile" data-l10n-id="random_mobile_id"></label>
+			<label for="random_mobile">Random (Mobile)</label>
 		</li>
 	</ul>
 
 	<div id="time_interval_display">
-		<label for="timerdd" data-l10n-id="change_on_timer_id"></label>
+		<label for="timerdd">Change periodically:</label>
 
 		<select id="timerdd">
-			<option value="none" data-l10n-id="no_timer_id"></option>
-			<option value="randomTime" data-l10n-id="random_id"></option>
-			<option value="request" data-l10n-id="per_request_id"></option>
-			<option value="1" data-l10n-id="1_min_id"></option>
-			<option value="5" data-l10n-id="5_mins_id"></option>
-			<option value="10" data-l10n-id="10_mins_id"></option>
-			<option value="20" data-l10n-id="20_mins_id"></option>
-			<option value="30" data-l10n-id="30_mins_id"></option>
-			<option value="40" data-l10n-id="40_mins_id"></option>
-			<option value="50" data-l10n-id="50_mins_id"></option>
-			<option value="60" data-l10n-id="60_mins_id"></option>
+			<option value="none">No</option>
+			<option value="randomTime">Random</option>
+			<option value="request">Every request</option>
+			<option value="1">Every minute</option>
+			<option value="5">Every 5 mins</option>
+			<option value="10">Every 10 mins</option>
+			<option value="20">Every 20 mins</option>
+			<option value="30">Every 30 mins</option>
+			<option value="40">Every 40 mins</option>
+			<option value="50">Every 50 mins</option>
+			<option value="60">Every hour</option>
 		</select>
 	</div>
 
@@ -64,94 +64,94 @@
 <div id="headers_tab" class="hidden">
 	<p>
 		<input type="checkbox" id="auth" data-invertvalue="false" data-prefname="extensions.agentSpoof.authorization" />
-		<label for="auth" data-l10n-id="disable_auth_header_id"></label>
+		<label for="auth">Disable Authorization</label>
 	</p>
 
 	<p>
 		<input type="checkbox" id="dnt" data-invertvalue="false" data-prefname="privacy.donottrackheader.enabled" />
-		<label for="dnt" data-l10n-id="dnt_header_id" ></label>
+		<label for="dnt">Enable DNT (Do Not Track)</label>
 	</p>
 
 	<p>
 		<input type="checkbox" id="ifnone" data-invertvalue="false" data-prefname="extensions.agentSpoof.ifnone" />
-		<label for="ifnone" data-l10n-id="if_none_header_id"></label>
+		<label for="ifnone">Spoof If-None-Match (ETags)</label>
 	</p>
 
 	<p>
-		<label for="refdd" data-l10n-id="referer_header_id"></label>
+		<label for="refdd">Set Referer to</label>
 		<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
-			<option value="none" data-l10n-id="none_id"></option>
-			<option value="default" data-l10n-id="default_id"></option>
+			<option value="none">None</option>
+			<option value="default">Default</option>
 			<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
 		</select>
 	</p>
 
 	<p class="multi">
 		<input type="checkbox" id="via" data-invertvalue="false" data-prefname="extensions.agentSpoof.via" />
-		<label for="via" data-l10n-id="via_header_id"></label>
+		<label for="via">Spoof Via using a</label>
 		<select class="ipdropdown" id="viadd" data-prefname="extensions.agentSpoof.viadd" data-uipref="customvia">
-			<option value="random" data-l10n-id="random_ip_id" ></option>
-			<option value="custom" data-l10n-id="custom_ip_id" ></option>
+			<option value="random">random IP</option>
+			<option value="custom">custom IP</option>
 		</select>
 	</p>
 
 	<p id="customvia" class="hidden">
-		<label for="viaip" data-l10n-id="via_ip_id"></label><!--
+		<label for="viaip">IP address:</label><!--
 		--><input type="text" id="viaip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.viaip" />
 	</p>
 
 	<p class="multi">
 		<input type="checkbox" id="xff" data-invertvalue="false" data-prefname="extensions.agentSpoof.xff" />
-		<label for="xff" data-l10n-id="xff_header_id"></label>
+		<label for="xff">Spoof X-Forwarded-For using a</label>
 		<select class="ipdropdown" id="xffdd" data-prefname="extensions.agentSpoof.xffdd" data-uipref="customxff">
-			<option value="random" data-l10n-id="random_ip_id"></option>
-			<option value="custom" data-l10n-id="custom_ip_id"></option>
+			<option value="random">random IP</option>
+			<option value="custom">custom IP</option>
 		</select>
 	</p>
 
 	<p id="customxff" class="hidden">
-		<label for="xffip" data-l10n-id="xff_ip_id"></label><!--
+		<label for="xffip">IP address:</label><!--
 		--><input type="text" id="xffip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.xffip" />
 	</p>
 
 	<hr>
 
-	<p data-l10n-id="accept_header_info_id" class="notice"></p>
+	<p class="notice">The following headers are defined by the selected browser profile.</p>
 
 	<p>
 		<input type="checkbox" id="acceptd" data-raspref="extensions.agentSpoof.acceptDefault" data-ffheader="network.http.accept.default" />
-		<label for="acceptd" data-l10n-id="acceptd_id"></label>
+		<label for="acceptd">Spoof Accept</label>
 	</p>
 
 	<p>
 		<input type="checkbox" id="accepte"data-raspref="extensions.agentSpoof.acceptEncoding" data-ffheader="network.http.accept-encoding" />
-		<label for="accepte" data-l10n-id="accepte_id"></label>
+		<label for="accepte">Spoof Accept-Encoding</label>
 	</p>
 
 	<p>
 		<input type="checkbox" id="acceptl"data-raspref="extensions.agentSpoof.acceptLang" data-ffheader="intl.accept_languages" />
-		<label for="acceptl" data-l10n-id="acceptl_id"></label>
+		<label for="acceptl">Spoof Accept-Language (US English)</label>
 	</p>
 </div> <!-- End "Headers" Tab-->
 
 <!-- "Extras" Tab -->
 
 <div id="extras_tab" class="hidden">
-	<h3 id="script_injection_title" data-l10n-id="script_injection_id" class="trigger"></h3>
+	<h3 id="script_injection_title" class="trigger">Script Injection Options</h3>
 
 	<div class="expandable">
 		<p>
 			<input type="checkbox" id="scriptinjection"data-invertvalue="false" data-prefname="extensions.agentSpoof.scriptInjection" />
-			<label for="scriptinjection" data-l10n-id="enable_script_injection_id"></label>
+			<label for="scriptinjection">Enable script injection</label>
 		</p>
 
-		<p data-l10n-id="script_injection_required_id" class="notice"></p>
+		<p class="notice">Several options and features (e.g. whitelist) require script injection.</p>
 
 		<p>
-			<label for="tzdd" data-l10n-id="tz_spoofing_id"></label>
+			<label for="tzdd">Time zone spoofing (UTC):</label>
 			<select id="tzdd" class="dd" data-prefname="extensions.agentSpoof.tzOffset">
-				<option value="default" data-l10n-id="default_id" ></option>
-				<option value="random" data-l10n-id="random_id" ></option>
+				<option value="default">Default</option>
+				<option value="random">Random</option>
 				<option value="12">-12:00</option>
 				<option value="11">-11:00</option>
 				<option value="10">-10:00</option>
@@ -196,11 +196,11 @@
 		</p>
 
 		<p>
-			<label for="screendd" data-l10n-id="screen_spoofing_id" ></label>
+			<label for="screendd">Screen size spoofing :</label>
 			<select id="screendd" class="dd" data-prefname="extensions.agentSpoof.screenSize">
-				<option value="default" data-l10n-id="default_id"></option>
-				<option value="random" data-l10n-id="random_id"></option>
-				<option value="profile" data-l10n-id="profile_id"></option>
+				<option value="default">Default</option>
+				<option value="random">Random</option>
+				<option value="profile">Profile</option>
 				<option value="800x600">800×600</option>
 				<option value="1024x600">1024×600</option>
 				<option value="1024x768">1024×768</option>
@@ -227,227 +227,227 @@
 
 		<p>
 			<input type="checkbox" id="winname"data-invertvalue="false" data-prefname="extensions.agentSpoof.windowName" />
-			<label for="winname" data-l10n-id="protect_window_name_id"></label>
+			<label for="winname">Protect window.name</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="canvas" data-invertvalue="false" data-prefname="extensions.agentSpoof.canvas" />
-			<label for="canvas" data-l10n-id="disable_canvas_support_id"></label>
+			<label for="canvas">Disable canvas support</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="tab_history" data-invertvalue="false" data-prefname="extensions.agentSpoof.limitTab" />
-			<label for="tab_history" data-l10n-id="limit_tab_history_id"></label>
+			<label for="tab_history">Limit tab history to 2</label>
 		</p>
 	</div>
 
-	<h3 id="standard_extras_title" data-l10n-id="standard_extras_id" class="trigger"></h3>
+	<h3 id="standard_extras_title" class="trigger">Standard Options</h3>
 
 	<div class="expandable">
 		<p>
 			<input type="checkbox" id="fonts" data-prefname ="browser.display.use_document_fonts"/>
-			<label for="fonts" data-l10n-id="use_standard_font_id"></label>
+			<label for="fonts">Use document fonts</label>
 		</p>
 
 		<p>
 			<input type="checkbox"id="dom" data-invertvalue="true" data-prefname="dom.storage.enabled" />
-			<label for="dom" data-l10n-id="disable_local_dom_storage_id"></label>
+			<label for="dom">Disable local dom storage</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="browsing_downloads" data-invertvalue="true" data-prefname="places.history.enabled" />
-			<label for="browsing_downloads" data-l10n-id="disable_browsing_history_id"></label>
+			<label for="browsing_downloads">Disable browsing and download history</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="cache_memory" data-invertvalue="true" data-prefname="browser.cache.memory.enable" />
-			<label for="cache_memory" data-l10n-id="disable_memory_cache_id"></label>
+			<label for="cache_memory">Disable memory cache</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="cache_disk" data-invertvalue="true" data-prefname="browser.cache.disk.enable" />
-			<label for="cache_disk" data-l10n-id="disable_disk_cache_id"></label>
+			<label for="cache_disk">Disable disk cache</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="cache_network" data-invertvalue="true" data-prefname="network.http.use-cache" />
-			<label for="cache_network" data-l10n-id="disable_network_cache_id"></label>
+			<label for="cache_network">Disable network cache</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="geo" data-invertvalue="true" data-prefname="geo.enabled" />
-			<label for="geo" data-l10n-id="disable_geolocation_id"></label>
+			<label for="geo">Disable geolocation</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="link" data-invertvalue="true" data-prefname="network.prefetch-next" />
-			<label for="link" data-l10n-id="disable_link_prefetching_id"></label>
+			<label for="link">Disable link prefetching</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="dns" data-invertvalue="false" data-prefname="network.dns.disablePrefetch" />
-			<label for="dns" data-l10n-id="disable_dns_prefetching_id"></label>
+			<label for="dns">Disable DNS prefetching</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="webgl" data-invertvalue="false" data-prefname="webgl.disabled" />
-			<label for="webgl" data-l10n-id="disable_webgl_id"></label>
+			<label for="webgl">Disable webGL</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="webrtc" data-invertvalue="true" data-prefname="media.peerconnection.enabled" />
-			<label for="webrtc" data-l10n-id="disable_webrtc_id"></label>
+			<label for="webrtc">Disable webRTC</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="pdfjs" data-invertvalue="false" data-prefname="pdfjs.disabled" />
-			<label for="pdfjs" data-l10n-id="disable_pdfjs_id"></label>
+			<label for="pdfjs">Disable pdfjs</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="search_suggest" data-invertvalue="true" data-prefname="browser.search.suggest.enabled" />
-			<label for="search_suggest" data-l10n-id="disable_search_suggestions_id"></label>
+			<label for="search_suggest">Disable search suggestions</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="dom_performance" data-invertvalue="true" data-prefname="dom.enable_performance" />
-			<label for="dom_performance" data-l10n-id="dom_performance_id"></label>
+			<label for="dom_performance">Disable navigation timing</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="dom_battery" data-invertvalue="true" data-prefname="dom.battery.enabled" />
-			<label for="dom_battery" data-l10n-id="dom_battery_id"></label>
+			<label for="dom_battery">Disable battery api</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="dom_gamepad" data-invertvalue="true" data-prefname="dom.gamepad.enabled" />
-			<label for="dom_gamepad" data-l10n-id="dom_gamepad_id"></label>
+			<label for="dom_gamepad">Disable gamepad api</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="clicktoplay" data-invertvalue="false" data-prefname="plugins.click_to_play" />
-			<label for="clicktoplay" data-l10n-id="click_to_play_id"></label>
+			<label for="clicktoplay">Use click to play for plugins</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="mixed_content_active" data-invertvalue="false" data-prefname="security.mixed_content.block_active_content" />
-			<label for="mixed_content_active" data-l10n-id="mixed_content_active_id"></label>
+			<label for="mixed_content_active">Block active mixed content</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="mixed_content_display" data-invertvalue="false" data-prefname="security.mixed_content.block_display_content" />
-			<label for="mixed_content_display" data-l10n-id="mixed_content_display_id"></label>
+			<label for="mixed_content_display">Block display mixed content</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="browser_pings" data-invertvalue="true" data-prefname="browser.send_pings"/>
-			<label for="browser_pings" data-l10n-id="disable_browser_pings_id" ></label>
+			<label for="browser_pings">Disable browser pings</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="clipboard_events" data-invertvalue="true" data-prefname="dom.event.clipboardevents.enabled"/>
-			<label for="clipboard_events" data-l10n-id="disable_clipboard_events_id" ></label>
+			<label for="clipboard_events">Disable clipboard events</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="context_menu_events" data-invertvalue="true" data-prefname="dom.event.contextmenu.enabled"/>
-			<label for="context_menu_events" data-l10n-id="disable_context_menu_events_id" ></label>
+			<label for="context_menu_events">Disable context menu events</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="tracking_protection" data-invertvalue="false" data-prefname="privacy.trackingprotection.enabled"/>
-			<label for="tracking_protection" data-l10n-id="enable_tracking_protection_id" ></label>
+			<label for="tracking_protection">Enable tracking protection</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="plugin_names" data-prefname="plugins.enumerable_names"/>
-			<label for="plugin_names" data-l10n-id="disable_plugin_names_id" ></label>
+			<label for="plugin_names">Disable plugin name enumeration</label>
 		</p>
 
 		<p>
 			<input type="checkbox" id="css_visited_links" data-invertvalue="true" data-prefname="layout.css.visited_links_enabled"/>
-			<label for="css_visited_links" data-l10n-id="disable_css_visited_links_id" ></label>
+			<label for="css_visited_links">Disable CSS visited links</label>
 		</p>
 	</div>
-</div> <!-- End "Extras" Tab-->
+</div> <!-- end "extras" tab-->
 
-<!-- "Whitelist" Tab -->
+<!-- "whitelist" tab -->
 
 <div id="whitelist_tab" class="hidden">
 	<p id="whitelist_checkbox_line">
-		<input type="checkbox" id="whitelist_enabled" data-invertvalue="true" data-prefname="extensions.agentSpoof.whiteListDisabled" />
-		<label for="whitelist_enabled" data-l10n-id="enable_whitelist_id"></label>
+		<input type="checkbox" id="whitelist_enabled" data-invertvalue="true" data-prefname="extensions.agentspoof.whitelistdisabled" />
+		<label for="whitelist_enabled">Enable whitelist support</label>
 	</p>
 
-	<h3 id="whitelist_profile_title" data-l10n-id="whitelist_profile_id" class="trigger"></h3>
+	<h3 id="whitelist_profile_title" class="trigger">Whitelist profile</h3>
 
 	<div class="expandable">
 		<p>
-			<label for="useragent_input">User Agent:</label>
-			<input type="text" id="useragent_input" data-prefname="extensions.agentSpoof.whiteListUserAgent" />
+			<label for="useragent_input">user agent:</label>
+			<input type="text" id="useragent_input" data-prefname="extensions.agentspoof.whitelistuseragent" />
 		</p>
 
 		<p>
 			<label for="appcodename_input">AppCodeName:</label>
-			<input type="text" id="appcodename_input" data-prefname="extensions.agentSpoof.whiteListAppCodeName" />
+			<input type="text" id="appcodename_input" data-prefname="extensions.agentspoof.whitelistappcodename" />
 		</p>
 
 		<p>
 			<label for="appname_input">AppName:</label>
-			<input type="text" id="appname_input" data-prefname="extensions.agentSpoof.whiteListAppName" />
+			<input type="text" id="appname_input" data-prefname="extensions.agentspoof.whitelistappname" />
 		</p>
 
 		<p>
 			<label for="appversion_input">AppVersion:</label>
-			<input type="text" id="appversion_input" data-prefname="extensions.agentSpoof.whiteListAppVersion" />
+			<input type="text" id="appversion_input" data-prefname="extensions.agentspoof.whitelistappversion" />
 		</p>
 
 		<p>
 			<label for="vendor_input">Vendor:</label>
-			<input type="text" id="vendor_input" data-prefname="extensions.agentSpoof.whiteListVendor" />
+			<input type="text" id="vendor_input" data-prefname="extensions.agentspoof.whitelistvendor" />
 		</p>
 
 		<p>
 			<label for="vendorsub_input">VendorSub:</label>
-			<input type="text" id="vendorsub_input" data-prefname="extensions.agentSpoof.whiteListVendorSub" />
+			<input type="text" id="vendorsub_input" data-prefname="extensions.agentspoof.whitelistvendorsub" />
 		</p>
 
 		<p>
 			<label for="platform_input">Platform:</label>
-			<input type="text" id="platform_input" data-prefname="extensions.agentSpoof.whiteListPlatform" />
+			<input type="text" id="platform_input" data-prefname="extensions.agentspoof.whitelistplatform" />
 		</p>
 
 		<p>
 			<label for="oscpu_input">OsCpu:</label>
-			<input type="text" id="oscpu_input" data-prefname="extensions.agentSpoof.whiteListOsCpu" />
+			<input type="text" id="oscpu_input" data-prefname="extensions.agentspoof.whitelistoscpu" />
 		</p>
 
 		<p>
-			<label for="acceptdefault_input">Accept Default:</label>
-			<input type="text" id="acceptdefault_input" data-prefname="extensions.agentSpoof.whiteListAccept" />
+			<label for="acceptdefault_input">Accept:</label>
+			<input type="text" id="acceptdefault_input" data-prefname="extensions.agentspoof.whitelistaccept" />
 		</p>
 
 		<p>
 			<label for="acceptencoding_input">Accept Encoding:</label>
-			<input type="text" id="acceptencoding_input" data-prefname="extensions.agentSpoof.whiteListAcceptEncoding" />
+			<input type="text" id="acceptencoding_input" data-prefname="extensions.agentspoof.whitelistacceptencoding" />
 		</p>
 
 		<p>
 			<label for="acceptlanguage_input">Accept Language:</label>
-			<input type="text" id="acceptlanguage_input" data-prefname="extensions.agentSpoof.whiteListAcceptLanguage" />
+			<input type="text" id="acceptlanguage_input" data-prefname="extensions.agentspoof.whitelistacceptlanguage" />
 		</p>
 
-		<p><button type="button" id="wlprofsavebtn" data-l10n-id="save_wl_profile_id"></button></p>
+		<p><button type="button" id="wlprofsavebtn">Save Profile</button></p>
 	</div>
 
-	<h3 id="whitelist_rules_title"data-l10n-id="add_whitelist_here_id" class="trigger"></h3>
+	<h3 id="whitelist_rules_title" class="trigger">Whitelist Rules</h3>
 
 	<div class="expandable">
 		<textarea id="site_whitelist"></textarea>
 	</div>
-</div> <!-- End "Whitelist" Tab-->
+</div> <!-- end "whitelist" tab-->
 
-<!-- "Help" Tab -->
+<!-- "help" tab -->
 
 <div id="help_tab" class="hidden">
 	<h2>Random Agent Spoofer</h2>
@@ -455,26 +455,26 @@
 	<p id="version"></p>
 
 	<p>
-		<span data-l10n-id="ras_developed_by_id"></span> <a href="https://github.com/dillbyrne/" target="_blank">dillbyrne</a> <span data-l10n-id="and_id"></span>
-		<a href="https://github.com/dillbyrne/random-agent-spoofer/graphs/contributors" target="_blank" data-l10n-id="contributors_id"></a>.
-		<span data-l10n-id="it_is_id"></span> <em data-l10n-id="free_id"></em> <span data-l10n-id="as_in_freedom_id"></span>
+		Random Agent Spoofer is developed by <a href="https://github.com/dillbyrne/" target="_blank">dillbyrne</a> and 
+		<a href="https://github.com/dillbyrne/random-agent-spoofer/graphs/contributors" target="_blank">contributors</a>.
+		It is <em>free</em> (as in freedom) software distributed under gplv3 license.
 	</p>
 
-	<h3 data-l10n-id="code_id"></h3>
+	<h3>Code</h3>
 
 	<ul>
-		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/" target="_blank" data-l10n-id="source_code_id"></a></li>
-		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/labels/bug" target="_blank"data-l10n-id="report_problems_id"></a></li>
+		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/" target="_blank">source code</a></li>
+		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/labels/bug" target="_blank">report problems</a></li>
 	</ul>
 
-	<h3 data-l10n-id="community_id"></h3>
+	<h3>Community</h3>
 
 	<ul>
-		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/wiki" target="_blank" data-l10n-id="wiki_id"></a></li>
-		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/wiki/User-Manual" target="_blank" data-l10n-id="user_manual_id"></a></li>
-		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/labels/enhancement" target="_blank" data-l10n-id="suggest_improvements_id"></a></li>
+		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/wiki" target="_blank">wiki</a></li>
+		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/wiki/user-manual" target="_blank">user manual</a></li>
+		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/labels/enhancement" target="_blank">suggest improvements</a></li>
 	</ul>
-</div> <!-- End "Help" Tab-->
+</div> <!-- end "help" tab-->
 
 </body>
 </html>
