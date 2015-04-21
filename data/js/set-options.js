@@ -25,7 +25,7 @@ self.port.once('nav_listener', function() {
 	});
 });
 
-self.port.once('ua_list', function(data, localized_strings) {
+self.port.once('ua_list', function(data) {
 
 	var profileList = document.getElementById("ualist");
 
@@ -71,12 +71,12 @@ self.port.once('ua_list', function(data, localized_strings) {
 
 			var label = document.createElement("label");
 			label.setAttribute("for", "random_" + k + "," + i);
-			label.textContent = " " + localized_strings[1] + " " + data[k].list[i].description;
+			label.textContent = " " + "Random" + " " + data[k].list[i].description;
 
 			randomEl.appendChild(label);
 
 			var excludeHeader = document.createElement("span");
-			excludeHeader.textContent = localized_strings[0];
+			excludeHeader.textContent = "Exclude";
 
 			randomEl.appendChild(excludeHeader);
 
