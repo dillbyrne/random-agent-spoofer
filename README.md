@@ -4,7 +4,7 @@ RAS is a privacy enhancing firefox addon which aims to hinder browser fingerprin
 
 It also supports other privacy enhancing options.
 
-This document was last updated for 0.9.5.2 release (to be released soon).
+This document was last updated for 0.9.5.2 release.
 
 ![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/2903711/7324733/e0aa7140-eab0-11e4-889d-d1ceb7da9a0f.png "Ras Profile Tab 0.9.5.2")
 
