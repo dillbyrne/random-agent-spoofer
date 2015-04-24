@@ -6,7 +6,7 @@ It also supports other privacy enhancing options.
 
 This document was last updated for 0.9.5.2 release (to be released soon).
 
-![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/360770/7194811/3cb8cd02-e4b6-11e4-974d-ce934ac42768.png "Ras Profile Tab 0.9.5.2")
+![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/2903711/7324733/e0aa7140-eab0-11e4-889d-d1ceb7da9a0f.png "Ras Profile Tab 0.9.5.2")
 
 ## Features
 
@@ -31,7 +31,7 @@ This document was last updated for 0.9.5.2 release (to be released soon).
 - Option to block or allow referer headers (there is an issue open to build upon this).
 - Options to send spoofed accept headers that are tailored to the currently selected profile. (there is an issue open to add more options for the language header).
 
-### Extras
+### Options
 
 - Option to toggle RAS script injection (it is required for certain options and for the whitelist).
 - Option to spoof the date and time strings to a random one or a specific one. (An issue is open to improve this).
