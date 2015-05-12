@@ -5583,10 +5583,10 @@
 						"profileID":"G5"
 					},
 					{
-						"description":"Playstation 4 (1.71)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 1.71) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"description":"Playstation 4 (2.00)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.00) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 1.71) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"appversion":"5.0 (PlayStation 4 2.00) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5601,10 +5601,10 @@
 						"profileID":"G6"
 					},
 					{
-						"description":"Playstation 4 (1.72)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 1.72) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"description":"Playstation 4 (2.01)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.01) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 1.72) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"appversion":"5.0 (PlayStation 4 2.01) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5619,10 +5619,10 @@
 						"profileID":"G7"
 					},
 					{
-						"description":"Playstation 4 (1.74)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 1.74) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"description":"Playstation 4 (2.02)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.02) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 1.74) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"appversion":"5.0 (PlayStation 4 2.02) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5637,10 +5637,10 @@
 						"profileID":"G8"
 					},
 					{
-						"description":"Playstation 4 (1.75)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 1.75) AppleWebKit/536.26 (KHTML, like Gecko) ",
+						"description":"Playstation 4 (2.03)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.03) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 1.75) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"appversion":"5.0 (PlayStation 4 2.03) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5655,10 +5655,10 @@
 						"profileID":"G9"
 					},
 					{
-						"description":"Playstation 4 (1.76)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 1.76) AppleWebKit/536.26 (KHTML, like Gecko) ",
+						"description":"Playstation 4 (2.04)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.04) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 1.76) AppleWebKit/536.26 (KHTML, like Gecko)",
+						"appversion":"5.0 (PlayStation 4 2.04) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5673,10 +5673,10 @@
 						"profileID":"G10"
 					},
 					{
-						"description":"Playstation 4 (2.00)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 2.00) AppleWebKit/537.73 (KHTML, like Gecko) ",
+						"description":"Playstation 4 (2.50)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.50) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 2.00) AppleWebKit/537.73 (KHTML, like Gecko) ",
+						"appversion":"5.0 (PlayStation 4 2.50) AppleWebKit/537.73 (KHTML, like Gecko) ",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5691,10 +5691,10 @@
 						"profileID":"G11"
 					},
 					{
-						"description":"Playstation 4 (2.02)",
-						"useragent":"Mozilla/5.0 (PlayStation 4 2.02) AppleWebKit/537.73 (KHTML, like Gecko) ",
+						"description":"Playstation 4 (2.51)",
+						"useragent":"Mozilla/5.0 (PlayStation 4 2.51) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation 4 2.02) AppleWebKit/537.73 (KHTML, like Gecko) ",
+						"appversion":"5.0 (PlayStation 4 2.51) AppleWebKit/537.73 (KHTML, like Gecko)",
 						"platform":"PlayStation 4",
 						"vendor":"Sony Computer Entertainment Inc.",
 						"vendorsub":"",
@@ -5709,10 +5709,10 @@
 						"profileID":"G12"
 					},
 					{
-						"description":"PS Vita (3.18)",
-						"useragent":"Mozilla/5.0 (PlayStation Vita 3.18) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2",
+						"description":"PS Vita (3.36)",
+						"useragent":"Mozilla/5.0 (PlayStation Vita 3.36) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation Vita 3.18) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2",
+						"appversion":"5.0 (PlayStation Vita 3.18) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2",
 						"platform":"",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5727,10 +5727,10 @@
 						"profileID":"G13"
 					},
 					{
-						"description":"PS Vita (3.30)",
-						"useragent":"Mozilla/5.0 (PlayStation Vita 3.30) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2",
+						"description":"PS Vita (3.50)",
+						"useragent":"Mozilla/5.0 (PlayStation Vita 3.50) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2",
 						"appname":"Netscape",
-						"appversion":"5.0 (PlayStation Vita 3.30) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2",
+						"appversion":"5.0 (PlayStation Vita 3.50) AppleWebKit/537.73 (KHTML, like Gecko) Silk/3.2",
 						"platform":"",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
