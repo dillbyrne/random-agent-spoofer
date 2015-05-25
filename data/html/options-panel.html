@@ -128,10 +128,14 @@
 		<label for="accepte">Spoof Accept-Encoding</label>
 	</p>
 
-	<p>
-		<input type="checkbox" id="acceptl"data-raspref="extensions.agentSpoof.acceptLang" data-ffheader="intl.accept_languages" />
-		<label for="acceptl">Spoof Accept-Language (US English)</label>
+	<p class="multi">
+		<input type="checkbox" id="acceptl" data-raspref="extensions.agentSpoof.acceptLang" data-ffheader="intl.accept_languages" />
+		<label for="acceptl">Spoof Accept-Language as </label>
+		<select id="langdd" class="dd" data-prefname="extensions.agentSpoof.acceptLangChoice" >
+			<option value="en-US">en-US</option>
+		</select>
 	</p>
+
 </div> <!-- End "Headers" Tab-->
 
 <!-- "Extras" Tab -->
