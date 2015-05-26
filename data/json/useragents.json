@@ -456,6 +456,24 @@
 						"profileID":"W25"
 					},
 					{
+						"description":"Firefox 31.0 ESR",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0"
+						"appname":"Netscape",
+						"appversion":"5.0 (Windows)",
+						"platform":"Win32",
+						"vendor":"",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"Windows NT 6.1; Win32",
+						"accept_encoding":"gzip, deflate"
+						"accept_default":"text/html, */*;q=0.5"
+						"accept_lang":{"en-US":"en-US,en;q=0.5"},
+						"pixel_depth":24,
+						"color_depth":24,
+						"screens":"1000x900",
+						"profileID":"W85"
+					},
+					{
 						"description":"Firefox 34.0 (Win 7 32)",
 						"useragent":"Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0",
 						"appname":"Netscape",
