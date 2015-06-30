@@ -62,13 +62,21 @@ document.body.addEventListener('change', function(e) {
 			e.target.dataset.prefname,
 			e.target[e.target.selectedIndex].value
 		);
-	}
-	else if (e.target.className == 'dd') {
+	
+	} else if (e.target.className == 'dd') {
 
 		self.port.emit(
 			'setPrefValue',
 			e.target.dataset.prefname,
 			e.target[e.target.selectedIndex].value
+		);
+
+	} else if (e.target.className == 'idd') {
+
+		self.port.emit(
+			'setPrefValue',
+			e.target.dataset.prefname,
+			parseInt(e.target[e.target.selectedIndex].value)
 		);
 
 	} else if (e.target.id == 'timerdd' || e.target.name == 'ua') {

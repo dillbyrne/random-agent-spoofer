@@ -77,15 +77,6 @@
 		<label for="ifnone">Spoof If-None-Match (ETags)</label>
 	</p>
 
-	<p>
-		<label for="refdd">Set Referer to</label>
-		<select id="refdd" class="dd" data-prefname="extensions.agentSpoof.referer">
-			<option value="none">None</option>
-			<option value="default">Default</option>
-			<!-- <option value="custom" data-l10n-id="custom_id"></option> -->
-		</select>
-	</p>
-
 	<p class="multi">
 		<input type="checkbox" id="via" data-invertvalue="false" data-prefname="extensions.agentSpoof.via" />
 		<label for="via">Spoof Via using a</label>
@@ -112,6 +103,34 @@
 	<p id="customxff" class="hidden">
 		<label for="xffip">IP address:</label><!--
 		--><input type="text" id="xffip" maxlength="15" data-invertvalue="false" data-prefname="extensions.agentSpoof.xffip" />
+	</p>
+
+	<p>
+		<input type="checkbox" id="ref" data-invertvalue="false" data-prefname="extensions.agentSpoof.disableRef"/>
+		<label for="ref">Disable Referer</label>
+	</p>
+
+	<p>
+		<input type="checkbox" id="refss" data-invertvalue="false" data-prefname="network.http.referer.spoofSource"/>
+		<label for="refss">Spoof Source Referer</label>
+	</p>
+
+	<p>
+		<label for="refxopdd">Referer X Origin Policy :</label>
+		<select id="refxopdd" class="idd" data-prefname="network.http.referer.XOriginPolicy">
+			<option value="0">Always send</option>
+			<option value="1">Match base domain</option>
+			<option value="2">Match host</option>
+		</select>
+	</p>
+
+	<p>
+		<label for="reftpdd">Referer Trimming Policy :</label>
+		<select id="reftpdd" class="idd" data-prefname="network.http.referer.trimmingPolicy">
+			<option value="0">Send full URI (default)</option>
+			<option value="1">Scheme, host, port + path</option>
+			<option value="2">Scheme, host + port</option>
+		</select>
 	</p>
 
 	<hr>
