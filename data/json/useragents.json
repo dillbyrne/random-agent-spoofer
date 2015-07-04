@@ -2032,7 +2032,7 @@
 				"description":"Mac Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 42.0.2311.152 (OS X 10_10_1 Intel)",
+						"description":"Chrome 42.0.2311.152 (OS X 10_10_1)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
@@ -2050,7 +2050,7 @@
 						"profileID":"M1"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (OS X 10_10_2 Intel)",
+						"description":"Chrome 42.0.2311.152 (OS X 10_10_2)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
@@ -2068,7 +2068,7 @@
 						"profileID":"M2"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (OS X 10_10_3 Intel)",
+						"description":"Chrome 42.0.2311.152 (OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
@@ -2086,7 +2086,7 @@
 						"profileID":"M3"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_1 Intel)",
+						"description":"Chrome 43.0.2357.81 (OS X 10_10_1)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
@@ -2104,7 +2104,7 @@
 						"profileID":"M4"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_2 Intel)",
+						"description":"Chrome 43.0.2357.81 (OS X 10_10_2)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
@@ -2122,7 +2122,7 @@
 						"profileID":"M5"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_3 Intel)",
+						"description":"Chrome 43.0.2357.81 (OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
@@ -2140,7 +2140,7 @@
 						"profileID":"M6"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_4 Intel)",
+						"description":"Chrome 43.0.2357.81 (OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
@@ -2158,7 +2158,7 @@
 						"profileID":"M7"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_1 Intel)",
+						"description":"Chrome 43.0.2357.124 (OS X 10_10_1)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
@@ -2176,7 +2176,7 @@
 						"profileID":"M8"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_2 Intel)",
+						"description":"Chrome 43.0.2357.124 (OS X 10_10_2)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
@@ -2194,7 +2194,7 @@
 						"profileID":"M9"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_3 Intel)",
+						"description":"Chrome 43.0.2357.124 (OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
@@ -2212,7 +2212,7 @@
 						"profileID":"M10"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_4 Intel)",
+						"description":"Chrome 43.0.2357.124 (OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
@@ -2230,7 +2230,7 @@
 						"profileID":"M11"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_1 Intel)",
+						"description":"Chrome 43.0.2357.125 (OS X 10_10_1)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
@@ -2248,7 +2248,7 @@
 						"profileID":"M12"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_2 Intel)",
+						"description":"Chrome 43.0.2357.125 (OS X 10_10_2)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
@@ -2266,7 +2266,7 @@
 						"profileID":"M13"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_3 Intel)",
+						"description":"Chrome 43.0.2357.125 (OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
@@ -2284,7 +2284,7 @@
 						"profileID":"M14"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_4 Intel)",
+						"description":"Chrome 43.0.2357.125 (OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
@@ -2302,7 +2302,7 @@
 						"profileID":"M15"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_1 Intel)",
+						"description":"Chrome 43.0.2357.130 (OS X 10_10_1)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
@@ -2320,7 +2320,7 @@
 						"profileID":"M16"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_2 Intel)",
+						"description":"Chrome 43.0.2357.130 (OS X 10_10_2)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
@@ -2338,7 +2338,7 @@
 						"profileID":"M17"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_3 Intel)",
+						"description":"Chrome 43.0.2357.130 (OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
@@ -2356,7 +2356,7 @@
 						"profileID":"M18"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_4 Intel)",
+						"description":"Chrome 43.0.2357.130 (OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
@@ -2374,7 +2374,7 @@
 						"profileID":"M19"
 					},
 					{
-						"description":"Firefox 37.0 (OS X 10.8 Intel)",
+						"description":"Firefox 37.0 (OS X 10.8)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:37.0) Gecko/20100101 Firefox/37.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2406,7 +2406,7 @@
 						"profileID":"M20"
 					},
 					{
-						"description":"Firefox 37.0 (OS X 10.9 Intel)",
+						"description":"Firefox 37.0 (OS X 10.9)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:37.0) Gecko/20100101 Firefox/37.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2438,7 +2438,7 @@
 						"profileID":"M21"
 					},
 					{
-						"description":"Firefox 37.0 (OS X 10.10 Intel)",
+						"description":"Firefox 37.0 (OS X 10.10)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:37.0) Gecko/20100101 Firefox/37.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2470,7 +2470,7 @@
 						"profileID":"M22"
 					},
 					{
-						"description":"Firefox 38.0 (OS X 10.9 Intel)",
+						"description":"Firefox 38.0 (OS X 10.9)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:38.0) Gecko/20100101 Firefox/38.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2502,7 +2502,7 @@
 						"profileID":"M23"
 					},
 					{
-						"description":"Firefox 38.0 (OS X 10.10 Intel)",
+						"description":"Firefox 38.0 (OS X 10.10)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:38.0) Gecko/20100101 Firefox/38.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2534,7 +2534,7 @@
 						"profileID":"M24"
 					},
 					{
-						"description":"Firefox 39.0 (OS X 10.9 Intel)",
+						"description":"Firefox 39.0 (OS X 10.9)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:39.0) Gecko/20100101 Firefox/39.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2566,7 +2566,7 @@
 						"profileID":"M25"
 					},
 					{
-						"description":"Firefox 39.0 (OS X 10.10 Intel)",
+						"description":"Firefox 39.0 (OS X 10.10)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:39.0) Gecko/20100101 Firefox/39.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2598,7 +2598,7 @@
 						"profileID":"M26"
 					},
 					{
-						"description":"Firefox 40.0 (OS X 10.9 Intel)",
+						"description":"Firefox 40.0 (OS X 10.9)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:40.0) Gecko/20100101 Firefox/40.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2630,7 +2630,7 @@
 						"profileID":"M27"
 					},
 					{
-						"description":"Firefox 40.0 (OS X 10.10 Intel)",
+						"description":"Firefox 40.0 (OS X 10.10)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -2788,7 +2788,7 @@
 						"profileID":"M35"
 					},
 					{
-						"description":"Safari 8.0.3 (OS X 10_10_2 Intel)",
+						"description":"Safari 8.0.3 (600.3.10 OS X 10_10_2)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.10 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.10",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.10 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.10",
@@ -2806,7 +2806,7 @@
 						"profileID":"M36"
 					},
 					{
-						"description":"Safari 8.0.4 (OS X 10_10_3 Intel)",
+						"description":"Safari 8.0.4 (600.4.10 OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/8.0.4 Safari/600.4.10",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/8.0.4 Safari/600.4.10",
@@ -2824,7 +2824,7 @@
 						"profileID":"M37"
 					},
 					{
-						"description":"Safari 8.0.5 (OS X 10_10_3 Intel)",
+						"description":"Safari 8.0.5 (600.5.6 OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.5.6 (KHTML, like Gecko) Version/8.0.5 Safari/600.5.6",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.5.6 (KHTML, like Gecko) Version/8.0.5 Safari/600.5.6",
@@ -2842,7 +2842,7 @@
 						"profileID":"M38"
 					},
 					{
-						"description":"Safari 8.0.5 (OS X 10_10_3 Intel)",
+						"description":"Safari 8.0.5 (600.5.17 OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.5.17 (KHTML, like Gecko) Version/8.0.5 Safari/600.5.17",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.5.17 (KHTML, like Gecko) Version/8.0.5 Safari/600.5.17",
@@ -2860,7 +2860,7 @@
 						"profileID":"M39"
 					},
 					{
-						"description":"Safari 8.0.6 (OS X 10_10_3 Intel)",
+						"description":"Safari 8.0.6 (600.6.3 OS X 10_10_3)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3",
@@ -2878,7 +2878,7 @@
 						"profileID":"M40"
 					},
 					{
-						"description":"Safari 8.0.6 (OS X 10_10_4 Intel)",
+						"description":"Safari 8.0.6 (600.6.3 OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3",
@@ -2896,7 +2896,7 @@
 						"profileID":"M41"
 					},
 					{
-						"description":"Safari 8.0.7 (OS X 10_10_4 Intel)",
+						"description":"Safari 8.0.7 (600.7.7 OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.7 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.7",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.7 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.7",
@@ -2914,7 +2914,7 @@
 						"profileID":"M42"
 					},
 					{
-						"description":"Safari 8.0.7 (OS X 10_10_4 Intel)",
+						"description":"Safari 8.0.7 (600.7.10 OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.10 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.10",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.10 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.10",
@@ -2932,7 +2932,7 @@
 						"profileID":"M43"
 					},
 					{
-						"description":"Safari 8.0.7 (OS X 10_10_4 Intel)",
+						"description":"Safari 8.0.7 (600.7.11 OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.11 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.11",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.11 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.11",
@@ -2950,7 +2950,7 @@
 						"profileID":"M44"
 					},
 					{
-						"description":"Safari 8.0.7 (OS X 10_10_4 Intel)",
+						"description":"Safari 8.0.7 (600.7.12 OS X 10_10_4)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12",
@@ -2968,7 +2968,7 @@
 						"profileID":"M45"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (OS X 10.9 Intel)",
+						"description":"SeaMonkey 2.33.1 (OS X 10.9)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -3000,7 +3000,7 @@
 						"profileID":"M46"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (OS X 10.10 Intel)",
+						"description":"SeaMonkey 2.33.1 (OS X 10.10)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
