@@ -319,7 +319,7 @@
 		</p>
 
 		<p class="hidden"></p> <!-- prevent multi class from intefering with preference below -->
-		
+
 		<p>
 			<input type="checkbox" id="link" data-invertvalue="true" data-prefname="network.prefetch-next" />
 			<label for="link">Disable link prefetching</label>
@@ -419,7 +419,46 @@
 			<input type="checkbox" id="css_visited_links" data-invertvalue="true" data-prefname="layout.css.visited_links_enabled"/>
 			<label for="css_visited_links">Disable CSS visited links</label>
 		</p>
+
 	</div>
+
+	<h3 id="reporting_extras_title" class="trigger">Reporting Options</h3>
+
+	<div class="expandable">
+
+		<p>
+			<input type="checkbox" id="safe_browsing" data-invertvalue="true" data-prefname="browser.safebrowsing.enabled"/>
+			<label for="safe_browsing">Disable safe browsing (Google)</label>
+		</p>
+
+		<p>
+			<input type="checkbox" id="safe_browsing_downloads" data-invertvalue="true" data-prefname="browser.safebrowsing.downloads.enabled"/>
+			<label for="safe_browsing_downloads">Disable safe browsing downloads check (Google)</label>
+		</p>
+
+		<p>
+			<input type="checkbox" id="safe_browsing_malware" data-invertvalue="true" data-prefname="browser.safebrowsing.malware.enabled"/>
+			<label for="safe_browsing_malware">Disable safe browsing malware check (Google)</label>
+		</p>
+
+		<p>
+			<input type="checkbox" id="health_report_service" data-invertvalue="true" data-prefname="datareporting.healthreport.service.enabled"/>
+			<label for="health_report_service">Disable browser health reports</label>
+		</p>
+
+		<p>
+			<input type="checkbox" id="health_report_uploads" data-invertvalue="true" data-prefname="datareporting.healthreport.uploadEnabled"/>
+			<label for="health_report_uploads">Disable health report uploads</label>
+		</p>
+
+		<p>
+			<input type="checkbox" id="telemetry" data-invertvalue="true" data-prefname="toolkit.telemetry.enabled"/>
+			<label for="telemetry">Disable telemetry reports</label>
+		</p>
+
+	</div>
+
+
 </div> <!-- end "extras" tab-->
 
 <!-- "whitelist" tab -->
