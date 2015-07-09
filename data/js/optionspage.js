@@ -161,61 +161,27 @@ document.body.addEventListener('click', function(e) {
 	//whitelist profile save button
 	if (e.target.id =='wlprofsavebtn') {
 
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('useragent_input').dataset.prefname,
-			document.getElementById('useragent_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('appcodename_input').dataset.prefname,
-			document.getElementById('appcodename_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('appname_input').dataset.prefname,
-			document.getElementById('appname_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('appversion_input').dataset.prefname,
-			document.getElementById('appversion_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('vendor_input').dataset.prefname,
-			document.getElementById('vendor_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('vendorsub_input').dataset.prefname,
-			document.getElementById('vendorsub_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('platform_input').dataset.prefname,
-			document.getElementById('platform_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('oscpu_input').dataset.prefname,
-			document.getElementById('oscpu_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('acceptdefault_input').dataset.prefname,
-			document.getElementById('acceptdefault_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('acceptencoding_input').dataset.prefname,
-			document.getElementById('acceptencoding_input').value
-		);
-		self.port.emit(
-			'setPrefValue',
-			document.getElementById('acceptlanguage_input').dataset.prefname,
-			document.getElementById('acceptlanguage_input').value
-		);
+		var prefs = [
+			'useragent_input',
+			'appcodename_input',
+			'appname_input',
+			'appversion_input',
+			'vendor_input',
+			'vendorsub_input',
+			'platform_input',
+			'oscpu_input',
+			'acceptdefault_input',
+			'acceptencoding_input',
+			'acceptlanguage_input'
+		];
+		
+		for ( var i=0, l=prefs.length; i<l ; i++ ){
+			self.port.emit(
+				'setPrefValue',
+				document.getElementById(prefs[i]).dataset.prefname,
+				document.getElementById(prefs[i]).value
+			);
+		}
 
 	} else if (e.target.id == 'whitelist_rules_title') {
 
