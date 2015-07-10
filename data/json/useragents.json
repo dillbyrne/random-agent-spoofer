@@ -468,8 +468,8 @@
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-us,en;q=0.5"},
-						"pixel_depth":"24",
-						"color_depth":"24",
+						"pixeldepth":"24",
+						"colordepth":"24",
 						"screens":"1000x600",
 						"profileID":"W85"
 					},
