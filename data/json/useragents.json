@@ -2024,8 +2024,29 @@
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
 						"profileID":"W84"
+					},
+					{
+						"description":"Chrome 38.0.2125.104 (Win 8.1 WOW64",
+							"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36",
+							"appname":"Netscape",
+							"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36",
+							"platform":"Win32",
+							"vendor":"Google Inc.",
+							"vendorsub":"",
+							"buildID":"",
+							"oscpu":"",
+							"accept_encoding":"gzip,deflate,sdch",
+							"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+							"accept_lang":{
+								"de-DE":"de,en-US;q=0.7,en;q=0.3",
+								"en-US":"en-US,en;q=0.5",
+								"fr-FR":"fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"
+							},
+							"pixeldepth":"24",
+							"colordepth":"24",
+							"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+							"profileID":"W85"
 					}
-
 				]
 			},
 			{
@@ -4487,6 +4508,86 @@
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
 						"profileID":"L62"
+					},
+					{
+						"description":"Opera 30.0.1835.59 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 OPR/30.0.1835.59",
+						"appname":"Netscape",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 OPR/30.0.1835.59",
+						"platform":"Linux x86_64",
+						"vendor":"Google Inc.",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"",
+						"accept_encoding":"gzip, deflate, lzma, sdch",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+						"accept_lang":{"en-US":"en-US,en;q=0.8"},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"L63"
+					},
+					{
+						"description":"Chrome 43.0.2357.125 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appname":"Netscape",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"platform":"Linux x86_64",
+						"vendor":"Google Inc.",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"",
+						"accept_encoding":"gzip, deflate, sdch",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+						"accept_lang":{
+							"en-US":"en-US,en;q=0.8",
+							"fr-FR":"fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"
+						},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"L64"
+					},
+					{
+						"description":"Firefox 38.0 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0",
+						"appname":"Netscape",
+						"appversion":"5.0 (X11)",
+						"platform":"Linux x86_64",
+						"vendor":"",
+						"vendorsub":"",
+						"buildID":"20150511103818",
+						"oscpu":"Linux x86_64",
+						"accept_encoding":"gzip, deflate",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+						"accept_lang":{
+							"en-US":"en-US,en;q=0.8",
+							"fr-FR":"fr-FR,fr;q=0.8,en-US;q=0.5,en;q=0.3"
+						},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"L65"
+					},
+					{
+						"description":"Chrome 38.0.2125.104 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36",
+						"appname":"Netscape",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36",
+						"platform":"Linux x86_64",
+						"vendor":"Google Inc.",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"",
+						"accept_encoding":"gzip,deflate,sdch",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+						"accept_lang":{
+							"en-GB":"en-GB,en-US;q=0.8,en;q=0.6"
+						},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"L66"
 					}
 				]
 			},
