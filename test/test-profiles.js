@@ -126,7 +126,7 @@ exports["test 4: colorDepth and pixelDepth"] = function(assert){
 				if(profData[i].list[j].useragents[k].colordepth !== profData[i].list[j].useragents[k].pixeldepth)
 					assert.fail("Color Depth and Pixel Depth do not match for "+profData[i].list[j].useragents[k].description);
 
-				if (values.indexOf(profData[i].list[j].useragents[k].colordepth) === -1)
+				if (values.indexOf(profData[i].list[j].useragents[k].colordepth) === -1 )
 					assert.fail("Values are incorrect for "+profData[i].list[j].useragents[k].description);
 			}
 
@@ -134,4 +134,87 @@ exports["test 4: colorDepth and pixelDepth"] = function(assert){
 	}
 					assert.pass("Depth values in each profile are equal and have suitable values");
 }
+
+exports["test 5: chrome browsers"] = function(assert){
+
+	checkLangs = function(i,j,k){
+
+		if(profData[i].list[j].useragents[k].accept_lang['en-US'] !== "en-US,en;q=0.8")
+			assert.fail("en-US accept lang does not match Chrome for "+profData[i].list[j].useragents[k].description);
+	
+	}
+
+	for (var i=0;i < profData.length; i++){
+
+		for (var j=0; j < profData[i].list.length; j++){
+
+			for (var k=0; k < profData[i].list[j].useragents.length; k++){
+
+				if((profData[i].list[j].useragents[k].description).indexOf("Chrom") > -1){
+				
+						
+					//check for chrome on iOS
+					if((profData[i].list[j].useragents[k].description).indexOf("iOS") > -1){
+						
+						if(profData[i].list[j].useragents[k].vendor !== "Apple Computer, Inc.")
+							assert.fail("Vendor does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+						if(profData[i].list[j].useragents[k].accept_encoding !== "gzip,deflate")
+							assert.fail("Accept encoding  does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+						if(profData[i].list[j].useragents[k].accept_default !== "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,image/webp")
+							assert.fail("Accept default does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+						checkLangs(i,j,k);
+					
+					//Non iOS versions of Chrome
+					}else {
+						
+						if(profData[i].list[j].useragents[k].vendor !== "Google Inc.")
+							assert.fail("Vendor does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+						//Misc Android profiles that deviate from the standard chrome profiles
+						if((profData[i].list[j].useragents[k].description).indexOf("Android") > -1){
+							
+							//TODO
+						
+						
+						}else{ // All other versions Desktop and Android
+
+
+							if(profData[i].list[j].useragents[k].accept_encoding !== "gzip,deflate,sdch")
+								assert.fail("Accept encoding  does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+							if(profData[i].list[j].useragents[k].accept_default !== "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
+								assert.fail("Accept default does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+							checkLangs(i,j,k);
+						}
+					}
+
+						
+					//appversion should be a substring of useragent
+					if (profData[i].list[j].useragents[k].useragent.indexOf(profData[i].list[j].useragents[k].appversion) === -1)
+						assert.fail("App version is not a sub string of user agent for "+profData[i].list[j].useragents[k].description);
+
+					if(profData[i].list[j].useragents[k].vendorsub !== "")
+						assert.fail("Vendor sub does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+					if(profData[i].list[j].useragents[k].appname !== "Netscape")
+						assert.fail("Appname does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+					if(profData[i].list[j].useragents[k].oscpu !== "")
+						assert.fail("OsCpu does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+					if(profData[i].list[j].useragents[k].buildID !== "")
+						assert.fail("buildID does not match Chrome for "+profData[i].list[j].useragents[k].description);
+
+				}
+			}
+		}
+	}
+					assert.pass("Chrome browser values are correct");
+}
+
+
 require("sdk/test").run(exports);
