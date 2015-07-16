@@ -3509,7 +3509,7 @@
 						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/538.15 (KHTML, like Gecko) Version/8.0 Safari/538.15 Ubuntu/14.10 (3.10.3-0ubuntu3) Epiphany/3.10.3",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11; Linux i686) AppleWebKit/538.15 (KHTML, like Gecko) Version/8.0 Safari/538.15 Ubuntu/14.10 (3.10.3-0ubuntu3) Epiphany/3.10.3",
-						"platform":"Linux x86_64",
+						"platform":"Linux i686",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
 						"buildID":"",
@@ -5061,7 +5061,7 @@
 					},
 					{
 						"description":"SeaMonkey 2.33.1 (OpenBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD i686; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD i386; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"OpenBSD i386",
