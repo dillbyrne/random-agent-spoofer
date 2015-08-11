@@ -302,7 +302,6 @@ exports["test 6: firefox browsers"] = function(assert){
 
 	var browsers = ['Firefox','Iceweasel','SeaMonkey','Palemoon'];
 
-
 	for (var i=0;i < profData.length; i++){
 
 		for (var j=0; j < profData[i].list.length; j++){
@@ -311,6 +310,8 @@ exports["test 6: firefox browsers"] = function(assert){
 
 				for (var b=0; b<browsers.length; b++){
 
+					var uaString = profData[i].list[j].useragents[k].useragent;
+					
 					if (profData[i].list[j].useragents[k].description.indexOf(browsers[b]) > -1 ){
 
 						matchProperty(assert,i,j,k,"vendorsub","");
@@ -380,6 +381,8 @@ exports["test 6: firefox browsers"] = function(assert){
 						}else	//all other FF based profiles
 							checkLangs(i,j,k);
 						
+						var strArr = ["Mozilla/5.0 (","rv:","Gecko/","Firefox/"];
+						checkArrayForSubStrings(assert,i,j,k,uaString,strArr);
 					}
 
 				}
