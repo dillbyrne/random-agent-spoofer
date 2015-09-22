@@ -33,6 +33,9 @@ self.port.on('inject', function(intParams, strParams, boolParams) {
 		content += 'Object.defineProperty(window, "outerHeight", {value: ' + intParams[8] + '});';
 		content += 'Object.defineProperty(screen, "colorDepth", {value: ' + intParams[9] + '});';
 		content += 'Object.defineProperty(screen, "pixelDepth", {value: ' + intParams[10] + '});';
+		
+		//disables contentWindow property of iFrame
+		//content += 'Object.defineProperty(HTMLIFrameElement.prototype, "contentWindow", {value: undefined});';
 
 		return content;
 	}
