@@ -12,6 +12,12 @@
 	"main":"lib/main.js",
 	"preferences": [
 		{
+			"name": "enabled",
+			"title": "Enable RAS",
+			"type": "bool",
+			"value": true
+		},
+		{
 			"name": "show_context_menu",
 			"title": "Show context menu entry ?",
 			"type": "bool",

@@ -85,8 +85,8 @@ self.port.on('inject', function(intParams, strParams, boolParams) {
 
 	var content = '(function (){try{'
 
-	// Use whitelisted profile (if selected)
-	if (boolParams[0] == true) {
+	// Use whitelisted profile (if selected and the default is not it use)
+	if (boolParams[0] == true && boolParams[6] == false) {
 
 		content += whiteListHandler();
 	} else {
