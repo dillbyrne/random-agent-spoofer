@@ -179,6 +179,26 @@ self.port.on('updatePanelItems', function(ua_choice) {
 	toggleTabsColor(ua_choice);
 });
 
+self.port.on('toggleState', function(state) {
+	
+	changeElementsState('input',state);
+	changeElementsState('select',state);
+	changeElementsState('textarea',state);
+	changeElementsState('button',state);
+
+});
+
+function changeElementsState(tagName,state){
+
+	var elems = document.getElementsByTagName(tagName);
+	var len = elems.length;
+
+	for (var i = 0; i < len; i++) {
+		    elems[i].disabled = state;
+	}
+
+}
+
 function toggleTabsColor(ua_choice) {
 
 	if (ua_choice != 'default')
