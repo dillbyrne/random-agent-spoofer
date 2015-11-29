@@ -79,6 +79,11 @@ input[type="radio"]:checked + label {
 input[type="radio"][id="default"]:checked + label {
 	color: #8e8e8e;
 }
+
+.disabledLabel {
+	color: #f0004f !important;
+}
+
 .validInput {
 	border: solid 2px #cbe86b !important; 
 	-moz-transition: .3s ease-in-out;
@@ -167,6 +172,12 @@ body > div > div > .trigger:first-child {
 	color: #219be2;
 }
 
+.disabled #nav {
+	background: #f0004f;
+}
+.disabled #nav li.selected {
+	color: #f0004f;
+}
 
 /* tabs
 ------------------------ */

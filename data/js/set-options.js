@@ -172,11 +172,11 @@ self.port.on('setMultiCheckBox', function(checkBoxList) {
 	}
 });
 
-self.port.on('updatePanelItems', function(ua_choice) {
+self.port.on('updatePanelItems', function(ua_choice,state) {
 
 	toggleSectionHeaderColor(ua_choice);
 	toggleRandomOptions(ua_choice);
-	toggleTabsColor(ua_choice);
+	toggleTabsColor(ua_choice,state);
 });
 
 self.port.on('toggleState', function(state) {
@@ -199,15 +199,29 @@ function changeElementsState(tagName,state){
 
 }
 
-function toggleTabsColor(ua_choice) {
+function toggleTabsColor(ua_choice,state) {
+	
+	if (state === true){
 
-	if (ua_choice != 'default')
+		document.getElementById("default_label").classList.remove('disabledLabel');
+		
+		if (ua_choice != 'default'){
 
-		document.body.classList.add('spoof');
+			document.body.classList.remove('disabled');
+			document.body.classList.add('spoof');
 
-	else
+		} else {
 
-		document.body.classList.remove('spoof');
+			document.body.classList.remove('spoof');
+			document.body.classList.remove('disabled');
+		}	
+	
+	} else {
+			document.body.classList.add('disabled');
+			document.body.classList.remove('spoof');
+			document.getElementById("default_label").classList.add('disabledLabel');
+
+	}
 };
 
 function toggleSectionHeaderColor(ua_choice) {
