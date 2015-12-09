@@ -84,13 +84,17 @@ Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) fo
 
 ## Icons
 
-Most of the icons used are from the  Unique-Round-Blue icon set by [Unique Design 10](http://www.uniquedesign10.com/). Some of these have been modified for RAS.
+Most of the icons used are from the *Unique-Round-Blue* icon set by [Unique Design 10](http://www.uniquedesign10.com/). Some of these have been modified for RAS.
 
 Licence: Free for commercial use (Include link to authors website).
 
-The timer icon used is blue clock icon by [Double J Design](http://www.doublejdesign.co.uk/), it has been slightly modified.
+The timer icon used is *blue clock* icon by [Double J Design](http://www.doublejdesign.co.uk/), it has been slightly modified.
 
 Licence: Creative Commons (Attribution 3.0 Unported).
+
+The WhiteList icon is from the *For All* icon set by [Carlo Rodríguez](https://carlorodriguez.github.io/blog/2015/04/22/forall-icon-set/), the disabled varient was modified.
+
+Licence: Creative Commons Attribution 4.0 International License
 
 ## Contributing
 Pull requests are welcome. Feel free to ask for help or advice if you are unsure about something.
