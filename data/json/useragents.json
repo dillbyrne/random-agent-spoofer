@@ -6,10 +6,10 @@
 				"description":"Windows Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 42.0.2311.135 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"description":"Chrome 46.0.2490.86 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -24,10 +24,10 @@
 						"profileID":"W1"
 					},
 					{
-						"description":"Chrome 42.0.2311.135 (Win 7 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"description":"Chrome 46.0.2490.86 (Win 7 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -42,10 +42,10 @@
 						"profileID":"W2"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -60,10 +60,10 @@
 						"profileID":"W3"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -78,10 +78,10 @@
 						"profileID":"W4"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (Win 8 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (Win 8 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -96,10 +96,10 @@
 						"profileID":"W5"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -114,10 +114,10 @@
 						"profileID":"W6"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -132,10 +132,10 @@
 						"profileID":"W7"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -150,10 +150,10 @@
 						"profileID":"W8"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (Win 7 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (Win 7 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -168,10 +168,10 @@
 						"profileID":"W9"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -186,10 +186,10 @@
 						"profileID":"W10"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -204,10 +204,10 @@
 						"profileID":"W11"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (Win 8 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (Win 8 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -222,10 +222,10 @@
 						"profileID":"W12"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -240,10 +240,10 @@
 						"profileID":"W13"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -258,10 +258,10 @@
 						"profileID":"W14"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -276,10 +276,10 @@
 						"profileID":"W15"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -294,10 +294,10 @@
 						"profileID":"W16"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -312,10 +312,10 @@
 						"profileID":"W17"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -330,10 +330,10 @@
 						"profileID":"W18"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -348,10 +348,10 @@
 						"profileID":"W19"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -366,10 +366,10 @@
 						"profileID":"W20"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -384,10 +384,10 @@
 						"profileID":"W21"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -402,10 +402,10 @@
 						"profileID":"W22"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -420,10 +420,10 @@
 						"profileID":"W23"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -438,10 +438,10 @@
 						"profileID":"W24"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -1259,9 +1259,9 @@
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"platform":"Win32",
 						"vendor":"Opera Software ASA",
 						"vendorsub":"",
@@ -1277,9 +1277,9 @@
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"platform":"Win32",
 						"vendor":"Opera Software ASA",
 						"vendorsub":"",
@@ -1367,9 +1367,9 @@
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"platform":"Win32",
 						"vendor":"Opera Software ASA",
 						"vendorsub":"",
@@ -1385,9 +1385,9 @@
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"platform":"Win32",
 						"vendor":"Opera Software ASA",
 						"vendorsub":"",
@@ -1475,9 +1475,9 @@
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8.1 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"appversion":"5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"platform":"Win32",
 						"vendor":"Opera Software ASA",
 						"vendorsub":"",
@@ -1493,9 +1493,9 @@
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8.1 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36 OPR/30.0.1835.88",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.88",
 						"platform":"Win32",
 						"vendor":"Opera Software ASA",
 						"vendorsub":"",
@@ -2032,10 +2032,10 @@
 				"description":"Mac Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 42.0.2311.152 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (OS X 10_10_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2050,10 +2050,10 @@
 						"profileID":"M1"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (OS X 10_10_2)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2068,10 +2068,10 @@
 						"profileID":"M2"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (OS X 10_10_3)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2086,10 +2086,10 @@
 						"profileID":"M3"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (OS X 10_10_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2104,10 +2104,10 @@
 						"profileID":"M4"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (OS X 10_10_2)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2122,10 +2122,10 @@
 						"profileID":"M5"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (OS X 10_10_3)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2140,10 +2140,10 @@
 						"profileID":"M6"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (OS X 10_10_4)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.81 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2158,10 +2158,10 @@
 						"profileID":"M7"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (OS X 10_10_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2176,10 +2176,10 @@
 						"profileID":"M8"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (OS X 10_10_2)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2194,10 +2194,10 @@
 						"profileID":"M9"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (OS X 10_10_3)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2212,10 +2212,10 @@
 						"profileID":"M10"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (OS X 10_10_4)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.124 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2230,10 +2230,10 @@
 						"profileID":"M11"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (OS X 10_10_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2248,10 +2248,10 @@
 						"profileID":"M12"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (OS X 10_10_2)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2266,10 +2266,10 @@
 						"profileID":"M13"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (OS X 10_10_3)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2284,10 +2284,10 @@
 						"profileID":"M14"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (OS X 10_10_4)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.125 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2302,10 +2302,10 @@
 						"profileID":"M15"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (OS X 10_10_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2320,10 +2320,10 @@
 						"profileID":"M16"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (OS X 10_10_2)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2338,10 +2338,10 @@
 						"profileID":"M17"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (OS X 10_10_3)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2356,10 +2356,10 @@
 						"profileID":"M18"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (OS X 10_10_4)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.2357.130 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3037,10 +3037,10 @@
 				"description":"Linux Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 41.0.2272.118 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+						"description":"Chrome 46.0.2490.71 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3055,10 +3055,10 @@
 						"profileID":"L1"
 					},
 					{
-						"description":"Chrome 41.0.2272.118 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+						"description":"Chrome 46.0.2490.71 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3073,10 +3073,10 @@
 						"profileID":"L2"
 					},
 					{
-						"description":"Chrome 42.0.2311.90 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36",
+						"description":"Chrome 46.0.2490.80 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3091,10 +3091,10 @@
 						"profileID":"L3"
 					},
 					{
-						"description":"Chrome 42.0.2311.90 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36",
+						"description":"Chrome 46.0.2490.80 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3109,10 +3109,10 @@
 						"profileID":"L4"
 					},
 					{
-						"description":"Chrome 42.0.2311.135 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"description":"Chrome 46.0.2490.86 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3127,10 +3127,10 @@
 						"profileID":"L5"
 					},
 					{
-						"description":"Chrome 42.0.2311.135 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"description":"Chrome 46.0.2490.86 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3145,10 +3145,10 @@
 						"profileID":"L6"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3163,10 +3163,10 @@
 						"profileID":"L7"
 					},
 					{
-						"description":"Chrome 42.0.2311.152 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"description":"Chrome 47.0.2526.73 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3181,10 +3181,10 @@
 						"profileID":"L8"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3199,10 +3199,10 @@
 						"profileID":"L9"
 					},
 					{
-						"description":"Chrome 43.0.2357.81 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chrome 47.0.2526.80 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3217,10 +3217,10 @@
 						"profileID":"L10"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3235,10 +3235,10 @@
 						"profileID":"L11"
 					},
 					{
-						"description":"Chrome 43.0.2357.124 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chrome 47.0.2526.106 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3253,10 +3253,10 @@
 						"profileID":"L12"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3271,10 +3271,10 @@
 						"profileID":"L13"
 					},
 					{
-						"description":"Chrome 43.0.2357.125 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chrome 47.0.2526.111 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3289,10 +3289,10 @@
 						"profileID":"L14"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3307,10 +3307,10 @@
 						"profileID":"L15"
 					},
 					{
-						"description":"Chrome 43.0.2357.130 (linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chrome 48.0.2564.82 (linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3325,10 +3325,10 @@
 						"profileID":"L16"
 					},
 					{
-						"description":"Chromium 36.0.1976.2 (Ubuntu  32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1976.2 Chrome/36.0.1976.2 Safari/537.36",
+						"description":"Chromium 45.0.2454.78 (Ubuntu  32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.78 Chrome/45.0.2454.78 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1976.2 Chrome/36.0.1976.2 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.78 Chrome/45.0.2454.78 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3343,10 +3343,10 @@
 						"profileID":"L17"
 					},
 					{
-						"description":"Chromium 36.0.1976.2 (Ubuntu  64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1976.2 Chrome/36.0.1976.2 Safari/537.36",
+						"description":"Chromium 45.0.2454.78 (Ubuntu  64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.78 Chrome/45.0.2454.78 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1976.2 Chrome/36.0.1976.2 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.78 Chrome/45.0.2454.78 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3361,10 +3361,10 @@
 						"profileID":"L18"
 					},
 					{
-						"description":"Chromium 36.0.1985.143 (Ubuntu  32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.143 Chrome/36.0.1985.143 Safari/537.36",
+						"description":"Chromium 45.0.2454.101 (Ubuntu  32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.101 Chrome/45.0.2454.101 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.143 Chrome/36.0.1985.143 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.101 Chrome/45.0.2454.101 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3379,10 +3379,10 @@
 						"profileID":"L19"
 					},
 					{
-						"description":"Chromium 36.0.1985.143 (Ubuntu  64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.143 Chrome/36.0.1985.143 Safari/537.36",
+						"description":"Chromium 45.0.2454.101 (Ubuntu  64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.101 Chrome/45.0.2454.101 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.143 Chrome/36.0.1985.143 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.101 Chrome/45.0.2454.101 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3397,10 +3397,10 @@
 						"profileID":"L20"
 					},
 					{
-						"description":"Chromium 37.0.2062.94 (Ubuntu  32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.94 Chrome/37.0.2062.94 Safari/537.36",
+						"description":"Chromium 46.0.2490.86 (Ubuntu  32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/46.0.2490.86 Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.94 Chrome/37.0.2062.94 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/46.0.2490.86 Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3415,10 +3415,10 @@
 						"profileID":"L21"
 					},
 					{
-						"description":"Chromium 37.0.2062.94 (Ubuntu  64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.94 Chrome/37.0.2062.94 Safari/537.36",
+						"description":"Chromium 46.0.2490.86 (Ubuntu  64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/46.0.2490.86 Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.94 Chrome/37.0.2062.94 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/46.0.2490.86 Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3433,10 +3433,10 @@
 						"profileID":"L22"
 					},
 					{
-						"description":"Chromium 37.0.2062.120 (Ubuntu  32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36",
+						"description":"Chromium 47.0.2526.73 (Ubuntu  32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/47.0.2526.73 Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/47.0.2526.73 Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3451,10 +3451,10 @@
 						"profileID":"L23"
 					},
 					{
-						"description":"Chromium 37.0.2062.120 (Ubuntu  64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36",
+						"description":"Chromium 47.0.2526.73 (Ubuntu  64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/47.0.2526.73 Chrome/47.0.2526.73 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/37.0.2062.120 Chrome/37.0.2062.120 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/47.0.2526.73 Chrome/47.0.2526.73 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3469,10 +3469,10 @@
 						"profileID":"L24"
 					},
 					{
-						"description":"Chromium 38.0.2125.111 (Ubuntu  32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36",
+						"description":"Chromium 48.0.2564.82 (Ubuntu  32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Linux i686",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -3487,10 +3487,10 @@
 						"profileID":"L25"
 					},
 					{
-						"description":"Chromium 38.0.2125.111 (Ubuntu  64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36",
+						"description":"Chromium 48.0.2564.82 (Ubuntu  64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/38.0.2125.111 Chrome/38.0.2125.111 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.82 Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4494,10 +4494,10 @@
 				"description":"Unix Browsers",
 				"useragents":[
 					{
-						"description":"Chromium 43.0.2357.65 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36",
+						"description":"Chromium 46.0.2490.86 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4512,10 +4512,10 @@
 						"profileID":"U1"
 					},
 					{
-						"description":"Chromium 43.0.2357.65 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36",
+						"description":"Chromium 46.0.2490.86 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4530,10 +4530,10 @@
 						"profileID":"U2"
 					},
 					{
-						"description":"Chromium 43.0.2357.81 (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chromium 47.0.2526.80 (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"FreeBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4548,10 +4548,10 @@
 						"profileID":"U3"
 					},
 					{
-						"description":"Chromium 43.0.2357.81 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chromium 47.0.2526.80 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4566,10 +4566,10 @@
 						"profileID":"U4"
 					},
 					{
-						"description":"Chromium 43.0.2357.81 (OpenBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chromium 47.0.2526.80 (OpenBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"OpenBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4584,10 +4584,10 @@
 						"profileID":"U5"
 					},
 					{
-						"description":"Chromium 43.0.2357.81 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"description":"Chromium 47.0.2526.80 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4602,10 +4602,10 @@
 						"profileID":"U6"
 					},
 					{
-						"description":"Chromium 43.0.2357.124 (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chromium 47.0.2526.106 (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"FreeBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4620,10 +4620,10 @@
 						"profileID":"U7"
 					},
 					{
-						"description":"Chromium 43.0.2357.124 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chromium 47.0.2526.106 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4638,10 +4638,10 @@
 						"profileID":"U8"
 					},
 					{
-						"description":"Chromium 43.0.2357.124 (OpenBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chromium 47.0.2526.106 (OpenBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"OpenBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4656,10 +4656,10 @@
 						"profileID":"U9"
 					},
 					{
-						"description":"Chromium 43.0.2357.124 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"description":"Chromium 47.0.2526.106 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4674,10 +4674,10 @@
 						"profileID":"U10"
 					},
 					{
-						"description":"Chromium 43.0.2357.125 (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chromium 47.0.2526.111 (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"FreeBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4692,10 +4692,10 @@
 						"profileID":"U11"
 					},
 					{
-						"description":"Chromium 43.0.2357.125 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chromium 47.0.2526.111 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4710,10 +4710,10 @@
 						"profileID":"U12"
 					},
 					{
-						"description":"Chromium 43.0.2357.125 (OpenBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chromium 47.0.2526.111 (OpenBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"OpenBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4728,10 +4728,10 @@
 						"profileID":"U13"
 					},
 					{
-						"description":"Chromium 43.0.2357.125 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"description":"Chromium 47.0.2526.111 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4746,10 +4746,10 @@
 						"profileID":"U14"
 					},
 					{
-						"description":"Chromium 43.0.2357.130 (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chromium 48.0.2564.82 (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"FreeBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4764,10 +4764,10 @@
 						"profileID":"U15"
 					},
 					{
-						"description":"Chromium 43.0.2357.130 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chromium 48.0.2564.82 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4782,10 +4782,10 @@
 						"profileID":"U16"
 					},
 					{
-						"description":"Chromium 43.0.2357.130 (OpenBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chromium 48.0.2564.82 (OpenBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"OpenBSD i386",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -4800,10 +4800,10 @@
 						"profileID":"U17"
 					},
 					{
-						"description":"Chromium 43.0.2357.130 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"description":"Chromium 48.0.2564.82 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36",
+						"appversion":"5.0 (X11; OpenBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
 						"platform":"OpenBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
