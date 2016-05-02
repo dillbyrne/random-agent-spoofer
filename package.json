@@ -7,7 +7,7 @@
 	"homepage":"https://github.com/dillbyrne/random-agent-spoofer",
 	"license": "GNU GPL v3",
 	"permissions": { "private-browsing": true },
-	"icon":{"48":"icon.png"},
+	"icon":{"48":"resource://jid1-AVgCeF1zoVzMjA-at-jetpack/data/images/icon.png"},
 	"version": "0.9.5.5",
 	"main":"lib/main.js",
 	"preferences": [
