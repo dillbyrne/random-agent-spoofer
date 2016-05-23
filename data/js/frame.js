@@ -16,14 +16,12 @@
 			// window is only equal to content for the top window. For susequent
 			// calls (e.g. iframe windows) the new generated window has to be 
 			// used.
-			//
 			
 			var window = ev.target.defaultView;
 			intercept({subject: window},sendSyncMessage("RAS-frameOptions")[0]);
 			
 		}
 	}
-
 
 	addEventListener("DOMWindowCreated", interceptWrapper);
 	addEventListener("unload", function(ev){
