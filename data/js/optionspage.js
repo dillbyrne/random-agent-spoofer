@@ -135,20 +135,11 @@ document.body.addEventListener('keyup', function(e) {
 			//sort the json data by url attribute
 			data = sortWhiteListObjByURL(data);
 
-			//copy the urls into another list for faster lookups
-			var sitelist = new Array();
-
-			for (var i = 0, len = data.length ; i < len ; i++) {
-
-				sitelist.push(data[i].url);
-			}
 
 			//save the lists
 			self.port.emit(
 				'whitelist',
-				'siteWhiteList',
-				JSON.stringify(data),
-				sitelist.toString()
+				JSON.stringify(data)
 			);
 		}
 	}
