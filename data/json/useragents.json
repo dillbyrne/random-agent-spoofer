@@ -1114,24 +1114,6 @@
 						"profileID":"W45"
 					},
 					{
-						"description":"Konqueror 4.10.2 (Win 7 - KDE native)",
-						"useragent":"Mozilla/5.0 (Windows; Windows i686) KHTML/4.10.2 (like Gecko) Konqueror/4.10",
-						"appname":"Netscape",
-						"appversion":"5.0 (Windows; Windows i686) KHTML/4.10.2 (like Gecko) Konqueror/4.10",
-						"platform":"Win32",
-						"vendor":"KDE",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,x-gzip,x-deflate",
-						"accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.9"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W46"
-					},
-					{
 						"description":"MSIE 10 - standard mode (Win 7)",
 						"useragent":"Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C)",
 						"appname":"Microsoft Internet Explorer",
@@ -4245,10 +4227,10 @@
 						"profileID":"L50"
 					},
 					{
-						"description":"Konqueror 4.14.2 (Linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.2 Safari/537.21",
+						"description":"Konqueror 4.14.3 (Linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.2 Safari/537.21",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
 						"platform":"Linux i686",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -4263,8 +4245,8 @@
 						"profileID":"L51"
 					},
 					{
-						"description":"Konqueror 4.14.2 (Linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.2 Safari/537.21",
+						"description":"Konqueror 4.14.3 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.2 Safari/537.21",
 						"platform":"Linux x86_64",
@@ -5010,10 +4992,10 @@
 						"profileID":"U24"
 					},
 					{
-						"description":"Konqueror 4.9.1 - khtml (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD) KHTML/4.9.1 (like Gecko) Konqueror/4.9",
+						"description":"Konqueror 4.14.3 - khtml (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD) KHTML/4.9.1 (like Gecko) Konqueror/4.9",
+						"appversion":"5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
 						"platform":"FreeBSD i386",
 						"vendor":"KDE",
 						"vendorsub":"",
