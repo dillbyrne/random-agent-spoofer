@@ -4800,8 +4800,8 @@
 						"profileID":"U18"
 					},
 					{
-						"description":"Firefox 44.0 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:44.0) Gecko/20100101 Firefox/44.0",
+						"description":"Firefox 48.0 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:48.0) Gecko/20100101 Firefox/48.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"FreeBSD amd64",
@@ -4832,8 +4832,8 @@
 						"profileID":"U19"
 					},
 					{
-						"description":"Firefox 44.0 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64; rv:44.0) Gecko/20100101 Firefox/44.0",
+						"description":"Firefox 48.0 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64; rv:48.0) Gecko/20100101 Firefox/48.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"OpenBSD amd64",
@@ -4864,8 +4864,8 @@
 						"profileID":"U20"
 					},
 					{
-						"description":"Firefox 44.0 (NetBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; NetBSD amd64; rv:44.0) Gecko/20100101 Firefox/44.0",
+						"description":"Firefox 48.0 (NetBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; NetBSD amd64; rv:48.0) Gecko/20100101 Firefox/48.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"NetBSD amd64",
@@ -4896,8 +4896,8 @@
 						"profileID":"U21"
 					},
 					{
-						"description":"Firefox 45.0 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:45.0) Gecko/20100101 Firefox/45.0",
+						"description":"Firefox 49.0 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:49.0) Gecko/20100101 Firefox/49.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"FreeBSD amd64",
@@ -4928,8 +4928,8 @@
 						"profileID":"U22"
 					},
 					{
-						"description":"Firefox 45.0 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64; rv:45.0) Gecko/20100101 Firefox/45.0",
+						"description":"Firefox 49.0 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64; rv:49.0) Gecko/20100101 Firefox/49.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"OpenBSD amd64",
@@ -4960,8 +4960,8 @@
 						"profileID":"U23"
 					},
 					{
-						"description":"Firefox 45.0 (NetBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; NetBSD amd64; rv:45.0) Gecko/20100101 Firefox/45.0",
+						"description":"Firefox 49.0 (NetBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; NetBSD amd64; rv:49.0) Gecko/20100101 Firefox/49.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"NetBSD amd64",
