@@ -6,10 +6,10 @@
 				"description":"Windows Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 46.0.2490.86 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -24,10 +24,10 @@
 						"profileID":"W1"
 					},
 					{
-						"description":"Chrome 46.0.2490.86 (Win 7 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 7 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -42,10 +42,10 @@
 						"profileID":"W2"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -60,10 +60,10 @@
 						"profileID":"W3"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -78,10 +78,10 @@
 						"profileID":"W4"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (Win 8 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 8 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -96,10 +96,10 @@
 						"profileID":"W5"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -114,10 +114,10 @@
 						"profileID":"W6"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -132,10 +132,10 @@
 						"profileID":"W7"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -150,10 +150,10 @@
 						"profileID":"W8"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (Win 7 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 7 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -168,10 +168,10 @@
 						"profileID":"W9"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -186,10 +186,10 @@
 						"profileID":"W10"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -204,10 +204,10 @@
 						"profileID":"W11"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (Win 8 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 8 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -222,10 +222,10 @@
 						"profileID":"W12"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -240,10 +240,10 @@
 						"profileID":"W13"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -258,10 +258,10 @@
 						"profileID":"W14"
 					},
 					{
-						"description":"Chrome 48.0.2564.82 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -276,10 +276,10 @@
 						"profileID":"W15"
 					},
 					{
-						"description":"Chrome 48.0.2564.82 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 7 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -294,10 +294,10 @@
 						"profileID":"W16"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -312,10 +312,10 @@
 						"profileID":"W17"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -330,10 +330,10 @@
 						"profileID":"W18"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 8 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -348,10 +348,10 @@
 						"profileID":"W19"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 8 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -366,10 +366,10 @@
 						"profileID":"W20"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (Win 8.1 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -382,78 +382,6 @@
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
 						"profileID":"W21"
-					},
-					{
-						"description":"Chrome 47.0.2526.111 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
-						"platform":"Win32",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W22"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"Win32",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W23"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (Win 8 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"Win32",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W24"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (Win 8.1 64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"Win32",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W25"
 					},
 					{
 						"description":"Firefox 45.0 ESR",
@@ -471,7 +399,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1000x600",
-						"profileID":"W85"
+						"profileID":"W22"
 					},
 					{
 						"description":"Firefox 47.0 (Win 7 32)",
@@ -503,7 +431,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W26"
+						"profileID":"W23"
 					},
 					{
 						"description":"Firefox 47.0 (Win 7 WOW64)",
@@ -535,7 +463,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W27"
+						"profileID":"W24"
 					},
 					{
 						"description":"Firefox 47.0 (Win 8 32)",
@@ -567,7 +495,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W28"
+						"profileID":"W25"
 					},
 					{
 						"description":"Firefox 47.0 (Win 8 WOW64)",
@@ -599,7 +527,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W29"
+						"profileID":"W26"
 					},
 					{
 						"description":"Firefox 47.0 (Win 8.1 WOW64)",
@@ -631,7 +559,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W30"
+						"profileID":"W27"
 					},
 					{
 						"description":"Firefox 48.0 (Win 7 32)",
@@ -663,7 +591,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W31"
+						"profileID":"W28"
 					},
 					{
 						"description":"Firefox 48.0 (Win 7 WOW64)",
@@ -695,7 +623,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W32"
+						"profileID":"W29"
 					},
 					{
 						"description":"Firefox 48.0 (Win 8 32)",
@@ -727,7 +655,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W33"
+						"profileID":"W30"
 					},
 					{
 						"description":"Firefox 48.0 (Win 8 WOW64)",
@@ -759,7 +687,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W34"
+						"profileID":"W31"
 					},
 					{
 						"description":"Firefox 48.0 (Win 8.1 WOW64)",
@@ -791,7 +719,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W35"
+						"profileID":"W32"
 					},
 					{
 						"description":"Firefox 49.0 (Win 7 32)",
@@ -823,7 +751,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W36"
+						"profileID":"W33"
 					},
 					{
 						"description":"Firefox 49.0 (Win 7 WOW64)",
@@ -855,7 +783,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W37"
+						"profileID":"W34"
 					},
 					{
 						"description":"Firefox 49.0 (Win 8 32)",
@@ -887,7 +815,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W38"
+						"profileID":"W35"
 					},
 					{
 						"description":"Firefox 49.0 (Win 8 WOW64)",
@@ -919,7 +847,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W39"
+						"profileID":"W36"
 					},
 					{
 						"description":"Firefox 49.0 (Win 8.1 WOW64)",
@@ -951,7 +879,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W40"
+						"profileID":"W37"
 					},
 					{
 						"description":"Firefox 50.0 (Win 7 32)",
@@ -983,7 +911,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W41"
+						"profileID":"W38"
 					},
 					{
 						"description":"Firefox 50.0 (Win 7 WOW64)",
@@ -1015,7 +943,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W42"
+						"profileID":"W39"
 					},
 					{
 						"description":"Firefox 50.0 (Win 8 32)",
@@ -1047,7 +975,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W43"
+						"profileID":"W40"
 					},
 					{
 						"description":"Firefox 50.0 (Win 8 WOW64)",
@@ -1079,7 +1007,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W44"
+						"profileID":"W41"
 					},
 					{
 						"description":"Firefox 50.0 (Win 8.1 WOW64)",
@@ -1111,7 +1039,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W45"
+						"profileID":"W42"
 					},
 					{
 						"description":"MSIE 10 - standard mode (Win 7)",
@@ -1129,7 +1057,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W47"
+						"profileID":"W43"
 					},
 					{
 						"description":"MSIE 10 - compat mode (Win 7)",
@@ -1147,7 +1075,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W48"
+						"profileID":"W44"
 					},
 					{
 						"description":"MSIE 10.6 - (Win 7)",
@@ -1165,7 +1093,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W49"
+						"profileID":"W45"
 					},
 					{
 						"description":"MSIE 11 - (Win 7)",
@@ -1183,7 +1111,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W50"
+						"profileID":"W46"
 					},
 					{
 						"description":"MSIE 11 - (Win 8.1 WOW64)",
@@ -1201,7 +1129,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W51"
+						"profileID":"W47"
 					},
 					{
 						"description":"Opera 30.0.1835.49 (Win 7 32)",
@@ -1219,7 +1147,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W52"
+						"profileID":"W48"
 					},
 					{
 						"description":"Opera 30.0.1835.49 (Win 7 WOW64)",
@@ -1237,7 +1165,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W53"
+						"profileID":"W49"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 7 32)",
@@ -1255,7 +1183,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W54"
+						"profileID":"W50"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 7 WOW64)",
@@ -1273,7 +1201,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W55"
+						"profileID":"W51"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (Win 7 32)",
@@ -1291,7 +1219,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W56"
+						"profileID":"W52"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (Win 7 WOW64)",
@@ -1309,7 +1237,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W57"
+						"profileID":"W53"
 					},
 					{
 						"description":"Opera 30.0.1835.49 (Win 8 32)",
@@ -1327,7 +1255,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W58"
+						"profileID":"W54"
 					},
 					{
 						"description":"Opera 30.0.1835.49 (Win 8 WOW64)",
@@ -1345,7 +1273,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W59"
+						"profileID":"W55"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8 32)",
@@ -1363,7 +1291,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W60"
+						"profileID":"W56"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8 WOW64)",
@@ -1381,7 +1309,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W61"
+						"profileID":"W57"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (Win 8 32)",
@@ -1399,7 +1327,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W62"
+						"profileID":"W58"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (Win 8 WOW64)",
@@ -1417,7 +1345,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W63"
+						"profileID":"W59"
 					},
 					{
 						"description":"Opera 30.0.1835.49 (Win 8.1 32)",
@@ -1435,7 +1363,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W64"
+						"profileID":"W60"
 					},
 					{
 						"description":"Opera 30.0.1835.49 (Win 8.1 WOW64)",
@@ -1453,7 +1381,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W65"
+						"profileID":"W61"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8.1 32)",
@@ -1471,7 +1399,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W66"
+						"profileID":"W62"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (Win 8.1 WOW64)",
@@ -1489,7 +1417,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W67"
+						"profileID":"W63"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (Win 8.1 32)",
@@ -1507,7 +1435,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W68"
+						"profileID":"W64"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (Win 8.1 WOW64)",
@@ -1525,7 +1453,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W69"
+						"profileID":"W65"
 					},
 					{
 						"description":"Palemoon 24.3.1 (Win 7 64)",
@@ -1557,7 +1485,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W70"
+						"profileID":"W66"
 					},
 					{
 						"description":"Palemoon 24.3.1 (Win 8 64)",
@@ -1589,7 +1517,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W71"
+						"profileID":"W67"
 					},
 					{
 						"description":"Palemoon 24.3.1 (Win 8.1 64)",
@@ -1621,7 +1549,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W72"
+						"profileID":"W68"
 					},
 					{
 						"description":"Palemoon 24.7.2 (Win 7 64)",
@@ -1653,7 +1581,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W73"
+						"profileID":"W69"
 					},
 					{
 						"description":"Palemoon 24.7.2 (Win 8 64)",
@@ -1685,7 +1613,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W74"
+						"profileID":"W70"
 					},
 					{
 						"description":"Palemoon 24.7.2 (Win 8.1 64)",
@@ -1717,7 +1645,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W75"
+						"profileID":"W71"
 					},
 					{
 						"description":"Palemoon 25.0.2 (Win 7 64)",
@@ -1749,7 +1677,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W76"
+						"profileID":"W72"
 					},
 					{
 						"description":"Palemoon 25.0.2 (Win 8 64)",
@@ -1781,7 +1709,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W77"
+						"profileID":"W73"
 					},
 					{
 						"description":"Palemoon 25.0.2 (Win 8.1 64)",
@@ -1813,7 +1741,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W78"
+						"profileID":"W74"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Win 7 32)",
@@ -1845,7 +1773,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W79"
+						"profileID":"W75"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Win 7 WOW64)",
@@ -1877,7 +1805,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W80"
+						"profileID":"W76"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Win 8 32)",
@@ -1909,7 +1837,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W81"
+						"profileID":"W77"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Win 8 WOW64)",
@@ -1941,7 +1869,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W82"
+						"profileID":"W78"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Win 8.1 32)",
@@ -1973,7 +1901,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W83"
+						"profileID":"W79"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Win 8.1 WOW64)",
@@ -2005,7 +1933,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W84"
+						"profileID":"W80"
 					}
 
 				]
