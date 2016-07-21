@@ -1834,8 +1834,8 @@
 						"profileID":"W78"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Win 7 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; rv:36.0) Gecko/20100101 Firefox/36.0 Seamonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Win 7 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win32",
@@ -1866,8 +1866,8 @@
 						"profileID":"W79"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Win 7 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0 Seamonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Win 7 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win32",
@@ -1898,8 +1898,8 @@
 						"profileID":"W80"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Win 8 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; rv:36.0) Gecko/20100101 Firefox/36.0 Seamonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Win 8 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win32",
@@ -1930,8 +1930,8 @@
 						"profileID":"W81"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Win 8 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0 Seamonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Win 8 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.2; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win32",
@@ -1962,8 +1962,8 @@
 						"profileID":"W82"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Win 8.1 32)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0 Seamonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Win 8.1 32)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win32",
@@ -1994,8 +1994,8 @@
 						"profileID":"W83"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Win 8.1 WOW64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0 Seamonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Win 8.1 WOW64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win32",
@@ -2968,8 +2968,8 @@
 						"profileID":"M45"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (OS X 10.9)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (OS X 10.9)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
@@ -3000,8 +3000,8 @@
 						"profileID":"M46"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (OS X 10.10)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (OS X 10.10)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
@@ -4425,8 +4425,8 @@
 						"profileID":"L60"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"Linux i686",
@@ -4457,8 +4457,8 @@
 						"profileID":"L61"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (Linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"Linux x86_64",
@@ -5028,8 +5028,8 @@
 						"profileID":"U25"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD i386; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD i386; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"FreeBSD i386",
@@ -5060,8 +5060,8 @@
 						"profileID":"U26"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (OpenBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD i386; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (OpenBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD i386; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"OpenBSD i386",
@@ -5092,8 +5092,8 @@
 						"profileID":"U27"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (FreeBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (FreeBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"FreeBSD amd64",
@@ -5124,8 +5124,8 @@
 						"profileID":"U28"
 					},
 					{
-						"description":"SeaMonkey 2.33.1 (OpenBSD 64)",
-						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1",
+						"description":"SeaMonkey 2.40 (OpenBSD 64)",
+						"useragent":"Mozilla/5.0 (X11; OpenBSD amd64; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"OpenBSD amd64",
