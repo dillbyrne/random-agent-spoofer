@@ -46,7 +46,7 @@ function setupTempEmail(data, node) {
 	} else if (data === 'mail_mailinator') {
 
 		node.value = mailbox_id + '@mailinator.com';
-		url = 'https://www.mailinator.com/inbox2.jsp?to=' + mailbox_id;
+		url = 'https://www.mailinator.com/inbox2.jsp?public_to=' + mailbox_id;
 	}
 
 	return [data, url];
