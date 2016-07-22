@@ -28,14 +28,6 @@ function setupTempEmail(data, node) {
 		node.value=mailbox_id + '@anonbox.net';
 		url = 'https://anonbox.net/abx.html?url=' + mailbox_id;
 
-	} else if (data === 'mail_kozmail') {
-
-		//pick a server randomly
-		var server = ((Math.round(Math.random() * 10) + 1) % 2 == 0) ? '@ee1.pl' : '@ee2.pl';
-
-		node.value = mailbox_id + server;
-		url = 'http://www.koszmail.pl/koszmail/mailBox.php?box=' + mailbox_id + '&mailBoxAt=' + server;
-
 	} else if (data === 'mail_dispostable') {
 
 		node.value = mailbox_id + '@dispostable.com';
