@@ -2284,38 +2284,6 @@
 						"profileID":"M19"
 					},
 					{
-						"description":"Firefox 47.0 (OS X 10.8)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:47.0) Gecko/20100101 Firefox/47.0",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh)",
-						"platform":"MacIntel",
-						"vendor":"",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.8",
-						"accept_encoding":"gzip, deflate",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-						"accept_lang":{
-							"da-DK":"da,en-US;q=0.7,en;q=0.3",
-							"de-DE":"de,en-US;q=0.7,en;q=0.3",
-							"en-US":"en-US,en;q=0.5",
-							"es-ES":"es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3",
-							"fr-FR":"fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
-							"it-IT":"it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3",
-							"ja":"ja,en-US;q=0.7,en;q=0.3",
-							"ko-KR":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
-							"pt-PT":"pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3",
-							"ru-RU":"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
-							"sv-SE":"sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3",
-							"sq-AL":"sq,sq-AL;q=0.8,en-us;q=0.5,en;q=0.3",
-							"zh-CN":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
-						},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M20"
-					},
-					{
 						"description":"Firefox 47.0 (OS X 10.9)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:47.0) Gecko/20100101 Firefox/47.0",
 						"appname":"Netscape",
@@ -2345,7 +2313,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M21"
+						"profileID":"M20"
 					},
 					{
 						"description":"Firefox 47.0 (OS X 10.10)",
@@ -2377,18 +2345,18 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M22"
+						"profileID":"M21"
 					},
 					{
-						"description":"Firefox 48.0 (OS X 10.9)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:48.0) Gecko/20100101 Firefox/48.0",
+						"description":"Firefox 47.0 (OS X 10.11)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
 						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.9",
+						"oscpu":"Intel Mac OS X 10.11",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
@@ -2409,7 +2377,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M23"
+						"profileID":"M22"
 					},
 					{
 						"description":"Firefox 48.0 (OS X 10.10)",
@@ -2441,18 +2409,18 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M24"
+						"profileID":"M23"
 					},
 					{
-						"description":"Firefox 49.0 (OS X 10.9)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:49.0) Gecko/20100101 Firefox/49.0",
+						"description":"Firefox 48.0 (OS X 10.11)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:48.0) Gecko/20100101 Firefox/48.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
 						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.9",
+						"oscpu":"Intel Mac OS X 10.11",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
@@ -2473,7 +2441,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M25"
+						"profileID":"M24"
 					},
 					{
 						"description":"Firefox 49.0 (OS X 10.10)",
@@ -2505,18 +2473,50 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M26"
+						"profileID":"M25"
 					},
 					{
-						"description":"Firefox 50.0 (OS X 10.9)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0",
+						"description":"Firefox 49.0 (OS X 10.11)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
 						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.9",
+						"oscpu":"Intel Mac OS X 10.11",
+						"accept_encoding":"gzip, deflate",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+						"accept_lang":{
+							"da-DK":"da,en-US;q=0.7,en;q=0.3",
+							"de-DE":"de,en-US;q=0.7,en;q=0.3",
+							"en-US":"en-US,en;q=0.5",
+							"es-ES":"es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3",
+							"fr-FR":"fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+							"it-IT":"it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3",
+							"ja":"ja,en-US;q=0.7,en;q=0.3",
+							"ko-KR":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+							"pt-PT":"pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3",
+							"ru-RU":"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sv-SE":"sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sq-AL":"sq,sq-AL;q=0.8,en-us;q=0.5,en;q=0.3",
+							"zh-CN":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+						},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
+						"profileID":"M26"
+					},
+					{
+						"description":"Firefox 50.0 (OS X 10.10)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0",
+						"appname":"Netscape",
+						"appversion":"5.0 (Macintosh)",
+						"platform":"MacIntel",
+						"vendor":"",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"Intel Mac OS X 10.10",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
@@ -2540,15 +2540,15 @@
 						"profileID":"M27"
 					},
 					{
-						"description":"Firefox 50.0 (OS X 10.10)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0",
+						"description":"Firefox 50.0 (OS X 10.11)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
 						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.10",
+						"oscpu":"Intel Mac OS X 10.11",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
@@ -2878,15 +2878,15 @@
 						"profileID":"M45"
 					},
 					{
-						"description":"SeaMonkey 2.40 (OS X 10.9)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
+						"description":"SeaMonkey 2.40 (OS X 10.10)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
 						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.9",
+						"oscpu":"Intel Mac OS X 10.10",
 						"accept_encoding":"gzip,deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
@@ -2910,15 +2910,15 @@
 						"profileID":"M46"
 					},
 					{
-						"description":"SeaMonkey 2.40 (OS X 10.10)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
+						"description":"SeaMonkey 2.40 (OS X 10.11)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0 SeaMonkey/2.40",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
 						"buildID":"",
-						"oscpu":"Intel Mac OS X 10.10",
+						"oscpu":"Intel Mac OS X 10.11",
 						"accept_encoding":"gzip,deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
