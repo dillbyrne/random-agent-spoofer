@@ -1942,10 +1942,10 @@
 				"description":"Mac Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 47.0.2526.73 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (OS X 10_10_4)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -1957,13 +1957,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M1"
+						"profileID":"M01"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (OS X 10_10_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -1975,13 +1975,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M2"
+						"profileID":"M02"
 					},
 					{
-						"description":"Chrome 47.0.2526.73 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (OS X 10_11_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -1993,13 +1993,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M3"
+						"profileID":"M03"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.75 (OS X 10_11_6)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.75 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2011,13 +2011,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M4"
+						"profileID":"M04"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (OS X 10_10_4)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2029,13 +2029,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M5"
+						"profileID":"M05"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (OS X 10_10_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2047,13 +2047,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M6"
+						"profileID":"M06"
 					},
 					{
-						"description":"Chrome 47.0.2526.80 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (OS X 10_11_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2065,13 +2065,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M7"
+						"profileID":"M07"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 52.0.2743.82 (OS X 10_11_6)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2083,13 +2083,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M8"
+						"profileID":"M08"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (OS X 10_10_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2101,13 +2101,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M9"
+						"profileID":"M09"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (OS X 10_11_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2122,10 +2122,10 @@
 						"profileID":"M10"
 					},
 					{
-						"description":"Chrome 47.0.2526.106 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"description":"Chrome 53.0.2785.21 (OS X 10_11_6)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2140,10 +2140,10 @@
 						"profileID":"M11"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 53.0.2785.34 (OS X 10_10_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2158,10 +2158,10 @@
 						"profileID":"M12"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 53.0.2785.34 (OS X 10_11_5)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2176,10 +2176,10 @@
 						"profileID":"M13"
 					},
 					{
-						"description":"Chrome 47.0.2526.111 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"description":"Chrome 53.0.2785.34 (OS X 10_11_6)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -2192,96 +2192,6 @@
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
 						"profileID":"M14"
-					},
-					{
-						"description":"Chrome 47.0.2526.111 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36",
-						"platform":"MacIntel",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M15"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (OS X 10_10_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"MacIntel",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M16"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (OS X 10_10_2)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"MacIntel",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M17"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (OS X 10_10_3)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"MacIntel",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M18"
-					},
-					{
-						"description":"Chrome 48.0.2564.82 (OS X 10_10_4)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36",
-						"platform":"MacIntel",
-						"vendor":"Google Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-US,en;q=0.8"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M19"
 					},
 					{
 						"description":"Firefox 47.0 (OS X 10.9)",
@@ -2313,7 +2223,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M20"
+						"profileID":"M15"
 					},
 					{
 						"description":"Firefox 47.0 (OS X 10.10)",
@@ -2345,7 +2255,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M21"
+						"profileID":"M16"
 					},
 					{
 						"description":"Firefox 47.0 (OS X 10.11)",
@@ -2377,7 +2287,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M22"
+						"profileID":"M17"
 					},
 					{
 						"description":"Firefox 48.0 (OS X 10.10)",
@@ -2409,7 +2319,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M23"
+						"profileID":"M18"
 					},
 					{
 						"description":"Firefox 48.0 (OS X 10.11)",
@@ -2441,7 +2351,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M24"
+						"profileID":"M19"
 					},
 					{
 						"description":"Firefox 49.0 (OS X 10.10)",
@@ -2473,7 +2383,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M25"
+						"profileID":"M20"
 					},
 					{
 						"description":"Firefox 49.0 (OS X 10.11)",
@@ -2505,7 +2415,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M26"
+						"profileID":"M21"
 					},
 					{
 						"description":"Firefox 50.0 (OS X 10.10)",
@@ -2537,7 +2447,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M27"
+						"profileID":"M22"
 					},
 					{
 						"description":"Firefox 50.0 (OS X 10.11)",
@@ -2569,7 +2479,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M28"
+						"profileID":"M23"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (OS X 10_10_0)",
@@ -2587,7 +2497,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M29"
+						"profileID":"M24"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (OS X 10_10_1)",
@@ -2605,7 +2515,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M30"
+						"profileID":"M25"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (OS X 10_10_2)",
@@ -2623,7 +2533,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M31"
+						"profileID":"M26"
 					},
 					{
 						"description":"Opera 30.0.1835.88 (OS X 10_10_3)",
@@ -2641,7 +2551,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M32"
+						"profileID":"M27"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (OS X 10_10_2)",
@@ -2659,7 +2569,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M33"
+						"profileID":"M28"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (OS X 10_10_3)",
@@ -2677,7 +2587,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M34"
+						"profileID":"M29"
 					},
 					{
 						"description":"Opera 31.0.1889.50 (OS X 10_10_4)",
@@ -2695,7 +2605,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M35"
+						"profileID":"M30"
 					},
 					{
 						"description":"Safari 8.0.3 (600.3.10 OS X 10_10_2)",
@@ -2713,7 +2623,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M36"
+						"profileID":"M31"
 					},
 					{
 						"description":"Safari 8.0.4 (600.4.10 OS X 10_10_3)",
@@ -2731,7 +2641,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M37"
+						"profileID":"M32"
 					},
 					{
 						"description":"Safari 8.0.5 (600.5.6 OS X 10_10_3)",
@@ -2749,7 +2659,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M38"
+						"profileID":"M33"
 					},
 					{
 						"description":"Safari 8.0.5 (600.5.17 OS X 10_10_3)",
@@ -2767,7 +2677,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M39"
+						"profileID":"M34"
 					},
 					{
 						"description":"Safari 8.0.6 (600.6.3 OS X 10_10_3)",
@@ -2785,7 +2695,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M40"
+						"profileID":"M35"
 					},
 					{
 						"description":"Safari 8.0.6 (600.6.3 OS X 10_10_4)",
@@ -2803,7 +2713,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M41"
+						"profileID":"M36"
 					},
 					{
 						"description":"Safari 8.0.7 (600.7.7 OS X 10_10_4)",
@@ -2821,7 +2731,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M42"
+						"profileID":"M37"
 					},
 					{
 						"description":"Safari 8.0.7 (600.7.10 OS X 10_10_4)",
@@ -2839,7 +2749,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M43"
+						"profileID":"M38"
 					},
 					{
 						"description":"Safari 8.0.7 (600.7.11 OS X 10_10_4)",
@@ -2857,7 +2767,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M44"
+						"profileID":"M39"
 					},
 					{
 						"description":"Safari 8.0.7 (600.7.12 OS X 10_10_4)",
@@ -2875,7 +2785,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M45"
+						"profileID":"M40"
 					},
 					{
 						"description":"SeaMonkey 2.40 (OS X 10.10)",
@@ -2907,7 +2817,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M46"
+						"profileID":"M41"
 					},
 					{
 						"description":"SeaMonkey 2.40 (OS X 10.11)",
@@ -2939,7 +2849,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1280x800,1366x768,1440x900,1920x1080,2560x1440,2560x1600,2880x1800",
-						"profileID":"M47"
+						"profileID":"M42"
 					}
 				]
 			},
