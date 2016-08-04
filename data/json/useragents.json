@@ -438,6 +438,24 @@
 						"profileID":"W24"
 					},
 					{
+						"description":"Edge 13.10586 (Win 10 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586",
+						"appname":"Netscape",
+						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586",
+						"platform":"Win32",
+						"vendor":"",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"",
+						"accept_encoding":"gzip,deflate",
+						"accept_default":"text/html,application/xhtml+xml,image/jxr,*/*",
+						"accept_lang":{"en-US":"en-US,en;q=0.8"},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"W25"
+					},
+					{
 						"description":"Firefox 45.0 ESR",
 						"useragent":"Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
 						"appname":"Netscape",
@@ -453,7 +471,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"1000x600",
-						"profileID":"W22"
+						"profileID":"W26"
 					},
 					{
 						"description":"Firefox 48.0 (Win 7 32)",
@@ -2026,7 +2044,40 @@
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
 						"profileID":"W80"
+					},
+					{
+						"description":"SeaMonkey 2.40 (Win 10 64)",
+						"useragent":"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0 Seamonkey/2.40",
+						"appname":"Netscape",
+						"appversion":"5.0 (Windows)",
+						"platform":"Win32",
+						"vendor":"",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"Windows NT 10.0; WOW64",
+						"accept_encoding":"gzip, deflate",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+						"accept_lang":{
+							"da-DK":"da,en-US;q=0.7,en;q=0.3",
+							"de-DE":"de,en-US;q=0.7,en;q=0.3",
+							"en-US":"en-US,en;q=0.5",
+							"es-ES":"es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3",
+							"fr-FR":"fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+							"it-IT":"it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3",
+							"ja":"ja,en-US;q=0.7,en;q=0.3",
+							"ko-KR":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+							"pt-PT":"pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3",
+							"ru-RU":"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sv-SE":"sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sq-AL":"sq,sq-AL;q=0.8,en-us;q=0.5,en;q=0.3",
+							"zh-CN":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+						},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"W80"
 					}
+
 
 				]
 			},
