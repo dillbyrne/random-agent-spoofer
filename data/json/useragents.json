@@ -3257,7 +3257,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L51"
+						"profileID":"L25"
 					},
 					{
 						"description":"Konqueror 4.14.3 (Linux 64)",
@@ -3275,43 +3275,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L52"
-					},
-					{
-						"description":"Midori 0.4 (Linux 32)",
-						"useragent":"Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-us) AppleWebKit/537+ (KHTML, like Gecko) Version/5.0 Safari/537.6+ Midori/0.4",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; U; Intel Mac OS X; en-us) AppleWebKit/537+ (KHTML, like Gecko) Version/5.0 Safari/537.6+ Midori/0.4",
-						"platform":"Linux i686",
-						"vendor":"Apple Computer, Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-us;q=1.0"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L53"
-					},
-					{
-						"description":"Midori 0.4 (Linux 64)",
-						"useragent":"Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-us) AppleWebKit/537+ (KHTML, like Gecko) Version/5.0 Safari/537.6+ Midori/0.4",
-						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; U; Intel Mac OS X; en-us) AppleWebKit/537+ (KHTML, like Gecko) Version/5.0 Safari/537.6+ Midori/0.4",
-						"platform":"Linux x86_64",
-						"vendor":"Apple Computer, Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-us;q=1.0"},
-						"pixeldepth":"24",
-						"colordepth":"24",
-						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L54"
+						"profileID":"L26"
 					},
 					{
 						"description":"Opera 39.0.2256.43 (Linux 64)",
@@ -3329,7 +3293,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L56"
+						"profileID":"L27"
 					},
 					{
 						"description":"Opera 40.0.2301.0 (Linux 64)",
@@ -3347,7 +3311,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L56"
+						"profileID":"L28"
 					},
 					{
 						"description":"Opera 40.0.2306.0 (Linux 64)",
@@ -3365,13 +3329,13 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L56"
+						"profileID":"L29"
 					},
 					{
-						"description":"QupZilla 1.6.6 (Linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.6 Safari/537.21",
+						"description":"QupZilla 1.9 (Linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.9.0 Safari/538.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.6 Safari/537.21",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.9.0 Safari/538.1",
 						"platform":"Linux i686",
 						"vendor":"Apple Computer, Inc",
 						"vendorsub":"",
@@ -3383,14 +3347,14 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L57"
+						"profileID":"L30"
 					},
 					{
-						"description":"QupZilla 1.6.6 (Linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.6 Safari/537.21",
+						"description":"QupZilla 1.9 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.9.0 Safari/538.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.6 Safari/537.21",
-						"platform":"Linux i686",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.9.0 Safari/538.1",
+						"platform":"Linux x86_64",
 						"vendor":"Apple Computer, Inc",
 						"vendorsub":"",
 						"buildID":"",
@@ -3401,7 +3365,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L58"
+						"profileID":"L31"
 					},
 					{
 						"description":"Rekonq 2.4.2 (Linux 32)",
@@ -3419,7 +3383,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L59"
+						"profileID":"L32"
 					},
 					{
 						"description":"Rekonq 2.4.2 (Linux 64)",
@@ -3437,7 +3401,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L60"
+						"profileID":"L33"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Linux 32)",
@@ -3469,7 +3433,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L61"
+						"profileID":"L34"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Linux 64)",
@@ -3501,7 +3465,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L62"
+						"profileID":"L35"
 					}
 				]
 			},
