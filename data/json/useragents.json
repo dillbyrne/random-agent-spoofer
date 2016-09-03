@@ -5123,10 +5123,10 @@
 						"profileID":"I8"
 					},
 					{
-						"description":"iOS 8_1 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"description":"iOS 9_2 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5141,10 +5141,10 @@
 						"profileID":"I9"
 					},
 					{
-						"description":"iOS 8_1_1 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4",
+						"description":"iOS 9_3 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5159,10 +5159,10 @@
 						"profileID":"I10"
 					},
 					{
-						"description":"iOS 8_1_2 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"description":"iOS 9_3_1 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5177,10 +5177,10 @@
 						"profileID":"I11"
 					},
 					{
-						"description":"iOS 8_1_3 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"description":"iOS 9_3_2 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5195,10 +5195,10 @@
 						"profileID":"I12"
 					},
 					{
-						"description":"iOS 8_2 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"description":"iOS 9_3_3 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5213,10 +5213,10 @@
 						"profileID":"I13"
 					},
 					{
-						"description":"iOS 8_3 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4",
+						"description":"iOS 9_3_4 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5231,10 +5231,10 @@
 						"profileID":"I14"
 					},
 					{
-						"description":"iOS 8_4 - iPhone 5 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
+						"description":"iOS 9_3_5 - iPhone 5 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5249,10 +5249,10 @@
 						"profileID":"I15"
 					},
 					{
-						"description":"iOS 8_1 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"description":"iOS 9_2 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5267,10 +5267,10 @@
 						"profileID":"I16"
 					},
 					{
-						"description":"iOS 8_1_1 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4",
+						"description":"iOS 9_3 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5285,10 +5285,10 @@
 						"profileID":"I17"
 					},
 					{
-						"description":"iOS 8_1_2 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"description":"iOS 9_3_1 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5303,10 +5303,10 @@
 						"profileID":"I18"
 					},
 					{
-						"description":"iOS 8_1_3 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"description":"iOS 9_3_2 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5321,10 +5321,10 @@
 						"profileID":"I19"
 					},
 					{
-						"description":"iOS 8_2 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"description":"iOS 9_3_3 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5339,10 +5339,10 @@
 						"profileID":"I20"
 					},
 					{
-						"description":"iOS 8_3 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4",
+						"description":"iOS 9_3_4 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5357,10 +5357,10 @@
 						"profileID":"I21"
 					},
 					{
-						"description":"iOS 8_4 - iPhone 6 - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
+						"description":"iOS 9_3_5 - iPhone 6 - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
+						"appversion":"5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"platform":"iPhone",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
