@@ -4979,10 +4979,10 @@
 				"description":"iOS Browsers",
 				"useragents":[
 					{
-						"description":"iOS 8_1 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"description":"iOS 9_2 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13BC75 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13BC75 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -4997,10 +4997,10 @@
 						"profileID":"I1"
 					},
 					{
-						"description":"iOS 8_1_1 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"description":"iOS 9_3 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5015,10 +5015,10 @@
 						"profileID":"I2"
 					},
 					{
-						"description":"iOS 8_1_1 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"description":"iOS 9_3_1 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5033,10 +5033,10 @@
 						"profileID":"I3"
 					},
 					{
-						"description":"iOS 8_1_2 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"description":"iOS 9_3_2 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5051,10 +5051,10 @@
 						"profileID":"I4"
 					},
 					{
-						"description":"iOS 8_1_3 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"description":"iOS 9_3_3 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5069,10 +5069,10 @@
 						"profileID":"I5"
 					},
 					{
-						"description":"iOS 8_2 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"description":"iOS 9_3_4 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5087,10 +5087,10 @@
 						"profileID":"I6"
 					},
 					{
-						"description":"iOS 8_3 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4",
+						"description":"iOS 9_3_5 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5103,24 +5103,6 @@
 						"colordepth":"32",
 						"screens":"768x1024,1024x768,2048x1536,1536x2048",
 						"profileID":"I7"
-					},
-					{
-						"description":"iOS 8_4 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
-						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
-						"platform":"iPad",
-						"vendor":"Apple Computer, Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-us"},
-						"pixeldepth":"32",
-						"colordepth":"32",
-						"screens":"768x1024,1024x768,2048x1536,1536x2048",
-						"profileID":"I8"
 					},
 					{
 						"description":"iOS 9_2 - iPhone 5 - Safari 9.0",
@@ -5138,7 +5120,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I9"
+						"profileID":"I8"
 					},
 					{
 						"description":"iOS 9_3 - iPhone 5 - Safari 9.0",
@@ -5156,7 +5138,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I10"
+						"profileID":"I9"
 					},
 					{
 						"description":"iOS 9_3_1 - iPhone 5 - Safari 9.0",
@@ -5174,7 +5156,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I11"
+						"profileID":"I10"
 					},
 					{
 						"description":"iOS 9_3_2 - iPhone 5 - Safari 9.0",
@@ -5192,7 +5174,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I12"
+						"profileID":"I11"
 					},
 					{
 						"description":"iOS 9_3_3 - iPhone 5 - Safari 9.0",
@@ -5210,7 +5192,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I13"
+						"profileID":"I12"
 					},
 					{
 						"description":"iOS 9_3_4 - iPhone 5 - Safari 9.0",
@@ -5228,7 +5210,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I14"
+						"profileID":"I13"
 					},
 					{
 						"description":"iOS 9_3_5 - iPhone 5 - Safari 9.0",
@@ -5246,7 +5228,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I15"
+						"profileID":"I14"
 					},
 					{
 						"description":"iOS 9_2 - iPhone 6 - Safari 9.0",
@@ -5264,7 +5246,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I16"
+						"profileID":"I15"
 					},
 					{
 						"description":"iOS 9_3 - iPhone 6 - Safari 9.0",
@@ -5282,7 +5264,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I17"
+						"profileID":"I16"
 					},
 					{
 						"description":"iOS 9_3_1 - iPhone 6 - Safari 9.0",
@@ -5300,7 +5282,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I18"
+						"profileID":"I17"
 					},
 					{
 						"description":"iOS 9_3_2 - iPhone 6 - Safari 9.0",
@@ -5318,7 +5300,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I19"
+						"profileID":"I18"
 					},
 					{
 						"description":"iOS 9_3_3 - iPhone 6 - Safari 9.0",
@@ -5336,7 +5318,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I20"
+						"profileID":"I19"
 					},
 					{
 						"description":"iOS 9_3_4 - iPhone 6 - Safari 9.0",
@@ -5354,7 +5336,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I21"
+						"profileID":"I20"
 					},
 					{
 						"description":"iOS 9_3_5 - iPhone 6 - Safari 9.0",
@@ -5372,7 +5354,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I22"
+						"profileID":"I21"
 					},
 					{
 						"description":"iOS 8_3 - iPhone 6 - Chrome 42.0.2311.47",
@@ -5390,7 +5372,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I23"
+						"profileID":"I22"
 					},
 					{
 						"description":"iOS 8_3 - iPhone 6 - Chrome 43.0.2357.61",
@@ -5408,7 +5390,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I24"
+						"profileID":"I23"
 					}
 				]
 			},
