@@ -28,6 +28,16 @@ function checkIfArrayIsUnique(arr) {
 	return true;
 }
 
+function getNonUniqueElements(arr){
+
+	var non_unique = arr.filter(function(elem, index, self) {
+		return index != self.indexOf(elem);
+	});
+
+	return non_unique;
+}
+
+
 function checkArrayForSubStrings(assert,i,j,k,str,strArr){
 
 	for (var i=0; i<strArr.length; i++){
@@ -92,10 +102,10 @@ exports["test 1: unique profile ids"] = function(assert){
 		}
 	}
 
-	if (checkIfArrayIsUnique(pids) === true)
+	if (getNonUniqueElements(pids).length == 0)
 		assert.pass("only unique profile ids exist");
 	else
-		assert.fail("non unique profile ids exist");
+		assert.fail("non unique profile ids exist : "+getNonUniqueElements(pids));
 
 }
 
@@ -373,13 +383,8 @@ exports["test 6: firefox browsers"] = function(assert){
 
 						//Language tests
 
-						if (profData[i].list[j].useragents[k].description.indexOf('ESR') > -1){
 
-							//tor browser profile for now incorrectly has a lower case accept lang attribute
-							matchSubProperty(assert,i,j,k,"accept_lang","en-US","en-us,en;q=0.5");
-
-						}else	//all other FF based profiles
-							checkLangs(i,j,k);
+						checkLangs(i,j,k);
 						
 						var strArr = ["Mozilla/5.0 (","rv:","Gecko/","Firefox/"];
 						checkArrayForSubStrings(assert,i,j,k,uaString,strArr);
