@@ -241,7 +241,7 @@ exports["test 5: chrome browsers"] = function(assert){
 						}else{ // All other versions Desktop and Android
 
 
-							matchProperty(assert,i,j,k,"accept_encoding","gzip,deflate,sdch");
+							matchProperty(assert,i,j,k,"accept_encoding","gzip, deflate, sdch");
 							matchProperty(assert,i,j,k,"accept_default","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
 							checkLangs(i,j,k);
 
