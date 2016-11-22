@@ -3274,10 +3274,10 @@
 						"profileID":"L26"
 					},
 					{
-						"description":"Konqueror 4.14.3 (Linux 32)",
-						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
+						"description":"Konqueror 4.14.16 (Linux 32)",
+						"useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.16 Safari/537.21",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
+						"appversion":"5.0 (X11; Linux i686) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.16 Safari/537.21",
 						"platform":"Linux i686",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -3292,10 +3292,10 @@
 						"profileID":"L27"
 					},
 					{
-						"description":"Konqueror 4.14.3 (Linux 64)",
-						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
+						"description":"Konqueror 4.14.16 (Linux 64)",
+						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.16 Safari/537.21",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.2 Safari/537.21",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.16 Safari/537.21",
 						"platform":"Linux x86_64",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -3769,10 +3769,10 @@
 						"profileID":"U10"
 					},
 					{
-						"description":"Konqueror 4.14.3 - khtml (FreeBSD 32)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
+						"description":"Konqueror 4.14.16 - khtml (FreeBSD 32)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.16 Safari/537.21",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.3 Safari/537.21",
+						"appversion":"5.0 (X11; FreeBSD) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.16 Safari/537.21",
 						"platform":"FreeBSD i386",
 						"vendor":"KDE",
 						"vendorsub":"",
