@@ -1,6 +1,6 @@
 "use strict";
 
-function rewriteUserAgentHeader(e) {
+function blockOrRewriteRequest(e) {
     // TODO use a global variable instead of using the storage
     browser.storage.local.get(['disallow_ping', 'disallow_beacon'], results => {
         const options = results || {
@@ -17,20 +17,23 @@ function rewriteUserAgentHeader(e) {
                 cancel: true
             }
         } else {
-            for (var header of e.requestHeaders) {
-                if (header.name == "User-Agent") {
-                    header.value = ua;
+            // TODO Might not work and return when the function is finished
+            browser.storage.local.get('uaChosen').then(ua => {
+                for (var header of e.requestHeaders) {
+                    if (header.name === "User-Agent") {
+                        header.value = ua;
+                    }
                 }
-            }
-            return {
-                requestHeaders: e.requestHeaders
-            }
+                return {
+                    requestHeaders: e.requestHeaders
+                }
+            });
         }
     });
 }
 
 browser.webRequest.onBeforeSendHeaders.addListener(
-    rewriteUserAgentHeader,
+    blockOrRewriteRequest,
     {urls: ['<all_urls>']},
     ["blocking", "requestHeaders"]
 )

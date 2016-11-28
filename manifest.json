@@ -8,7 +8,7 @@
     "icons": {
         "48": "data/images/icon.png"
     },
-    
+
     "background": {
         "scripts": ["background.js"]
     },

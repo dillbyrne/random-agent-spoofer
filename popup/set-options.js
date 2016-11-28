@@ -132,7 +132,7 @@
 
 // Set the state of the checkbox
 {
-    const uaChosen = browser.storage.local.get(['uaChosen']);
+    const uaChosen = browser.storage.local.get('uaChosen');
     const fonts = browser.preferences.get('browser.display.use_document_fonts', '');
 
     const checkbox_list = [
@@ -142,7 +142,7 @@
         ['link', browser.preferences.get('network.prefetch-next', ''), true],
         ['webrtc', browser.preferences.get('media.peerconnection.enabled', ''), true],
         ['browsing_downloads', browser.preferences.get('places.history.enabled', ''), true],
-		['whitelist_enabled', browser.storage.local.get(['whiteListDisabled']), true],
+		['whitelist_enabled', browser.storage.local.get('whiteListDisabled'), true],
         ['search_suggest', browser.preferences.get('browser.search.suggest.enabled', ''), true],
 		['dom_performance', browser.preferences.get('dom.enable_performance', ''), true],
 		['dom_resource_timing', browser.preferences.get('dom.enable_resource_timing', ''), true],
@@ -159,28 +159,28 @@
 		['safe_browsing_malware', browser.preferences.get('browser.safebrowsing.malware.enabled', ''), true],
 		['health_report_uploads', browser.preferences.get('datareporting.healthreport.uploadEnabled', ''), true],
 		['telemetry', browser.preferences.get('toolkit.telemetry.enabled', ''), true],
-        ['tab_history', browser.storage.local.get(['limitTab']), false],
-		['block_plugins', browser.storage.local.get(['blockPlugins']), false],
+        ['tab_history', browser.storage.local.get('limitTab'), false],
+		['block_plugins', browser.storage.local.get('blockPlugins'), false],
 		['geo', browser.preferences.get('geo.enabled', ''), false],
 		['dns', browser.preferences.get('network.dns.disablePrefetch', ''), false],
 		['dnt', browser.preferences.get('privacy.donottrackheader.enabled', ''), false],
-		['xff', browser.storage.local.get(['xff']), false],
-		['via', browser.storage.local.get(['via']), false],
-		['ifnone', browser.storage.local.get(['ifnone']), false],
-		['acceptd', browser.storage.local.get(['acceptDefault']), false],
-		['accepte', browser.storage.local.get(['acceptEncoding']), false],
-		['acceptl', browser.storage.local.get(['acceptLang']), false],
+		['xff', browser.storage.local.get('xff'), false],
+		['via', browser.storage.local.get('via'), false],
+		['ifnone', browser.storage.local.get('ifnone'), false],
+		['acceptd', browser.storage.local.get('acceptDefault'), false],
+		['accepte', browser.storage.local.get('acceptEncoding'), false],
+		['acceptl', browser.storage.local.get('acceptLang'), false],
 		['webgl', browser.preferences.get('webgl.disabled', ''), false],
-		['winname', browser.storage.local.get(['windowName']), false],
-		['canvas', browser.storage.local.get(['canvas']), false],
-		['auth', browser.storage.local.get(['authorization']), false],
+		['winname', browser.storage.local.get('windowName'), false],
+		['canvas', browser.storage.local.get('canvas'), false],
+		['auth', browser.storage.local.get('authorization'), false],
 		['pdfjs', browser.preferences.get('pdfjs.disabled', ''), false],
 		['clicktoplay', browser.preferences.get('plugins.click_to_play', ''), false],
 		['mixed_content_active', browser.preferences.get('security.mixed_content.block_active_content', ''), false],
 		['mixed_content_display', browser.preferences.get('security.mixed_content.block_display_content', ''), false],
-		['scriptinjection', browser.storage.local.get(['scriptInjection']), false],
+		['scriptinjection', browser.storage.local.get('scriptInjection'), false],
 		['tracking_protection', browser.preferences.get('privacy.trackingprotection.enabled', ''), false],
-		['ref', browser.storage.local.get(['disableRef']), false],
+		['ref', browser.storage.local.get('disableRef'), false],
 		['refss', browser.preferences.get('network.http.referer.spoofSource', ''), false],
 		['show_notifications', browser.preferences.get('extensions.jid1-AVgCeF1zoVzMjA@jetpack.show_notifications', ''), false],
 		['show_context_menu', browser.preferences.get('extensions.jid1-AVgCeF1zoVzMjA@jetpack.show_context_menu', ''), false]
