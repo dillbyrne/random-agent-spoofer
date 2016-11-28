@@ -1,6 +1,6 @@
 # Random Agent Spoofer ![RAS icon](https://github.com/dillbyrne/random-agent-spoofer/blob/master/data/images/icon.png "RAS icon")
 
-## For now if you want to try this WebExtension, you have to use Firefox Nightly or Developper Edition and load [the Preference API WebExtension Experiment](https://github.com/Mylainos/preferences-experiment) in about:debugging
+## For now if you want to try this WebExtension, you have to use Firefox Nightly or Developper Edition, load [the Preference API WebExtension Experiment](https://github.com/Mylainos/preferences-experiment) in about:debugging and then load this extension
 
 RAS is a privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Each browser profile has been tailored to match the actual values used by the target browser as much as possible, within the limits set by firefox.
 
