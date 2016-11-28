@@ -15,7 +15,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -33,7 +33,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -51,7 +51,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -69,7 +69,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -87,7 +87,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -105,7 +105,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -123,7 +123,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -141,7 +141,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -159,7 +159,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -177,7 +177,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -195,7 +195,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -213,7 +213,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -231,7 +231,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -249,7 +249,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -267,7 +267,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -285,7 +285,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -303,7 +303,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -321,7 +321,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -339,7 +339,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -357,7 +357,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -375,7 +375,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -393,7 +393,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -411,7 +411,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -429,7 +429,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -485,10 +485,24 @@
 						"oscpu":"Windows NT 6.1; Win32",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-us,en;q=0.5"},
+						"accept_lang":{
+							"da-DK":"da,en-US;q=0.7,en;q=0.3",
+							"de-DE":"de,en-US;q=0.7,en;q=0.3",
+							"en-US":"en-US,en;q=0.5",
+							"es-ES":"es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3",
+							"fr-FR":"fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+							"it-IT":"it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3",
+							"ja":"ja,en-US;q=0.7,en;q=0.3",
+							"ko-KR":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+							"pt-PT":"pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3",
+							"ru-RU":"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sv-SE":"sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sq-AL":"sq,sq-AL;q=0.8,en-us;q=0.5,en;q=0.3",
+							"zh-CN":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+						},
 						"pixeldepth":"24",
 						"colordepth":"24",
-						"screens":"1000x600",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
 						"profileID":"W27"
 					},
 					{
@@ -937,7 +951,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W40"
+						"profileID":"W41"
 					},
 					{
 						"description":"Firefox 50.0 (Win 8 32)",
@@ -969,7 +983,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W41"
+						"profileID":"W42"
 					},
 					{
 						"description":"Firefox 50.0 (Win 8 WOW64)",
@@ -1001,7 +1015,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W42"
+						"profileID":"W43"
 					},
 					{
 						"description":"Firefox 50.0 (Win 8.1 WOW64)",
@@ -1033,7 +1047,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W43"
+						"profileID":"W44"
 					},
 					{
 						"description":"Firefox 50.0 (Win 10 64)",
@@ -1065,7 +1079,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W44"
+						"profileID":"W45"
 					},
 					{
 						"description":"Firefox 51.0 (Win 7 32)",
@@ -1097,7 +1111,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W45"
+						"profileID":"W46"
 					},
 					{
 						"description":"Firefox 51.0 (Win 7 WOW64)",
@@ -1129,7 +1143,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W46"
+						"profileID":"W47"
 					},
 					{
 						"description":"Firefox 51.0 (Win 8 32)",
@@ -1161,7 +1175,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W47"
+						"profileID":"W48"
 					},
 					{
 						"description":"Firefox 51.0 (Win 8 WOW64)",
@@ -1193,7 +1207,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W48"
+						"profileID":"W49"
 					},
 					{
 						"description":"Firefox 51.0 (Win 8.1 WOW64)",
@@ -1225,7 +1239,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W49"
+						"profileID":"W50"
 					},
 					{
 						"description":"Firefox 51.0 (Win 10 64)",
@@ -1257,7 +1271,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W50"
+						"profileID":"W51"
 					},
 					{
 						"description":"Opera 38.0.2220.41 (Win 7 32)",
@@ -1275,7 +1289,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W51"
+						"profileID":"W52"
 					},
 					{
 						"description":"Opera 38.0.2220.41 (Win 7 WOW64)",
@@ -1293,7 +1307,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W52"
+						"profileID":"W53"
 					},
 					{
 						"description":"Opera 38.0.2220.41 (Win 8.1 32)",
@@ -1311,7 +1325,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W53"
+						"profileID":"W54"
 					},
 					{
 						"description":"Opera 38.0.2220.41 (Win 8.1 WOW64)",
@@ -1329,7 +1343,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W54"
+						"profileID":"W55"
 					},
 					{
 						"description":"Opera 38.0.2220.41 (Win 10 WOW64)",
@@ -1347,7 +1361,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W55"
+						"profileID":"W56"
 					},
 					{
 						"description":"Opera 39.0.2256.43 (Win 7 32)",
@@ -1365,7 +1379,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"W56"
+						"profileID":"W57"
 					},
 					{
 						"description":"Opera 39.0.2256.43 (Win 7 WOW64)",
@@ -1680,7 +1694,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1698,7 +1712,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1716,7 +1730,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1734,7 +1748,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1752,7 +1766,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1770,7 +1784,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1788,7 +1802,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1806,7 +1820,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1824,7 +1838,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1842,7 +1856,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1860,7 +1874,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1878,7 +1892,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1896,7 +1910,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -1914,7 +1928,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2508,7 +2522,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"Intel Mac OS X 10.10",
-						"accept_encoding":"gzip,deflate",
+						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
 							"da-DK":"da,en-US;q=0.7,en;q=0.3",
@@ -2540,7 +2554,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"Intel Mac OS X 10.11",
-						"accept_encoding":"gzip,deflate",
+						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{
 							"da-DK":"da,en-US;q=0.7,en;q=0.3",
@@ -2577,7 +2591,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2595,7 +2609,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2613,7 +2627,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2631,7 +2645,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2649,7 +2663,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2661,13 +2675,13 @@
 						"description":"Chromium 51.0.2704.79 (Ubuntu  64)",
 						"useragent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/45.0.2454.78 Chrome/45.0.2454.78 Safari/537.36",
+						"appversion":"5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36",
 						"platform":"Linux x86_64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -2685,7 +2699,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
+						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-us"},
 						"pixeldepth":"24",
@@ -2703,7 +2717,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
+						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-us"},
 						"pixeldepth":"24",
@@ -2721,7 +2735,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
+						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-us"},
 						"pixeldepth":"24",
@@ -2739,7 +2753,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
+						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-us"},
 						"pixeldepth":"24",
@@ -3225,7 +3239,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L23"
+						"profileID":"L25"
 					},
 					{
 						"description":"Firefox 51.0 (Linux 64 bit)",
@@ -3257,7 +3271,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L24"
+						"profileID":"L26"
 					},
 					{
 						"description":"Konqueror 4.14.3 (Linux 32)",
@@ -3269,13 +3283,13 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+						"accept_encoding":"gzip, deflate, x-gzip, x-deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.9"},
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L25"
+						"profileID":"L27"
 					},
 					{
 						"description":"Konqueror 4.14.3 (Linux 64)",
@@ -3287,13 +3301,13 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+						"accept_encoding":"gzip, deflate, x-gzip, x-deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.9"},
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L26"
+						"profileID":"L28"
 					},
 					{
 						"description":"Opera 39.0.2256.43 (Linux 64)",
@@ -3311,7 +3325,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L27"
+						"profileID":"L29"
 					},
 					{
 						"description":"Opera 40.0.2301.0 (Linux 64)",
@@ -3329,7 +3343,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L28"
+						"profileID":"L30"
 					},
 					{
 						"description":"Opera 40.0.2306.0 (Linux 64)",
@@ -3347,7 +3361,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L29"
+						"profileID":"L31"
 					},
 					{
 						"description":"QupZilla 1.9 (Linux 32)",
@@ -3365,7 +3379,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L30"
+						"profileID":"L32"
 					},
 					{
 						"description":"QupZilla 1.9 (Linux 64)",
@@ -3383,7 +3397,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L31"
+						"profileID":"L33"
 					},
 					{
 						"description":"Rekonq 2.4.2 (Linux 32)",
@@ -3401,7 +3415,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L32"
+						"profileID":"L34"
 					},
 					{
 						"description":"Rekonq 2.4.2 (Linux 64)",
@@ -3419,7 +3433,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L33"
+						"profileID":"L35"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Linux 32)",
@@ -3451,7 +3465,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L34"
+						"profileID":"L36"
 					},
 					{
 						"description":"SeaMonkey 2.40 (Linux 64)",
@@ -3483,7 +3497,7 @@
 						"pixeldepth":"24",
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
-						"profileID":"L35"
+						"profileID":"L37"
 					}
 				]
 			},
@@ -3500,7 +3514,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -3518,7 +3532,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -3536,7 +3550,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -3554,7 +3568,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"24",
@@ -3764,7 +3778,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,x-gzip,x-deflate",
+						"accept_encoding":"gzip, deflate, x-gzip, x-deflate",
 						"accept_default":"text/html,text/*;q=0.9,image/jpeg;q=0.9,image/png;q=0.9/image/*;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.9"},
 						"pixeldepth":"24",
@@ -4504,7 +4518,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application+xml;q=0.9,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US;q=0.8,en;q=0.6"},
 						"pixeldepth":"32",
@@ -4522,7 +4536,7 @@
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
-						"accept_encoding":"gzip,deflate,sdch",
+						"accept_encoding":"gzip, deflate, sdch",
 						"accept_default":"text/html,application/xhtml+xml,application+xml;q=0.9,image/webp,*/*;q=0.8",
 						"accept_lang":{"en-US":"en-US,en;q=0.8"},
 						"pixeldepth":"32",
@@ -4979,10 +4993,10 @@
 				"description":"iOS Browsers",
 				"useragents":[
 					{
-						"description":"iOS 8_1 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"description":"iOS 9_2 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13BC75 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13BC75 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -4997,10 +5011,10 @@
 						"profileID":"I1"
 					},
 					{
-						"description":"iOS 8_1_1 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"description":"iOS 9_3 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E233 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5015,10 +5029,10 @@
 						"profileID":"I2"
 					},
 					{
-						"description":"iOS 8_1_1 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"description":"iOS 9_3_1 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B436 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5033,10 +5047,10 @@
 						"profileID":"I3"
 					},
 					{
-						"description":"iOS 8_1_2 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"description":"iOS 9_3_2 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5051,10 +5065,10 @@
 						"profileID":"I4"
 					},
 					{
-						"description":"iOS 8_1_3 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"description":"iOS 9_3_3 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G34 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5069,10 +5083,10 @@
 						"profileID":"I5"
 					},
 					{
-						"description":"iOS 8_2 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"description":"iOS 9_3_4 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G35 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5087,10 +5101,10 @@
 						"profileID":"I6"
 					},
 					{
-						"description":"iOS 8_3 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4",
+						"description":"iOS 9_3_5 - iPad - Safari 9.0",
+						"useragent":"Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4",
+						"appversion":"5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
 						"platform":"iPad",
 						"vendor":"Apple Computer, Inc.",
 						"vendorsub":"",
@@ -5103,24 +5117,6 @@
 						"colordepth":"32",
 						"screens":"768x1024,1024x768,2048x1536,1536x2048",
 						"profileID":"I7"
-					},
-					{
-						"description":"iOS 8_4 - iPad - Safari 8.0",
-						"useragent":"Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
-						"appname":"Netscape",
-						"appversion":"5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4",
-						"platform":"iPad",
-						"vendor":"Apple Computer, Inc.",
-						"vendorsub":"",
-						"buildID":"",
-						"oscpu":"",
-						"accept_encoding":"gzip,deflate",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-						"accept_lang":{"en-US":"en-us"},
-						"pixeldepth":"32",
-						"colordepth":"32",
-						"screens":"768x1024,1024x768,2048x1536,1536x2048",
-						"profileID":"I8"
 					},
 					{
 						"description":"iOS 9_2 - iPhone 5 - Safari 9.0",
@@ -5138,7 +5134,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I9"
+						"profileID":"I8"
 					},
 					{
 						"description":"iOS 9_3 - iPhone 5 - Safari 9.0",
@@ -5156,7 +5152,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I10"
+						"profileID":"I9"
 					},
 					{
 						"description":"iOS 9_3_1 - iPhone 5 - Safari 9.0",
@@ -5174,7 +5170,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I11"
+						"profileID":"I10"
 					},
 					{
 						"description":"iOS 9_3_2 - iPhone 5 - Safari 9.0",
@@ -5192,7 +5188,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I12"
+						"profileID":"I11"
 					},
 					{
 						"description":"iOS 9_3_3 - iPhone 5 - Safari 9.0",
@@ -5210,7 +5206,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I13"
+						"profileID":"I12"
 					},
 					{
 						"description":"iOS 9_3_4 - iPhone 5 - Safari 9.0",
@@ -5228,7 +5224,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I14"
+						"profileID":"I13"
 					},
 					{
 						"description":"iOS 9_3_5 - iPhone 5 - Safari 9.0",
@@ -5246,7 +5242,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"320x568,568x320",
-						"profileID":"I15"
+						"profileID":"I14"
 					},
 					{
 						"description":"iOS 9_2 - iPhone 6 - Safari 9.0",
@@ -5264,7 +5260,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I16"
+						"profileID":"I15"
 					},
 					{
 						"description":"iOS 9_3 - iPhone 6 - Safari 9.0",
@@ -5282,7 +5278,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I17"
+						"profileID":"I16"
 					},
 					{
 						"description":"iOS 9_3_1 - iPhone 6 - Safari 9.0",
@@ -5300,7 +5296,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I18"
+						"profileID":"I17"
 					},
 					{
 						"description":"iOS 9_3_2 - iPhone 6 - Safari 9.0",
@@ -5318,7 +5314,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I19"
+						"profileID":"I18"
 					},
 					{
 						"description":"iOS 9_3_3 - iPhone 6 - Safari 9.0",
@@ -5336,7 +5332,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I20"
+						"profileID":"I19"
 					},
 					{
 						"description":"iOS 9_3_4 - iPhone 6 - Safari 9.0",
@@ -5354,7 +5350,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I21"
+						"profileID":"I20"
 					},
 					{
 						"description":"iOS 9_3_5 - iPhone 6 - Safari 9.0",
@@ -5372,7 +5368,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I22"
+						"profileID":"I21"
 					},
 					{
 						"description":"iOS 8_3 - iPhone 6 - Chrome 42.0.2311.47",
@@ -5390,7 +5386,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I23"
+						"profileID":"I22"
 					},
 					{
 						"description":"iOS 8_3 - iPhone 6 - Chrome 43.0.2357.61",
@@ -5408,7 +5404,7 @@
 						"pixeldepth":"32",
 						"colordepth":"32",
 						"screens":"375x667,667x375",
-						"profileID":"I24"
+						"profileID":"I23"
 					}
 				]
 			},

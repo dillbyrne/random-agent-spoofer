@@ -1,8 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" media="all" href="../css/style.css"/>
-	<script src="optionspage.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="style.css"/>
 </head>
 <body>
 
@@ -172,6 +171,24 @@
 <!-- "Extras" Tab -->
 
 <div id="extras_tab" class="hidden">
+
+	<h3 id="ui_options_title" class="trigger">User Interface Options</h3>
+
+	<div class="expandable">
+
+		<p>
+			<input type="checkbox" id="show_notifications" data-invertvalue="false" data-prefname="extensions.jid1-AVgCeF1zoVzMjA@jetpack.show_notifications" />
+			<label for="show_notifications">Display Profile Notifications</label>
+		</p>
+
+		<p>
+			<input type="checkbox" id="show_context_menu" data-invertvalue="false" data-prefname="extensions.jid1-AVgCeF1zoVzMjA@jetpack.show_context_menu" />
+			<label for="show_context_menu">Display Context Menu</label>
+		</p>
+
+	</div>
+
+
 	<h3 id="script_injection_title" class="trigger">Script Injection Options</h3>
 
 	<div class="expandable">
@@ -182,6 +199,7 @@
 
 		<p class="notice">Several options and features (e.g. whitelist) require script injection.</p>
 
+<!-- temporarily disabled while a fix is being sought
 		<p>
 			<label for="tzdd">Time zone spoofing (UTC):</label>
 			<select id="tzdd" class="dd" data-prefname="extensions.agentSpoof.tzOffset">
@@ -229,7 +247,7 @@
 				<option value="-14">+14:00</option>
 			</select>
 		</p>
-
+-->
 		<p>
 			<label for="screendd">Screen size spoofing :</label>
 			<select id="screendd" class="dd" data-prefname="extensions.agentSpoof.screenSize">
@@ -274,12 +292,13 @@
 			<input type="checkbox" id="tab_history" data-invertvalue="false" data-prefname="extensions.agentSpoof.limitTab" />
 			<label for="tab_history">Limit tab history to 2</label>
 		</p>
-		
+
 		<p>
 			<input type="checkbox" id="block_plugins" data-invertvalue="false" data-prefname="extensions.agentSpoof.blockPlugins" />
 			<label for="block_plugins">Block plugins</label>
 		</p>
 	</div>
+
 
 	<h3 id="standard_extras_title" class="trigger">Standard Options</h3>
 
@@ -361,6 +380,10 @@
 		</p>
 
 		<p>
+			<input type="checkbox" id="dom_user_timing" data-invertvalue="true" data-prefname="dom.enable_user_timing" />
+			<label for="dom_user_timing">Disable dom user timing</label>
+		</p>
+		<p>
 			<input type="checkbox" id="dom_battery" data-invertvalue="true" data-prefname="dom.battery.enabled" />
 			<label for="dom_battery">Disable battery api</label>
 		</p>
@@ -417,10 +440,11 @@
 
 	</div>
 
+
 	<h3 id="cookie_title" class="trigger">Cookie Options</h3>
 
 	<div class="expandable">
-	
+
 	<p>
 		<label for="cookiedd">Cookie Policy :</label>
 		<select id="cookiedd" class="idd" data-prefname="network.cookie.cookieBehavior">
@@ -579,6 +603,9 @@
 		<li><a href="https://github.com/dillbyrne/random-agent-spoofer/labels/enhancement" target="_blank">Suggest improvements</a></li>
 	</ul>
 </div> <!-- end "help" tab-->
+
+<script src="optionspage.js" type="text/javascript"></script>
+<script src="set-options.js" type="text/javascript"></script>
 
 </body>
 </html>

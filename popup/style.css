@@ -16,6 +16,8 @@ body {
 	font-size: 12.8px;
 	color: #000;
 	margin: 0;
+	width: 420px;
+	height: 480px;
 }
 body > div > *:first-child {
 	margin-top: 0;
@@ -85,7 +87,7 @@ input[type="radio"][id="default"]:checked + label {
 }
 
 .validInput {
-	border: solid 2px #cbe86b !important; 
+	border: solid 2px #cbe86b !important;
 	-moz-transition: .3s ease-in-out;
 }
 .invalidInput {
