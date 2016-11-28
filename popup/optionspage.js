@@ -8,10 +8,10 @@ browser.preferences.get("datareporting.sessions.current.startTime", "tralalala")
 
 document.addEventListener('change', function(e) {
     //get selected checkbox
-    if (e.target.type == 'checkbox' && e.target.className != 'excludecb') {
-        if (e.target.dataset.invertvalue == 'false') {
+    if (e.target.type === 'checkbox' && e.target.className !== 'excludecb') {
+        if (e.target.dataset.invertvalue === 'false') {
             browser.preferences.set(e.target.dataset.prefname, e.target.checked);
-        } else if (e.target.dataset.invertvalue == 'true') {
+        } else if (e.target.dataset.invertvalue === 'true') {
             browser.preferences.set(e.target.dataset.prefname, !e.target.checked);
         } else if (e.target.dataset.ffheader) {
             /*
@@ -34,7 +34,7 @@ document.addEventListener('change', function(e) {
             */
         }
 
-    } else if (e.target.className == 'excludecb') {
+    } else if (e.target.className === 'excludecb') {
         /*
         self.port.emit(
             'excludecb',
@@ -43,9 +43,9 @@ document.addEventListener('change', function(e) {
             e.target.checked
         );
         */
-    } else if (e.target.className == 'ipdropdown') { //show or hide the ip input boxes
+    } else if (e.target.className === 'ipdropdown') { //show or hide the ip input boxes
 
-        if (e.target[e.target.selectedIndex].value == 'custom') {
+        if (e.target[e.target.selectedIndex].value === 'custom') {
 
             document.getElementById(e.target.dataset.uipref).className = '';
             document.querySelector('#' + e.target.dataset.uipref + ' input').focus();
@@ -55,11 +55,11 @@ document.addEventListener('change', function(e) {
             document.getElementById(e.target.dataset.uipref).className = 'hidden';
         }
         browser.preferences.set(e.target.dataset.prefname, e.target[e.target.selectedIndex].value);
-    } else if (e.target.className == 'dd') {
+    } else if (e.target.className === 'dd') {
         browser.preferences.set(e.target.dataset.prefname, e.target[e.target.selectedIndex].value);
-    } else if (e.target.className == 'idd') {
+    } else if (e.target.className === 'idd') {
         browser.preferences.set(e.target.dataset.prefname, parseInt(e.target[e.target.selectedIndex].value));
-    } else if (e.target.id == 'timerdd' || e.target.name == 'ua') {
+    } else if (e.target.id === 'timerdd' || e.target.name === 'ua') {
 
         //get timer and selected ua option
         var timerdd = document.getElementById('timerdd');
@@ -76,25 +76,25 @@ document.addEventListener('change', function(e) {
 document.addEventListener('keyup', function(e) {
 
     //set the input validation class
-    if ((e.target.id).substr(3, 2) == 'ip') {
+    if ((e.target.id).substr(3, 2) === 'ip') {
 
         var input = document.getElementById(e.target.id);
         var result = validateIP(input.value);
 
-        if (result == false) {
+        if (result === false) {
             input.className = 'invalidInput';
         } else {
             input.className = 'validInput';
             browser.preferences.set(e.target.dataset.prefname, input.value);
         }
 
-    } else if (e.target.id == 'site_whitelist') {
+    } else if (e.target.id === 'site_whitelist') {
 
         var input = document.getElementById(e.target.id);
 
         var result = validateJSON(input.value);
 
-        if (result == false) {
+        if (result === false) {
 
             input.className = 'invalidInput';
 
@@ -124,7 +124,7 @@ document.addEventListener('keyup', function(e) {
 document.addEventListener('click', function(e) {
 
     //whitelist profile save button
-    if (e.target.id == 'wlprofsavebtn') {
+    if (e.target.id === 'wlprofsavebtn') {
 
         var prefs = [
             'useragent_input',
@@ -144,35 +144,35 @@ document.addEventListener('click', function(e) {
             browser.preferences.set(document.getElementById(prefs[i]).dataset.prefname, document.getElementById(prefs[i]).value);
         }
 
-    } else if (e.target.id == 'whitelist_rules_title') {
+    } else if (e.target.id === 'whitelist_rules_title') {
         document.getElementById('site_whitelist').focus();
     }
 
 }, false);
 
 document.addEventListener('focus', function(e) {
-    if (e.target.id != null) {
+    if (e.target.id !== null) {
 
         //set the input validation class
-        if ((e.target.id).substr(3, 2) == 'ip') {
+        if ((e.target.id).substr(3, 2) === 'ip') {
 
             var input = document.getElementById(e.target.id);
             var result = validateIP(input.value);
 
-            if (result == false)
+            if (result === false)
 
                 input.className = 'invalidInput';
 
             else
                 input.className = 'validInput';
 
-        } else if (e.target.id == 'site_whitelist') {
+        } else if (e.target.id === 'site_whitelist') {
 
             var input = document.getElementById(e.target.id);
 
             var result = validateJSON(input.value);
 
-            if (result == false)
+            if (result === false)
 
                 input.className = 'invalidInput';
 
@@ -184,13 +184,13 @@ document.addEventListener('focus', function(e) {
 }, true);
 
 document.addEventListener('blur', function(e) {
-    if (e.target.id != null) {
+    if (e.target.id !== null) {
         //remove the class for input validation
-        if ((e.target.id).substr(3, 2) == 'ip') {
+        if ((e.target.id).substr(3, 2) === 'ip') {
 
             document.getElementById(e.target.id).className = '';
 
-        } else if (e.target.id == 'site_whitelist') {
+        } else if (e.target.id === 'site_whitelist') {
 
             document.getElementById(e.target.id).className = '';
         }
@@ -199,14 +199,14 @@ document.addEventListener('blur', function(e) {
 
 function validateIP(ipaddress) {
 
-    if (ipaddress === null || ipaddress == '')
+    if (ipaddress === null || ipaddress === '')
 
         return false;
 
     var ip_segments = ipaddress.split('.');
 
     //check for 4 segments split on '.'
-    if (ip_segments.length != 4) {
+    if (ip_segments.length !== 4) {
 
         return false;
 
@@ -216,18 +216,18 @@ function validateIP(ipaddress) {
 
             //check if ip segment is a number and not a hex number or a space or an exponent
             if ((!isNaN(ip_segments[i])) &&
-                ip_segments[i].indexOf('x') == -1 &&
+                ip_segments[i].indexOf('x') === -1 &&
                 ip_segments[i].length > 0 &&
                 ip_segments[i].length <= 3 &&
-                ip_segments[i].indexOf(' ') == -1 &&
-                ip_segments[i].indexOf('e') == -1) {
+                ip_segments[i].indexOf(' ') === -1 &&
+                ip_segments[i].indexOf('e') === -1) {
 
                 //check the range of the segment is valid
                 if (ip_segments[i] >= 0 && ip_segments[i] <= 255) {
 
                     //check for 000 , 010 etc
-                    if ((ip_segments[i].substring(0, 1) == '0' && ip_segments[i] != 0) ||
-                        ip_segments[i] == '00' || ip_segments[i] == '000')
+                    if ((ip_segments[i].substring(0, 1) === '0' && ip_segments[i] !== 0) ||
+                        ip_segments[i] === '00' || ip_segments[i] === '000')
 
                         return false;
 
@@ -251,14 +251,14 @@ function validateJSON(jsonStringData) {
     try {
         var data = JSON.parse(jsonStringData);
 
-        if (data.length == 0)
+        if (data.length === 0)
 
             return false;
 
         //a url must be present for each entry
         for (i = 0, len = data.length; i < len; i++) {
 
-            if (data[i].url == '' || data[i].url === undefined)
+            if (data[i].url === '' || data[i].url === undefined)
 
                 return false;
         }
@@ -275,7 +275,7 @@ function sortWhiteListObjByURL(array) {
 
     var result = array.sort(function(a, b) {
 
-        if (a.url == b.url) return 0;
+        if (a.url === b.url) return 0;
         if (a.url < b.url) return -1;
         if (a.url > b.url) return 1;
     });

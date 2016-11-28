@@ -34,7 +34,7 @@
     xhr.open("POST", '../data/json/useragents.json', true);
 
     xhr.onreadystatechange = function() { //Call a function when the state changes.
-        if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 200) {
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 
             const data = JSON.parse(xhr.responseText);
             var profileList = document.getElementById('ualist');
@@ -252,7 +252,7 @@
         document.getElementById(elementid).value = value;
 
     	//set custom ipcheck inputs to show if custom is selected
-    	if (document.getElementById(elementid.slice(0, -2) + 'dd').value == 'custom') {
+    	if (document.getElementById(elementid.slice(0, -2) + 'dd').value === 'custom') {
     		document.getElementById('custom'+elementid.slice(0, -2)).className='';
     	}
     });
@@ -352,7 +352,7 @@ function changeElementsState(tagName, state) {
 function toggleTabsColor(ua_choice) {
     document.getElementById("default_label").classList.remove('disabledLabel');
 
-    if (ua_choice !== 'default') {
+    if (ua_choice !=== 'default') {
         document.body.classList.remove('disabled');
         document.body.classList.add('spoof');
     } else {
@@ -377,7 +377,7 @@ function toggleSectionHeaderColor(ua_choice) {
 }
 
 function toggleRandomOptions(ua_choice) {
-    if (ua_choice.substr(0, 6) == 'random') {
+    if (ua_choice.substr(0, 6) === 'random') {
         document.body.classList.add('random');
     } else {
         document.body.classList.remove('random');
