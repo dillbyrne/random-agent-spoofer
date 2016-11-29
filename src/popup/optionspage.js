@@ -204,7 +204,7 @@ document.addEventListener('click', (e) => {
 }, false);
 
 document.addEventListener('focus', (e) => {
-  if (e.target.id !== null) {
+  if (e.target.id !== null && e.target.id !== undefined) {
     // set the input validation class
     if ((e.target.id).substr(3, 2) === 'ip') {
       const input = document.getElementById(e.target.id);
@@ -230,7 +230,7 @@ document.addEventListener('focus', (e) => {
 }, true);
 
 document.addEventListener('blur', (e) => {
-  if (e.target.id !== null) {
+  if (e.target.id !== null && e.target.id !== undefined) {
     // remove the class for input validation
     if ((e.target.id).substr(3, 2) === 'ip') {
       document.getElementById(e.target.id).className = '';

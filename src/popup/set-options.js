@@ -4,21 +4,21 @@
 const nav = document.getElementById('nav').children;
 
 [...nav].forEach((navEl) => {
-  navEl.addEventListener('click', () => {
+  navEl.addEventListener('click', (e) => {
     [...nav].forEach((el) => {
       el.classList.remove('selected');
     });
+
+    e.currentTarget.classList.add('selected');
+
+    const tabs = document.querySelectorAll('body > div');
+
+    [...tabs].forEach((tab) => {
+      tab.classList.add('hidden');
+    });
+
+    document.getElementById(`${e.currentTarget.id}_tab`).classList.remove('hidden');
   });
-
-  this.classList.add('selected');
-
-  const tabs = document.querySelectorAll('body > div');
-
-  [...tabs].forEach.call((tab) => {
-    tab.classList.add('hidden');
-  });
-
-  document.getElementById(`${this.id}_tab`).classList.remove('hidden');
 });
 
 
@@ -42,8 +42,8 @@ xhr.onreadystatechange = () => { // Call a function when the state changes.
         sectionHeader.classList.add('trigger');
         sectionHeader.textContent = data[k].list[i].description;
 
-        sectionHeader.addEventListener('click', () => {
-          this.classList.toggle('open');
+        sectionHeader.addEventListener('click', (e) => {
+          e.currentTarget.classList.toggle('open');
         });
 
         profileList.appendChild(sectionHeader);
@@ -99,7 +99,7 @@ xhr.onreadystatechange = () => { // Call a function when the state changes.
           regularEl.appendChild(regularRadio);
 
           const regularLabel = document.createElement('label');
-          regularLabel.setAttribute(`for${k},${i},${j}`);
+          regularLabel.setAttribute('for', `${k},${i},${j}`);
           regularLabel.textContent = ` ${data[k].list[i].useragents[j].description}`;
 
           regularEl.appendChild(regularLabel);
@@ -321,7 +321,7 @@ function toggleTabsColor(uaChoice) {
 function toggleSectionHeaderColor(uaChoice) {
   const sectionHeaders = document.querySelectorAll('#ualist h3');
 
-  [].forEach.call(sectionHeaders, (header) => {
+  [...sectionHeaders].forEach((header) => {
     header.classList.remove('active');
   });
 
@@ -355,8 +355,8 @@ browser.storage.local.get('uaChosen').then((uaChoice) => {
 
 const triggers = document.querySelectorAll('.trigger');
 
-[].forEach.call(triggers, (trigger) => {
-  trigger.addEventListener('click', () => {
-    this.classList.toggle('open');
+[...triggers].forEach((trigger) => {
+  trigger.addEventListener('click', (e) => {
+    e.currentTarget.classList.toggle('open');
   });
 });
