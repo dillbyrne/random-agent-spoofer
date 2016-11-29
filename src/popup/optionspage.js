@@ -1,5 +1,3 @@
-'use strict';
-
 function validateJSON(jsonStringData) {
   try {
     const data = JSON.parse(jsonStringData);

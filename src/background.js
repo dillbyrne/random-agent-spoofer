@@ -1,5 +1,3 @@
-'use strict';
-
 function blockOrRewriteRequest(e) {
   // TODO Might not work : the promise return when the function is finished
   // TODO use a global variable instead of using the storage

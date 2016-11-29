@@ -1,5 +1,3 @@
-'use strict';
-
 // Navigation in tab in the browser action
 const nav = document.getElementById('nav').children;
 

@@ -1,5 +1,3 @@
-'use strict';
-
 browser.storage.local.get(['showContextMenu', 'showNotifications', 'enableRas'], (prefs) => {
   const showContextMenu = document.getElementById('showContextMenu');
   const showNotifications = document.getElementById('showNotifications');
