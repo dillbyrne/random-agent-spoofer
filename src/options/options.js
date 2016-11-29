@@ -9,19 +9,19 @@ browser.storage.local.get(['showContextMenu', 'showNotifications', 'enableRas'],
   showNotifications.checked = prefs.showNotifications;
   enableRas.checked = prefs.enableRas;
 
-  showContextMenu.addEventListener('input', (e) => {
+  showContextMenu.addEventListener('input', () => {
     browser.storage.local.set({
       showContextMenu: showContextMenu.checked,
     });
   }, true);
 
-  showNotifications.addEventListener('input', (e) => {
+  showNotifications.addEventListener('input', () => {
     browser.storage.local.set({
       showNotifications: showNotifications.checked,
     });
   }, true);
 
-  enableRas.addEventListener('input', (e) => {
+  enableRas.addEventListener('input', () => {
     browser.storage.local.set({
       enableRas: enableRas.checked,
     });

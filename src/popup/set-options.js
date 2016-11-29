@@ -3,22 +3,22 @@
 // Navigation in tab in the browser action
 const nav = document.getElementById('nav').children;
 
-[].forEach.call(nav, (navEl) => {
+[...nav].forEach((navEl) => {
   navEl.addEventListener('click', () => {
-    [].forEach.call(nav, (navEl) => {
-      navEl.classList.remove('selected');
+    [...nav].forEach((el) => {
+      el.classList.remove('selected');
     });
-
-    this.classList.add('selected');
-
-    const tabs = document.querySelectorAll('body > div');
-
-    [].forEach.call(tabs, (tab) => {
-      tab.classList.add('hidden');
-    });
-
-    document.getElementById(`${this.id}_tab`).classList.remove('hidden');
   });
+
+  this.classList.add('selected');
+
+  const tabs = document.querySelectorAll('body > div');
+
+  [...tabs].forEach.call((tab) => {
+    tab.classList.add('hidden');
+  });
+
+  document.getElementById(`${this.id}_tab`).classList.remove('hidden');
 });
 
 
@@ -30,6 +30,8 @@ xhr.open('POST', '../data/json/useragents.json', true);
 xhr.onreadystatechange = () => { // Call a function when the state changes.
   if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
     const data = JSON.parse(xhr.responseText);
+
+    // TODO change the DOM once, create an element and append it at the end of the function
     const profileList = document.getElementById('ualist');
 
     for (let k = 0, len = data.length; k < len; k += 1) {
@@ -88,19 +90,19 @@ xhr.onreadystatechange = () => { // Call a function when the state changes.
 
           // regular element components
 
-          const radio = document.createElement('input');
-          radio.setAttribute('name', 'ua');
-          radio.setAttribute('type', 'radio');
-          radio.setAttribute('id', `${k},${i},${j}`);
-          radio.setAttribute('value', `${k},${i},${j}`);
+          const regularRadio = document.createElement('input');
+          regularRadio.setAttribute('name', 'ua');
+          regularRadio.setAttribute('type', 'radio');
+          regularRadio.setAttribute('id', `${k},${i},${j}`);
+          regularRadio.setAttribute('value', `${k},${i},${j}`);
 
-          regularEl.appendChild(radio);
+          regularEl.appendChild(regularRadio);
 
-          const label = document.createElement('label');
-          label.setAttribute(`for${k},${i},${j}`);
-          label.textContent = ` ${data[k].list[i].useragents[j].description}`;
+          const regularLabel = document.createElement('label');
+          regularLabel.setAttribute(`for${k},${i},${j}`);
+          regularLabel.textContent = ` ${data[k].list[i].useragents[j].description}`;
 
-          regularEl.appendChild(label);
+          regularEl.appendChild(regularLabel);
 
           const excludeBox = document.createElement('input');
           excludeBox.setAttribute('type', 'checkbox');

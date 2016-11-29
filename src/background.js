@@ -1,6 +1,7 @@
 'use strict';
 
 function blockOrRewriteRequest(e) {
+  // TODO Might not work : the promise return when the function is finished
   // TODO use a global variable instead of using the storage
   browser.storage.local.get(['disallow_ping', 'disallow_beacon'], (results) => {
     const options = results || {
@@ -17,7 +18,6 @@ function blockOrRewriteRequest(e) {
         cancel: true,
       };
     }
-    // TODO Might not work and return when the function is finished
     browser.storage.local.get('uaChosen').then((ua) => {
       for (const header of e.requestHeaders) {
         if (header.name === 'User-Agent') {

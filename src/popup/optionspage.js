@@ -1,5 +1,24 @@
 'use strict';
 
+function validateJSON(jsonStringData) {
+  try {
+    const data = JSON.parse(jsonStringData);
+
+    if (data.length === 0) {
+      return false;
+    }
+    // a url must be present for each entry
+    for (let i = 0, len = data.length; i < len; i += 1) {
+      if (data[i].url === '' || data[i].url === undefined) {
+        return false;
+      }
+    }
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
 document.addEventListener('change', (e) => {
   // get selected checkbox
   if (e.target.type === 'checkbox' && e.target.className !== 'excludecb') {
@@ -48,18 +67,74 @@ document.addEventListener('change', (e) => {
     browser.preferences.set(e.target.dataset.prefname, e.target[e.target.selectedIndex].value);
   } else if (e.target.className === 'idd') {
     browser.preferences.set(e.target.dataset.prefname,
-        parseInt(e.target[e.target.selectedIndex].value, 10));
+      parseInt(e.target[e.target.selectedIndex].value, 10));
   } else if (e.target.id === 'timerdd' || e.target.name === 'ua') {
     // get timer and selected ua option
     const timerdd = document.getElementById('timerdd');
-    const uaList = document.getElementsByName('ua');
+    // const uaList = document.getElementsByName('ua');
     const time = timerdd[timerdd.selectedIndex].value;
 
     // get selected profile
     const uaChoice = document.querySelector('input[name="ua"]:checked').value;
-    // self.port.emit('uachange', uaChoice, time);
+    browser.storage.local.set({
+      timeInterval: time,
+      uaChosen: uaChoice,
+    });
   }
 }, false);
+
+
+function validateIP(ipAddress) {
+  if (ipAddress === null || ipAddress === '') {
+    return false;
+  }
+
+  const ipSegments = ipAddress.split('.');
+
+  // check for 4 segments split on '.'
+  if (ipSegments.length !== 4) {
+    return false;
+  }
+
+  for (let i = 0; i < 4; i += 1) {
+    // check if ip segment is a number and not a hex number or a space or an exponent
+    if ((!isNaN(ipSegments[i])) &&
+      ipSegments[i].indexOf('x') === -1 &&
+      ipSegments[i].length > 0 &&
+      ipSegments[i].length <= 3 &&
+      ipSegments[i].indexOf(' ') === -1 &&
+      ipSegments[i].indexOf('e') === -1) {
+      // check the range of the segment is valid
+      if (ipSegments[i] >= 0 && ipSegments[i] <= 255) {
+        // check for 000 , 010 etc
+        if ((ipSegments[i].substring(0, 1) === '0' && ipSegments[i] !== 0) ||
+          ipSegments[i] === '00' || ipSegments[i] === '000') {
+          return false;
+        }
+      } else {
+        return false;
+      }
+    } else {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function sortWhiteListObjByURL(array) {
+  const result = array.sort((a, b) => {
+    if (a.url === b.url) {
+      return 0;
+    } else if (a.url < b.url) {
+      return -1;
+    }
+    // else
+    return 1;
+  });
+
+  return result;
+}
 
 document.addEventListener('keyup', (e) => {
   // set the input validation class
@@ -86,14 +161,17 @@ document.addEventListener('keyup', (e) => {
 
       // sort the json data by url attribute
       data = sortWhiteListObjByURL(data);
+      const fullWhiteList = JSON.stringify(data);
 
       // save the lists
-      /*
-      self.port.emit(
-          'whitelist',
-          JSON.stringify(data)
-      );
-      */
+
+      // full whitelist object containing per site configs
+      browser.storage.local.set({
+        fullWhiteList,
+      });
+
+      // put fullwhitelist in memory to save time when checking for whitelist lookups
+      // Ras.setFullWhiteList(fullWhiteList);
     }
   }
 }, false);
@@ -161,70 +239,3 @@ document.addEventListener('blur', (e) => {
     }
   }
 }, true);
-
-function validateIP(ipAddress) {
-  if (ipAddress === null || ipAddress === '') {
-    return false;
-  }
-
-  const ipSegments = ipAddress.split('.');
-
-  // check for 4 segments split on '.'
-  if (ipSegments.length !== 4) {
-    return false;
-  }
-
-  for (let i = 0; i < 4; i += 1) {
-    // check if ip segment is a number and not a hex number or a space or an exponent
-    if ((!isNaN(ipSegments[i])) &&
-      ipSegments[i].indexOf('x') === -1 &&
-      ipSegments[i].length > 0 &&
-      ipSegments[i].length <= 3 &&
-      ipSegments[i].indexOf(' ') === -1 &&
-      ipSegments[i].indexOf('e') === -1) {
-      // check the range of the segment is valid
-      if (ipSegments[i] >= 0 && ipSegments[i] <= 255) {
-        // check for 000 , 010 etc
-        if ((ipSegments[i].substring(0, 1) === '0' && ipSegments[i] !== 0) ||
-          ipSegments[i] === '00' || ipSegments[i] === '000') {
-          return false;
-        }
-      } else {
-        return false;
-      }
-    } else {
-      return false;
-    }
-  }
-
-  return true;
-}
-
-function validateJSON(jsonStringData) {
-  try {
-    const data = JSON.parse(jsonStringData);
-
-    if (data.length === 0) {
-      return false;
-    }
-    // a url must be present for each entry
-    for (let i = 0, len = data.length; i < len; i += 1) {
-      if (data[i].url === '' || data[i].url === undefined) {
-        return false;
-      }
-    }
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
-
-function sortWhiteListObjByURL(array) {
-  const result = array.sort((a, b) => {
-    if (a.url === b.url) return 0;
-    if (a.url < b.url) return -1;
-    if (a.url > b.url) return 1;
-  });
-
-  return result;
-}
