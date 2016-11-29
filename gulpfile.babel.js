@@ -7,6 +7,7 @@ import { exec } from 'child_process';
 import eslint from 'gulp-eslint';
 
 const paths = {
+  src: 'src',
   allSrcJs: 'src/**/*.js',
   gulpFile: 'gulpfile.js',
   buildDir: 'build',
@@ -14,20 +15,27 @@ const paths = {
 
 gulp.task('clean', () => del(paths.buildDir));
 
-gulp.task('lint', () =>
+gulp.task('web-ext lint', (callback) => {
+  exec(`web-ext lint -s ${paths.src}`, (error, stdout) => {
+    console.log(stdout);
+    return callback(error);
+  });
+});
+
+gulp.task('lint', ['web-ext lint'], () =>
   gulp.src([
     paths.allSrcJs,
     paths.gulpFile,
   ])
-    .pipe(eslint())
-    .pipe(eslint.format())
-    .pipe(eslint.failAfterError())
+  .pipe(eslint())
+  .pipe(eslint.format())
+  .pipe(eslint.failAfterError())
 );
 
 gulp.task('build', ['lint', 'clean'], () =>
   gulp.src(paths.allSrcJs)
-    .pipe(babel())
-    .pipe(gulp.dest(paths.buildDir))
+  .pipe(babel())
+  .pipe(gulp.dest(paths.buildDir))
 );
 
 gulp.task('main', ['build'], (callback) => {

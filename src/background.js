@@ -31,8 +31,9 @@ function blockOrRewriteRequest(e) {
   });
 }
 
+/* eslint-disable comma-dangle */ // Because of a conflit between eslint and web-ext lint
 browser.webRequest.onBeforeSendHeaders.addListener(
   blockOrRewriteRequest, {
     urls: ['<all_urls>'],
-  }, ['blocking', 'requestHeaders'],
+  }, ['blocking', 'requestHeaders']
 );
