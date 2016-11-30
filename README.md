@@ -1,86 +1,36 @@
 # Random Agent Spoofer ![RAS icon](https://github.com/dillbyrne/random-agent-spoofer/blob/master/data/images/icon.png "RAS icon")
 
-RAS is a privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Each browser profile has been tailored to match the actual values used by the target browser as much as possible, within the limits set by firefox.
+Work In Progress
 
-It also supports other privacy enhancing options.
+## Trying
 
-This document was last updated for 0.9.5.2 release.
+You need Firefox Nightly or Developper Edition. You can grab them [here](https://www.mozilla.org/en-US/firefox/channel/desktop/#firefox).
 
-![Ras Profile Tab 0.9.5.2](https://cloud.githubusercontent.com/assets/2903711/7324733/e0aa7140-eab0-11e4-889d-d1ceb7da9a0f.png "Ras Profile Tab 0.9.5.2")
+Download [the Preference API WebExtension Experiment](https://github.com/Mylainos/preferences-experiment) and extract it on your disk.
 
-## Features
+Then with Firefox (Nightly or Developper Edition) go to `about:debugging`, click on `Load Temporary Addon` and choose the path to the extracted folder.
 
-### Profile
+Repeat the step 2 and 3 for this repo.
 
-- Allows the user to choose a specific browser profile or one at random (from all available profiles, desktop, mobile or by OS family).
-- Allows the user to specify the interval at which the random profiles are chosen. Interval can also be random (1-60 minutes), a specific time period or per session if the timer is not set.
-- Allows the user to exclude profiles from random selection.
-- Persistently remembers the users choice of profile and time interval if set.
-- Profile notifications can be toggled in the addons preferences (see about:addons).
-- Allows vendor spoofing that was removed in firefox 24.
-- Sets other privacy attributes such as buildid, oscpu and platform.
-- It has a left click menu of expandable lists to allow users to quickly choose specific profiles and options.
-- It has a large list of profiles ( 321 at this time).
+## Contributing
 
-### Headers
+Pull requests are welcome. Feel free to ask for help or advice if you are unsure about something.
 
-- Options to send spoofed headers including via and x-forwarded-for headers with a random or custom ip.
-- Option to send spoofed if-none-match headers.
-- Option to disable sending of authorization headers.
-- Option to send do not track headers.
-- Option to block or allow referer headers (there is an issue open to build upon this).
-- Options to send spoofed accept headers that are tailored to the currently selected profile. (there is an issue open to add more options for the language header).
+## Developing
 
-### Options
+This project use the gulp task manager and plugins so you need to install `node`.
 
-- Option to toggle RAS script injection (it is required for certain options and for the whitelist).
-- Option to spoof the date and time strings to a random one or a specific one. (An issue is open to improve this).
-- Option to spoof screen and window sizes to a specific size or random or a random tailored size defined in the profile.
-- Option to protect window.name.
-- Option to disable canvas support.
-- Option to limit tab history to 2.
-- Option to use document fonts.
-- Option to disable local dom storage.
-- Option to disable browsing and download history.
-- Option to disable memory cache.
-- Option to disable disk cache.
-- Option to disable network cache (forced by default to fix issue #121 looking for a work around).
-- Option to disable geolocation.
-- Option to disable link prefetching.
-- Option to disable dns prefetching.
-- Option to disable webgl.
-- Option to disable webrtc.
-- Option to disable pdfjs.
-- Option to disable search suggestions.
-- Option to disable navigation timing.
-- Option to disable battery api.
-- Option to disable gamepad api.
-- Option to use click to play for plugins.
-- Option to block active mixed content.
-- Option to block display mixed content.
-- Option to disable browser pings.
-- Option to disable clipboard events.
-- Option to disable context menu events.
-- Option to enable tracking protection (which uses disconnect's blocklist).
-- Option to disable plugin name enumeration.
-- Option to disable css visited links.
+Then install the dependencies by running this command :
 
-### Whitelist
+```
+npm install
+```
 
-- Option to toggle whitelist support.
-- Option to set a custom whitelist profile.
-- Option to write and edit whitelist rules.
+Run `npm start`.
 
-### Context Menu Options
+## License
 
-- The context menu entry can be toggled on or off in the addon preferences (see about:addons).
-- Option to select the real profile or any random profile option.
-- Option to set the random profile timer.
-- Option to allow users to use temporary email services for one time signups when invoked on an input box (6 services currently available).
-
-## Wiki
-
-Please see the [wiki](https://github.com/dillbyrne/random-agent-spoofer/wiki) for installation instructions, a user guide and ideas for contributing.
+GPL-3, see the [LICENSE](LICENSE) file.
 
 ## Icons
 
@@ -95,16 +45,3 @@ Licence: Creative Commons (Attribution 3.0 Unported).
 The WhiteList icon is from the *For All* icon set by [Carlo Rodríguez](https://carlorodriguez.github.io/blog/2015/04/22/forall-icon-set/), the disabled varient was modified.
 
 Licence: Creative Commons Attribution 4.0 International License
-
-## Contributing
-Pull requests are welcome. Feel free to ask for help or advice if you are unsure about something.
-
-It is not required to have any coding knowledge to help out with [these issues](https://github.com/dillbyrne/random-agent-spoofer/wiki/How-To-contribute)
- 
-
-## Donations
-
-If you would like to donate, you can do so at the
-[RAS mozilla addons page](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/) or with bitcoin at *1L44pgmZpeMsWsd24WgN6SJjEUARG5eY6G* or [
-![Flattr this](https://button.flattr.com/flattr-badge-large.png)
-](https://flattr.com/submit/auto?user_id=dillbyrne&url=https%3A%2F%2Fgithub.com%2Fdillbyrne%2Frandom-agent-spoofer)
