@@ -15,14 +15,7 @@ const paths = {
 
 gulp.task('clean', () => del(paths.buildDir));
 
-gulp.task('web-ext lint', (callback) => {
-  exec(`web-ext lint -s ${paths.src}`, (error, stdout) => {
-    console.log(stdout);
-    return callback(error);
-  });
-});
-
-gulp.task('lint', ['web-ext lint'], () =>
+gulp.task('lint', () =>
   gulp.src([
     paths.allSrcJs,
     paths.gulpFile,
