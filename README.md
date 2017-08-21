@@ -2,6 +2,8 @@
 
 RAS is a privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Each browser profile has been tailored to match the actual values used by the target browser as much as possible, within the limits set by firefox.
 
+# Note: This addon is no longer being maintained as it uses the legacy addon sdk. I will not be porting it to web extentions due to certain incompatibilities with the web extensions API. It will stop working in firefox 57 
+
 It also supports other privacy enhancing options.
 
 This document was last updated for 0.9.5.2 release.
