@@ -6425,6 +6425,47 @@
 						"profileID":"G18"
 					}
 				]
+			},	
+			{
+				"description":"Web Crawlers",
+				"useragents":[
+					{
+						"description":"GoogleBot",
+						"useragent":"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+						"appname":"Googlebot",
+						"appversion":"5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+						"platform":"+http://www.google.com/bot.html",
+						"vendor":"Google Inc.",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"",
+						"accept_encoding":"gzip, deflate",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+						"accept_lang":{"en-US":"en"},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"WC1"
+					},
+					{
+						"description":"BingBot",
+						"useragent":"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+						"appname":"BingBot",
+						"appversion":"5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+						"platform":"+http://www.bing.com/bingbot.htm",
+						"vendor":"Microsoft Corporation",
+						"vendorsub":"",
+						"buildID":"",
+						"oscpu":"",
+						"accept_encoding":"gzip, deflate",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+						"accept_lang":{"en-US":"en"},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"WC2"
+					}
+				]							
 			}
 		]
 	}
