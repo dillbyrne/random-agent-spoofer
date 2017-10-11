@@ -107,6 +107,9 @@ select {
 	cursor: pointer;
 	position: relative;
 }
+.trigger:hover {
+	background: #f2f2f2;
+}
 .trigger:after {
 	content: "+";
 	display: block;
@@ -206,6 +209,13 @@ body > div {
 #ualist h3.active {
 	background: #219be2;
 	color: #fff;
+}
+#ualist h3.active:hover {
+	background: #65b9eb;
+	color: #fff;
+}
+#ualist h3:hover {
+	background: #f2f2f2;
 }
 #ualist li {
 	position: relative;
