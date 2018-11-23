@@ -6,7 +6,7 @@
 				"description":"Windows Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 70.0.3538.110 (Win 10 64)",
+						"description":"Chrome 70.0.3538.110 (Win 10 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
@@ -24,7 +24,7 @@
 						"profileID":"W1"
 					},
 					{
-						"description":"Internet Explorer 11 (Win7 x64)",
+						"description":"Internet Explorer 11 (Win7 WOW64)",
 						"useragent":"Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows NT 6.1; WOW64; Trident/7.0; .NET4.0C, .NET4.0E, rv:11.0) like Gecko",
@@ -42,7 +42,7 @@
 						"profileID":"W2"
 					},
 					{
-						"description":"Edge 18.17763 (Win 10 64)",
+						"description":"Edge 18.17763 (Win 10 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763",
@@ -60,7 +60,7 @@
 						"profileID":"W3"
 					},
 					{
-						"description":"Firefox 52.0 ESR Win7 64",
+						"description":"Firefox 52.0 ESR (Win7 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
@@ -124,7 +124,7 @@
 						"profileID":"W5"
 					},
 					{
-						"description":"Firefox 60.0 ESR (Win10 64)",
+						"description":"Firefox 60.0 ESR (Win10 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
@@ -156,7 +156,7 @@
 						"profileID":"W6"
 					},
 					{
-						"description":"Firefox 63 (Win10 64)",
+						"description":"Firefox 63 (Win10 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
@@ -188,7 +188,7 @@
 						"profileID":"W7"
 					},
 					{
-						"description":"Firefox 64 (Win10 64)",
+						"description":"Firefox 64 (Win10 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
@@ -220,7 +220,7 @@
 						"profileID":"W8"
 					},
 					{
-						"description":"Opera 56.0.3051.107 (Win 10 64)",
+						"description":"Opera 56.0.3051.107 (Win 10 x64)",
 						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.107",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.107",
@@ -425,7 +425,7 @@
 						"profileID":"M5"
 					},
 					{
-						"description":"SeaMonkey 2.49.4 (OS X 10.14)",
+						"description":"SeaMonkey 2.49.4 (OS X 10_14_1)",
 						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1; rv:52.0) Gecko/20100101 Firefox/52.0 SeaMonkey/2.49.4",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
@@ -517,10 +517,10 @@
 				"description":"Unix Browsers",
 				"useragents":[
 					{
-						"description":"Chromium 70.0.3538.77 (FreeBSD x64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/70.0.3538.77 Safari/537.36",
+						"description":"Chromium 68.0.3440.106 (FreeBSD x64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/68.0.3440.106 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/70.0.3538.77 Safari/537.36",
+						"appversion":"5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/68.0.3440.106 Safari/537.36",
 						"platform":"FreeBSD amd64",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -533,6 +533,38 @@
 						"colordepth":"24",
 						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
 						"profileID":"U1"
+					},
+					{
+						"description":"Firefox 63 (FreeBSD x64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:63.0) Gecko/20100101 Firefox/63.0",
+						"appname":"Netscape",
+						"appversion":"5.0 (X11)",
+						"platform":"FreeBSD amd64",
+						"vendor":"",
+						"vendorsub":"",
+						"buildID":"20181114214635",
+						"oscpu":"FreeBSD amd64",
+						"accept_encoding":"gzip, deflate",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+						"accept_lang":{
+							"da-DK":"da,en-US;q=0.7,en;q=0.3",
+							"de-DE":"de,en-US;q=0.7,en;q=0.3",
+							"en-US":"en-US,en;q=0.5",
+							"es-ES":"es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3",
+							"fr-FR":"fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+							"it-IT":"it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3",
+							"ja":"ja,en-US;q=0.7,en;q=0.3",
+							"ko-KR":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+							"pt-PT":"pt-PT,pt;q=0.8,en;q=0.5,en-US;q=0.3",
+							"ru-RU":"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sv-SE":"sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3",
+							"sq-AL":"sq,sq-AL;q=0.8,en-us;q=0.5,en;q=0.3",
+							"zh-CN":"zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+						},
+						"pixeldepth":"24",
+						"colordepth":"24",
+						"screens":"800x600,1024x600,1024x768,1152x864,1280x720,1280x768,1280x800,1280x960,1280x1024,1360x768,1366x768,1440x900,1400x1050,1600x900,1600x1200,1680x1050,1920x1080,1920x1200,2048x1152,2560x1440,2560x1600",
+						"profileID":"U2"
 					}
 				]
 			}
