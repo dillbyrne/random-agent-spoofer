@@ -1,0 +1,7 @@
+*.xpi
+*.zip
+Makefile
+*.sh
+.git
+.gitignore
+.ignore
