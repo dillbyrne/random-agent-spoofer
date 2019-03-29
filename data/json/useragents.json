@@ -6,17 +6,17 @@
 				"description":"Windows Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 70.0.3538.110 (Win 10 x64)",
-						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+						"description":"Chrome 73.0.3683.86 (Win 10 x64)",
+						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
 						"accept_encoding":"gzip, deflate",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
 						"accept_lang":{"en-US":"en-US,en;q=0.9"},
 						"pixeldepth":"24",
 						"colordepth":"24",
@@ -156,14 +156,14 @@
 						"profileID":"W6"
 					},
 					{
-						"description":"Firefox 63 (Win10 x64)",
-						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0",
+						"description":"Firefox 66 (Win10 x64)",
+						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Windows)",
 						"platform":"Win64",
 						"vendor":"",
 						"vendorsub":"",
-						"buildID":"20181114214635",
+						"buildID":"",
 						"oscpu":"Windows NT 10.0; Win64; x64",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -188,9 +188,9 @@
 						"profileID":"W7"
 					},
 					{
-						"description":"Firefox 64 (Win10 x64)",
-						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
-						"appname":"Netscape",
+						"description":"Firefox 67 (Win10 x64)",
+						"useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0",
+						"appname":"Netscape"
 						"appversion":"5.0 (Windows)",
 						"platform":"Win64",
 						"vendor":"",
@@ -220,10 +220,10 @@
 						"profileID":"W8"
 					},
 					{
-						"description":"Opera 56.0.3051.107 (Win 10 x64)",
-						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.107",
+						"description":"Opera 58.0.3135.127 (Win 10 x64)",
+						"useragent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 OPR/58.0.3135.127",
 						"appname":"Netscape",
-						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.107",
+						"appversion":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 OPR/58.0.3135.127",
 						"platform":"Win32",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -307,17 +307,17 @@
 				"description":"Mac Browsers",
 				"useragents":[
 					{
-						"description":"Chrome 70.0.3538.110 (OS X 10_14_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+						"description":"Chrome 73.0.3683.86 (OS X 10_14_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
 						"buildID":"",
 						"oscpu":"",
 						"accept_encoding":"gzip, deflate, sdch",
-						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
 						"accept_lang":{"en-US":"en-US,en;q=0.9"},
 						"pixeldepth":"24",
 						"colordepth":"24",
@@ -357,14 +357,14 @@
 						"profileID":"M2"
 					},
 					{
-						"description":"Firefox 63.0 (OS X 10_14_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1; rv:63.0) Gecko/20100101 Firefox/63.0",
+						"description":"Firefox 66.0 (OS X 10_14_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1; rv:66.0) Gecko/20100101 Firefox/66.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (Macintosh)",
 						"platform":"MacIntel",
 						"vendor":"",
 						"vendorsub":"",
-						"buildID":"20181114214635",
+						"buildID":"",
 						"oscpu":"Intel Mac OS X 10.14.1",
 						"accept_encoding":"gzip, deflate",
 						"accept_default":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -389,10 +389,10 @@
 						"profileID":"M3"
 					},
 					{
-						"description":"Opera 56.0.3051.107 (OS X 10_14_1)",
-						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.107",
+						"description":"Opera 58.0.3135.127 (OS X 10_14_1)",
+						"useragent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 OPR/58.0.3135.127",
 						"appname":"Netscape",
-						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.107",
+						"appversion":"5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 OPR/58.0.3135.127",
 						"platform":"MacIntel",
 						"vendor":"Google Inc.",
 						"vendorsub":"",
@@ -480,8 +480,8 @@
 						"profileID":"L1"
 					},
 					{
-						"description":"Firefox 63 (Ubuntu 18.04 x64)",
-						"useragent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0",
+						"description":"Firefox 66 (Ubuntu 18.04 x64)",
+						"useragent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"Linux x86_64",
@@ -535,8 +535,8 @@
 						"profileID":"U1"
 					},
 					{
-						"description":"Firefox 63 (FreeBSD x64)",
-						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:63.0) Gecko/20100101 Firefox/63.0",
+						"description":"Firefox 66 (FreeBSD x64)",
+						"useragent":"Mozilla/5.0 (X11; FreeBSD amd64; rv:66.0) Gecko/20100101 Firefox/66.0",
 						"appname":"Netscape",
 						"appversion":"5.0 (X11)",
 						"platform":"FreeBSD amd64",

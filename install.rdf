@@ -5,7 +5,7 @@
           <em:type>2</em:type>
           <em:bootstrap>true</em:bootstrap>
           <em:unpack>false</em:unpack>
-          <em:version>0.9.5.8.4</em:version>
+          <em:version>0.9.5.8.5</em:version>
           <em:name>Random Agent Spoofer</em:name>
           <em:description>Allows the use of various browser profiles (including useragent ,platform, oscpu, accept headers and other options), which it can randomly switch between after a chosen period of time has expired</em:description>
           <em:creator>gitbugged</em:creator>

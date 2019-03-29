@@ -8,7 +8,7 @@
 	"license": "GNU GPL v3",
 	"permissions": { "private-browsing": true },
 	"icon":{"48":"resource://jid1-AVgCeF1zoVzMjA-at-jetpack/data/images/icon.png"},
-	"version": "0.9.5.8.4",
+	"version": "0.9.5.8.5",
 	"main":"lib/main.js",
 	"preferences": [
 		{

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Note: Version needs to be changed here to set it in pacakage.json, and in install.rdf for a release build. The .ignore file contains which files will not be added to xpi.
-VERSION="0.9.5.8.4"
+VERSION="0.9.5.8.5"
 sed -i "/<em:version>/c\          <em:version>$VERSION</em:version>" install.rdf
 sed -i "/version\x22:/c\\\x9\x22version\x22: \x22$VERSION\x22," package.json
 if [ ! -d "$DIRECTORY" ]; then
