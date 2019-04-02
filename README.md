@@ -1,7 +1,11 @@
 # Random Agent Spoofer ![RAS icon](https://github.com/dillbyrne/random-agent-spoofer/blob/master/data/images/icon.png "RAS icon")
 
 
-# Note: This addon is no longer being maintained as it uses the legacy addon sdk. I will not be porting it to web extentions due to certain incompatibilities with the web extensions API. It will stop working in firefox 57 
+# Note: This is a fork of dillbyrne's RAS
+
+- Supports Firefox 52 ESR, Basilisk, WaterFox, Cyberfox, possibly others that are FF52 base
+- Updated UA's
+- Has Bots and Game Consoles
 
 RAS is a privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Each browser profile has been tailored to match the actual values used by the target browser as much as possible, within the limits set by firefox.
 
