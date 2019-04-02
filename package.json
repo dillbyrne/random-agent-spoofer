@@ -3,12 +3,12 @@
 	"title": "Random Agent Spoofer",
 	"id": "jid1-AVgCeF1zoVzMjA@jetpack",
 	"description": "Allows the use of various browser profiles (including useragent ,platform, oscpu, accept headers and other options), which it can randomly switch between after a chosen period of time has expired",
-	"author": "dbyrne",
-	"homepage":"https://github.com/dillbyrne/random-agent-spoofer",
+	"author": "gitbugged",
+	"homepage":"https://github.com/gitbugged/random-agent-spoofer",
 	"license": "GNU GPL v3",
 	"permissions": { "private-browsing": true },
 	"icon":{"48":"resource://jid1-AVgCeF1zoVzMjA-at-jetpack/data/images/icon.png"},
-	"version": "0.9.5.8",
+	"version": "0.9.5.8.5",
 	"main":"lib/main.js",
 	"preferences": [
 		{
@@ -32,6 +32,8 @@
 	],
   "engines": {
     "firefox": ">=38.0a1",
-    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1 <=27.*"
-   }
+    "fennec": ">=38.0a1",
+    "seamonkey": ">=2.0a1",
+    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1"
+  }
 }
